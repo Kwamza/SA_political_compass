@@ -1,0 +1,184 @@
+[
+  {
+    "id": "land_expropriation",
+    "category": "Land reform",
+    "question": "The state should be able to expropriate land without compensation to address historical inequality.",
+    "context": "The Expropriation Act signed into law in January 2025 allows expropriation without compensation in certain circumstances. Critics argue it undermines property rights and investor confidence; supporters say it is essential to redress apartheid-era land dispossession.",
+    "weight": 1
+  },
+  {
+    "id": "eskom_privatisation",
+    "category": "Energy policy",
+    "question": "The electricity market should be opened to full private competition, with Eskom's role significantly reduced.",
+    "context": "Eskom currently dominates electricity generation and transmission. Ongoing unbundling separates generation, transmission, and distribution. The debate is between those who want the market fully liberalised \u2014 with private producers competing freely \u2014 and those who want Eskom retained as the primary state supplier alongside limited private participation.",
+    "weight": 1
+  },
+  {
+    "id": "nhi",
+    "category": "Healthcare",
+    "question": "The National Health Insurance scheme should be implemented as planned, replacing private medical aids as the primary funder of healthcare.",
+    "context": "The NHI Act (2024) would make the state the single purchaser of healthcare services. Private medical aids would be limited to services not covered by the NHI. Supporters say it is the only way to achieve universal coverage; opponents \u2014 including Discovery and hospital groups \u2014 argue it is unaffordable, administratively unworkable, and legally unconstitutional. Multiple court challenges are underway.",
+    "weight": 1
+  },
+  {
+    "id": "crime_policing",
+    "category": "Crime & policing",
+    "question": "South Africa needs significantly more police officers and harsher sentencing for violent crime.",
+    "context": "SA has one of the world's highest murder rates. SAPS staffing and sentencing are major policy debates.",
+    "weight": 1
+  },
+  {
+    "id": "bbbee",
+    "category": "Economic transformation",
+    "question": "Race-based economic empowerment policies like BBBEE should remain a central tool for addressing inequality.",
+    "context": "Broad-Based Black Economic Empowerment uses scorecards to incentivise black ownership, management representation, and procurement. Proponents argue it corrects structural exclusion from apartheid. Critics \u2014 including some black economists \u2014 argue it primarily benefits a connected elite, distorts markets, and should be replaced with need-based or non-racial alternatives.",
+    "weight": 1
+  },
+  {
+    "id": "immigration",
+    "category": "Immigration",
+    "question": "South Africa should enforce significantly stricter controls on immigration and reduce the number of migrants permitted to settle.",
+    "context": "SA hosts an estimated 2\u20134 million undocumented migrants. Xenophobia-related violence is a recurring crisis. Debate divides between those who argue immigration depresses wages and strains services, and those who argue migrants contribute economically and are entitled to international refugee protections under treaties SA has signed.",
+    "weight": 1
+  },
+  {
+    "id": "free_education",
+    "category": "Education",
+    "question": "University and TVET fees should be fully state-subsidised for all qualifying students.",
+    "context": "#FeesMustFall led to NSFAS expansion. Funding sustainability is debated.",
+    "weight": 1
+  },
+  {
+    "id": "foreign_policy_west",
+    "category": "Foreign policy",
+    "question": "South Africa should side more with Western democracies, even if it causes tension with our BRICS partners like Russia and China.",
+    "context": "SA abstained on UN votes condemning Russia's invasion of Ukraine, hosted a joint naval exercise with Russia and China in 2023, and faced controversy over an alleged arms shipment to Russia. SA is a BRICS member and has deep trade ties with China. The debate is between a non-aligned 'Global South' foreign policy and closer alignment with Western democracies and international law institutions like the ICC.",
+    "weight": 1
+  },
+  {
+    "id": "state_owned_enterprises",
+    "category": "Economy",
+    "question": "Strategic state-owned enterprises like Transnet and SAA should be kept in public ownership.",
+    "context": "Multiple SOEs have required bailouts. SAA was partially privatised in 2021.",
+    "weight": 1
+  },
+  {
+    "id": "prescribed_assets",
+    "category": "Economy",
+    "question": "Pension funds should be required to invest a portion of assets in state infrastructure projects.",
+    "context": "Prescribed assets policy proposed by ANC and EFF. DA and business groups strongly oppose.",
+    "weight": 1
+  },
+  {
+    "id": "abortion_rights",
+    "category": "Social policy",
+    "question": "Access to abortion should remain legal and be fully covered by public healthcare.",
+    "context": "Choice on Termination of Pregnancy Act (1996) currently allows abortion on request up to 12 weeks.",
+    "weight": 1
+  },
+  {
+    "id": "lgbtq_rights",
+    "category": "Social policy",
+    "question": "LGBTQ+ rights, including same-sex marriage, should be protected and expanded.",
+    "context": "SA constitution protects LGBTQ+ rights; implementation gaps remain. Some parties oppose.",
+    "weight": 1
+  },
+  {
+    "id": "youth_unemployment",
+    "category": "Employment",
+    "question": "The government should introduce targeted programmes \u2014 such as subsidised jobs and expanded learnerships \u2014 specifically to address youth unemployment.",
+    "context": "SA's youth unemployment rate exceeds 60% (expanded definition). NEET rate (not in employment, education or training) is among the world's highest. Existing interventions include the Presidential Employment Stimulus and YES programme.",
+    "weight": 1
+  },
+  {
+    "id": "tender_reform",
+    "category": "Governance & corruption",
+    "question": "Government jobs and contracts should be awarded based on merit and open competition \u2014 not on political connections or party loyalty.",
+    "context": "Currently, many senior public service positions and state tenders are awarded to party loyalists \u2014 a practice known as cadre deployment. Critics say this has hollowed out the state, enabling corruption and collapsing service delivery. Supporters argue it ensures ideological alignment and transformation in the public sector.",
+    "weight": 1
+  },
+  {
+    "id": "basic_education",
+    "category": "Education",
+    "question": "Fixing schools requires stricter performance testing and hiring teachers purely on ability, rather than just giving schools more money.",
+    "context": "SA performs near the bottom globally in PIRLS and TIMSS literacy and numeracy assessments. Only ~50% of learners who start Grade 1 reach matric. The debate divides between those who argue the system needs structural accountability (standardised testing, performance-linked tenure, school autonomy) and those who argue the root cause is inadequate funding, infrastructure, and a legacy of unequal resource allocation.",
+    "weight": 1
+  },
+  {
+    "id": "poverty_relief",
+    "category": "Social welfare",
+    "question": "The state should significantly expand direct poverty relief, including increasing social grants and making the SRD grant permanent.",
+    "context": "The Social Relief of Distress (SRD) grant of R370/month covers ~9 million recipients but is widely seen as inadequate. Debate exists between expanding grants vs. prioritising job creation as the primary anti-poverty tool.",
+    "weight": 1
+  },
+  {
+    "id": "basic_services",
+    "category": "Service delivery",
+    "question": "Failing municipalities should be allowed to bring in private operators to deliver water, electricity, and sanitation where the state cannot.",
+    "context": "Over 60 municipalities are in financial distress. Service delivery protests exceed 200 per year. Millions lack reliable access to water and sanitation. The debate is between those who see private operators as efficient and accountable, and those who argue privatisation removes democratic accountability and raises costs for poor communities.",
+    "weight": 1
+  },
+  {
+    "id": "public_services_quality",
+    "category": "Service delivery",
+    "question": "Improving the quality and reliability of public services (hospitals, Home Affairs, SASSA, municipalities) requires deep structural reform, not just more funding.",
+    "context": "Public satisfaction with government services is consistently low. Challenges include poor management, corruption, under-skilled staff, and infrastructure decay. Debate exists between privatisation, professionalisation, and increased state investment as solutions.",
+    "weight": 1
+  },
+  {
+    "id": "job_creation",
+    "category": "Economy",
+    "question": "The government should take an active, interventionist role in directly creating jobs \u2014 through public works, state employment programmes, and incentivising businesses to hire.",
+    "context": "SA's official unemployment rate is around 32\u201333%, one of the highest in the world. Debate divides between those favouring state-led job creation (public employment schemes, labour-intensive infrastructure) and those favouring private sector-led growth through deregulation, lower taxes, and investment attraction.",
+    "weight": 1
+  },
+  {
+    "id": "labour_market",
+    "category": "Economy",
+    "question": "South Africa's labour laws should be significantly relaxed \u2014 making it easier to hire and dismiss workers \u2014 to reduce unemployment.",
+    "context": "SA's Labour Relations Act and Basic Conditions of Employment Act are among the most protective in the world. Business groups argue rigid dismissal laws deter hiring, particularly of young workers. Unions (COSATU, SAFTU) and the left argue deregulation destroys job security and depresses wages. The ANC has resisted labour law reform under union pressure; DA, BOSA, and ActionSA support significant liberalisation.",
+    "weight": 1
+  },
+  {
+    "id": "local_manufacturing",
+    "category": "Industrial Policy",
+    "question": "South Africa should actively protect and grow domestic manufacturing through industrial policy, local procurement requirements, and tariffs on competing imports.",
+    "context": "SA's manufacturing sector has shrunk from ~25% of GDP in the 1980s to under 13% today. Deindustrialisation has cost millions of jobs. Policy tools under debate include the Masterplans (automotive, clothing, steel), local content requirements in government procurement (the '30% set-aside'), and import tariffs \u2014 balanced against WTO obligations and fears of inefficiency and retaliation.",
+    "weight": 1
+  },
+  {
+    "id": "mining_regulation",
+    "category": "Natural resources",
+    "question": "The mining industry should be more heavily regulated and taxed to ensure greater benefits for local communities and the environment.",
+    "context": "Mining contributes ~8% of SA GDP and employs ~450,000 workers directly. The Minerals and Petroleum Resources Development Act (MPRDA) governs licensing. Ongoing debates include the Mining Charter's community ownership requirements, environmental rehabilitation obligations, and whether royalty taxes adequately compensate affected communities. The industry warns over-regulation risks investment flight.",
+    "weight": 1
+  },
+  {
+    "id": "renewable_energy",
+    "category": "Energy policy",
+    "question": "South Africa should rapidly transition to renewable energy sources and phase out coal dependency.",
+    "context": "Coal generates ~85% of SA's electricity. The Just Energy Transition Partnership (JETP) \u2014 a R130bn+ international financing deal \u2014 aims to accelerate the shift to renewables while supporting affected coal communities (mainly in Mpumalanga). Tension exists between climate commitments, energy security, and the livelihoods of ~90,000 coal workers. The IRP (Integrated Resource Plan) is the key policy document.",
+    "weight": 1
+  },
+  {
+    "id": "banking_inclusion",
+    "category": "Economy & Banking",
+    "question": "The state should create a public bank and impose stricter regulations on private banks to ensure broader access to credit and financial services.",
+    "context": "South Africa's five largest banks control over 90% of banking assets. An estimated 11 million adults remain unbanked or underbanked. The Post Bank has been proposed as a state alternative but has faced governance failures. The debate is between those who want state intervention to break private bank dominance and those who argue competition policy and fintech innovation are better solutions.",
+    "weight": 1
+  },
+  {
+    "id": "pan_africanism",
+    "category": "Foreign policy",
+    "question": "South Africa should deepen economic and political integration with the rest of Africa, even where this requires relaxing border controls.",
+    "context": "The African Continental Free Trade Area (AfCFTA) aims to create a single African market. Pan-Africanist parties support open continental movement; others argue SA's high unemployment and strained services make looser borders untenable. Undocumented migration from Zimbabwe, Mozambique, and elsewhere fuels political tension domestically.",
+    "weight": 1
+  },
+  {
+    "id": "traditional_authority",
+    "category": "Social policy",
+    "question": "Traditional leaders and customary law should have a formal, protected role in governance, land administration, and community justice.",
+    "context": "The Traditional and Khoi-San Leadership Act (2019) gives traditional councils formal powers over communal land. Critics \u2014 including women's rights groups and the DA \u2014 argue customary law often conflicts with constitutional rights on gender equality, LGBTQ+ rights, and land tenure security. Supporters, including the ANC and MKP, argue traditional institutions are legitimate, democratically rooted governance structures.",
+    "weight": 1
+  }
+]

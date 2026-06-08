@@ -1,0 +1,1559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>SA Political Compass</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --green:   #00703C;
+    --green-dk:#004D29;
+    --gold:    #E8A800;
+    --gold-lt: #FDF3D0;
+    --black:   #111111;
+    --ink:     var(--black);
+    --paper:   #F7F4EE;
+    --muted:   #8A8070;
+    --border:  #D8D0C0;
+    --white:   #FFFFFF;
+    --radius:  4px;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .screen { display: none; position: relative; z-index: 1; }
+  .screen.active { display: block; animation: fadeUp 0.4s ease both; }
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ══ LANDING ══ */
+  #screen-landing.active {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+  .land-header {
+    background: var(--green-dk);
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+  }
+  .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    font-weight: 900;
+    color: var(--white);
+    letter-spacing: 0.01em;
+  }
+  .logo span { color: var(--gold); }
+  .flag-bar { display: flex; gap: 4px; height: 20px; }
+  .flag-bar div { width: 6px; border-radius: 2px; }
+
+  .land-hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: calc(100vh - 56px - 60px);
+  }
+  .land-left {
+    background: var(--green-dk);
+    padding: 4rem 3rem 4rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .land-left::after {
+    content: '';
+    position: absolute;
+    bottom: -60px; right: -60px;
+    width: 220px; height: 220px;
+    border: 40px solid rgba(232,168,0,0.12);
+    border-radius: 50%;
+  }
+  .land-left::before {
+    content: '';
+    position: absolute;
+    top: -40px; left: -40px;
+    width: 180px; height: 180px;
+    border: 30px solid rgba(255,255,255,0.04);
+    border-radius: 50%;
+  }
+  .land-eyebrow {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+  }
+  .land-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.8rem, 5vw, 4.2rem);
+    font-weight: 900;
+    color: var(--white);
+    line-height: 1.05;
+    margin-bottom: 1.5rem;
+  }
+  .land-title em { color: var(--gold); font-style: italic; }
+  .land-sub {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: rgba(255,255,255,0.72);
+    max-width: 380px;
+    margin-bottom: 2.5rem;
+  }
+  .land-stats { display: flex; gap: 2rem; margin-bottom: 3rem; }
+  .stat-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+  }
+  .stat-label {
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.5);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-top: 2px;
+  }
+  .btn-start {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--gold);
+    color: var(--black);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.04em;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: var(--radius);
+    cursor: pointer;
+    width: fit-content;
+    transition: background 0.15s, transform 0.1s;
+  }
+  .btn-start:hover:not(:disabled) { background: #FFD54F; transform: translateY(-1px); }
+  .btn-start:disabled { background: #888; color: #ccc; cursor: not-allowed; }
+  .btn-start svg { width: 18px; height: 18px; }
+
+  .land-right {
+    background: var(--paper);
+    padding: 4rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    border-left: 1px solid var(--border);
+  }
+  .party-preview-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+    color: var(--muted);
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  .party-chip {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0.75rem 1rem;
+    border: 0.5px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--white);
+    transition: border-color 0.15s, transform 0.15s;
+  }
+  .party-chip:hover { border-color: var(--gold); transform: translateX(4px); }
+  .party-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+  .party-chip-name { font-size: 0.85rem; font-weight: 500; color: var(--ink); flex: 1; }
+  .party-chip-full { font-size: 0.75rem; color: var(--muted); }
+  .party-chip-learn {
+    font-size: 0.68rem;
+    font-family: 'DM Mono', monospace;
+    color: var(--green);
+    text-decoration: none;
+    border: 1px solid var(--green);
+    padding: 2px 7px;
+    border-radius: 3px;
+    white-space: nowrap;
+    transition: all 0.12s;
+  }
+  .party-chip-learn:hover { background: var(--green); color: white; }
+
+  .land-footer {
+    background: var(--black);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+  }
+  .land-footer p {
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.35);
+    text-align: center;
+    letter-spacing: 0.04em;
+  }
+
+  /* ══ DEMOGRAPHICS SCREEN ══ */
+  .demo-container {
+    max-width: 640px;
+    margin: 6vh auto;
+    padding: 3rem 2rem;
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+  }
+  .demo-step { display: none; }
+  .demo-step.active { display: block; animation: fadeUp 0.3s ease both; }
+
+  .demo-step-header { margin-bottom: 0.4rem; }
+  .demo-step-counter {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+    color: var(--muted);
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  .demo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 10px;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .demo-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 10px;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .demo-opt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border: 1.5px solid var(--border);
+    border-radius: var(--radius);
+    font-family: 'DM Mono', monospace;
+    font-weight: 500;
+    font-size: 0.85rem;
+    color: var(--ink);
+    cursor: pointer;
+    transition: all 0.15s;
+    background: var(--white);
+    text-align: center;
+    line-height: 1.3;
+  }
+  .demo-opt input[type="radio"] { display: none; }
+  .demo-opt:hover { border-color: var(--gold); }
+  .demo-opt:has(input:checked) {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: var(--white);
+  }
+  .demo-nav { display: flex; justify-content: space-between; align-items: center; margin-top: 1rem; }
+  .demo-nav-group { display: flex; gap: 8px; }
+
+  /* ══ QUIZ ══ */
+  #screen-quiz.active {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 56px 3px 1fr auto;
+  }
+  .quiz-header {
+    background: var(--green-dk);
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .quiz-counter {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.75rem;
+    color: rgba(255,255,255,0.6);
+    letter-spacing: 0.06em;
+  }
+  .quiz-progress-wrap { height: 3px; background: rgba(0,0,0,0.08); }
+  .quiz-progress-fill {
+    height: 100%;
+    background: var(--gold);
+    transition: width 0.4s cubic-bezier(0.4,0,0.2,1);
+  }
+  .quiz-body {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    width: 100%;
+  }
+  .q-category {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.14em;
+    color: var(--green);
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .q-category::before {
+    content: '';
+    display: block;
+    width: 20px; height: 2px;
+    background: var(--green);
+    border-radius: 1px;
+  }
+  .q-text {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.3rem, 3vw, 1.7rem);
+    font-weight: 700;
+    line-height: 1.35;
+    color: var(--ink);
+    margin-bottom: 0.75rem;
+  }
+  .q-context {
+    font-size: 0.82rem;
+    line-height: 1.65;
+    color: var(--muted);
+    margin-bottom: 2.5rem;
+    padding-left: 1rem;
+    border-left: 2px solid var(--border);
+  }
+
+  .opinion-scale {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    margin-bottom: 1.75rem;
+  }
+  .opinion-option { display: flex; flex-direction: column; align-items: center; cursor: pointer; }
+  .opinion-option input[type="radio"] { display: none; }
+  .opinion-circle {
+    width: 48px; height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1.5px solid var(--border);
+    background: var(--white);
+    font-family: 'DM Mono', monospace;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--muted);
+    margin-bottom: 6px;
+    transition: all 0.15s;
+    cursor: pointer;
+  }
+  .opinion-option:hover .opinion-circle { border-color: var(--ink); color: var(--ink); }
+  .opinion-option input:checked ~ .opinion-circle {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: var(--white);
+    transform: scale(1.08);
+  }
+  .opinion-option.agree-strong input:checked ~ .opinion-circle  { background: #00703C; border-color: #00703C; }
+  .opinion-option.agree-mild   input:checked ~ .opinion-circle  { background: #5aab7a; border-color: #5aab7a; }
+  .opinion-option.disagree-strong input:checked ~ .opinion-circle { background: #B91C1C; border-color: #B91C1C; }
+  .opinion-option.disagree-mild   input:checked ~ .opinion-circle { background: #e06060; border-color: #e06060; }
+  .opinion-label {
+    font-size: 0.65rem;
+    color: var(--muted);
+    text-align: center;
+    line-height: 1.3;
+    max-width: 60px;
+  }
+  .opinion-option input:checked ~ .opinion-circle + .opinion-label,
+  .opinion-option input:checked + .opinion-circle + .opinion-label { color: var(--ink); font-weight: 500; }
+
+  .importance-wrap {
+    padding: 1rem 1.25rem;
+    background: var(--gold-lt);
+    border: 1px solid #EDD97A;
+    border-radius: var(--radius);
+    margin-bottom: 0;
+  }
+  .importance-label {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #7A5C00;
+    margin-bottom: 0.6rem;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .importance-label::before { content: '⚖'; font-size: 0.9rem; }
+  .importance-pills { display: flex; gap: 6px; flex-wrap: wrap; }
+  .imp-btn {
+    flex: 1;
+    min-width: 60px;
+    padding: 6px 4px;
+    border: 1px solid #EDD97A;
+    border-radius: 3px;
+    background: var(--white);
+    font-size: 0.7rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: #7A5C00;
+    text-align: center;
+    transition: all 0.12s;
+  }
+  .imp-btn:hover { background: var(--gold); color: var(--black); border-color: var(--gold); }
+  .imp-btn.sel  { background: var(--gold); color: var(--black); border-color: var(--gold); }
+
+  .quiz-nav {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1.25rem 2rem 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--border);
+  }
+  .nav-btn {
+    padding: 0.7rem 1.5rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--white);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: var(--ink);
+    transition: all 0.12s;
+  }
+  .nav-btn:hover:not(:disabled) { background: var(--ink); color: var(--white); border-color: var(--ink); }
+  .nav-btn:disabled { opacity: 0.3; cursor: default; }
+  .nav-btn.primary { background: var(--ink); color: var(--white); border-color: var(--ink); }
+  .nav-btn.primary:hover:not(:disabled) { background: var(--green-dk); border-color: var(--green-dk); }
+
+  /* ══ RESULTS ══ */
+  #screen-results { min-height: 100vh; background: var(--paper); }
+  .results-header {
+    background: var(--green-dk);
+    padding: 2.5rem 2rem 3rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .results-header::after {
+    content: '';
+    position: absolute;
+    right: -80px; bottom: -80px;
+    width: 300px; height: 300px;
+    border: 60px solid rgba(232,168,0,0.1);
+    border-radius: 50%;
+  }
+  .results-header .eyebrow {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.15em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  .results-header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    font-weight: 900;
+    color: var(--white);
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+  }
+  .results-header p { font-size: 0.9rem; color: rgba(255,255,255,0.6); }
+
+  .results-body { max-width: 860px; margin: 0 auto; padding: 2.5rem 2rem 4rem; }
+
+  .top-match-card {
+    background: var(--white);
+    border: 1.5px solid var(--border);
+    border-radius: var(--radius);
+    margin-bottom: 2rem;
+    overflow: hidden;
+  }
+  .top-match-inner {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.75rem 2rem;
+    position: relative;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .top-match-inner:hover { background: #fafaf8; }
+  .top-match-inner::before {
+    content: 'BEST MATCH — CLICK TO SEE WHY';
+    position: absolute;
+    top: 12px; right: 14px;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.58rem;
+    letter-spacing: 0.14em;
+    color: var(--gold);
+  }
+  .top-match-swatch {
+    width: 52px; height: 52px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    flex-shrink: 0;
+  }
+  .top-match-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 2px;
+  }
+  .top-match-full { font-size: 0.8rem; color: var(--muted); }
+  .top-match-manifesto {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 6px;
+    font-size: 0.72rem;
+    font-family: 'DM Mono', monospace;
+    color: var(--green);
+    text-decoration: none;
+    border: 1px solid var(--green);
+    padding: 3px 8px;
+    border-radius: 3px;
+    transition: all 0.12s;
+  }
+  .top-match-manifesto:hover { background: var(--green); color: white; }
+  .top-match-score {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    font-weight: 900;
+    line-height: 1;
+  }
+  .top-match-pct {
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-align: right;
+    font-family: 'DM Mono', monospace;
+    letter-spacing: 0.06em;
+  }
+
+  .top-match-explainer {
+    display: none;
+    border-top: 1px solid var(--border);
+    background: #fafaf8;
+    padding: 1.5rem 2rem;
+  }
+  .top-match-explainer.open { display: block; animation: fadeUp 0.25s ease both; }
+  .explainer-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+    color: var(--muted);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  .explainer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 10px;
+    max-height: 420px;
+    overflow-y: auto;
+    padding-right: 4px;
+  }
+  .explainer-card {
+    background: var(--white);
+    border: 0.5px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.85rem 1rem;
+  }
+  .explainer-issue {
+    font-size: 0.72rem;
+    font-weight: 500;
+    color: var(--ink);
+    line-height: 1.4;
+    margin-bottom: 8px;
+  }
+  .explainer-scores { display: flex; gap: 1rem; margin-bottom: 8px; }
+  .explainer-score-item { font-size: 0.68rem; color: var(--muted); }
+  .explainer-score-val {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.85rem;
+    font-weight: 500;
+    display: block;
+    margin-top: 1px;
+  }
+  .explainer-stance {
+    font-size: 0.7rem;
+    font-style: italic;
+    color: var(--muted);
+    line-height: 1.5;
+    border-top: 1px solid var(--border);
+    padding-top: 6px;
+    margin-top: 2px;
+  }
+
+  /* ══ PREFERENCE COMPARISON PANEL ══ */
+  .pref-comparison-panel {
+    background: var(--white);
+    border: 1.5px solid #EDD97A;
+    border-radius: var(--radius);
+    margin-bottom: 2rem;
+    overflow: hidden;
+  }
+  .pref-comparison-header {
+    background: var(--gold-lt);
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #EDD97A;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .pref-comparison-header-icon { font-size: 1.1rem; }
+  .pref-comparison-header-text {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.1em;
+    color: #7A5C00;
+    text-transform: uppercase;
+  }
+  .pref-comparison-body { padding: 1.25rem 1.5rem; }
+  .pref-compare-cols {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 1rem;
+    align-items: start;
+    margin-bottom: 1rem;
+  }
+  .pref-compare-party {
+    padding: 1rem;
+    border-radius: var(--radius);
+    border: 1.5px solid var(--border);
+    text-align: center;
+  }
+  .pref-compare-party.best { border-color: var(--green); background: #f0faf5; }
+  .pref-compare-party.preferred { border-color: #9CA3AF; }
+  .pref-compare-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 6px;
+  }
+  .pref-compare-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--ink);
+  }
+  .pref-compare-score {
+    font-family: 'DM Mono', monospace;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-top: 4px;
+  }
+  .pref-compare-vs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.75rem;
+    color: var(--muted);
+    padding-top: 2rem;
+  }
+  .pref-compare-issues { margin-top: 1rem; }
+  .pref-compare-issues-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+    color: var(--muted);
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .pref-diff-row {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 0.75rem;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 0.5px solid var(--border);
+    font-size: 0.75rem;
+  }
+  .pref-diff-row:last-child { border-bottom: none; }
+  .pref-diff-q { color: var(--ink); line-height: 1.4; }
+  .pref-diff-score {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.72rem;
+    font-weight: 500;
+    padding: 2px 6px;
+    border-radius: 3px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .pref-diff-score.pos { background: #EAF5EE; color: var(--green-dk); }
+  .pref-diff-score.neg { background: #FEF2F2; color: #991B1B; }
+  .pref-diff-score.neu { background: #F2F0EC; color: var(--muted); }
+
+  .pref-manifesto-row {
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .results-section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.14em;
+    color: var(--muted);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .party-result-row {
+    display: grid;
+    grid-template-columns: 100px 1fr 52px 28px;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 14px;
+  }
+  .party-result-name {
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: var(--ink);
+    text-align: right;
+    font-family: 'DM Mono', monospace;
+  }
+  .party-result-bar-bg {
+    height: 8px;
+    background: var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .party-result-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 1.2s cubic-bezier(0.4,0,0.2,1);
+  }
+  .party-result-pct {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.78rem;
+    font-weight: 500;
+    color: var(--ink);
+  }
+  .party-result-manifesto-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--green);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: transform 0.1s;
+  }
+  .party-result-manifesto-btn:hover { transform: scale(1.2); }
+
+  .breakdown-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    margin-top: 1rem;
+  }
+  .breakdown-chip {
+    padding: 0.75rem 1rem;
+    background: var(--white);
+    border: 0.5px solid var(--border);
+    border-radius: var(--radius);
+  }
+  .breakdown-chip-cat {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    text-transform: uppercase;
+    margin-bottom: 3px;
+  }
+  .breakdown-chip-q { color: var(--ink); line-height: 1.4; margin-bottom: 6px; font-size: 0.73rem; }
+  .breakdown-chip-stance {
+    font-size: 0.68rem;
+    font-weight: 500;
+    padding: 2px 7px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  .stance-positive  { background: #EAF5EE; color: var(--green-dk); }
+  .stance-neutral   { background: #F2F0EC; color: var(--muted); }
+  .stance-negative  { background: #FEF2F2; color: #991B1B; }
+
+  .results-actions { display: flex; gap: 12px; margin-top: 2.5rem; flex-wrap: wrap; }
+  .btn-retake {
+    padding: 0.75rem 1.5rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--white);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: var(--ink);
+    transition: all 0.12s;
+  }
+  .btn-retake:hover { background: var(--ink); color: var(--white); border-color: var(--ink); }
+
+  @media (max-width: 680px) {
+    .land-hero { grid-template-columns: 1fr; }
+    .land-right { display: none; }
+    .land-left { padding: 3rem 1.5rem; }
+    .quiz-body { padding: 2rem 1.25rem; }
+    .opinion-scale { gap: 4px; }
+    .opinion-circle { width: 40px; height: 40px; font-size: 0.75rem; }
+    .opinion-label { font-size: 0.58rem; max-width: 48px; }
+    .party-result-row { grid-template-columns: 72px 1fr 40px 24px; gap: 6px; }
+    .top-match-inner { grid-template-columns: auto 1fr; }
+    .top-match-score { display: none; }
+    .results-body { padding: 1.5rem 1.25rem 3rem; }
+    .explainer-grid { grid-template-columns: 1fr; }
+    .demo-grid { grid-template-columns: 1fr 1fr; }
+    .pref-compare-cols { grid-template-columns: 1fr; }
+    .pref-compare-vs { padding-top: 0; padding-bottom: 0; }
+  }
+</style>
+</head>
+<body>
+
+<div id="screen-landing" class="screen active">
+  <header class="land-header">
+    <div class="logo">SA Political <span>Compass</span></div>
+    <div class="flag-bar">
+      <div style="background:#007A4D"></div>
+      <div style="background:#FFB612"></div>
+      <div style="background:#002395"></div>
+      <div style="background:#DE3008"></div>
+      <div style="background:#000000"></div>
+      <div style="background:#FFFFFF;border:0.5px solid #ccc"></div>
+    </div>
+  </header>
+
+  <div class="land-hero">
+    <div class="land-left">
+      <div class="land-eyebrow">South African Political Alignment Tool</div>
+      <h1 class="land-title">Who <em>really</em> speaks for you?</h1>
+      <p class="land-sub">
+        Answer policy questions on the issues shaping South Africa.
+        We match your stances — and how much each issue matters to you — against
+        the manifestos and public records of 9 registered parties.
+      </p>
+      <div class="land-stats">
+        <div class="stat-block"><div class="stat-num">26</div><div class="stat-label">Policy issues</div></div>
+        <div class="stat-block"><div class="stat-num">9</div><div class="stat-label">Parties assessed</div></div>
+        <div class="stat-block"><div class="stat-num">~10</div><div class="stat-label">Minutes</div></div>
+      </div>
+      <button class="btn-start" id="btn-start-quiz" onclick="startQuiz()" disabled>
+        Loading Data...
+      </button>
+    </div>
+    <div class="land-right">
+      <div class="party-preview-label">Parties included</div>
+      <div id="party-chips"></div>
+    </div>
+  </div>
+  <footer class="land-footer">
+    <p>Positions sourced from official 2024 election manifestos and public parliamentary records. Not affiliated with any party.</p>
+  </footer>
+</div>
+
+<div id="screen-demographics" class="screen">
+  <div class="demo-container">
+
+    <div class="demo-step active" id="demo-step-1">
+      <div class="demo-step-counter">Step 1 of 4 — Before we begin</div>
+      <div class="q-text" style="font-size:1.4rem; margin-bottom:0.4rem;">Which age group do you belong to?</div>
+      <div class="q-context" style="border:none; padding-left:0; margin-bottom:0;">
+        This helps us track which political issues matter most to different generations of South Africans. Your responses remain completely anonymous.
+      </div>
+      <div class="demo-grid">
+        <label class="demo-opt"><input type="radio" name="age" value="under_18" onchange="demoStepCheck(1)"> Under 18</label>
+        <label class="demo-opt"><input type="radio" name="age" value="18_24" onchange="demoStepCheck(1)"> 18 – 24</label>
+        <label class="demo-opt"><input type="radio" name="age" value="25_34" onchange="demoStepCheck(1)"> 25 – 34</label>
+        <label class="demo-opt"><input type="radio" name="age" value="35_44" onchange="demoStepCheck(1)"> 35 – 44</label>
+        <label class="demo-opt"><input type="radio" name="age" value="45_54" onchange="demoStepCheck(1)"> 45 – 54</label>
+        <label class="demo-opt"><input type="radio" name="age" value="55_64" onchange="demoStepCheck(1)"> 55 – 64</label>
+        <label class="demo-opt"><input type="radio" name="age" value="65_plus" onchange="demoStepCheck(1)"> 65+</label>
+        <label class="demo-opt"><input type="radio" name="age" value="prefer_not" onchange="demoStepCheck(1)"> Prefer not to say</label>
+      </div>
+      <div class="demo-nav">
+        <button class="nav-btn" onclick="goHome()">🏠 Home</button>
+        <button class="nav-btn primary" id="demo-next-1" onclick="demoNext(2)" disabled>Next →</button>
+      </div>
+    </div>
+
+    <div class="demo-step" id="demo-step-2">
+      <div class="demo-step-counter">Step 2 of 4 — Before we begin</div>
+      <div class="q-text" style="font-size:1.4rem; margin-bottom:0.4rem;">Which province do you live in?</div>
+      <div class="q-context" style="border:none; padding-left:0; margin-bottom:0;">
+        Regional issues can vary significantly across South Africa's nine provinces.
+      </div>
+      <div class="demo-grid-2">
+        <label class="demo-opt"><input type="radio" name="province" value="gauteng" onchange="demoStepCheck(2)"> Gauteng</label>
+        <label class="demo-opt"><input type="radio" name="province" value="western_cape" onchange="demoStepCheck(2)"> Western Cape</label>
+        <label class="demo-opt"><input type="radio" name="province" value="kwazulu_natal" onchange="demoStepCheck(2)"> KwaZulu-Natal</label>
+        <label class="demo-opt"><input type="radio" name="province" value="eastern_cape" onchange="demoStepCheck(2)"> Eastern Cape</label>
+        <label class="demo-opt"><input type="radio" name="province" value="limpopo" onchange="demoStepCheck(2)"> Limpopo</label>
+        <label class="demo-opt"><input type="radio" name="province" value="mpumalanga" onchange="demoStepCheck(2)"> Mpumalanga</label>
+        <label class="demo-opt"><input type="radio" name="province" value="north_west" onchange="demoStepCheck(2)"> North West</label>
+        <label class="demo-opt"><input type="radio" name="province" value="free_state" onchange="demoStepCheck(2)"> Free State</label>
+        <label class="demo-opt"><input type="radio" name="province" value="northern_cape" onchange="demoStepCheck(2)"> Northern Cape</label>
+        <label class="demo-opt"><input type="radio" name="province" value="outside_sa" onchange="demoStepCheck(2)"> Outside SA</label>
+        <label class="demo-opt"><input type="radio" name="province" value="prefer_not" onchange="demoStepCheck(2)"> Prefer not to say</label>
+      </div>
+      <div class="demo-nav">
+        <button class="nav-btn" onclick="goHome()">🏠 Home</button>
+        <div class="demo-nav-group">
+          <button class="nav-btn" onclick="demoBack(1)">← Back</button>
+          <button class="nav-btn primary" id="demo-next-2" onclick="demoNext(3)" disabled>Next →</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="demo-step" id="demo-step-3">
+      <div class="demo-step-counter">Step 3 of 4 — Before we begin</div>
+      <div class="q-text" style="font-size:1.4rem; margin-bottom:0.4rem;">What best describes your current situation?</div>
+      <div class="q-context" style="border:none; padding-left:0; margin-bottom:0;">
+        Economic circumstances often shape which policy priorities feel most urgent.
+      </div>
+      <div class="demo-grid-2">
+        <label class="demo-opt"><input type="radio" name="employment" value="employed_formal" onchange="demoStepCheck(3)"> Formally employed</label>
+        <label class="demo-opt"><input type="radio" name="employment" value="employed_informal" onchange="demoStepCheck(3)"> Informally employed / self-employed</label>
+        <label class="demo-opt"><input type="radio" name="employment" value="student" onchange="demoStepCheck(3)"> Student</label>
+        <label class="demo-opt"><input type="radio" name="employment" value="unemployed" onchange="demoStepCheck(3)"> Unemployed</label>
+        <label class="demo-opt"><input type="radio" name="employment" value="retired" onchange="demoStepCheck(3)"> Retired</label>
+        <label class="demo-opt"><input type="radio" name="employment" value="business_owner" onchange="demoStepCheck(3)"> Business owner</label>
+        <label class="demo-opt"><input type="radio" name="employment" value="prefer_not" onchange="demoStepCheck(3)"> Prefer not to say</label>
+      </div>
+      <div class="demo-nav">
+        <button class="nav-btn" onclick="goHome()">🏠 Home</button>
+        <div class="demo-nav-group">
+          <button class="nav-btn" onclick="demoBack(2)">← Back</button>
+          <button class="nav-btn primary" id="demo-next-3" onclick="demoNext(4)" disabled>Next →</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="demo-step" id="demo-step-4">
+      <div class="demo-step-counter">Step 4 of 4 — Before we begin</div>
+      <div class="q-text" style="font-size:1.4rem; margin-bottom:0.4rem;">Do you already have a party you support?</div>
+      <div class="q-context" style="border:none; padding-left:0; margin-bottom:0;">
+        If your top match turns out to be different from your current preference, we'll show you a direct comparison at the end.
+      </div>
+      <div class="demo-grid-2" id="party-pref-grid">
+        <label class="demo-opt"><input type="radio" name="party_pref" value="none" onchange="demoStepCheck(4)"> No current preference</label>
+      </div>
+      <div class="demo-nav">
+        <button class="nav-btn" onclick="goHome()">🏠 Home</button>
+        <div class="demo-nav-group">
+          <button class="nav-btn" onclick="demoBack(3)">← Back</button>
+          <button class="nav-btn primary" id="demo-next-4" onclick="beginQuestions()" disabled>Start the Quiz →</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="screen-quiz" class="screen">
+  <header class="quiz-header">
+    <div class="logo" onclick="goHome()" style="cursor:pointer">SA Political <span>Compass</span></div>
+    <div style="display:flex; align-items:center; gap:1rem;">
+      <button class="nav-btn" onclick="goHome()" style="padding:0.4rem 0.9rem; font-size:0.78rem;">🏠 Home</button>
+      <div class="quiz-counter" id="q-counter">1 / 26</div>
+    </div>
+  </header>
+  <div class="quiz-progress-wrap"><div class="quiz-progress-fill" id="q-progress" style="width:0%"></div></div>
+
+  <div class="quiz-body">
+    <div class="q-category" id="q-category"></div>
+    <div class="q-text" id="q-text"></div>
+    <div class="q-context" id="q-context"></div>
+
+    <div class="opinion-scale" id="opinion-scale">
+      <label class="opinion-option disagree-strong">
+        <input type="radio" name="opinion" value="-2" onchange="setOpinion(-2)"/>
+        <div class="opinion-circle">−2</div><span class="opinion-label">Strongly Disagree</span>
+      </label>
+      <label class="opinion-option disagree-mild">
+        <input type="radio" name="opinion" value="-1" onchange="setOpinion(-1)"/>
+        <div class="opinion-circle">−1</div><span class="opinion-label">Disagree</span>
+      </label>
+      <label class="opinion-option">
+        <input type="radio" name="opinion" value="0" onchange="setOpinion(0)"/>
+        <div class="opinion-circle">0</div><span class="opinion-label">Neutral / Unsure</span>
+      </label>
+      <label class="opinion-option agree-mild">
+        <input type="radio" name="opinion" value="1" onchange="setOpinion(1)"/>
+        <div class="opinion-circle">+1</div><span class="opinion-label">Agree</span>
+      </label>
+      <label class="opinion-option agree-strong">
+        <input type="radio" name="opinion" value="2" onchange="setOpinion(2)"/>
+        <div class="opinion-circle">+2</div><span class="opinion-label">Strongly Agree</span>
+      </label>
+    </div>
+
+    <div class="importance-wrap" id="importance-wrap" style="display:none">
+      <div class="importance-label">How important is this issue to you?</div>
+      <div class="importance-pills">
+        <button class="imp-btn" onclick="setImportance(0)">Not Important</button>
+        <button class="imp-btn" onclick="setImportance(1)">Minor</button>
+        <button class="imp-btn" onclick="setImportance(2)">Important</button>
+        <button class="imp-btn" onclick="setImportance(4)">Critical</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="quiz-nav">
+    <button class="nav-btn" id="btn-back" onclick="navigate(-1)" disabled>← Back</button>
+    <button class="nav-btn primary" id="btn-next" onclick="navigate(1)" disabled>Next →</button>
+  </div>
+</div>
+
+<div id="screen-results" class="screen">
+  <div class="results-header">
+    <div class="eyebrow">Your alignment results</div>
+    <h1 id="results-headline"></h1>
+    <p id="results-subline"></p>
+  </div>
+  <div class="results-body">
+    <div id="top-match-card" class="top-match-card"></div>
+    <div id="pref-comparison-section"></div>
+    <div class="results-section-label">All parties — alignment score</div>
+    <div id="all-bars"></div>
+    <div class="results-section-label">Your responses at a glance</div>
+    <div class="breakdown-grid" id="breakdown-grid"></div>
+    <div class="results-actions">
+      <button class="btn-retake" onclick="restart()">← Retake quiz</button>
+      <button class="btn-retake" onclick="goHome()">🏠 Go to Home</button>
+      <a href="https://www.elections.org.za" target="_blank" rel="noopener" class="btn-retake" style="text-decoration: none; display: inline-flex; align-items: center; background: var(--green); color: white; border-color: var(--green); gap: 6px; font-weight: 500;">
+        🗳️ Voting & Registration (IEC) ↗
+      </a>
+    </div>
+  </div>
+</div>
+
+<script>
+// ══════════════════════════════════════
+// STATE & DATA
+// ══════════════════════════════════════
+let ISSUES = [];
+let PARTIES = [];
+let current = 0;
+let answers = {};
+let userDemographics = { age: null, province: null, employment: null, partyPref: null };
+
+// ══════════════════════════════════════
+// INIT
+// ══════════════════════════════════════
+async function init() {
+  try {
+    const [issuesRes, partiesRes] = await Promise.all([
+      fetch('issues.json'),
+      fetch('parties.json')
+    ]);
+    if (!issuesRes.ok || !partiesRes.ok) throw new Error("Failed to load JSON files.");
+    ISSUES = await issuesRes.json();
+    PARTIES = await partiesRes.json();
+
+    const startBtn = document.getElementById('btn-start-quiz');
+    startBtn.disabled = false;
+    startBtn.innerHTML = `Start the quiz <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>`;
+
+    buildLanding();
+    buildPartyPrefGrid();
+  } catch (err) {
+    console.error("Error:", err);
+    document.getElementById('btn-start-quiz').innerText = "CORS Error: Run via local server.";
+  }
+}
+
+// ══════════════════════════════════════
+// LANDING
+// ══════════════════════════════════════
+const MANIFESTO_URLS = {
+  anc:        'https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf',
+  da:         'https://cdn.da.org.za/wp-content/uploads/2024/02/16143750/DA-Election-Manifesto-2024.pdf',
+  eff:        'https://effonline.org/wp-content/uploads/2024/02/A5-EFF-2024-Manifesto-full-version.pdf',
+  mkp:        'https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf',
+  actionsa:   'https://www.actionsa.org.za/wp-content/uploads/2024/03/ActionSA-National-Manifesto-2024.pdf',
+  risemzansi: 'https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf',
+  bosa:       'https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf',
+  ifp:        'https://www.ifp.org.za/wp-content/uploads/2024/03/Inkatha-Freedom-Party-2024-Manifesto.pdf',
+  ffplus:     'https://www.vfplus.org.za/national-and-provincial-election-2024/'
+};
+
+function getManifestoUrl(partyId) {
+  return MANIFESTO_URLS[partyId] || '#';
+}
+
+function buildLanding() {
+  const container = document.getElementById('party-chips');
+  container.innerHTML = '';
+  PARTIES.forEach(p => {
+    const chip = document.createElement('div');
+    chip.className = 'party-chip';
+    const url = getManifestoUrl(p.id);
+    chip.innerHTML = `
+      <div class="party-dot" style="background:${p.color}"></div>
+      <span class="party-chip-name">${p.abbreviation}</span>
+      <span class="party-chip-full">${p.name}</span>
+      <a class="party-chip-learn" href="${url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Manifesto ↗</a>`;
+    container.appendChild(chip);
+  });
+}
+
+function buildPartyPrefGrid() {
+  const grid = document.getElementById('party-pref-grid');
+  grid.innerHTML = `<label class="demo-opt"><input type="radio" name="party_pref" value="none" onchange="demoStepCheck(4)"> No current preference</label>`;
+  PARTIES.forEach(p => {
+    const label = document.createElement('label');
+    label.className = 'demo-opt';
+    label.innerHTML = `<input type="radio" name="party_pref" value="${p.id}" onchange="demoStepCheck(4)"> ${p.abbreviation} <span style="font-size:0.72rem; color:var(--muted); display:block; font-weight:400;">${p.name}</span>`;
+    grid.appendChild(label);
+  });
+}
+
+// ══════════════════════════════════════
+// DEMOGRAPHICS FLOW
+// ══════════════════════════════════════
+function startQuiz() {
+  current = 0;
+  answers = {};
+  userDemographics = { age: null, province: null, employment: null, partyPref: null };
+
+  document.querySelectorAll('#screen-demographics input[type="radio"]').forEach(r => r.checked = false);
+  ['demo-next-1','demo-next-2','demo-next-3','demo-next-4'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.disabled = true;
+  });
+  document.querySelectorAll('.demo-step').forEach(s => s.classList.remove('active'));
+  document.getElementById('demo-step-1').classList.add('active');
+
+  showScreen('screen-demographics');
+}
+
+function demoStepCheck(step) {
+  const nameMap = { 1: 'age', 2: 'province', 3: 'employment', 4: 'party_pref' };
+  const name = nameMap[step];
+  const checked = document.querySelector(`input[name="${name}"]:checked`);
+  const nextBtn = document.getElementById(`demo-next-${step}`);
+  if (nextBtn) nextBtn.disabled = !checked;
+}
+
+function demoNext(toStep) {
+  const nameMap = { 2: 'age', 3: 'province', 4: 'employment' };
+  const fromName = nameMap[toStep];
+  if (fromName) {
+    const checked = document.querySelector(`input[name="${fromName}"]:checked`);
+    if (checked) {
+      if (fromName === 'age') userDemographics.age = checked.value;
+      else if (fromName === 'province') userDemographics.province = checked.value;
+      else if (fromName === 'employment') userDemographics.employment = checked.value;
+    }
+  }
+  document.querySelectorAll('.demo-step').forEach(s => s.classList.remove('active'));
+  document.getElementById(`demo-step-${toStep}`).classList.add('active');
+}
+
+function demoBack(toStep) {
+  document.querySelectorAll('.demo-step').forEach(s => s.classList.remove('active'));
+  document.getElementById(`demo-step-${toStep}`).classList.add('active');
+}
+
+function beginQuestions() {
+  const checked = document.querySelector('input[name="party_pref"]:checked');
+  userDemographics.partyPref = checked ? checked.value : 'none';
+  const empChecked = document.querySelector('input[name="employment"]:checked');
+  if (empChecked) userDemographics.employment = empChecked.value;
+  const provChecked = document.querySelector('input[name="province"]:checked');
+  if (provChecked) userDemographics.province = provChecked.value;
+  const ageChecked = document.querySelector('input[name="age"]:checked');
+  if (ageChecked) userDemographics.age = ageChecked.value;
+
+  renderQuestion();
+  showScreen('screen-quiz');
+}
+
+// ══════════════════════════════════════
+// QUIZ
+// ══════════════════════════════════════
+function renderQuestion() {
+  const issue = ISSUES[current];
+  const ans   = answers[issue.id];
+  const total = ISSUES.length;
+
+  document.getElementById('q-counter').textContent  = `${current + 1} / ${total}`;
+  document.getElementById('q-progress').style.width = `${((current + 1) / total) * 100}%`;
+  document.getElementById('q-category').textContent = issue.category;
+  document.getElementById('q-text').textContent     = issue.question;
+  document.getElementById('q-context').textContent  = issue.context;
+
+  document.querySelectorAll('input[name="opinion"]').forEach(r => {
+    r.checked = ans !== undefined && parseInt(r.value) === ans.opinion;
+  });
+
+  const iw = document.getElementById('importance-wrap');
+  if (ans !== undefined) {
+    iw.style.display = 'block';
+    const imp = ans.importance !== undefined ? ans.importance : 2;
+    const vals = [0, 1, 2, 4];
+    document.querySelectorAll('.imp-btn').forEach((btn, i) => {
+      btn.classList.toggle('sel', vals[i] === imp);
+    });
+  } else {
+    iw.style.display = 'none';
+  }
+
+  document.getElementById('btn-back').disabled = current === 0;
+
+  updateNextBtn();
+}
+
+// ══════════════════════════════════════
+// NAVIGATION UTILS
+// ══════════════════════════════════════
+function updateNextBtn() {
+  const ans = answers[ISSUES[current].id];
+  const isLast = current === ISSUES.length - 1;
+  const btn = document.getElementById('btn-next');
+  btn.disabled   = ans === undefined;
+  btn.textContent = isLast ? 'See results →' : 'Next →';
+}
+
+function setOpinion(val) {
+  const id = ISSUES[current].id;
+  if (!answers[id]) answers[id] = { opinion: val, importance: 2 };
+  else answers[id].opinion = val;
+  renderQuestion();
+}
+
+function setImportance(val) {
+  const id = ISSUES[current].id;
+  if (!answers[id]) return;
+  answers[id].importance = val;
+  renderQuestion();
+}
+
+function navigate(dir) {
+  if (dir === 1 && current === ISSUES.length - 1) { 
+    if (Object.keys(answers).length < ISSUES.length) {
+      alert("Please answer all questions before viewing your results.");
+      return;
+    }
+    showResults(); 
+    return; 
+  }
+  current = Math.max(0, Math.min(ISSUES.length - 1, current + dir));
+  renderQuestion();
+}
+
+// ══════════════════════════════════════
+// RESULTS
+// ══════════════════════════════════════
+function computeResults() {
+  const scores = {};
+  PARTIES.forEach(p => scores[p.id] = 0);
+  let maxPossible = 0;
+
+  ISSUES.forEach(issue => {
+    const ans = answers[issue.id];
+    if (ans === undefined || ans.importance === 0) return;
+    const importance = ans.importance;
+    const contribution = Math.abs(importance * 2 * 3);
+    maxPossible += contribution;
+    PARTIES.forEach(p => {
+      const ps = (p.positions[issue.id] || {}).score || 0;
+      scores[p.id] += ans.opinion * importance * ps;
+    });
+  });
+
+  const pct = {};
+  PARTIES.forEach(p => {
+    pct[p.id] = maxPossible > 0
+      ? Math.round(((scores[p.id] + maxPossible) / (maxPossible * 2)) * 100)
+      : 50;
+  });
+  return pct;
+}
+
+function scoreLabel(score) {
+  if (score >= 2)  return { text: 'Strongly For', cls: 'pos' };
+  if (score >= 1)  return { text: 'For', cls: 'pos' };
+  if (score === 0) return { text: 'Neutral', cls: 'neu' };
+  if (score >= -1) return { text: 'Against', cls: 'neg' };
+  return { text: 'Strongly Against', cls: 'neg' };
+}
+
+function showResults() {
+  const pct = computeResults();
+  const sorted = [...PARTIES].sort((a, b) => pct[b.id] - pct[a.id]);
+  const top = sorted[0];
+  const answered = Object.keys(answers).length;
+
+  document.getElementById('results-headline').textContent = `You align most with the ${top.abbreviation}`;
+  document.getElementById('results-subline').textContent = `${pct[top.id]}% alignment across ${answered} answered question${answered !== 1 ? 's' : ''}`;
+
+  const topPos = top.positions;
+  let explainerHtml = '';
+  ISSUES.forEach(issue => {
+    const ans = answers[issue.id];
+    if (ans === undefined || ans.importance === 0) return;
+    const pos = topPos[issue.id] || {};
+    const partyScore = pos.score || 0;
+    const stanceText = pos.stance || null;
+    const opinionLabels = {'-2':'Strongly Disagree','-1':'Disagree','0':'Neutral', '1':'Agree','2':'Strongly Agree'};
+    explainerHtml += `
+      <div class="explainer-card">
+        <div class="explainer-issue">${issue.question.length > 90 ? issue.question.slice(0,90)+'…' : issue.question}</div>
+        <div class="explainer-scores">
+          <div class="explainer-score-item">Your view<span class="explainer-score-val">${opinionLabels[String(ans.opinion)]}</span></div>
+          <div class="explainer-score-item">${top.abbreviation} stance<span class="explainer-score-val" style="color:${top.color}">${partyScore > 0 ? '+'+partyScore : partyScore}</span></div>
+        </div>
+        ${stanceText ? `<div class="explainer-stance">${stanceText}</div>` : ''}
+      </div>`;
+  });
+
+  const topManifestoUrl = getManifestoUrl(top.id);
+  document.getElementById('top-match-card').innerHTML = `
+    <div class="top-match-inner" onclick="toggleExplainer()">
+      <div class="top-match-swatch" style="background:${top.color}">${top.abbreviation[0]}</div>
+      <div>
+        <div class="top-match-name">${top.abbreviation}</div>
+        <div class="top-match-full">${top.name}</div>
+        <a class="top-match-manifesto" href="${topManifestoUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation()">
+          📄 Read official manifesto ↗
+        </a>
+      </div>
+      <div>
+        <div class="top-match-score" style="color:${top.color}">${pct[top.id]}%</div>
+        <div class="top-match-pct">alignment</div>
+      </div>
+    </div>
+    <div class="top-match-explainer" id="top-match-explainer">
+      <div class="explainer-title">How ${top.abbreviation} aligns with your answers</div>
+      <div class="explainer-grid">${explainerHtml || '<p style="font-size: 0.8rem; color: #8A8070;">You skipped all issues.</p>'}</div>
+    </div>`;
+
+  const prefSection = document.getElementById('pref-comparison-section');
+  const prefPartyId = userDemographics.partyPref;
+  const prefParty = prefPartyId && prefPartyId !== 'none' ? PARTIES.find(p => p.id === prefPartyId) : null;
+
+  if (prefParty && prefParty.id !== top.id) {
+    const diffRows = [];
+    ISSUES.forEach(issue => {
+      const ans = answers[issue.id];
+      if (!ans || ans.importance === 0) return;
+      const topScore  = (top.positions[issue.id] || {}).score || 0;
+      const prefScore = (prefParty.positions[issue.id] || {}).score || 0;
+      if (topScore !== prefScore) {
+        diffRows.push({ issue, topScore, prefScore, importance: ans.importance });
+      }
+    });
+    diffRows.sort((a, b) => {
+      if (b.importance !== a.importance) return b.importance - a.importance;
+      return Math.abs(b.topScore - b.prefScore) - Math.abs(a.topScore - a.prefScore);
+    });
+    const topDiffs = diffRows.slice(0, 8);
+
+    const topUrl  = getManifestoUrl(top.id);
+    const prefUrl = getManifestoUrl(prefParty.id);
+
+    let diffHtml = '';
+    topDiffs.forEach(({ issue, topScore, prefScore }) => {
+      const topLbl  = scoreLabel(topScore);
+      const prefLbl = scoreLabel(prefScore);
+      const shortQ = issue.question.length > 80 ? issue.question.slice(0,80)+'…' : issue.question;
+      diffHtml += `
+        <div class="pref-diff-row">
+          <div class="pref-diff-q">${shortQ}</div>
+          <div class="pref-diff-score ${topLbl.cls}" title="${top.abbreviation}">${top.abbreviation}: ${topLbl.text}</div>
+          <div class="pref-diff-score ${prefLbl.cls}" title="${prefParty.abbreviation}">${prefParty.abbreviation}: ${prefLbl.text}</div>
+        </div>`;
+    });
+
+    prefSection.innerHTML = `
+      <div class="pref-comparison-panel">
+        <div class="pref-comparison-header">
+          <span class="pref-comparison-header-icon">⚖️</span>
+          <span class="pref-comparison-header-text">Your match vs your preferred party</span>
+        </div>
+        <div class="pref-comparison-body">
+          <div class="pref-compare-cols">
+            <div class="pref-compare-party best">
+              <div class="pref-compare-label">Your best match</div>
+              <div class="pref-compare-name" style="color:${top.color}">${top.abbreviation}</div>
+              <div style="font-size:0.75rem; color:var(--muted); margin-bottom:4px;">${top.name}</div>
+              <div class="pref-compare-score" style="color:${top.color}">${pct[top.id]}%</div>
+            </div>
+            <div class="pref-compare-vs">vs</div>
+            <div class="pref-compare-party preferred">
+              <div class="pref-compare-label">Your preferred party</div>
+              <div class="pref-compare-name" style="color:${prefParty.color}">${prefParty.abbreviation}</div>
+              <div style="font-size:0.75rem; color:var(--muted); margin-bottom:4px;">${prefParty.name}</div>
+              <div class="pref-compare-score" style="color:${prefParty.color}">${pct[prefParty.id]}%</div>
+            </div>
+          </div>
+          ${topDiffs.length > 0 ? `
+            <div class="pref-compare-issues">
+              <div class="pref-compare-issues-title">Key policy differences (by your priority)</div>
+              ${diffHtml}
+            </div>` : ''}
+          <div class="pref-manifesto-row">
+            <a class="party-chip-learn" href="${topUrl}" target="_blank" rel="noopener">📄 ${top.abbreviation} manifesto ↗</a>
+            <a class="party-chip-learn" href="${prefUrl}" target="_blank" rel="noopener">📄 ${prefParty.abbreviation} manifesto ↗</a>
+          </div>
+        </div>
+      </div>`;
+  } else {
+    prefSection.innerHTML = '';
+  }
+
+  const barsEl = document.getElementById('all-bars');
+  barsEl.innerHTML = '';
+  sorted.forEach(p => {
+    const manifUrl = getManifestoUrl(p.id);
+    barsEl.innerHTML += `
+      <div class="party-result-row">
+        <div class="party-result-name">${p.abbreviation}</div>
+        <div class="party-result-bar-bg"><div class="party-result-bar-fill" style="width:0%;background:${p.color}" data-w="${pct[p.id]}"></div></div>
+        <div class="party-result-pct">${pct[p.id]}%</div>
+        <a class="party-result-manifesto-btn" href="${manifUrl}" target="_blank" rel="noopener" title="View ${p.abbreviation} manifesto">↗</a>
+      </div>`;
+  });
+
+  const grid = document.getElementById('breakdown-grid');
+  grid.innerHTML = '';
+  const opLabels = {'-2':'Strongly Disagree','-1':'Disagree','0':'Neutral','1':'Agree','2':'Strongly Agree'};
+  const opClass  = {'-2':'negative','-1':'negative','0':'neutral','1':'positive','2':'positive'};
+  ISSUES.forEach(issue => {
+    const ans = answers[issue.id];
+    if (ans === undefined) return;
+    let chipClass = opClass[String(ans.opinion)];
+    let textLabel = opLabels[String(ans.opinion)];
+    if (ans.importance === 0) { chipClass = 'neutral'; textLabel = 'Skipped (0 Weight)'; }
+    grid.innerHTML += `
+      <div class="breakdown-chip">
+        <div class="breakdown-chip-cat">${issue.category}</div>
+        <div class="breakdown-chip-q">${issue.question.length > 80 ? issue.question.slice(0,80)+'…' : issue.question}</div>
+        <span class="breakdown-chip-stance stance-${chipClass}">${textLabel}</span>
+      </div>`;
+  });
+
+  showScreen('screen-results');
+  recordAnalytics(top.id, pct, answers, userDemographics);
+
+  setTimeout(() => {
+    document.querySelectorAll('.party-result-bar-fill').forEach(el => el.style.width = el.dataset.w + '%');
+  }, 120);
+}
+
+// ══════════════════════════════════════
+// SYSTEM NAVIGATION
+// ══════════════════════════════════════
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => {
+    s.classList.remove('active');
+  });
+  const target = document.getElementById(id);
+  if (target) {
+    target.classList.add('active');
+    window.scrollTo(0, 0); 
+  }
+}
+
+function goHome() {
+  showScreen('screen-landing');
+}
+
+function toggleExplainer() { document.getElementById('top-match-explainer').classList.toggle('open'); }
+function restart() { startQuiz(); }
+
+// ══════════════════════════════════════
+// ANALYTICS
+// ══════════════════════════════════════
+function recordAnalytics(topParty, matchScores, userAnswers, demographics) {
+  const issueImportances = {};
+  for (const [issueId, response] of Object.entries(userAnswers)) {
+    issueImportances[issueId] = response.importance;
+  }
+  
+  const payload = {
+    timestamp: new Date().toISOString(),
+    demographics,
+    topMatch: topParty,
+    scores: matchScores,
+    importances: issueImportances
+  };
+  
+  console.log("Analytics Payload:", payload);
+  
+  // 1. Existing LocalStorage Fallback
+  try {
+    const savedData = JSON.parse(localStorage.getItem('compassAnalytics') || '[]');
+    savedData.push(payload);
+    localStorage.setItem('compassAnalytics', JSON.stringify(savedData));
+  } catch(e) {}
+
+  // 2. LIVE Stream to Google Sheets
+  const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyw1s_4zhr80whl-dSMlTJgE7lqEWrUiIud398bh0yv4GeJggJ-eUaMA56uQ_LmAw_qNg/exec";
+  
+  fetch(GOOGLE_SCRIPT_URL, {
+    method: "POST",
+    mode: "no-cors", // Prevents complex preflight CORS errors from client browser
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(payload)
+  })
+  .then(() => console.log("Analytics securely saved to Google Sheets."))
+  .catch(err => console.error("Sheets sync failed:", err));
+}
+
+document.addEventListener('DOMContentLoaded', init);
+</script>
+</body>
+</html>
