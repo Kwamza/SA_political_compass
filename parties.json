@@ -48,7 +48,7 @@
       },
       "immigration": {
         "score": 0,
-        "stance": "Acknowledges public concern over undocumented migration but is bound by international refugee obligations; policy is inconsistent \u2014 rhetoric varies by coalition pressure.",
+        "stance": "Acknowledges public concern over undocumented migration but is bound by international refugee obligations; policy is inconsistent — rhetoric varies by coalition pressure.",
         "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
         "source_date": "2024-02-24",
         "source_quote": "We share a collective responsibility to build a brighter future for Africa while reforming border controls and ensuring adherence to international human rights laws."
@@ -62,7 +62,7 @@
       },
       "foreign_policy_west": {
         "score": -1,
-        "stance": "Committed to non-alignment and Global South solidarity; will not prioritise Western alignment over BRICS relationships \u2014 abstained on Ukraine votes, maintains ties with Russia and China.",
+        "stance": "Committed to non-alignment and Global South solidarity; will not prioritise Western alignment over BRICS relationships — abstained on Ukraine votes, maintains ties with Russia and China.",
         "source_url": "https://www.dirco.gov.za",
         "source_date": "2024-02-24",
         "source_quote": "Maintain an independent and non-aligned foreign policy that champions multilateralism, Global South solidarity, and strategic partnerships across all regions."
@@ -73,13 +73,6 @@
         "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
         "source_date": "2024-02-24",
         "source_quote": "Reposition and restructure strategic state-owned enterprises to ensure they effectively drive national development goals under state custody."
-      },
-      "prescribed_assets": {
-        "score": 2,
-        "stance": "Has proposed prescribed assets for pension funds to fund infrastructure",
-        "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
-        "source_date": "2024-02-24",
-        "source_quote": "Investigate mechanisms to mobilize domestic financial resources, including pension funds, to channel investments directly into long-term infrastructure."
       },
       "abortion_rights": {
         "score": 2,
@@ -104,24 +97,17 @@
       },
       "tender_reform": {
         "score": -1,
-        "stance": "Has passed procurement reform legislation and acknowledges corruption as a problem \u2014 but has explicitly defended cadre deployment as party policy and resists open tendering that would undermine transformation targets.",
+        "stance": "Has passed procurement reform legislation and acknowledges corruption as a problem — but has explicitly defended cadre deployment as party policy and resists open tendering that would undermine transformation targets.",
         "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
         "source_date": "2024-02-24",
         "source_quote": "Strengthen state capacity, streamline public procurement legislation to root out corruption, and foster transparent public service frameworks."
       },
       "basic_education": {
-        "score": -1,
-        "stance": "Has increased education budgets and DBE programmes but resists standardised testing accountability frameworks and merit-only teacher appointments; SADTU influence has blocked structural reform under ANC governance.",
+        "score": 1,
+        "stance": "Supports increased education spending and has expanded the DBE budget and ECD programmes; believes funding is a necessary part of fixing schools but resists accountability frameworks that reduce union influence, and has not prioritised merit-only teacher appointments.",
         "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
         "source_date": "2024-02-24",
         "source_quote": "Improve the quality of basic education through upgraded school infrastructure, early childhood development expansion, and enhanced curriculum support."
-      },
-      "poverty_relief": {
-        "score": 2,
-        "stance": "Strongly supports expanding social grants; championed SRD grant and advocates for a Basic Income Grant",
-        "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
-        "source_date": "2024-02-24",
-        "source_quote": "Provide immediate poverty relief by extending and expanding the social safety net, working towards a sustainable Basic Income Grant framework."
       },
       "basic_services": {
         "score": -1,
@@ -139,7 +125,7 @@
       },
       "job_creation": {
         "score": 2,
-        "stance": "Strongly interventionist \u2014 champions the Presidential Employment Stimulus, Expanded Public Works Programme, and direct state job creation as core policy",
+        "stance": "Strongly interventionist — champions the Presidential Employment Stimulus, Expanded Public Works Programme, and direct state job creation as core policy",
         "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
         "source_date": "2024-02-24",
         "source_quote": "Put job creation at the center of economic policy via a National Jobs Plan anchored on infrastructure rollout and localized industrialization."
@@ -170,18 +156,30 @@
         "stance": "Supports structural transformation of the banking sector and has backed the Post Bank as a state alternative; supports stronger regulation to broaden financial access."
       },
       "pan_africanism": {
-        "score": 1,
-        "stance": "Historically supports African integration and AfCFTA; backs deeper economic cooperation but balances this with domestic pressure on undocumented migration and border control."
+        "score": 0,
+        "stance": "Supports African integration and AfCFTA trade in principle but is cautious on the movement dimension; faces domestic pressure on undocumented migration and has not committed to meaningfully relaxing rules on people from other African countries living and working in SA."
       },
       "labour_market": {
         "score": -1,
         "stance": "Has resisted significant labour law liberalisation under union pressure from COSATU; supports minor amendments but not structural relaxation of dismissal protection or collective bargaining rules."
       },
-      "traditional_authority": {
+      "gbv": {
         "score": 1,
-        "stance": "Supports formal role for traditional leaders in governance and communal land administration; has passed the Traditional and Khoi-San Leadership Act giving councils formal powers, despite tensions with constitutional rights."
+        "stance": "Declared GBV a second pandemic and introduced the National Strategic Plan on GBV & Femicide; supports both stronger law enforcement and addressing root socioeconomic causes, though implementation has been widely criticised as slow and underfunded.",
+        "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
+        "source_date": "2024-02-24",
+        "source_quote": "Intensify the fight against gender-based violence and femicide through strengthening law enforcement, supporting survivors, and addressing the social and economic root causes of GBV."
+      },
+      "townships": {
+        "score": 2,
+        "stance": "Strongly supports prioritising township and informal settlement upgrades; has built millions of RDP homes and frames township investment as a core electoral and social mandate, though delivery has been severely hampered by corruption and mismanagement.",
+        "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
+        "source_date": "2024-02-24",
+        "source_quote": "Accelerate the upgrade of informal settlements and townships through investment in housing, infrastructure, and basic services to provide dignity for all residents."
       }
-    }
+    },
+    "description": "The liberation movement that ended apartheid and has governed South Africa since 1994. It champions a mixed economy, land reform, and state-led development, though its support has declined sharply amid corruption scandals and ongoing service delivery failures.",
+    "background": "Founded in 1912 — the oldest political party in Africa, originally formed to fight racial discrimination and dispossession. Led the transition to democracy in 1994 under Nelson Mandela."
   },
   {
     "id": "da",
@@ -204,7 +202,7 @@
       },
       "eskom_privatisation": {
         "score": 2,
-        "stance": "Strongly supports full liberalisation \u2014 break Eskom's monopoly, open competitive market to private producers, reduce state role to transmission only.",
+        "stance": "Strongly supports full liberalisation — break Eskom's monopoly, open competitive market to private producers, reduce state role to transmission only.",
         "source_url": "https://www.da.org.za/2024/01/da-2024-election-manifesto",
         "source_date": "2024-02-17",
         "source_quote": "Break Eskom's monopoly, unbundle the utility, and fully open up the energy sector to private investment and competitive open markets."
@@ -258,13 +256,6 @@
         "source_date": "2024-02-17",
         "source_quote": "Privatize non-strategic and failing state-owned entities to ease fiscal strain and encourage sustainable market-driven operational performance."
       },
-      "prescribed_assets": {
-        "score": -2,
-        "stance": "Strongly opposes prescribed assets as threat to pension savings",
-        "source_url": "https://www.da.org.za/2024/01/da-2024-election-manifesto",
-        "source_date": "2024-02-17",
-        "source_quote": "Vehemently reject any attempt to introduce prescribed assets policies that jeopardize the hard-earned retirement savings of South African citizens."
-      },
       "abortion_rights": {
         "score": 2,
         "stance": "Supports existing abortion rights framework",
@@ -288,24 +279,17 @@
       },
       "tender_reform": {
         "score": 2,
-        "stance": "Flagship policy \u2014 scrap cadre deployment entirely, introduce fully transparent electronic procurement; argues transformation and anti-corruption are compatible but cadre deployment is not.",
+        "stance": "Flagship policy — scrap cadre deployment entirely, introduce fully transparent electronic procurement; argues transformation and anti-corruption are compatible but cadre deployment is not.",
         "source_url": "https://www.da.org.za/2024/01/da-2024-election-manifesto",
         "source_date": "2024-02-17",
         "source_quote": "Scrap cadre deployment entirely and introduce competitive, fully transparent electronic procurement systems to eliminate tender fraud."
       },
       "basic_education": {
-        "score": 2,
-        "stance": "Strongly advocates standardised testing, independent school evaluation, merit-based teacher appointments, and school-level accountability as the primary fix \u2014 not budget increases.",
+        "score": -2,
+        "stance": "Strongly disagrees — argues accountability is the primary fix, not more spending; advocates standardised testing, independent school evaluation, and merit-based teacher appointments, explicitly framing increased budgets without accountability as wasteful.",
         "source_url": "https://www.da.org.za/2024/01/da-2024-election-manifesto",
         "source_date": "2024-02-17",
         "source_quote": "Implement independent school evaluations, increase accountability metrics for educators, and re-introduce rigorous standardized testing systems."
-      },
-      "poverty_relief": {
-        "score": -1,
-        "stance": "Opposes expanding social grants or making the SRD permanent; argues grant dependency entrenches poverty. Prefers job-led growth. Would maintain existing grants but not extend them.",
-        "source_url": "https://www.da.org.za/2024/01/da-2024-election-manifesto",
-        "source_date": "2024-02-17",
-        "source_quote": "Maintain targeted social assistance for the vulnerable while prioritizing job-creating economic growth as the ultimate path out of poverty."
       },
       "basic_services": {
         "score": 2,
@@ -316,7 +300,7 @@
       },
       "public_services_quality": {
         "score": 2,
-        "stance": "Strongly advocates structural reform \u2014 merit-based appointments, accountability, and ending cadre deployment \u2014 as the root fix for service quality",
+        "stance": "Strongly advocates structural reform — merit-based appointments, accountability, and ending cadre deployment — as the root fix for service quality",
         "source_url": "https://www.da.org.za/2024/01/da-2024-election-manifesto",
         "source_date": "2024-02-17",
         "source_quote": "Build a capable state that delivers to all by instating strict merit-based appointments and rigorous internal performance monitoring structures."
@@ -354,18 +338,30 @@
         "stance": "Strongly opposes a state-owned bank; argues competition policy, fintech regulation, and market innovation are better tools for inclusion than state banking."
       },
       "pan_africanism": {
-        "score": 0,
-        "stance": "Supports African free trade and economic integration (AfCFTA) but explicitly opposes relaxing border controls; prioritises strict national border enforcement over continental movement."
+        "score": -1,
+        "stance": "Supports African free trade and economic integration (AfCFTA) but explicitly opposes making it easier for people to live and work in South Africa from other African countries; prioritises strict national border enforcement over any relaxation of movement rules."
       },
       "labour_market": {
         "score": 2,
-        "stance": "Strongly advocates significant labour law reform \u2014 easier hiring and dismissal, especially for youth; argues current laws are the primary barrier to private sector job creation."
+        "stance": "Strongly advocates significant labour law reform — easier hiring and dismissal, especially for youth; argues current laws are the primary barrier to private sector job creation."
       },
-      "traditional_authority": {
-        "score": -2,
-        "stance": "Strongly opposes giving traditional authorities formal governance powers; argues customary law frequently violates constitutional rights on gender, sexual orientation, and property \u2014 especially for women."
+      "gbv": {
+        "score": 2,
+        "stance": "Strongly advocates harsher sentences for GBV perpetrators, mandatory denial of bail for domestic violence offenders, and dedicated GBV investigative units within SAPS.",
+        "source_url": "https://www.da.org.za/2024/01/da-2024-election-manifesto",
+        "source_date": "2024-02-17",
+        "source_quote": "Strengthen legal frameworks to ensure perpetrators of GBV face the full force of the law, including mandatory minimum sentencing and specialist investigative capacity."
+      },
+      "townships": {
+        "score": 1,
+        "stance": "Supports upgrading townships through better-run municipalities rather than large state housing programmes; points to its track record in DA-governed areas as a model for improved service delivery and titling.",
+        "source_url": "https://www.da.org.za/2024/01/da-2024-election-manifesto",
+        "source_date": "2024-02-17",
+        "source_quote": "Deliver dignified living conditions in townships through accountable local governance, urban titling, and efficient private-partnered infrastructure investment."
       }
-    }
+    },
+    "description": "South Africa's largest opposition party, built on liberal democracy, constitutional rights, and free-market economics. It opposes race-based transformation policies and argues that merit-driven governance — not an expanded state — is the key to prosperity.",
+    "background": "Founded in 2000 through a merger of the Democratic Party and the New National Party. Has governed the Western Cape since 2009 and Cape Town for over a decade, using it as a showcase for its governance model."
   },
   {
     "id": "eff",
@@ -395,7 +391,7 @@
       },
       "nhi": {
         "score": 2,
-        "stance": "Strongly supports NHI and goes further \u2014 advocates universal free healthcare with 24-hour public clinics and abolition of private medical aid as a privileged system.",
+        "stance": "Strongly supports NHI and goes further — advocates universal free healthcare with 24-hour public clinics and abolition of private medical aid as a privileged system.",
         "source_url": "https://effonline.org/",
         "source_date": "2024-02-10",
         "source_quote": "The National Health Amendment Bill, which will ensure that all clinics in South Africa are open 24 hours a day; and achieving free quality health care.[cite: 2]"
@@ -409,14 +405,14 @@
       },
       "bbbee": {
         "score": 1,
-        "stance": "Accepts BBBEE as a transitional measure but argues it is insufficient \u2014 prefers full nationalisation and structural economic redistribution over a corporate scorecard system.",
+        "stance": "Accepts BBBEE as a transitional measure but argues it is insufficient — prefers full nationalisation and structural economic redistribution over a corporate scorecard system.",
         "source_url": "https://effonline.org/",
         "source_date": "2024-02-10",
         "source_quote": "The few black people who participate in the economy, do so, subject to white approval through a black economic empowerment model that is ostensibly designed to benefit a small number of individuals without ever changing the structural exclusion.[cite: 2]"
       },
       "immigration": {
         "score": -1,
-        "stance": "Conflicted \u2014 makes Pan-Africanist statements about continental solidarity but has also appealed to anti-immigrant sentiment; does not advocate strict restriction as core policy.",
+        "stance": "Conflicted — makes Pan-Africanist statements about continental solidarity but has also appealed to anti-immigrant sentiment; does not advocate strict restriction as core policy.",
         "source_url": "https://effonline.org/",
         "source_date": "2024-02-10",
         "source_quote": "In South Africa, anti-black racism and xenophobia against Africans are on the rise, necessitating a move toward progressive internationalism balanced with worker protection.[cite: 2]"
@@ -430,7 +426,7 @@
       },
       "foreign_policy_west": {
         "score": -2,
-        "stance": "Strongly anti-Western \u2014 frames Western powers as imperialist; advocates Global South solidarity and explicitly supports Russia and China as preferable allies.",
+        "stance": "Strongly anti-Western — frames Western powers as imperialist; advocates Global South solidarity and explicitly supports Russia and China as preferable allies.",
         "source_url": "https://effonline.org/",
         "source_date": "2024-02-10",
         "source_quote": "Massive development of the African economy and advocating for a move from reconciliation to justice on the entire continent under progressive internationalism.[cite: 2]"
@@ -441,13 +437,6 @@
         "source_url": "https://effonline.org/",
         "source_date": "2024-02-10",
         "source_quote": "Nationalisation of mines, banks and other strategic sectors of the economy, without compensation.[cite: 2]"
-      },
-      "prescribed_assets": {
-        "score": 2,
-        "stance": "Strongly supports prescribed assets as tool for economic transformation",
-        "source_url": "https://effonline.org/",
-        "source_date": "2024-02-10",
-        "source_quote": "The Banks Amendment Bill, which will lead to the creation of a state-owned bank, and structural reconfiguration of the financial sector and fiscal architecture.[cite: 2]"
       },
       "abortion_rights": {
         "score": 2,
@@ -471,25 +460,18 @@
         "source_quote": "In South Africa, 70% of young people between 15 and 34 years old are unemployed, cannot find work and are not economically active... making youth development an absolute priority.[cite: 2]"
       },
       "tender_reform": {
-        "score": 1,
-        "stance": "Anti-corruption in rhetoric; advocates abolishing tenders entirely in favour of direct state delivery. But stops short of endorsing the open competitive tendering model; internal corruption allegations complicate its position.",
+        "score": 0,
+        "stance": "Anti-corruption in rhetoric but advocates abolishing the tender system entirely in favour of direct state delivery — which is the opposite of open competitive procurement. Does not support fair market competition for government contracts; internal corruption allegations further complicate its credibility on this issue.",
         "source_url": "https://effonline.org/",
         "source_date": "2024-02-10",
         "source_quote": "Building state and government capacity, which will lead to the abolishment of tenders, ensuring an open, accountable, corrupt-free government.[cite: 2]"
       },
       "basic_education": {
-        "score": -1,
-        "stance": "Argues root cause is unequal funding and infrastructure, not accountability failure; strongly opposes Western-style standardised testing in favour of decolonised, state-funded equal provision.",
+        "score": 2,
+        "stance": "Strongly agrees — argues the root cause of poor school outcomes is unequal funding and inadequate infrastructure, not accountability failure; opposes Western-style standardised testing in favour of massively increased state-funded equal provision for all schools.",
         "source_url": "https://effonline.org/",
         "source_date": "2024-02-10",
         "source_quote": "South Africa still has schools where children learn under trees or in mud structures and/or must use pit toilets. The EFF government will build quality school infrastructure.[cite: 2]"
-      },
-      "poverty_relief": {
-        "score": 2,
-        "stance": "Strongly supports expanded grants and a Universal Basic Income; frames poverty relief as a constitutional right",
-        "source_url": "https://effonline.org/",
-        "source_date": "2024-02-10",
-        "source_quote": "Doubling of social grants in order to reduce the crisis levels of poverty and boost domestic economic demands and expansion.[cite: 2]"
       },
       "basic_services": {
         "score": -2,
@@ -500,7 +482,7 @@
       },
       "public_services_quality": {
         "score": -1,
-        "stance": "Argues public service failures stem from underfunding and outsourcing, not structure; advocates insourcing all government services and dramatically increasing state capacity through more staff and resources \u2014 not structural reform.",
+        "stance": "Argues public service failures stem from underfunding and outsourcing, not structure; advocates insourcing all government services and dramatically increasing state capacity through more staff and resources — not structural reform.",
         "source_url": "https://effonline.org/",
         "source_date": "2024-02-10",
         "source_quote": "The Insourcing of all Government and State Entities Bill, which will result in the insourcing of all workers who provide constant services to government.[cite: 2]"
@@ -528,7 +510,7 @@
       },
       "renewable_energy": {
         "score": -1,
-        "stance": "Conflicted \u2014 calls for emissions reductions but simultaneously pledges to expand coal mining and keep old coal plants running to protect worker livelihoods; no credible rapid transition plan.",
+        "stance": "Conflicted — calls for emissions reductions but simultaneously pledges to expand coal mining and keep old coal plants running to protect worker livelihoods; no credible rapid transition plan.",
         "source_url": "https://effonline.org/",
         "source_date": "2024-02-10",
         "source_quote": "South Africa's environmental management does not adequately address the protection of the climate because the country is completely dependent on polluting energy sources.[cite: 2]"
@@ -543,13 +525,25 @@
       },
       "labour_market": {
         "score": -2,
-        "stance": "Strongly opposes any relaxation of labour protections; advocates stronger worker rights, sectoral minimum wages, and union power \u2014 frames liberalisation as an attack on workers."
+        "stance": "Strongly opposes any relaxation of labour protections; advocates stronger worker rights, sectoral minimum wages, and union power — frames liberalisation as an attack on workers."
       },
-      "traditional_authority": {
-        "score": -1,
-        "stance": "Conflicted \u2014 rhetorically supports African cultural heritage but its socialist framework prioritises constitutional rights over customary authority; opposes traditional leader control over land."
+      "gbv": {
+        "score": 2,
+        "stance": "Strongly supports action against GBV; frames it as a systemic issue of patriarchal economic exclusion requiring both criminal justice reform and structural economic empowerment for women.",
+        "source_url": "https://effonline.org/",
+        "source_date": "2024-02-10",
+        "source_quote": "The EFF will act decisively to end gender-based violence through fundamental overhaul of police response capacity and addressing the socioeconomic oppression of women."
+      },
+      "townships": {
+        "score": 2,
+        "stance": "Strongly advocates for massive state investment in township housing, infrastructure, and services; frames inadequate township conditions as a direct legacy of apartheid capitalism requiring radical state-led redistribution.",
+        "source_url": "https://effonline.org/",
+        "source_date": "2024-02-10",
+        "source_quote": "The EFF government will build 1 million housing units per year and ensure that every South African township receives reliable infrastructure, electricity, and sanitation."
       }
-    }
+    },
+    "description": "A radical left party that broke from the ANC in 2013, demanding nationalisation of mines and banks, expropriation of all land without compensation, and Pan-African economic revolution. Confrontational in Parliament and popular among young urban voters frustrated by deep inequality.",
+    "background": "Founded in 2013 by Julius Malema after his expulsion from the ANC Youth League. Rapidly became the third-largest party and is known for its red berets, disruptive parliamentary tactics, and uncompromising redistribution agenda."
   },
   {
     "id": "mkp",
@@ -614,7 +608,7 @@
       },
       "foreign_policy_west": {
         "score": -2,
-        "stance": "Anti-Western stance \u2014 aligns with Russia and China; opposes ICC and what it frames as Western neo-colonialism in international institutions.",
+        "stance": "Anti-Western stance — aligns with Russia and China; opposes ICC and what it frames as Western neo-colonialism in international institutions.",
         "source_url": "https://www.umkhontoparty.co.za/manifesto",
         "source_date": "2024-04-01",
         "source_quote": "Pivot away from Western economic hegemony, fortify relationships within BRICS, and explicitly align with traditional global allies like Russia and China."
@@ -625,13 +619,6 @@
         "source_url": "https://www.umkhontoparty.co.za/manifesto",
         "source_date": "2024-04-01",
         "source_quote": "Mandate state-led management of all strategic sectors including banks, energy grids, and primary transport links."
-      },
-      "prescribed_assets": {
-        "score": 2,
-        "stance": "Supports prescribed assets",
-        "source_url": "https://www.umkhontoparty.co.za/manifesto",
-        "source_date": "2024-04-01",
-        "source_quote": "Enact laws to prescribe financial investments from domestic institutions into state development priorities."
       },
       "abortion_rights": {
         "score": -1,
@@ -667,13 +654,6 @@
         "source_url": "https://www.umkhontoparty.co.za/manifesto",
         "source_date": "2024-04-01",
         "source_quote": "Reform the basic education curriculum to incorporate traditional knowledge, patriotism, and mandatory indigenous language instruction."
-      },
-      "poverty_relief": {
-        "score": 2,
-        "stance": "Strongly supports social grants and poverty alleviation as a state responsibility",
-        "source_url": "https://www.umkhontoparty.co.za/manifesto",
-        "source_date": "2024-04-01",
-        "source_quote": "Expand safety nets and scale grant assistance to guarantee a dignified survival baseline for all impoverished households."
       },
       "basic_services": {
         "score": -1,
@@ -729,11 +709,23 @@
         "score": -1,
         "stance": "Aligned with labour movement traditions; opposes significant relaxation of dismissal protections and worker rights, prioritising job security over hiring flexibility."
       },
-      "traditional_authority": {
+      "gbv": {
+        "score": 1,
+        "stance": "Supports stronger enforcement against GBV but is complicated by the party's traditionalist stance on gender roles and customary authority, which tensions its commitment to women's rights.",
+        "source_url": "https://www.umkhontoparty.co.za/manifesto",
+        "source_date": "2024-04-01",
+        "source_quote": "Strengthen mechanisms to protect women and children from violence while recognising the role of community and traditional structures in building safe households."
+      },
+      "townships": {
         "score": 2,
-        "stance": "Strongly supports traditional leadership, customary law, and the role of the Zulu monarchy and other traditional institutions in governance; treats traditional authority as a legitimate democratic institution."
+        "stance": "Strongly supports large-scale state investment in township and rural community infrastructure; frames township neglect as unfinished post-apartheid business requiring immediate and direct state intervention.",
+        "source_url": "https://www.umkhontoparty.co.za/manifesto",
+        "source_date": "2024-04-01",
+        "source_quote": "Redirect national financial priorities to ensure all townships and rural communities receive quality housing, roads, clean water, and electricity as a matter of urgency."
       }
-    }
+    },
+    "description": "A breakaway party formed around Jacob Zuma that stunned the 2024 election by winning the third-largest seat share. It combines left-wing economic nationalism with Zulu traditionalism and a deeply anti-establishment stance, including calls to suspend the 1996 Constitution.",
+    "background": "Founded in late 2023, just months before the May 2024 election. Built almost entirely on Jacob Zuma's personal following after he was barred from standing as an ANC candidate, it shocked the political establishment by winning 14.6% of the vote."
   },
   {
     "id": "actionsa",
@@ -777,14 +769,14 @@
       },
       "bbbee": {
         "score": -1,
-        "stance": "Critical of BBBEE implementation \u2014 argues it has enriched a connected elite without broad-based impact. Supports economic inclusion but wants BBBEE replaced with need-based and anti-corruption frameworks.",
+        "stance": "Critical of BBBEE implementation — argues it has enriched a connected elite without broad-based impact. Supports economic inclusion but wants BBBEE replaced with need-based and anti-corruption frameworks.",
         "source_url": "https://www.actionsa.org.za/manifesto",
         "source_date": "2024-03-23",
         "source_quote": "Move beyond corrupt political capitalism models of BBBEE toward direct empowerment models that incentivize private business investment."
       },
       "immigration": {
         "score": 2,
-        "stance": "Flagship restrictionist position \u2014 strongly advocates strict border enforcement, rapid deportation of undocumented migrants, and significant reduction of total migrant numbers.",
+        "stance": "Flagship restrictionist position — strongly advocates strict border enforcement, rapid deportation of undocumented migrants, and significant reduction of total migrant numbers.",
         "source_url": "https://www.actionsa.org.za/manifesto",
         "source_date": "2024-03-23",
         "source_quote": "Enforce strict border control management systems, rapidly deporting illegal entrants to reclaim national sovereignty."
@@ -810,13 +802,6 @@
         "source_date": "2024-03-23",
         "source_quote": "Open up underperforming state enterprises to private sector operational expertise and co-investment frameworks."
       },
-      "prescribed_assets": {
-        "score": -2,
-        "stance": "Opposes prescribed assets",
-        "source_url": "https://www.actionsa.org.za/manifesto",
-        "source_date": "2024-03-23",
-        "source_quote": "Oppose any mandate that attempts to interfere with private capital markets or compromise private retirement assets."
-      },
       "abortion_rights": {
         "score": 1,
         "stance": "Generally supportive of existing rights",
@@ -840,35 +825,28 @@
       },
       "tender_reform": {
         "score": 2,
-        "stance": "Flagship policy \u2014 complete SCM overhaul, fully open competitive tendering, criminal accountability for procurement fraud; explicitly frames cadre deployment as the root cause.",
+        "stance": "Flagship policy — complete SCM overhaul, fully open competitive tendering, criminal accountability for procurement fraud; explicitly frames cadre deployment as the root cause.",
         "source_url": "https://www.actionsa.org.za/manifesto",
         "source_date": "2024-03-23",
         "source_quote": "Overhaul supply chain management entirely, mandating fully open public tender broadcasts to end political corruption."
       },
       "basic_education": {
-        "score": 2,
-        "stance": "Strongly advocates merit-based teacher appointments, performance accountability structures, and standardised assessment \u2014 frames funding without accountability as wasteful.",
+        "score": -2,
+        "stance": "Strongly disagrees — frames accountability as the primary fix, explicitly arguing that funding without performance accountability is wasteful; advocates merit-based teacher appointments, standardised assessment, and school-level accountability structures.",
         "source_url": "https://www.actionsa.org.za/manifesto",
         "source_date": "2024-03-23",
         "source_quote": "Bring strict performance accountability structures to schools, optimizing teacher appointments solely on verified merit metrics."
       },
-      "poverty_relief": {
-        "score": 1,
-        "stance": "Supports targeted relief for the most vulnerable but strongly prefers job creation over grant expansion as the primary anti-poverty tool",
-        "source_url": "https://www.actionsa.org.za/manifesto",
-        "source_date": "2024-03-23",
-        "source_quote": "Sustain immediate relief nets while pivoting the economy toward private enterprise absorption to replace grant dependence."
-      },
       "basic_services": {
         "score": 2,
-        "stance": "Supports allowing private operators where municipalities have failed \u2014 frames it as pragmatic accountability, not ideological privatisation.",
+        "stance": "Supports allowing private operators where municipalities have failed — frames it as pragmatic accountability, not ideological privatisation.",
         "source_url": "https://www.actionsa.org.za/manifesto",
         "source_date": "2024-03-23",
         "source_quote": "Root out municipal cadre deployment to fix collapsing infrastructure pipelines and guarantee reliable basic utility services."
       },
       "public_services_quality": {
         "score": 2,
-        "stance": "Structural reform \u2014 ending cadre deployment, merit-based hiring, accountability \u2014 is the core of ActionSA's platform",
+        "stance": "Structural reform — ending cadre deployment, merit-based hiring, accountability — is the core of ActionSA's platform",
         "source_url": "https://www.actionsa.org.za/manifesto",
         "source_date": "2024-03-23",
         "source_quote": "Establish a highly professionalized, merit-hired public civil service insulated entirely from political party deployments."
@@ -911,13 +889,25 @@
       },
       "labour_market": {
         "score": 2,
-        "stance": "Flagship policy \u2014 scrap restrictive labour laws for youth under 35, introduce youth employment tax breaks; frames labour rigidity as a core driver of unemployment."
+        "stance": "Flagship policy — scrap restrictive labour laws for youth under 35, introduce youth employment tax breaks; frames labour rigidity as a core driver of unemployment."
       },
-      "traditional_authority": {
-        "score": -1,
-        "stance": "Sceptical of formal traditional authority governance powers; prioritises constitutional rights and merit-based, accountable institutions over customary structures."
+      "gbv": {
+        "score": 2,
+        "stance": "Strongly supports harsher sentencing for GBV perpetrators, mandatory minimum sentences, and expanded specialist policing units to address South Africa's femicide crisis.",
+        "source_url": "https://www.actionsa.org.za/manifesto",
+        "source_date": "2024-03-23",
+        "source_quote": "Implement mandatory minimum sentences for GBV crimes and establish specialist anti-GBV police units to decisively address the femicide crisis."
+      },
+      "townships": {
+        "score": 1,
+        "stance": "Supports township investment but argues that cadre deployment and corruption are the primary barriers to effective service delivery; frames merit-based governance reform as a precondition for meaningful township upliftment.",
+        "source_url": "https://www.actionsa.org.za/manifesto",
+        "source_date": "2024-03-23",
+        "source_quote": "End political corruption in municipal infrastructure delivery to ensure township communities receive the roads, water, and housing they have long been promised."
       }
-    }
+    },
+    "description": "A centre-right anti-corruption party founded by former Johannesburg mayor Herman Mashaba. It takes the hardest line of any major party on illegal immigration and puts cadre-free, merit-based governance at the centre of its platform.",
+    "background": "Founded in 2021 by Herman Mashaba after he resigned as Johannesburg mayor and left the DA. Targets disaffected urban voters, particularly in Gauteng, who want a tough anti-corruption, anti-immigration alternative."
   },
   {
     "id": "risemzansi",
@@ -968,7 +958,7 @@
       },
       "immigration": {
         "score": 0,
-        "stance": "Supports managed, rule-of-law-based immigration; neither strict restriction nor open borders \u2014 wants an efficient, rights-respecting migration system.",
+        "stance": "Supports managed, rule-of-law-based immigration; neither strict restriction nor open borders — wants an efficient, rights-respecting migration system.",
         "source_url": "https://www.risemzansi.org/manifesto",
         "source_date": "2024-01-20",
         "source_quote": "Establish an efficient, rules-based migration infrastructure that respects human rights while protecting rule of law."
@@ -993,13 +983,6 @@
         "source_url": "https://www.risemzansi.org/manifesto",
         "source_date": "2024-01-20",
         "source_quote": "Introduce public-private operational models into failing SOEs to stabilize core logistics and national services."
-      },
-      "prescribed_assets": {
-        "score": -1,
-        "stance": "Sceptical of prescribed assets; concerned about risk to pension savings",
-        "source_url": "https://www.risemzansi.org/manifesto",
-        "source_date": "2024-01-20",
-        "source_quote": "Avoid coercive asset laws, focusing instead on building attractive, secure infrastructure project bonds."
       },
       "abortion_rights": {
         "score": 2,
@@ -1030,18 +1013,11 @@
         "source_quote": "Overhaul procurement systems to eliminate political appointments and ensure full structural transparency across all tenders."
       },
       "basic_education": {
-        "score": 2,
-        "stance": "Evidence-based approach \u2014 supports independent assessment, accountability frameworks, and merit appointments; treats structural accountability and adequate funding as complementary, not competing.",
+        "score": 1,
+        "stance": "Partially agrees — treats increased funding and structural accountability as equally necessary and complementary, rather than seeing accountability as a substitute for investment; supports evidence-based literacy improvements alongside independent assessment frameworks.",
         "source_url": "https://www.risemzansi.org/manifesto",
         "source_date": "2024-01-20",
         "source_quote": "Prioritize evidence-based literacy improvements and increase accountability across school administration levels."
-      },
-      "poverty_relief": {
-        "score": 1,
-        "stance": "Supports a Basic Income Grant in principle and making the SRD grant permanent, but wants it fiscally costed and phased in responsibly; prioritises sustainable implementation over immediate expansion.",
-        "source_url": "https://www.risemzansi.org/manifesto",
-        "source_date": "2024-01-20",
-        "source_quote": "Implement a sustainable Basic Income Grant to provide an immediate survival baseline for distressed citizens."
       },
       "basic_services": {
         "score": 1,
@@ -1065,8 +1041,8 @@
         "source_quote": "Create an enabling macroeconomic environment that prompts private market development and long-term employment."
       },
       "local_manufacturing": {
-        "score": 2,
-        "stance": "Supports re-industrialisation driven by reliable energy access, infrastructure investment, and targeted industrial policy",
+        "score": 1,
+        "stance": "Partially supports — backs re-industrialisation through reliable energy access, infrastructure investment, and targeted industrial policy, but does not advocate broad protectionist tariffs or import duties as the primary tool; prefers an enabling investment environment over trade barriers.",
         "source_url": "https://www.risemzansi.org/manifesto",
         "source_date": "2024-01-20",
         "source_quote": "Drive modern industrial development by securing stable power links and funding high-capacity tech corridors."
@@ -1097,11 +1073,23 @@
         "score": 1,
         "stance": "Supports targeted reforms to reduce barriers to youth employment and reduce litigation risk for small businesses; stops short of broad labour law liberalisation."
       },
-      "traditional_authority": {
-        "score": -1,
-        "stance": "Supports cultural heritage but prioritises constitutional rights; does not advocate giving traditional authorities formal governance or land administration powers where these conflict with individual rights."
+      "gbv": {
+        "score": 2,
+        "stance": "Treats GBV as a national crisis requiring both strengthened legal accountability for perpetrators and expanded support services for survivors; advocates evidence-based interventions.",
+        "source_url": "https://www.risemzansi.org/manifesto",
+        "source_date": "2024-01-20",
+        "source_quote": "Build comprehensive GBV response systems that combine criminal accountability with expanded survivor support infrastructure and community-based prevention programmes."
+      },
+      "townships": {
+        "score": 2,
+        "stance": "Strongly supports targeted township and informal settlement upgrading as both a moral obligation and economic stimulus; advocates evidence-based spatial planning and public-private partnerships for scaling delivery.",
+        "source_url": "https://www.risemzansi.org/manifesto",
+        "source_date": "2024-01-20",
+        "source_quote": "Prioritise upgrading of townships and informal settlements through coordinated investment in housing, sanitation, and digital and transport infrastructure."
       }
-    }
+    },
+    "description": "A progressive centrist party that blends social investment with clean governance and public-private partnerships. It appeals to younger, evidence-driven voters frustrated by both the ANC's corruption and more ideologically rigid alternatives.",
+    "background": "Founded in 2023 by journalist and author Songezo Zibi. Positioned as a new-generation alternative that takes transformation seriously but refuses to sacrifice accountability for it."
   },
   {
     "id": "bosa",
@@ -1124,7 +1112,7 @@
       },
       "eskom_privatisation": {
         "score": 2,
-        "stance": "Strongly supports full liberalisation \u2014 dismantle centralised generation monopoly, open all segments to competitive private entry.",
+        "stance": "Strongly supports full liberalisation — dismantle centralised generation monopoly, open all segments to competitive private entry.",
         "source_url": "https://www.bosa.org.za/manifesto",
         "source_date": "2024-03-10",
         "source_quote": "Dismantle centralized grid power generation monopolies, fully opening energy delivery lines to competition."
@@ -1178,13 +1166,6 @@
         "source_date": "2024-03-10",
         "source_quote": "Sell off or phase out non-performing, non-strategic entities that continually drain public financial reserves."
       },
-      "prescribed_assets": {
-        "score": -2,
-        "stance": "Strongly opposes prescribed assets as a threat to retirement savings and investor confidence",
-        "source_url": "https://www.bosa.org.za/manifesto",
-        "source_date": "2024-03-10",
-        "source_quote": "Block interventionist policies targeting private investor funds or citizen pension savings pools."
-      },
       "abortion_rights": {
         "score": 1,
         "stance": "Supports existing legal framework for reproductive rights",
@@ -1214,18 +1195,11 @@
         "source_quote": "Slash the size of the cabinet and institute full digital open-tender systems to cancel corrupt bid setups."
       },
       "basic_education": {
-        "score": 2,
-        "stance": "Strongly supports raising the passing threshold, independent assessment, and merit appointments; treats accountability structures as primary \u2014 not additional funding.",
+        "score": -2,
+        "stance": "Strongly disagrees — treats accountability structures as the primary fix, not additional funding; advocates raising the pass mark to 50%, independent assessment, and merit appointments, arguing that systemic management failures rather than underfunding drive poor outcomes.",
         "source_url": "https://www.bosa.org.za/manifesto",
         "source_date": "2024-03-10",
         "source_quote": "Lift the passing threshold standard to 50%, introducing independent assessment protocols across all districts."
-      },
-      "poverty_relief": {
-        "score": -1,
-        "stance": "Opposes universal grant expansion as fiscally unsustainable; strongly prefers free market economic growth as the primary antipoverty tool. Would protect existing safety nets but not extend them.",
-        "source_url": "https://www.bosa.org.za/manifesto",
-        "source_date": "2024-03-10",
-        "source_quote": "Protect existing social support baselines while making market hiring expansion the primary path to prosperity."
       },
       "basic_services": {
         "score": 2,
@@ -1236,7 +1210,7 @@
       },
       "public_services_quality": {
         "score": 2,
-        "stance": "Core platform \u2014 lean, accountable, merit-based government as the fix for service delivery failures",
+        "stance": "Core platform — lean, accountable, merit-based government as the fix for service delivery failures",
         "source_url": "https://www.bosa.org.za/manifesto",
         "source_date": "2024-03-10",
         "source_quote": "Enforce strict professional standards across civil administration lines, removing non-performing staff."
@@ -1274,18 +1248,30 @@
         "stance": "Favours a competitive, private-sector-led financial system; opposes state-owned banks and heavy-handed regulation as the solution to financial exclusion."
       },
       "pan_africanism": {
-        "score": 1,
-        "stance": "Supports African economic integration and trade but insists on secure, well-managed borders; not opposed to integration in principle but would condition it on rule-of-law migration frameworks."
+        "score": 0,
+        "stance": "Supports African economic integration and trade (AfCFTA) but insists on secure, well-managed borders and conditions movement on a strict rule-of-law migration framework; not in favour of broadly making it easier for people from African countries to live and work in SA."
       },
       "labour_market": {
         "score": 2,
         "stance": "Strongly supports significant labour law reform; argues the LRA and BCEA are primary barriers to youth hiring and private sector growth; supports easier dismissal with stronger social safety nets."
       },
-      "traditional_authority": {
-        "score": -2,
-        "stance": "Strongly opposes formal governance role for traditional authorities where this conflicts with constitutional rights; argues customary law cannot override equality protections on gender and sexual orientation."
+      "gbv": {
+        "score": 2,
+        "stance": "Strongly supports harsher sentencing for GBV perpetrators and a merit-appointed, depoliticised police service capable of properly investigating and prosecuting GBV cases.",
+        "source_url": "https://www.bosa.org.za/manifesto",
+        "source_date": "2024-03-10",
+        "source_quote": "Enforce zero tolerance on GBV through properly resourced specialist units, harsher sentences, and an accountable, depoliticised SAPS."
+      },
+      "townships": {
+        "score": 1,
+        "stance": "Supports township infrastructure investment but argues that lean, accountable, merit-based local government is the precondition for effective delivery; links persistent township neglect directly to cadre deployment and mismanagement.",
+        "source_url": "https://www.bosa.org.za/manifesto",
+        "source_date": "2024-03-10",
+        "source_quote": "Deliver upgraded township and informal settlement infrastructure by fixing the underlying management failures in municipalities that have blocked delivery for decades."
       }
-    }
+    },
+    "description": "A liberal constitutionalist party led by Mmusi Maimane, who previously led the DA. It favours lean, accountable government, fiscal discipline, and replacing race-based policies with need-based alternatives — framed as a non-racial, values-driven politics.",
+    "background": "Founded in 2023 by Mmusi Maimane, who resigned as DA leader in 2019. Built around the idea of a non-racial, values-driven politics that can appeal across South Africa's ethnic and class divides."
   },
   {
     "id": "ifp",
@@ -1322,14 +1308,14 @@
       },
       "crime_policing": {
         "score": 2,
-        "stance": "Strongly supports increased police capacity, harsher sentencing, open debate on reinstating the death penalty, and mandatory denial of bail for violent offenders \u2014 particularly GBV perpetrators.",
+        "stance": "Strongly supports increased police capacity, harsher sentencing, open debate on reinstating the death penalty, and mandatory denial of bail for violent offenders — particularly GBV perpetrators.",
         "source_url": "https://www.ifp.org.za/wp-content/uploads/2024/03/Inkatha-Freedom-Party-2024-Manifesto.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Open a national debate on the reinstatement of the death penalty to deter violent crimes. Revisit legislation to ensure that bail is denied to perpetrators of violence against women and children."
       },
       "bbbee": {
         "score": 0,
-        "stance": "Has not called for abolition of BBBEE but emphasises market-led empowerment, overhaul of restrictive labour legislation, and reserving jobs for South Africans over race-based criteria \u2014 signalling ambivalence rather than strong support.",
+        "stance": "Has not called for abolition of BBBEE but emphasises market-led empowerment, overhaul of restrictive labour legislation, and reserving jobs for South Africans over race-based criteria — signalling ambivalence rather than strong support.",
         "source_url": "https://www.ifp.org.za/wp-content/uploads/2024/03/Inkatha-Freedom-Party-2024-Manifesto.pdf",
         "source_date": "2024-03-10",
         "source_quote": "The IFP champions inclusive, market-led economic policies that empower all South Africans and contribute to the country's overall economic growth and development."
@@ -1362,13 +1348,6 @@
         "source_date": "2024-03-10",
         "source_quote": "Refuse further bailouts for State-Owned Enterprises and, instead, resuscitate SOEs, fostering competition and innovation where possible, while forming public-private partnerships for SOEs that cannot be resuscitated."
       },
-      "prescribed_assets": {
-        "score": -1,
-        "stance": "Opposes prescribed assets; advocates fiscal restraint, limiting public debt, and private investment through a conducive environment rather than mandated pension fund investment in state projects.",
-        "source_url": "https://www.ifp.org.za/wp-content/uploads/2024/03/Inkatha-Freedom-Party-2024-Manifesto.pdf",
-        "source_date": "2024-03-10",
-        "source_quote": "Promote fiscal restraint and limit public debt. Invest in infrastructure while creating a conducive environment for investors."
-      },
       "abortion_rights": {
         "score": 0,
         "stance": "The IFP manifesto does not address abortion rights explicitly; the party's social conservative tradition suggests ambivalence, and no clear position for or against expanding or restricting existing law is stated.",
@@ -1399,17 +1378,10 @@
       },
       "basic_education": {
         "score": 1,
-        "stance": "Supports higher standards (50% pass mark), merit-based teacher appointments, minimising political interference in education, and school accountability \u2014 but also emphasises funding and resources for under-resourced schools.",
+        "stance": "Supports higher standards (50% pass mark), merit-based teacher appointments, minimising political interference in education, and school accountability — but also emphasises funding and resources for under-resourced schools.",
         "source_url": "https://www.ifp.org.za/wp-content/uploads/2024/03/Inkatha-Freedom-Party-2024-Manifesto.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Raise standards. The pass mark must be set at 50%. Minimise political interference in education operations and in the appointment of teachers."
-      },
-      "poverty_relief": {
-        "score": 2,
-        "stance": "Strongly supports expanding social grants, increasing child support and old age grants, and expanding food voucher systems for indigent households.",
-        "source_url": "https://www.ifp.org.za/wp-content/uploads/2024/03/Inkatha-Freedom-Party-2024-Manifesto.pdf",
-        "source_date": "2024-03-10",
-        "source_quote": "Improve the healthcare system, put the elderly and vulnerable children first, by increasing the old age and child support grant, while also expanding the food voucher system for indigent households."
       },
       "basic_services": {
         "score": 1,
@@ -1447,8 +1419,8 @@
         "source_quote": "South Africa's natural resources belong to all South Africans and should be used for the benefit of all, particularly those communities where these resources are found."
       },
       "renewable_energy": {
-        "score": 1,
-        "stance": "Supports renewable energy as part of a diversified mix \u2014 promoting wind, solar and hydroelectric \u2014 but also explicitly maintains coal production and gas use; does not advocate phasing out coal.",
+        "score": 0,
+        "stance": "Supports renewable energy as part of a diversified mix — promoting wind, solar and hydroelectric — but explicitly maintains coal production as a key energy source and does not advocate phasing it out quickly; prioritises energy security and diversification over rapid decarbonisation.",
         "source_url": "https://www.ifp.org.za/wp-content/uploads/2024/03/Inkatha-Freedom-Party-2024-Manifesto.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Promote wind turbines and solar power, which present an enormous opportunity for private investment in the generation of power for own use and supply into the grid. Maintain coal production, acknowledging that coal remains a key source of energy."
@@ -1469,19 +1441,28 @@
       },
       "labour_market": {
         "score": 1,
-        "stance": "Supports overhauling restrictive labour legislation that impedes job creation, while maintaining fair labour practices \u2014 indicating support for meaningful but not wholesale deregulation.",
+        "stance": "Supports overhauling restrictive labour legislation that impedes job creation, while maintaining fair labour practices — indicating support for meaningful but not wholesale deregulation.",
         "source_url": "https://www.ifp.org.za/wp-content/uploads/2024/03/Inkatha-Freedom-Party-2024-Manifesto.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Overhaul restrictive labour legislation that impedes job creation."
       },
-      "traditional_authority": {
+      "gbv": {
         "score": 2,
-        "stance": "Strongly supports formal, protected roles for traditional leaders in governance, land administration, rural development and justice \u2014 including extending the Ingonyama Trust model nationally and giving traditional courts formal standing.",
+        "stance": "Strongly supports harsher sentences for GBV perpetrators, mandatory denial of bail for domestic violence offenders, and the death penalty debate extending to the worst femicide cases.",
         "source_url": "https://www.ifp.org.za/wp-content/uploads/2024/03/Inkatha-Freedom-Party-2024-Manifesto.pdf",
         "source_date": "2024-03-10",
-        "source_quote": "Support traditional courts and enhanced roles for traditional leadership in provincial and local governance, which will help achieve greater peace and security."
+        "source_quote": "Revisit legislation to ensure that bail is denied to perpetrators of violence against women and children. Open a national debate on the reinstatement of the death penalty to deter violent crimes."
+      },
+      "townships": {
+        "score": 2,
+        "stance": "Strongly supports upgrading townships and rural settlements through housing programmes, improved sanitation, and a rent-to-own model; has deep roots in KwaZulu-Natal communities and treats township upliftment as core policy.",
+        "source_url": "https://www.ifp.org.za/wp-content/uploads/2024/03/Inkatha-Freedom-Party-2024-Manifesto.pdf",
+        "source_date": "2024-03-10",
+        "source_quote": "Implement a Rent-to-Own scheme by developing low-cost housing programmes with the private sector, with an ownership provision, and fast-track infrastructure rollout in neglected communities."
       }
-    }
+    },
+    "description": "One of South Africa's oldest parties, rooted in KwaZulu-Natal, Zulu tradition, and federalism. It combines social conservatism with a market-leaning economy and takes a firm stance on crime, immigration, and protecting traditional community structures.",
+    "background": "Founded in 1975 by Mangosuthu Buthelezi as a Zulu cultural and political organisation. It was a major force during the transition to democracy and remains dominant in parts of KwaZulu-Natal, now led by Velenkosini Hlabisa."
   },
   {
     "id": "ffplus",
@@ -1558,13 +1539,6 @@
         "source_date": "2024-03-02",
         "source_quote": "Privatise state-owned enterprises, such as Eskom. There is no need for a state airline, and power generation should be left to competing industries."
       },
-      "prescribed_assets": {
-        "score": -2,
-        "stance": "Strongly opposes prescribed assets; advocates limiting state expenditure, offering tax relief to individuals and businesses, and letting markets allocate capital rather than mandating pension fund investment.",
-        "source_url": "https://www.vfplus.org.za/national-and-provincial-election-2024/",
-        "source_date": "2024-03-02",
-        "source_quote": "Limit state expenditure. Offer tax relief to individuals and businesses."
-      },
       "abortion_rights": {
         "score": -1,
         "stance": "The FF+ manifesto does not explicitly address abortion; the party's socially conservative Afrikaner Christian base and traditional values orientation suggest a cautious or restrictive stance on expanding abortion access.",
@@ -1580,8 +1554,8 @@
         "source_quote": "Build a new dispensation that recognises diversity and promotes communities' independence. Realise communities' internationally recognised constitutional right to self-determination."
       },
       "youth_unemployment": {
-        "score": 0,
-        "stance": "Focused on creating private sector conditions for job creation rather than direct state youth employment programmes; opposes the unsustainable practice of government creating jobs as primary strategy.",
+        "score": -1,
+        "stance": "Disagrees — explicitly opposes government running job creation or subsidised employment programmes as unsustainable; focuses instead on creating a favourable private sector environment through lower taxes and deregulation so that businesses, not the state, absorb young jobseekers.",
         "source_url": "https://www.vfplus.org.za/national-and-provincial-election-2024/",
         "source_date": "2024-03-02",
         "source_quote": "Create a favourable environment for the private sector to create more jobs; put an end to the unsustainable practice of government creating jobs."
@@ -1594,18 +1568,11 @@
         "source_quote": "Eradicate corruption and cadre deployment to resolve government's financial crisis, crumbling infrastructure and poor service delivery."
       },
       "basic_education": {
-        "score": 2,
-        "stance": "Strongly supports merit-based, community- and parent-driven education; advocates mother-tongue schooling, raising standards, removing political interference in appointments, and school-level accountability.",
+        "score": -1,
+        "stance": "Disagrees — prioritises merit-based, community- and parent-driven accountability over increased state spending; advocates mother-tongue schooling, raising standards, and removing political interference; does not call for significant new government expenditure on education.",
         "source_url": "https://www.vfplus.org.za/national-and-provincial-election-2024/",
         "source_date": "2024-03-02",
         "source_quote": "The FF Plus proposes a system of parent- and community-driven mother-tongue education. Promote quality community-based mother-tongue education."
-      },
-      "poverty_relief": {
-        "score": -1,
-        "stance": "Advocates reducing dependence on social grants by fostering economic conditions conducive to financial independence; supports community-based social services and adequate funding for NPOs, but not expanding grants.",
-        "source_url": "https://www.vfplus.org.za/national-and-provincial-election-2024/",
-        "source_date": "2024-03-02",
-        "source_quote": "The FF Plus advocates for social welfare programs aimed at reducing dependence on social grants by fostering economic conditions conducive to financial independence."
       },
       "basic_services": {
         "score": 2,
@@ -1616,7 +1583,7 @@
       },
       "public_services_quality": {
         "score": 2,
-        "stance": "Strongly supports deep structural reform \u2014 smaller cabinet, expert appointments not political ones, decentralisation, and eradicating corruption \u2014 as the only path to better public services.",
+        "stance": "Strongly supports deep structural reform — smaller cabinet, expert appointments not political ones, decentralisation, and eradicating corruption — as the only path to better public services.",
         "source_url": "https://www.vfplus.org.za/national-and-provincial-election-2024/",
         "source_date": "2024-03-02",
         "source_quote": "Eradicate corruption and cadre deployment to resolve government's financial crisis, crumbling infrastructure and poor service delivery. An FF Plus cabinet will be much smaller than the current unsustainable, clumsy Executive Authority."
@@ -1647,7 +1614,7 @@
         "stance": "Strongly supports rapid transition to renewable energy through private competition, tax incentives for solar, zero-rated solar panels, and full Eskom unbundling to enable clean energy innovation.",
         "source_url": "https://www.vfplus.org.za/national-and-provincial-election-2024/",
         "source_date": "2024-03-02",
-        "source_quote": "Rapid transition to renewable energy \u2013 tax incentives and zero-rated solar panels. Encourage the transition to renewable energy sources, such as solar panels."
+        "source_quote": "Rapid transition to renewable energy – tax incentives and zero-rated solar panels. Encourage the transition to renewable energy sources, such as solar panels."
       },
       "banking_inclusion": {
         "score": -2,
@@ -1670,13 +1637,22 @@
         "source_date": "2024-03-02",
         "source_quote": "Amend restrictive labour legislation so as to promote job creation while still maintaining fair labour practices; create a favourable environment for the private sector to create more jobs."
       },
-      "traditional_authority": {
-        "score": -1,
-        "stance": "Does not support a formal protected role for traditional leaders in governance; emphasises equal citizenship, community self-determination and individual rights over traditional authority structures.",
+      "gbv": {
+        "score": 2,
+        "stance": "Strongly supports harsher sentencing for GBV perpetrators and a professionalised, depoliticised police service as the core of the response to GBV; prioritises criminal justice enforcement.",
         "source_url": "https://www.vfplus.org.za/national-and-provincial-election-2024/",
         "source_date": "2024-03-02",
-        "source_quote": "Build a new dispensation that recognises diversity and promotes communities' independence. Realise communities' internationally recognised constitutional right to self-determination."
+        "source_quote": "Restore law and order and prioritise citizens' safety and security, including robust enforcement to protect women and children from violence."
+      },
+      "townships": {
+        "score": 1,
+        "stance": "Supports upgrading township infrastructure through decentralised, community-driven service delivery and free market mechanisms; advocates private operators and community management over top-down state programmes.",
+        "source_url": "https://www.vfplus.org.za/national-and-provincial-election-2024/",
+        "source_date": "2024-03-02",
+        "source_quote": "Services should be provided by the free market through businesses that identify opportunities and deliver both private and public services in a competitive manner to ensure cost-effective outcomes for all communities."
       }
-    }
+    },
+    "description": "The primary political voice for Afrikaner minority rights, cultural self-determination, and property rights. It advocates a free market, strict protection of private land, and a full rollback of race-based empowerment policies.",
+    "background": "Founded in 1994, just before the first democratic election, to give Afrikaners and other minority groups a voice in the new dispensation. Led by Pieter Groenewald, it has grown steadily as opposition to BBBEE and land reform has intensified."
   }
 ]

@@ -2,183 +2,176 @@
   {
     "id": "land_expropriation",
     "category": "Land reform",
-    "question": "The state should be able to expropriate land without compensation to address historical inequality.",
-    "context": "The Expropriation Act signed into law in January 2025 allows expropriation without compensation in certain circumstances. Critics argue it undermines property rights and investor confidence; supporters say it is essential to redress apartheid-era land dispossession.",
+    "question": "The government should be allowed to take land from its owners without paying them, in order to fix the inequalities caused by apartheid.",
+    "context": "A new law (the Expropriation Act, 2025) allows the government to take privately owned land without paying the owner in certain situations. Supporters say this is the only way to fix the land inequality left behind by apartheid. Critics say it is unfair to property owners and will scare away investors and businesses.",
     "weight": 1
   },
   {
     "id": "eskom_privatisation",
     "category": "Energy policy",
-    "question": "The electricity market should be opened to full private competition, with Eskom's role significantly reduced.",
-    "context": "Eskom currently dominates electricity generation and transmission. Ongoing unbundling separates generation, transmission, and distribution. The debate is between those who want the market fully liberalised \u2014 with private producers competing freely \u2014 and those who want Eskom retained as the primary state supplier alongside limited private participation.",
+    "question": "Private companies should be allowed to compete freely in producing and selling electricity, with Eskom's role greatly reduced.",
+    "context": "Right now, Eskom controls most of South Africa's electricity supply. There is a debate about whether private companies should be allowed to produce and sell electricity in open competition with Eskom, similar to how there are multiple competing cellphone networks, or whether Eskom should remain the main supplier with only limited private involvement.",
     "weight": 1
   },
   {
     "id": "nhi",
     "category": "Healthcare",
-    "question": "The National Health Insurance scheme should be implemented as planned, replacing private medical aids as the primary funder of healthcare.",
-    "context": "The NHI Act (2024) would make the state the single purchaser of healthcare services. Private medical aids would be limited to services not covered by the NHI. Supporters say it is the only way to achieve universal coverage; opponents \u2014 including Discovery and hospital groups \u2014 argue it is unaffordable, administratively unworkable, and legally unconstitutional. Multiple court challenges are underway.",
+    "question": "The National Health Insurance (NHI) should be fully implemented, replacing private medical aids as the main way healthcare is paid for in South Africa.",
+    "context": "The NHI is a government plan to create one national fund that pays for healthcare for all South Africans, regardless of income. Private medical aids would be limited to covering services the NHI does not cover. Supporters say it is the only way to give everyone access to good healthcare. Critics say the government cannot afford it, that the state does not have the capacity to run it properly, and that parts of it may be unconstitutional. Several court cases are currently challenging the law.",
     "weight": 1
   },
   {
     "id": "crime_policing",
     "category": "Crime & policing",
     "question": "South Africa needs significantly more police officers and harsher sentencing for violent crime.",
-    "context": "SA has one of the world's highest murder rates. SAPS staffing and sentencing are major policy debates.",
+    "context": "South Africa has one of the highest murder rates in the world. There is ongoing debate about whether the solution is hiring more police officers and giving courts the power to hand down longer sentences, or whether the root causes of crime, such as poverty and unemployment, need to be addressed first. Many argue both approaches are needed at the same time.",
     "weight": 1
   },
   {
     "id": "bbbee",
     "category": "Economic transformation",
     "question": "Race-based economic empowerment policies like BBBEE should remain a central tool for addressing inequality.",
-    "context": "Broad-Based Black Economic Empowerment uses scorecards to incentivise black ownership, management representation, and procurement. Proponents argue it corrects structural exclusion from apartheid. Critics \u2014 including some black economists \u2014 argue it primarily benefits a connected elite, distorts markets, and should be replaced with need-based or non-racial alternatives.",
+    "context": "Black Economic Empowerment (BEE) is a set of government policies designed to increase Black ownership of businesses, representation in management, and access to government contracts. Supporters say these policies are necessary to correct the economic exclusion caused by apartheid. Critics, including some Black economists, argue that the benefits mostly go to a small, well-connected elite, and that policies based on financial need rather than race would be more fair and effective.",
     "weight": 1
   },
   {
     "id": "immigration",
     "category": "Immigration",
     "question": "South Africa should enforce significantly stricter controls on immigration and reduce the number of migrants permitted to settle.",
-    "context": "SA hosts an estimated 2\u20134 million undocumented migrants. Xenophobia-related violence is a recurring crisis. Debate divides between those who argue immigration depresses wages and strains services, and those who argue migrants contribute economically and are entitled to international refugee protections under treaties SA has signed.",
+    "context": "South Africa is home to an estimated 2 to 4 million undocumented migrants, and violence targeting foreign nationals has been a recurring problem. Some argue that stricter border controls are needed because migrants compete with locals for jobs and put pressure on schools, hospitals, and other services. Others argue that migrants contribute to the economy and that South Africa has signed international agreements obligating it to protect refugees and asylum seekers.",
     "weight": 1
   },
   {
     "id": "free_education",
     "category": "Education",
-    "question": "University and TVET fees should be fully state-subsidised for all qualifying students.",
-    "context": "#FeesMustFall led to NSFAS expansion. Funding sustainability is debated.",
+    "question": "The government should fully cover the cost of university and college fees for all students who qualify academically.",
+    "context": "The #FeesMustFall protests in 2015 and 2016 pushed the government to expand financial aid for students through NSFAS, a scheme that covers fees for students from poorer households. The debate now is whether this should be extended so that the state covers fees for all academically qualifying students, regardless of income. Supporters say education is a right and fees are a barrier. Critics argue the government cannot afford it and that the money would be better spent fixing struggling schools and colleges first.",
     "weight": 1
   },
   {
     "id": "foreign_policy_west",
     "category": "Foreign policy",
-    "question": "South Africa should side more with Western democracies, even if it causes tension with our BRICS partners like Russia and China.",
-    "context": "SA abstained on UN votes condemning Russia's invasion of Ukraine, hosted a joint naval exercise with Russia and China in 2023, and faced controversy over an alleged arms shipment to Russia. SA is a BRICS member and has deep trade ties with China. The debate is between a non-aligned 'Global South' foreign policy and closer alignment with Western democracies and international law institutions like the ICC.",
+    "question": "South Africa should align itself more closely with Western countries like the USA and EU, even if it strains our relationships with Russia and China.",
+    "context": "South Africa is a member of BRICS, a group of major emerging economies that includes Brazil, Russia, India, China, and South Africa. In recent years, SA has abstained from UN votes condemning Russia's invasion of Ukraine, conducted joint military exercises with Russia and China, and faced allegations of supplying arms to Russia. Some argue SA should distance itself from authoritarian governments and align more closely with Western democracies. Others argue SA should remain independent and neutral, prioritising its own economic interests and relationships across the Global South.",
     "weight": 1
   },
   {
     "id": "state_owned_enterprises",
     "category": "Economy",
-    "question": "Strategic state-owned enterprises like Transnet and SAA should be kept in public ownership.",
-    "context": "Multiple SOEs have required bailouts. SAA was partially privatised in 2021.",
+    "question": "Government-owned companies like Transnet and South African Airways should remain under state ownership rather than being sold to private investors.",
+    "context": "South Africa owns several large companies that provide essential services, including Transnet, which runs railways and ports, Eskom, which generates electricity, and South African Airways. Many of these have needed billions of rands in government bailouts due to mismanagement and corruption. Some argue they should be sold or partially handed over to private investors to improve performance and stop draining public funds. Others argue that selling them would put essential services in private hands and harm workers and communities who depend on them.",
     "weight": 1
   },
   {
-    "id": "prescribed_assets",
-    "category": "Economy",
-    "question": "Pension funds should be required to invest a portion of assets in state infrastructure projects.",
-    "context": "Prescribed assets policy proposed by ANC and EFF. DA and business groups strongly oppose.",
+    "id": "gbv",
+    "category": "Safety & gender",
+    "question": "The government should do far more to tackle gender-based violence, including harsher sentences for perpetrators and better support for survivors.",
+    "context": "South Africa has one of the highest rates of gender-based violence in the world. More than 10,000 sexual offences are reported to police every quarter, and femicide rates are among the highest globally. The government declared GBV a second pandemic in 2020 and introduced a National Strategic Plan, but many argue implementation has been slow and underfunded. Debate exists between those who want harsher criminal sentences and a stronger police response, and those who argue the root causes, including poverty, inequality, and harmful cultural attitudes, must be addressed at the same time.",
     "weight": 1
   },
   {
     "id": "abortion_rights",
     "category": "Social policy",
-    "question": "Access to abortion should remain legal and be fully covered by public healthcare.",
-    "context": "Choice on Termination of Pregnancy Act (1996) currently allows abortion on request up to 12 weeks.",
+    "question": "Abortion should remain legal and be available free of charge through the public health system.",
+    "context": "South Africa has had one of the most progressive abortion laws in the world since 1996, allowing any woman to choose to end a pregnancy in the first 12 weeks without needing to give a reason. The debate today is about whether this right should be actively protected and made more accessible through public clinics, or whether it should be restricted on moral, religious, or budgetary grounds. Some parties oppose abortion on religious principles.",
     "weight": 1
   },
   {
     "id": "lgbtq_rights",
     "category": "Social policy",
-    "question": "LGBTQ+ rights, including same-sex marriage, should be protected and expanded.",
-    "context": "SA constitution protects LGBTQ+ rights; implementation gaps remain. Some parties oppose.",
+    "question": "The rights of LGBTQ+ people, including the right to same-sex marriage, should be protected and strengthened.",
+    "context": "South Africa was the first country in Africa and one of the first in the world to legalise same-sex marriage, in 2006. The Constitution explicitly protects people from discrimination based on sexual orientation. However, LGBTQ+ people still face significant discrimination and violence in practice. Some political parties actively oppose LGBTQ+ rights on religious or cultural grounds, while others support expanding protections and improving enforcement.",
     "weight": 1
   },
   {
     "id": "youth_unemployment",
     "category": "Employment",
-    "question": "The government should introduce targeted programmes \u2014 such as subsidised jobs and expanded learnerships \u2014 specifically to address youth unemployment.",
-    "context": "SA's youth unemployment rate exceeds 60% (expanded definition). NEET rate (not in employment, education or training) is among the world's highest. Existing interventions include the Presidential Employment Stimulus and YES programme.",
+    "question": "The government should run dedicated programmes, such as subsidised jobs and apprenticeships, specifically targeting the millions of young South Africans who are unemployed.",
+    "context": "More than 60% of young South Africans are unemployed, one of the highest rates in the world. Millions more are not in any job, education, or training programme. Some argue the government needs to directly create opportunities for young people through subsidised employment and expanded learnerships. Others argue the real solution is making it easier for businesses to hire, so the private sector can create sustainable jobs.",
     "weight": 1
   },
   {
     "id": "tender_reform",
     "category": "Governance & corruption",
-    "question": "Government jobs and contracts should be awarded based on merit and open competition \u2014 not on political connections or party loyalty.",
-    "context": "Currently, many senior public service positions and state tenders are awarded to party loyalists \u2014 a practice known as cadre deployment. Critics say this has hollowed out the state, enabling corruption and collapsing service delivery. Supporters argue it ensures ideological alignment and transformation in the public sector.",
+    "question": "Government jobs and contracts should be awarded based on ability and fair competition, not on political connections or party loyalty.",
+    "context": "A practice known as cadre deployment involves political parties, particularly the ANC, placing party loyalists in senior government and state-company positions regardless of their qualifications. Critics say this is a major cause of corruption and the collapse of service delivery in many areas. Supporters argue it ensures that the people running the state are ideologically committed to transformation. Almost all opposition parties support ending the practice.",
     "weight": 1
   },
   {
     "id": "basic_education",
     "category": "Education",
-    "question": "Fixing schools requires stricter performance testing and hiring teachers purely on ability, rather than just giving schools more money.",
-    "context": "SA performs near the bottom globally in PIRLS and TIMSS literacy and numeracy assessments. Only ~50% of learners who start Grade 1 reach matric. The debate divides between those who argue the system needs structural accountability (standardised testing, performance-linked tenure, school autonomy) and those who argue the root cause is inadequate funding, infrastructure, and a legacy of unequal resource allocation.",
+    "question": "Improving South Africa's schools requires more government spending, not only stricter accountability for teachers and principals.",
+    "context": "South Africa consistently scores near the bottom in international tests of reading and mathematics, and roughly half of children who start Grade 1 never reach matric. Many schools, particularly in rural and township areas, lack basic infrastructure like libraries, laboratories, and reliable electricity. Some argue the primary solution is increased funding to fix these inequalities in resources. Others argue that money alone is not enough and that stronger accountability, including performance assessments for teachers and consequences for underperforming schools, is equally necessary.",
     "weight": 1
   },
   {
-    "id": "poverty_relief",
-    "category": "Social welfare",
-    "question": "The state should significantly expand direct poverty relief, including increasing social grants and making the SRD grant permanent.",
-    "context": "The Social Relief of Distress (SRD) grant of R370/month covers ~9 million recipients but is widely seen as inadequate. Debate exists between expanding grants vs. prioritising job creation as the primary anti-poverty tool.",
+    "id": "townships",
+    "category": "Service delivery",
+    "question": "The government should prioritise upgrading townships and informal settlements by investing in housing, roads, electricity, and sanitation in these areas.",
+    "context": "Millions of South Africans live in townships and informal settlements that were created or neglected under apartheid, many still without reliable access to clean water, proper sanitation, paved roads, or decent housing. The government's RDP and BNG housing programmes have built millions of homes but are widely seen as insufficient and slow. Debate exists between those who argue the state must massively increase direct investment in upgrading these communities, and those who argue the focus should be on growing the broader economy so that people can afford to move out of poverty themselves.",
     "weight": 1
   },
   {
     "id": "basic_services",
     "category": "Service delivery",
-    "question": "Failing municipalities should be allowed to bring in private operators to deliver water, electricity, and sanitation where the state cannot.",
-    "context": "Over 60 municipalities are in financial distress. Service delivery protests exceed 200 per year. Millions lack reliable access to water and sanitation. The debate is between those who see private operators as efficient and accountable, and those who argue privatisation removes democratic accountability and raises costs for poor communities.",
+    "question": "When a municipality is failing to provide water, electricity, or sanitation, private companies should be brought in to run those services.",
+    "context": "More than 60 municipalities across South Africa are in serious financial trouble and unable to reliably deliver basic services. Service delivery protests happen hundreds of times a year. Some argue that bringing in private companies to manage failing services would improve efficiency and accountability. Others argue that private companies put profit before people, tend to raise prices, and that the solution is better-run government rather than handing services over to the private sector.",
     "weight": 1
   },
   {
     "id": "public_services_quality",
     "category": "Service delivery",
-    "question": "Improving the quality and reliability of public services (hospitals, Home Affairs, SASSA, municipalities) requires deep structural reform, not just more funding.",
-    "context": "Public satisfaction with government services is consistently low. Challenges include poor management, corruption, under-skilled staff, and infrastructure decay. Debate exists between privatisation, professionalisation, and increased state investment as solutions.",
+    "question": "Fixing broken government services like hospitals, Home Affairs, and SASSA requires more than money — it requires overhauling the way they are run.",
+    "context": "Many South Africans experience government services as slow, unreliable, and often corrupt. Hospitals run short of medicine, Home Affairs offices have long queues, and SASSA grants are sometimes delayed. There is debate about the cause. Some say the problem is a lack of funding and argue more investment is needed. Others say the deeper issue is poor management, corruption, and hiring people based on politics rather than skill, and that structural reform is what is required.",
     "weight": 1
   },
   {
     "id": "job_creation",
     "category": "Economy",
-    "question": "The government should take an active, interventionist role in directly creating jobs \u2014 through public works, state employment programmes, and incentivising businesses to hire.",
-    "context": "SA's official unemployment rate is around 32\u201333%, one of the highest in the world. Debate divides between those favouring state-led job creation (public employment schemes, labour-intensive infrastructure) and those favouring private sector-led growth through deregulation, lower taxes, and investment attraction.",
+    "question": "The government should play an active role in directly creating jobs through public works programmes and incentives for businesses to hire.",
+    "context": "South Africa's official unemployment rate is around 32 to 33%, one of the highest in the world. Some argue the government needs to step in directly by funding large-scale public employment programmes and offering incentives to get businesses to hire more workers. Others argue the best way to create lasting jobs is to reduce regulations, lower taxes, and make it easier to do business, so the private sector can grow and create jobs on its own.",
     "weight": 1
   },
   {
     "id": "labour_market",
     "category": "Economy",
-    "question": "South Africa's labour laws should be significantly relaxed \u2014 making it easier to hire and dismiss workers \u2014 to reduce unemployment.",
-    "context": "SA's Labour Relations Act and Basic Conditions of Employment Act are among the most protective in the world. Business groups argue rigid dismissal laws deter hiring, particularly of young workers. Unions (COSATU, SAFTU) and the left argue deregulation destroys job security and depresses wages. The ANC has resisted labour law reform under union pressure; DA, BOSA, and ActionSA support significant liberalisation.",
+    "question": "South Africa's labour laws should be relaxed to make it easier for businesses to hire and fire workers, in order to reduce unemployment.",
+    "context": "South Africa has some of the most protective labour laws in the world, making it legally difficult and expensive for employers to dismiss workers. Business groups argue these laws discourage companies from hiring, especially young and first-time workers. Trade unions and left-leaning parties argue that weakening these laws would take away job security and push wages down for already vulnerable workers. Parties like the DA, ActionSA, and BOSA support relaxing these laws, while unions and the EFF strongly oppose it.",
     "weight": 1
   },
   {
     "id": "local_manufacturing",
-    "category": "Industrial Policy",
-    "question": "South Africa should actively protect and grow domestic manufacturing through industrial policy, local procurement requirements, and tariffs on competing imports.",
-    "context": "SA's manufacturing sector has shrunk from ~25% of GDP in the 1980s to under 13% today. Deindustrialisation has cost millions of jobs. Policy tools under debate include the Masterplans (automotive, clothing, steel), local content requirements in government procurement (the '30% set-aside'), and import tariffs \u2014 balanced against WTO obligations and fears of inefficiency and retaliation.",
+    "category": "Industrial policy",
+    "question": "The government should actively protect South African factories and manufacturers by requiring local purchasing and taxing cheaper imported goods.",
+    "context": "South Africa's manufacturing sector has shrunk significantly over the past four decades, and deindustrialisation has cost the country millions of jobs. Policy options being debated include requiring government departments to buy locally made goods, providing support to key industries like clothing, steel, and cars, and placing tariffs (taxes) on imported goods that compete with local products. Supporters say this protects jobs and builds the economy. Critics say it makes goods more expensive for consumers and can trigger trade disputes with other countries.",
     "weight": 1
   },
   {
     "id": "mining_regulation",
     "category": "Natural resources",
-    "question": "The mining industry should be more heavily regulated and taxed to ensure greater benefits for local communities and the environment.",
-    "context": "Mining contributes ~8% of SA GDP and employs ~450,000 workers directly. The Minerals and Petroleum Resources Development Act (MPRDA) governs licensing. Ongoing debates include the Mining Charter's community ownership requirements, environmental rehabilitation obligations, and whether royalty taxes adequately compensate affected communities. The industry warns over-regulation risks investment flight.",
+    "question": "Mining companies should be more strictly regulated and taxed, so that local communities and the environment benefit more from South Africa's mineral wealth.",
+    "context": "Mining contributes about 8% of South Africa's economy and employs hundreds of thousands of workers. However, many communities near mines see little of the wealth, and environmental damage is a recurring concern. Debate exists about whether stronger taxes and regulations on mining companies would better compensate affected communities and protect the environment, or whether stricter rules would push mining investment to other countries and cost jobs.",
     "weight": 1
   },
   {
     "id": "renewable_energy",
     "category": "Energy policy",
-    "question": "South Africa should rapidly transition to renewable energy sources and phase out coal dependency.",
-    "context": "Coal generates ~85% of SA's electricity. The Just Energy Transition Partnership (JETP) \u2014 a R130bn+ international financing deal \u2014 aims to accelerate the shift to renewables while supporting affected coal communities (mainly in Mpumalanga). Tension exists between climate commitments, energy security, and the livelihoods of ~90,000 coal workers. The IRP (Integrated Resource Plan) is the key policy document.",
+    "question": "South Africa should move as quickly as possible to solar and wind energy and reduce its reliance on coal.",
+    "context": "About 85% of South Africa's electricity currently comes from coal-fired power stations. A major international funding deal worth over R130 billion aims to help South Africa shift towards renewable energy like solar and wind, while supporting the roughly 90,000 workers whose jobs depend on coal, mostly in Mpumalanga. Supporters of the shift say coal is destroying the environment and that renewables are now cheaper. Critics argue that moving too fast risks energy shortages and threatens coal workers' livelihoods before alternative jobs are in place.",
     "weight": 1
   },
   {
     "id": "banking_inclusion",
-    "category": "Economy & Banking",
-    "question": "The state should create a public bank and impose stricter regulations on private banks to ensure broader access to credit and financial services.",
-    "context": "South Africa's five largest banks control over 90% of banking assets. An estimated 11 million adults remain unbanked or underbanked. The Post Bank has been proposed as a state alternative but has faced governance failures. The debate is between those who want state intervention to break private bank dominance and those who argue competition policy and fintech innovation are better solutions.",
+    "category": "Economy & banking",
+    "question": "The government should create a state-owned bank and tighten regulations on private banks to ensure more South Africans can access loans and financial services.",
+    "context": "South Africa's five largest private banks control more than 90% of all banking. An estimated 11 million South African adults do not have proper access to banking or credit. A state bank has been proposed, with the Post Office's Post Bank often discussed as a vehicle for this, though it has struggled with serious governance problems. Those in favour argue a public bank would serve poorer communities that private banks ignore. Those against argue the solution is more competition between banks and better use of technology, not a new state institution.",
     "weight": 1
   },
   {
     "id": "pan_africanism",
     "category": "Foreign policy",
-    "question": "South Africa should deepen economic and political integration with the rest of Africa, even where this requires relaxing border controls.",
-    "context": "The African Continental Free Trade Area (AfCFTA) aims to create a single African market. Pan-Africanist parties support open continental movement; others argue SA's high unemployment and strained services make looser borders untenable. Undocumented migration from Zimbabwe, Mozambique, and elsewhere fuels political tension domestically.",
-    "weight": 1
-  },
-  {
-    "id": "traditional_authority",
-    "category": "Social policy",
-    "question": "Traditional leaders and customary law should have a formal, protected role in governance, land administration, and community justice.",
-    "context": "The Traditional and Khoi-San Leadership Act (2019) gives traditional councils formal powers over communal land. Critics \u2014 including women's rights groups and the DA \u2014 argue customary law often conflicts with constitutional rights on gender equality, LGBTQ+ rights, and land tenure security. Supporters, including the ANC and MKP, argue traditional institutions are legitimate, democratically rooted governance structures.",
+    "question": "South Africa should work towards closer economic and political ties with other African countries, even if it means making it easier for people from those countries to live and work here.",
+    "context": "A major continental trade agreement, the African Continental Free Trade Area, aims to make it easier to trade and move between African countries. Some parties argue South Africa should embrace deeper African integration as both an economic opportunity and a moral obligation to the continent. Others argue that with unemployment and service pressure as high as they are, South Africa cannot afford to open its borders further, and that freer movement would worsen competition for jobs and strain public services.",
     "weight": 1
   }
 ]
