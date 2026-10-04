@@ -1,0 +1,316 @@
+{
+  "updated": "2026-10-03T23:57:26.313Z",
+  "window_days": 30,
+  "feeds": [
+    {
+      "source": "Daily Maverick",
+      "homepage": "https://www.dailymaverick.co.za",
+      "url": "https://www.dailymaverick.co.za/dmrss/",
+      "ok": true,
+      "items": 53
+    },
+    {
+      "source": "News24",
+      "homepage": "https://www.news24.com",
+      "url": "https://feeds.capi24.com/v1/Search/articles/news24/Politics/rss",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "source": "News24",
+      "homepage": "https://www.news24.com",
+      "url": "https://feeds.capi24.com/v1/Search/articles/news24/TopStories/rss",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "source": "GroundUp",
+      "homepage": "https://groundup.org.za",
+      "url": "https://groundup.org.za/sitenews/rss/",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "source": "The Citizen",
+      "homepage": "https://www.citizen.co.za",
+      "url": "https://www.citizen.co.za/feed/",
+      "ok": true,
+      "items": 75
+    },
+    {
+      "source": "SABC News",
+      "homepage": "https://www.sabcnews.com",
+      "url": "https://www.sabcnews.com/sabcnews/feed/",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "source": "IOL",
+      "homepage": "https://iol.co.za",
+      "url": "https://iol.co.za/rss",
+      "ok": true,
+      "items": 30
+    }
+  ],
+  "items": [
+    {
+      "title": "Calls grow for death penalty as Parliament debates GBVF crisis",
+      "link": "https://iol.co.za/sunday-tribune/news/2026-10-04-calls-grow-for-death-penalty-as-parliament-debates-gbvf-crisis/",
+      "source": "IOL",
+      "published": "2026-10-03T23:15:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "MK Party supporters disappointed as Zuma skips uMhlathuze rally",
+      "link": "https://www.sabcnews.com/sabcnews/mk-party-supporters-disappointed-as-zuma-skips-umhlathuze-rally/",
+      "source": "SABC News",
+      "published": "2026-10-03T19:37:38.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Malema calls for lower electricity prices in SA",
+      "link": "https://www.sabcnews.com/sabcnews/1165764-2/",
+      "source": "SABC News",
+      "published": "2026-10-03T19:02:39.000Z",
+      "parties": [
+        "eff"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘Government must be your sugar daddy’: Malema says social grants should be increased",
+      "link": "https://www.citizen.co.za/news/south-africa/politics/government-must-be-your-sugar-daddy-malema-says-social-grants-should-be-increased/",
+      "source": "The Citizen",
+      "published": "2026-10-03T17:09:04.000Z",
+      "parties": [
+        "eff"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Voting for MKP for a better future is like voting for your grandparents, says Julius Malema",
+      "link": "https://www.news24.com/politics/voting-for-mkp-for-a-better-future-is-like-voting-for-your-grandparents-says-julius-malema-20261003-1047",
+      "source": "News24",
+      "published": "2026-10-03T15:29:11.000Z",
+      "parties": [
+        "eff",
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA warns 78% of Joburg bridges are poor or very poor",
+      "link": "https://www.news24.com/southafrica/news/da-warns-78-of-joburg-bridges-are-poor-or-very-poor-20261003-0924",
+      "source": "News24",
+      "published": "2026-10-03T13:25:19.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "'He must rot in jail’: Malema takes aim at Ramaphosa",
+      "link": "https://iol.co.za/news/politics/2026-10-03-he-must-rot-in-jail-malema-takes-aim-at-ramaphosa/",
+      "source": "IOL",
+      "published": "2026-10-03T13:18:00.000Z",
+      "parties": [
+        "eff"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "The Constitutional Court has ruled on the DA's system of corruption",
+      "link": "https://iol.co.za/thepost/opinion/2026-10-03-the-constitutional-court-has-ruled-on-the-das-system-of-corruption/",
+      "source": "IOL",
+      "published": "2026-10-03T12:00:00.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Rivals gun for DA over alleged ‘sextorter’, ‘bogus doctor’ on its candidate lists",
+      "link": "https://www.news24.com/southafrica/news/rivals-gun-for-da-over-alleged-sextorter-bogus-doctor-on-its-candidate-lists-20261002-1146",
+      "source": "News24",
+      "published": "2026-10-02T17:10:19.000Z",
+      "parties": [
+        "da",
+        "actionsa"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "DA’s ‘water tanker mafia’ billboard removed after eThekwini mayor threatens legal action",
+      "link": "https://www.news24.com/politics/das-water-tanker-mafia-billboard-removed-after-ethekwini-mayor-threatens-legal-action-20261002-1007",
+      "source": "News24",
+      "published": "2026-10-02T14:47:59.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "‘Pay back the money’: DA says Mashazi must be held accountable for irregular hiring practices",
+      "link": "https://www.citizen.co.za/news/south-africa/politics/pay-back-the-money-da-says-mashazi-must-be-held-accountable-for-irregular-hiring-practices/",
+      "source": "The Citizen",
+      "published": "2026-10-02T11:48:29.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "WATCH: EFF leader Julius Malema warns race-based politics will ‘backfire badly’",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/eff-leader-julius-malema-warns-race-based-politics-will-backfire-badly/",
+      "source": "The Citizen",
+      "published": "2026-10-02T08:40:57.000Z",
+      "parties": [
+        "eff"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Anger after Nelson Mandela Bay ANC leader’s brother tops election candidate list",
+      "link": "https://www.news24.com/politics/anger-after-nelson-mandela-bay-anc-leaders-brother-tops-election-candidate-list-20261002-0604",
+      "source": "News24",
+      "published": "2026-10-02T08:18:14.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA showdown: How party bosses tried to shield ‘bogus doctor’ from expulsion",
+      "link": "https://www.news24.com/southafrica/news/da-showdown-how-party-bosses-tried-to-shield-bogus-doctor-from-expulsion-20261001-1146",
+      "source": "News24",
+      "published": "2026-10-01T17:12:08.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "DA says IEC neither neutral nor right in PR lists court wrangle",
+      "link": "https://www.news24.com/politics/da-says-iec-neither-neutral-nor-right-in-pr-lists-court-wrangle-20261001-1122",
+      "source": "News24",
+      "published": "2026-10-01T16:42:34.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "ANC Mangaung candidates take exclusion fight to the Constitutional Court",
+      "link": "https://www.news24.com/politics/anc-mangaung-candidates-take-exclusion-fight-to-the-constitutional-court-20261001-0827",
+      "source": "News24",
+      "published": "2026-10-01T11:57:17.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "‘Bogus doctor’ to take axing on review after termination of DA membership",
+      "link": "https://www.news24.com/southafrica/news/da-terminates-membership-of-bogus-doctor-abdulkader-elyas-with-immediate-effect-20261001-0233",
+      "source": "News24",
+      "published": "2026-10-01T09:14:33.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "IEC says DA’s list case is meritless and risks disrupting election",
+      "link": "https://www.news24.com/politics/iec-says-das-list-case-is-meritless-and-risks-disrupting-election-20260930-1248",
+      "source": "News24",
+      "published": "2026-10-01T08:58:42.000Z",
+      "parties": [
+        "da",
+        "eff",
+        "mkp",
+        "actionsa",
+        "good"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "High Court orders ANC to provide membership records in doomed Eastern Cape conference battle",
+      "link": "https://www.news24.com/politics/high-court-orders-anc-to-provide-membership-records-in-doomed-eastern-cape-conference-battle-20261001-0589",
+      "source": "News24",
+      "published": "2026-10-01T07:50:15.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Freedom Front Plus’ apartheid killers should not be elected councillors nor mayoral candidates",
+      "link": "https://www.dailymaverick.co.za/opinionista/2026-09-30-freedom-front-plus-apartheid-killers-should-not-be-elected-councillors-nor-mayoral-candidates/",
+      "source": "Daily Maverick",
+      "published": "2026-09-30T20:58:41.000Z",
+      "parties": [
+        "ffplus"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Parties split on IDAC’s future as Madlanga evidence mounts",
+      "link": "https://www.news24.com/politics/parties-split-on-idacs-future-as-madlanga-evidence-mounts-20260930-1152",
+      "source": "News24",
+      "published": "2026-09-30T17:14:11.000Z",
+      "parties": [
+        "anc",
+        "da",
+        "eff",
+        "mkp"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Gigaba quietly removed from parliamentary committee after ANC fracas",
+      "link": "https://www.news24.com/politics/gigaba-quietly-removed-from-parliamentary-committee-after-anc-fracas-20260930-0903",
+      "source": "News24",
+      "published": "2026-09-30T13:03:28.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Significant, but delayed: 5 years later, Malema finally apologises to Judge Elias Matojane",
+      "link": "https://www.news24.com/politics/significant-but-delayed-5-years-later-malema-finally-apologises-to-judge-elias-matojane-20260930-0891",
+      "source": "News24",
+      "published": "2026-09-30T12:52:57.000Z",
+      "parties": [
+        "eff"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Between candour and coercion — why SA won’t bend to Washington’s dictates",
+      "link": "https://www.dailymaverick.co.za/opinionista/2026-09-29-between-candour-and-coercion-why-sa-wont-bend-to-washingtons-dictates/",
+      "source": "Daily Maverick",
+      "published": "2026-09-29T23:29:35.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "What the Gabrielle Goliath case has meant for SA’s art world",
+      "link": "https://www.dailymaverick.co.za/opinionista/2026-09-29-what-the-gabrielle-goliath-case-has-meant-for-sas-art-world/",
+      "source": "Daily Maverick",
+      "published": "2026-09-29T12:37:51.000Z",
+      "parties": [
+        "pa"
+      ],
+      "accountability": true
+    }
+  ]
+}

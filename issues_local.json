@@ -1,0 +1,121 @@
+[
+  {
+    "id": "service_money",
+    "category": "Water & electricity",
+    "question": "Money people pay for water and electricity should only be used to fix and maintain water and electricity, not for other spending.",
+    "context": "Many municipalities use the money residents pay for water and electricity to cover salaries and other costs, while pipes, substations and treatment works fall apart. Some parties want this money locked away for water and electricity only. Supporters say this is the only way to stop the networks collapsing. Critics say poorer municipalities need the flexibility to pay for other urgent needs.",
+    "weight": 1
+  },
+  {
+    "id": "private_operators",
+    "category": "Water & electricity",
+    "question": "When a municipality can't keep water, electricity or rubbish collection working, private companies should be brought in to run them.",
+    "context": "Dozens of municipalities are broke and some go weeks without reliable water or rubbish collection. One option is to pay private companies to run or fix these services. Supporters say private companies bring skills and money that councils lack. Critics say they put profit before people, tend to raise prices, and that the real fix is a properly run municipality.",
+    "weight": 1
+  },
+  {
+    "id": "power_choice",
+    "category": "Electricity",
+    "question": "Municipalities should be able to buy electricity from companies other than Eskom, including from homes with solar panels.",
+    "context": "New laws allow municipalities to buy power from private producers and to pay households and businesses for extra solar power they feed into the grid. Supporters say this makes electricity more reliable and could bring prices down. Critics worry about the cost of new contracts, that wealthier homes with solar benefit most, and that it weakens Eskom.",
+    "weight": 1
+  },
+  {
+    "id": "free_services",
+    "category": "Basic services",
+    "question": "More poor households, such as unemployed people and pensioners, should get free basic water and electricity, even if other residents have to pay more.",
+    "context": "Right now, households registered as poor get a small amount of free water and electricity each month. Some parties want to give this to many more people, such as everyone who is unemployed or receives a grant. Supporters say basic services are a right and many people simply cannot pay. Critics say municipalities are already broke and higher bills for paying residents will push people and businesses away.",
+    "weight": 1
+  },
+  {
+    "id": "debt_writeoff",
+    "category": "Municipal bills",
+    "question": "Municipalities should cancel old unpaid municipal bills for poor and elderly households.",
+    "context": "Many households owe their municipality large amounts for rates, water and electricity, some of it caused by wrong billing. Some parties are promising to cancel these debts for pensioners or for cheaper homes. Supporters say it gives struggling families a fresh start. Critics say it rewards people who don't pay and leaves municipalities with even less money.",
+    "weight": 1
+  },
+  {
+    "id": "local_jobs",
+    "category": "Jobs",
+    "question": "Municipalities should directly create jobs for local young people, through public works projects, learnerships and hiring locally.",
+    "context": "More than half of young South Africans are unemployed. Some argue municipalities should create work directly, for example by hiring young people to clean, maintain and build in their own communities. Others argue municipalities should focus on fixing basic services and cutting red tape, so that businesses can grow and create lasting jobs.",
+    "weight": 1
+  },
+  {
+    "id": "insourcing",
+    "category": "Jobs",
+    "question": "Security guards, cleaners and rubbish collectors should be employed directly by the municipality, not through private companies.",
+    "context": "Many municipalities pay private companies to supply security guards, cleaners and rubbish collectors. 'Insourcing' would make these workers permanent municipal staff. Supporters say it ends unfair contracts, cuts out corrupt tenders and gives workers job security. Critics say it adds big permanent costs to already strained budgets.",
+    "weight": 1
+  },
+  {
+    "id": "spaza_shops",
+    "category": "Local business",
+    "question": "Only South African citizens should be allowed to own spaza shops or get street-trading permits.",
+    "context": "After children died from contaminated food linked to spaza shops in 2024, the government ordered all spaza shops to register. Some parties now want spaza shops and street trading reserved for citizens. Supporters say the township economy should benefit South Africans. Critics say it scapegoats foreign nationals, may be unconstitutional, and that the real problem is enforcing health rules for everyone.",
+    "weight": 1
+  },
+  {
+    "id": "law_enforcement",
+    "category": "Crime & safety",
+    "question": "Municipalities should hire many more law enforcement officers and put up more CCTV cameras to fight crime.",
+    "context": "South Africa has one of the highest murder rates in the world. While SAPS is run by national government, municipalities can hire their own law enforcement officers, install cameras and improve street lighting. Some argue this is the most direct way to make neighbourhoods safer. Others argue the money is better spent on jobs and services that tackle the causes of crime.",
+    "weight": 1
+  },
+  {
+    "id": "city_police",
+    "category": "Crime & safety",
+    "question": "Big cities should be allowed to run their own police services, instead of all police being controlled by national government.",
+    "context": "Right now, SAPS is controlled by national government and city law enforcement can mostly only deal with traffic and by-laws. Some parties want capable cities to run their own police so they can respond to local crime. Others argue one national police service keeps things consistent and stops rich areas from getting better policing than poor ones.",
+    "weight": 1
+  },
+  {
+    "id": "land_invasions",
+    "category": "Land & housing",
+    "question": "Municipalities should act quickly to stop illegal land grabs and take back hijacked buildings.",
+    "context": "Illegal land occupations and 'hijacked' buildings, often controlled by criminals who collect rent, are a growing problem. The 2023 Marshalltown fire in Johannesburg killed 77 people in one such building. Some parties want much firmer action, including evictions where courts allow it. Others say occupations are a symptom of the housing crisis and evicting people only moves the problem elsewhere.",
+    "weight": 1
+  },
+  {
+    "id": "upgrade_townships",
+    "category": "Land & housing",
+    "question": "Municipalities should put townships and informal settlements first when spending on roads, housing, water and electricity.",
+    "context": "Millions of people live in townships and informal settlements that were neglected under apartheid, many still without proper roads, sanitation or reliable water. Some argue municipalities must put these areas first. Others argue that spending should be spread more evenly, and that maintaining existing infrastructure everywhere keeps the whole city working.",
+    "weight": 1
+  },
+  {
+    "id": "housing_near_jobs",
+    "category": "Land & housing",
+    "question": "Municipalities should use empty public land close to jobs and town centres to build affordable homes, including in richer suburbs.",
+    "context": "Apartheid planning pushed poor and Black communities far from jobs, and most new low-cost housing is still built on the edges of towns, where getting to work is long and expensive. Many cities own unused land in better-located areas. Supporters say building there undoes apartheid planning. Critics, including some existing residents, worry about property values and pressure on local services.",
+    "weight": 1
+  },
+  {
+    "id": "youth_education",
+    "category": "Education & youth",
+    "question": "Municipalities should spend more on libraries, crèches and study bursaries for young people, even if it means less money for other things.",
+    "context": "Schools are run by provincial government, but municipalities can still support learning. They run public libraries, help early childhood centres (crèches) register and get funding, and some offer bursaries to local students. Supporters say this gives young people a better start. Critics say municipalities should focus on getting water, electricity and roads right first.",
+    "weight": 1
+  },
+  {
+    "id": "merit_jobs",
+    "category": "Corruption",
+    "question": "Municipal jobs and contracts should go to people based on skills and fair competition, not political connections.",
+    "context": "'Cadre deployment' means a party placing its loyal members in important government jobs, whether or not they are qualified. The Auditor-General has repeatedly linked failing municipalities to unqualified officials and political interference. Almost every party now says it opposes cadre deployment, but their records in government differ.",
+    "weight": 1
+  },
+  {
+    "id": "small_parties",
+    "category": "Coalitions",
+    "question": "Parties that get less than 1% of the vote should not get seats on the council, so very small parties can't decide who becomes mayor.",
+    "context": "Since 2016 many big cities have been run by unstable coalitions, with mayors changing again and again. In Johannesburg, a party with less than 1% of the vote held the mayor's job twice. Supporters of a 1% minimum say it would bring stability. Opponents say it silences people who vote for small parties and is unfair to new parties.",
+    "weight": 1
+  },
+  {
+    "id": "traditional_leaders",
+    "category": "Rural areas",
+    "question": "Traditional leaders should have more say over how land is used and developed in rural areas.",
+    "context": "Millions of South Africans live on land under the authority of traditional leaders (amakhosi), alongside elected municipal councils. The two often clash, especially over who gets land and what gets built. Some parties want traditional leaders to have a stronger formal role. Others say elected councils should have the final say, and that people in rural areas deserve the same land rights as everyone else.",
+    "weight": 1
+  }
+]
