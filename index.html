@@ -1785,6 +1785,27 @@ async function fetchJson(url, fallback) {
   }
 }
 
+// The daily GitHub Action commits news.json to the repo without redeploying the
+// site, so after the deployed copy loads, check GitHub for a newer one. This
+// runs in the background so a slow GitHub never holds up the page.
+const NEWS_LIVE_URL = 'https://raw.githubusercontent.com/Kwamza/SA_political_compass/main/news.json';
+
+async function loadLatestNews() {
+  try {
+    const res = await fetch(NEWS_LIVE_URL);
+    if (!res.ok) return;
+    const latest = await res.json();
+    if (!latest || !Array.isArray(latest.items)) return;
+    if (String(latest.updated || '') <= String(NEWS.updated || '')) return;
+    NEWS = latest;
+  } catch (err) {
+    return;
+  }
+  const active = document.querySelector('.screen.active');
+  if (active && active.id === 'screen-news') renderNews();
+  else if (active && active.id === 'screen-trust-party' && shownTrustParty) renderTrustParty(shownTrustParty);
+}
+
 async function init() {
   try {
     const [issues, parties, localIssues, localParties, trust, news] = await Promise.all([
@@ -1837,6 +1858,7 @@ async function init() {
     ['btn-start-local', 'btn-start-national'].forEach(id => document.getElementById(id).disabled = false);
 
     buildLanding();
+    loadLatestNews();
   } catch (err) {
     console.error("Error:", err);
     document.getElementById('meta-national').textContent = "Couldn't load data — run via a local server.";
@@ -2606,6 +2628,7 @@ const INFO_SCREENS = ['screen-trust', 'screen-trust-party', 'screen-news'];
 const RETURN_LABELS = { 'screen-results': '← Back to my results', 'screen-quiz': '← Back to the quiz', 'screen-demographics': '← Back' };
 let infoReturnScreen = 'screen-landing';
 let newsFilter = 'all';
+let shownTrustParty = null;
 const trustCache = {};
 
 function basisTagHtml(basis) {
@@ -2781,6 +2804,7 @@ function councilListHtml(councils) {
 }
 
 function renderTrustParty(partyId) {
+  shownTrustParty = partyId;
   const p = ALL_PARTIES[partyId];
   const t = computeTrust(partyId);
   const sc = TRUST.scoring;
