@@ -2984,17 +2984,20 @@ function renderNews() {
 // ══════════════════════════════════════
 function recordAnalytics(topParty, matchScores, userAnswers, demographics) {
   const issueImportances = {};
+  const issueOpinions = {};
   for (const [issueId, response] of Object.entries(userAnswers)) {
     issueImportances[issueId] = response.importance;
+    issueOpinions[issueId] = response.opinion;
   }
-  
+
   const payload = {
     timestamp: new Date().toISOString(),
     election: MODE,
     demographics,
     topMatch: topParty,
     scores: matchScores,
-    importances: issueImportances
+    importances: issueImportances,
+    answers: issueOpinions
   };
   
   console.log("Analytics Payload:", payload);
