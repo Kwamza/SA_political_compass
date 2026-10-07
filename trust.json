@@ -1,0 +1,1068 @@
+{
+  "last_reviewed": "2026-10-04",
+  "about": "Manifestos are promises. This rating looks at what parties have actually done: how well the councils they run are managed, and what courts, watchdogs and investigators have found about the party and its senior figures. Every number below links back to a public source.",
+  "scoring": {
+    "start": 3,
+    "min": 1,
+    "max": 5,
+    "governance": {
+      "min_councils": 3,
+      "benchmark": 0.5,
+      "scale": 4,
+      "points": {
+        "Clean audit": 1,
+        "Unqualified with findings": 0.5
+      },
+      "explain": "Each council the party runs on its own scores 1 for a clean audit, ½ for an unqualified audit with findings and 0 for anything worse. The average is compared with a pass mark of ½: a perfect record adds 2 stars, a record of failed audits takes away 2."
+    },
+    "record": {
+      "max_total": 2.5,
+      "tier_points": {
+        "conviction": 1,
+        "finding": 0.75,
+        "charged": 0.5,
+        "investigation": 0.25
+      },
+      "role_weight": {
+        "party": 1,
+        "leader": 1,
+        "senior": 0.75
+      },
+      "category_weight": {
+        "corruption": 1,
+        "governance": 1
+      },
+      "status_weight": {
+        "final": 1,
+        "ongoing": 1,
+        "appeal": 0.75
+      },
+      "age_weight": [
+        {
+          "max_years": 5,
+          "weight": 1
+        },
+        {
+          "max_years": 10,
+          "weight": 0.5
+        },
+        {
+          "max_years": null,
+          "weight": 0.25
+        }
+      ],
+      "explain": "Each item takes points off depending on how serious it is, who was involved, how long ago it was settled and whether it is under appeal. Open cases count in full until they are resolved. The most that can be taken off is 2.5 stars."
+    }
+  },
+  "labels": {
+    "tiers": {
+      "conviction": "Court conviction",
+      "finding": "Official finding",
+      "charged": "Formally charged",
+      "investigation": "Under investigation"
+    },
+    "roles": {
+      "party": "The party itself",
+      "leader": "Party leader or deputy",
+      "senior": "Senior member or public representative"
+    },
+    "categories": {
+      "corruption": "Corruption or abuse of public money",
+      "governance": "Abuse of government power or breaking governance rules"
+    },
+    "status": {
+      "final": "Final",
+      "ongoing": "Still open",
+      "appeal": "Under appeal"
+    }
+  },
+  "rules": [
+    "Only corruption and governance matters count: misuse of public money, tender fraud, bribery, and abuse of government power or office. Other criminal cases and court rulings (for example firearm, hate speech or incitement cases) are not part of the rating.",
+    "Only formal, public-record matters count: court rulings, commissions of inquiry, SIU and Public Protector reports, parliamentary ethics findings, criminal charges and officially confirmed investigations. Media allegations alone do not.",
+    "Only conduct while the person held a party or public office counts. Crimes from before someone entered politics are not included.",
+    "People are innocent until proven guilty. Findings can be overturned, and the record will be updated when they are.",
+    "A party with no record items is not certified clean. Parties that have governed longer and at a bigger scale have faced more scrutiny.",
+    "News headlines are shown for context only. They never change a rating."
+  ],
+  "governance": {
+    "audit_year": "2023-24",
+    "audit_source": {
+      "label": "Auditor-General: local government audit outcomes",
+      "url": "https://mfma-2024.agsareports.co.za/"
+    },
+    "control_source": {
+      "label": "2021 municipal election results by council",
+      "url": "https://en.wikipedia.org/wiki/2021_South_African_municipal_elections"
+    },
+    "note": "Counts councils (local and metro) where the party won more than half the seats in the 2021 election. Councils run by coalitions are not counted, because responsibility is shared. Control may have changed in some councils since 2021.",
+    "all_councils": {
+      "councils": 212,
+      "clean": 27,
+      "unqualified": 108,
+      "score": 0.318
+    },
+    "parties": {
+      "anc": {
+        "councils": [
+          {
+            "name": "Amahlati",
+            "province": "EC",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Ba-Phalaborwa",
+            "province": "LP",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Bela-Bela",
+            "province": "LP",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Blouberg",
+            "province": "LP",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Blue Crane Route",
+            "province": "EC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Buffalo City Metro",
+            "province": "EC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Bushbuckridge",
+            "province": "MP",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Chief Albert Luthuli",
+            "province": "MP",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "City of Mbombela",
+            "province": "MP",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Collins Chabane",
+            "province": "LP",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Dawid Kruiper",
+            "province": "NC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Dihlabeng",
+            "province": "FS",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Dikgatlong",
+            "province": "NC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Dipaleseng",
+            "province": "MP",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Ditsobotla",
+            "province": "NW",
+            "outcome": "Disclaimer"
+          },
+          {
+            "name": "DR AB Xuma",
+            "province": "EC",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Dr Nkosazana Dlamini Zuma",
+            "province": "KZN",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Dr Pixley Ka Isaka Seme",
+            "province": "MP",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Dr. JS Moroka",
+            "province": "MP",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Elias Motsoaledi (Greater Groblersdal)",
+            "province": "LP",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Elundini",
+            "province": "EC",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Emakhazeni",
+            "province": "MP",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Emalahleni",
+            "province": "MP",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Emthanjeni",
+            "province": "NC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Enoch Mgijima",
+            "province": "EC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Ephraim Mogale",
+            "province": "LP",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Fetakgomo Tubatse",
+            "province": "LP",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Ga-Segonyana",
+            "province": "NC",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Great Kei",
+            "province": "EC",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Greater Giyani",
+            "province": "LP",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Greater Kokstad",
+            "province": "KZN",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Greater Letaba",
+            "province": "LP",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Greater Taung",
+            "province": "NW",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Greater Tzaneen",
+            "province": "LP",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Hantam",
+            "province": "NC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Impendle",
+            "province": "KZN",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Ingquza Hill",
+            "province": "EC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Intsika Yethu",
+            "province": "EC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Inxuba Yethemba",
+            "province": "EC",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Joe Morolong",
+            "province": "NC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Kagisano-Molopo",
+            "province": "NW",
+            "outcome": "Not finalised on time"
+          },
+          {
+            "name": "Kai !Garib",
+            "province": "NC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Kamiesberg",
+            "province": "NC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Kgetlengrivier",
+            "province": "NW",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Khai-Ma",
+            "province": "NC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "King Sabata Dalindyebo",
+            "province": "EC",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Kopanong",
+            "province": "FS",
+            "outcome": "Not finalised on time"
+          },
+          {
+            "name": "Lepelle Nkumpi",
+            "province": "LP",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Lephalale",
+            "province": "LP",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Letsemeng",
+            "province": "FS",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Madibeng",
+            "province": "NW",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Mafube",
+            "province": "FS",
+            "outcome": "Not finalised on time"
+          },
+          {
+            "name": "Magareng",
+            "province": "NC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Mahikeng",
+            "province": "NW",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Makana",
+            "province": "EC",
+            "outcome": "Disclaimer"
+          },
+          {
+            "name": "Makhado",
+            "province": "LP",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Makhudutamaga",
+            "province": "LP",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Mandeni",
+            "province": "KZN",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Mangaung Metro",
+            "province": "FS",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Mantsopa",
+            "province": "FS",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Maquassi Hills",
+            "province": "NW",
+            "outcome": "Adverse"
+          },
+          {
+            "name": "Maruleng",
+            "province": "LP",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Masilonyana",
+            "province": "FS",
+            "outcome": "Not finalised on time"
+          },
+          {
+            "name": "Matatiele",
+            "province": "EC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Matjhabeng",
+            "province": "FS",
+            "outcome": "Not finalised on time"
+          },
+          {
+            "name": "Matlosana",
+            "province": "NW",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Mbhashe",
+            "province": "EC",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Mhlontlo",
+            "province": "EC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Mkhambathini",
+            "province": "KZN",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Mnquma",
+            "province": "EC",
+            "outcome": "Clean audit"
+          },
+          {
+            "name": "Mogalakwena",
+            "province": "LP",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Mohokare",
+            "province": "FS",
+            "outcome": "Not finalised on time"
+          },
+          {
+            "name": "Molemole",
+            "province": "LP",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Moretele",
+            "province": "NW",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Moses Kotane",
+            "province": "NW",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Mpofana",
+            "province": "KZN",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Msukaligwa",
+            "province": "MP",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Musina",
+            "province": "LP",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Naledi",
+            "province": "NW",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Ndlambe",
+            "province": "EC",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Ndwedwe",
+            "province": "KZN",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Ngqushwa",
+            "province": "EC",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Ngwathe",
+            "province": "FS",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Nketoana",
+            "province": "FS",
+            "outcome": "Disclaimer"
+          },
+          {
+            "name": "Nkomazi",
+            "province": "MP",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Ntabankulu",
+            "province": "EC",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Nyandeni",
+            "province": "EC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Phokwane",
+            "province": "NC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Phumelela",
+            "province": "FS",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Polokwane",
+            "province": "LP",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Port St. Johns",
+            "province": "EC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Ramotshere Moiloa",
+            "province": "NW",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Ratlou",
+            "province": "NW",
+            "outcome": "Disclaimer"
+          },
+          {
+            "name": "Ray Nkonyeni",
+            "province": "KZN",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Raymond Mhlaba",
+            "province": "EC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Renosterberg",
+            "province": "NC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Richmond",
+            "province": "KZN",
+            "outcome": "Clean audit"
+          },
+          {
+            "name": "Richtersveld",
+            "province": "NC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Sakhisizwe",
+            "province": "EC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Senqu",
+            "province": "EC",
+            "outcome": "Clean audit"
+          },
+          {
+            "name": "Setsoto",
+            "province": "FS",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Sol Plaatje",
+            "province": "NC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Sundays River Valley",
+            "province": "EC",
+            "outcome": "Disclaimer"
+          },
+          {
+            "name": "Thaba Chweu",
+            "province": "MP",
+            "outcome": "Not finalised on time"
+          },
+          {
+            "name": "Thembisile Hani",
+            "province": "MP",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Thulamela",
+            "province": "LP",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Tokologo",
+            "province": "FS",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Tsantsabane",
+            "province": "NC",
+            "outcome": "Disclaimer"
+          },
+          {
+            "name": "Tswaing",
+            "province": "NW",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Tswelopele",
+            "province": "FS",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Ubuhlebezwe",
+            "province": "KZN",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Ubuntu",
+            "province": "NC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "uMshwathi",
+            "province": "KZN",
+            "outcome": "Clean audit"
+          },
+          {
+            "name": "Umsobomvu",
+            "province": "NC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "uMzimkhulu",
+            "province": "KZN",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Umzimvubu",
+            "province": "EC",
+            "outcome": "Clean audit"
+          },
+          {
+            "name": "Umzumbe",
+            "province": "KZN",
+            "outcome": "Adverse"
+          },
+          {
+            "name": "Victor Khanye",
+            "province": "MP",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Walter Sisulu",
+            "province": "EC",
+            "outcome": "Qualified"
+          },
+          {
+            "name": "Winnie Madikizela-Mandela",
+            "province": "EC",
+            "outcome": "Unqualified with findings"
+          }
+        ]
+      },
+      "da": {
+        "councils": [
+          {
+            "name": "Bergriver",
+            "province": "WC",
+            "outcome": "Clean audit"
+          },
+          {
+            "name": "City of Cape Town Metro",
+            "province": "WC",
+            "outcome": "Clean audit"
+          },
+          {
+            "name": "Drakenstein",
+            "province": "WC",
+            "outcome": "Clean audit"
+          },
+          {
+            "name": "Hessequa",
+            "province": "WC",
+            "outcome": "Clean audit"
+          },
+          {
+            "name": "Kouga",
+            "province": "EC",
+            "outcome": "Clean audit"
+          },
+          {
+            "name": "Midvaal",
+            "province": "GP",
+            "outcome": "Clean audit"
+          },
+          {
+            "name": "Mossel Bay",
+            "province": "WC",
+            "outcome": "Clean audit"
+          },
+          {
+            "name": "Overstrand",
+            "province": "WC",
+            "outcome": "Clean audit"
+          },
+          {
+            "name": "Stellenbosch",
+            "province": "WC",
+            "outcome": "Clean audit"
+          },
+          {
+            "name": "Swartland",
+            "province": "WC",
+            "outcome": "Clean audit"
+          },
+          {
+            "name": "Swellendam",
+            "province": "WC",
+            "outcome": "Clean audit"
+          },
+          {
+            "name": "Umngeni",
+            "province": "KZN",
+            "outcome": "Unqualified with findings"
+          }
+        ]
+      },
+      "ifp": {
+        "councils": [
+          {
+            "name": "Big 5 Hlabisa",
+            "province": "KZN",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Jozini",
+            "province": "KZN",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Mfolozi",
+            "province": "KZN",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Msinga",
+            "province": "KZN",
+            "outcome": "Clean audit"
+          },
+          {
+            "name": "Nkandla",
+            "province": "KZN",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Nquthu",
+            "province": "KZN",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Ulundi",
+            "province": "KZN",
+            "outcome": "Unqualified with findings"
+          },
+          {
+            "name": "Umlalazi",
+            "province": "KZN",
+            "outcome": "Clean audit"
+          },
+          {
+            "name": "uPhongolo",
+            "province": "KZN",
+            "outcome": "Unqualified with findings"
+          }
+        ]
+      }
+    }
+  },
+  "entries": [
+    {
+      "party": "anc",
+      "date": "2022-06-22",
+      "tier": "finding",
+      "category": "corruption",
+      "role": "party",
+      "status_type": "final",
+      "title": "State Capture Commission findings",
+      "person": "ANC as an organisation",
+      "summary": "The Zondo Commission found that state capture took hold during the Zuma administration, that the ANC failed to act against it, and that the party's practice of cadre deployment to public posts was unconstitutional and unlawful.",
+      "status": "Final reports delivered in 2022. Related prosecutions are ongoing.",
+      "sources": [
+        {
+          "label": "Zondo Commission (overview)",
+          "url": "https://en.wikipedia.org/wiki/Zondo_Commission"
+        }
+      ]
+    },
+    {
+      "party": "anc",
+      "date": "2021-09-29",
+      "tier": "finding",
+      "category": "corruption",
+      "role": "senior",
+      "status_type": "final",
+      "title": "Digital Vibes health contract",
+      "person": "Zweli Mkhize (then Minister of Health)",
+      "summary": "An SIU report found Mkhize's conduct in approving a R150 million Department of Health contract to Digital Vibes, a company linked to his associates, was unlawful. He resigned as minister in August 2021.",
+      "status": "SIU findings released in 2021. One former state employee was convicted in 2024.",
+      "sources": [
+        {
+          "label": "Daily Maverick, 29 Sep 2021",
+          "url": "https://www.dailymaverick.co.za/article/2021-09-29-released-damning-siu-report-finds-at-least-r72m-fruitless-and-wasted-implicates-mkhize-doh-officials-in-digital-vibes-contract/"
+        }
+      ]
+    },
+    {
+      "party": "anc",
+      "date": "2026-05-08",
+      "tier": "investigation",
+      "category": "governance",
+      "role": "leader",
+      "status_type": "ongoing",
+      "title": "Phala Phala impeachment inquiry",
+      "person": "Cyril Ramaphosa (ANC president and President of South Africa)",
+      "summary": "In 2022 an independent panel found there may be evidence of serious constitutional violations linked to the theft of foreign currency from the President's Phala Phala farm. Parliament voted not to act on it. In May 2026 the Constitutional Court ruled that vote unlawful, and Parliament has set up an impeachment inquiry.",
+      "status": "Impeachment inquiry under way. No finding of guilt has been made.",
+      "sources": [
+        {
+          "label": "EWN, 7 May 2026",
+          "url": "https://www.ewn.co.za/2026/05/07/constitutional-court-ruling-could-reopen-ramaphosa-impeachment-process"
+        },
+        {
+          "label": "IOL, 2 Jun 2026",
+          "url": "https://iol.co.za/news/politics/2026-06-02-who-is-makashule-gana-the-man-leading-parliaments-phala-phala-impeachment-inquiry/"
+        }
+      ]
+    },
+    {
+      "party": "anc",
+      "date": "2025-07-30",
+      "tier": "investigation",
+      "category": "corruption",
+      "role": "leader",
+      "status_type": "ongoing",
+      "title": "Hawks inquiry into property purchases",
+      "person": "Paul Mashatile (ANC deputy president and Deputy President of South Africa)",
+      "summary": "The Hawks confirmed a corruption inquiry related to luxury properties, including a R28.9 million Constantia house bought through a company linked to his son-in-law. Mashatile denies wrongdoing.",
+      "status": "Inquiry registered; no charges.",
+      "sources": [
+        {
+          "label": "Cape Argus / IOL, 30 Jul 2025",
+          "url": "https://iol.co.za/capeargus/news/2025-07-30-how-deputy-president-mashatiles-r65-million-properties-contradict-his-income/"
+        }
+      ]
+    },
+    {
+      "party": "anc",
+      "date": "2026-10-02",
+      "tier": "investigation",
+      "category": "governance",
+      "role": "senior",
+      "status_type": "ongoing",
+      "title": "Madlanga Commission and Public Protector probe",
+      "person": "Senzo Mchunu (Police Minister, on leave)",
+      "summary": "Mchunu was placed on leave over allegations of political interference in policing. The Presidency says he is not implicated in the Madlanga Commission's interim report, though witnesses have implicated him. The Public Protector says a separate probe is nearly complete.",
+      "status": "Commission final report due January 2027. No finding against Mchunu yet.",
+      "sources": [
+        {
+          "label": "IOL, 2 Oct 2026",
+          "url": "https://iol.co.za/news/politics/2026-10-02-mchunu-probe-public-protector-says-investigation-is-nearing-finish-line/"
+        },
+        {
+          "label": "SABC News",
+          "url": "https://www.sabcnews.com/sabcnews/mchunu-is-not-implicated-in-madlanga-commissions-report-presidency/"
+        }
+      ]
+    },
+    {
+      "party": "mkp",
+      "date": "2021-06-29",
+      "tier": "conviction",
+      "category": "governance",
+      "role": "leader",
+      "status_type": "final",
+      "title": "Contempt of the Constitutional Court",
+      "person": "Jacob Zuma (MK Party leader; then former ANC president)",
+      "summary": "The Constitutional Court found Zuma guilty of contempt for defying its order to appear before the State Capture Commission, and sentenced him to 15 months in prison.",
+      "status": "Final. Released on medical parole in 2021; the rest of the sentence was remitted in 2023.",
+      "sources": [
+        {
+          "label": "Secretary of the Judicial Commission v Zuma [2021] ZACC 18",
+          "url": "https://www.saflii.org/za/cases/ZACC/2021/18.html"
+        }
+      ]
+    },
+    {
+      "party": "mkp",
+      "date": "2016-03-31",
+      "tier": "finding",
+      "category": "governance",
+      "role": "leader",
+      "status_type": "final",
+      "title": "Nkandla judgment",
+      "person": "Jacob Zuma (then ANC president and President of South Africa)",
+      "summary": "The Constitutional Court found Zuma failed to uphold, defend and respect the Constitution by ignoring the Public Protector's findings on state-funded upgrades to his Nkandla home, and ordered him to repay part of the cost.",
+      "status": "Final.",
+      "sources": [
+        {
+          "label": "EFF v Speaker of the National Assembly [2016] ZACC 11",
+          "url": "https://www.saflii.org/za/cases/ZACC/2016/11.html"
+        }
+      ]
+    },
+    {
+      "party": "mkp",
+      "date": "2026-05-14",
+      "tier": "charged",
+      "category": "corruption",
+      "role": "leader",
+      "status_type": "ongoing",
+      "title": "Arms deal corruption trial",
+      "person": "Jacob Zuma (MK Party leader)",
+      "summary": "Zuma and French arms company Thales face charges of racketeering, fraud, corruption and money laundering linked to the 1990s arms deal. Both pleaded not guilty in 2021. In May 2026 the High Court ruled the trial must go ahead.",
+      "status": "Trial set for 1 February 2027. Zuma intends to appeal.",
+      "sources": [
+        {
+          "label": "Sowetan, 14 May 2026",
+          "url": "https://www.sowetan.co.za/news/2026-05-14-court-rules-zuma-thales-trial-should-continue/"
+        }
+      ]
+    },
+    {
+      "party": "eff",
+      "date": "2023-10-02",
+      "tier": "finding",
+      "category": "corruption",
+      "role": "leader",
+      "status_type": "final",
+      "title": "VBS Mutual Bank payments not declared",
+      "person": "Floyd Shivambu (then EFF deputy president; has since left the EFF)",
+      "summary": "Parliament's ethics committee found Shivambu broke the MPs' code of conduct by not declaring R180,000 he received in 2017 from a company owned by his brother, linked to money looted from VBS Mutual Bank. He was docked nine days' salary. The committee made no finding against Malema.",
+      "status": "Final.",
+      "sources": [
+        {
+          "label": "Parliament media statement",
+          "url": "https://www.parliament.gov.za/press-releases/media-statement-ethics-committee-finds-hon-shivambu-breached-code-conduct-vbs-complaint"
+        }
+      ]
+    },
+    {
+      "party": "da",
+      "date": "2024-09-10",
+      "tier": "charged",
+      "category": "corruption",
+      "role": "senior",
+      "status_type": "ongoing",
+      "title": "Cape Town housing tender fraud case",
+      "person": "Malusi Booi (former DA mayoral committee member for human settlements, City of Cape Town)",
+      "summary": "Arrested and charged with racketeering and fraud alongside seven others over alleged corruption in City of Cape Town housing tenders worth hundreds of millions of rands. Granted R250,000 bail.",
+      "status": "Case ongoing. Booi denies wrongdoing.",
+      "sources": [
+        {
+          "label": "TimesLIVE, 17 Sep 2024",
+          "url": "https://www.timeslive.co.za/news/south-africa/2024-09-17-former-mmc-malusi-booi-out-on-r250k-bail-in-r1bn-tender-fraud-case/"
+        }
+      ]
+    },
+    {
+      "party": "da",
+      "date": "2021-10-01",
+      "tier": "finding",
+      "category": "governance",
+      "role": "senior",
+      "status_type": "final",
+      "title": "Public Protector finding on Oudtshoorn",
+      "person": "Anton Bredell (DA, Western Cape MEC for Local Government)",
+      "summary": "The Public Protector found Bredell breached the Executive Ethics Code by failing to act against officials who committed fraud and corruption at Oudtshoorn Local Municipality.",
+      "status": "Public Protector report issued in 2021.",
+      "sources": [
+        {
+          "label": "Anton Bredell (overview)",
+          "url": "https://en.wikipedia.org/wiki/Anton_Bredell"
+        }
+      ]
+    },
+    {
+      "party": "actionsa",
+      "date": "2026-03-27",
+      "tier": "investigation",
+      "category": "corruption",
+      "role": "senior",
+      "status_type": "ongoing",
+      "title": "Removed as Tshwane MMC after Madlanga Commission evidence",
+      "person": "Kholofelo Morodi (ActionSA, former Tshwane mayoral committee member)",
+      "summary": "Evidence at the Madlanga Commission linked Morodi to tender and recruitment irregularities in Tshwane. ActionSA mayor Nasiphi Moya dismissed her, and the party suspended her and apologised.",
+      "status": "No formal finding or charge yet.",
+      "sources": [
+        {
+          "label": "The Citizen, 27 Mar 2026",
+          "url": "https://www.citizen.co.za/news/south-africa/politics/city-of-tshwane-mmc-kholofelo-morodi-actionsa/"
+        }
+      ]
+    },
+    {
+      "party": "good",
+      "date": "2020-10-15",
+      "tier": "finding",
+      "category": "corruption",
+      "role": "leader",
+      "status_type": "final",
+      "title": "Beitbridge border fence procurement",
+      "person": "Patricia de Lille (GOOD leader; then Minister of Public Works)",
+      "summary": "An SIU report found De Lille overstepped her powers by directing that a R40 million border fence be bought as an emergency, and that procurement rules were not followed.",
+      "status": "SIU findings made in 2020. De Lille disputed them and remains in Cabinet.",
+      "sources": [
+        {
+          "label": "OFM: Beitbridge probe recommends charges",
+          "url": "https://ofm.co.za/article/sa/295618/beitbridge-probe-recommends-charges"
+        }
+      ]
+    }
+  ]
+}

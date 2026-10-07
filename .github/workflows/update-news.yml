@@ -1,0 +1,40 @@
+name: Update news feed
+
+on:
+  schedule:
+    - cron: '0 4 * * *'   # 06:00 SAST daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-news
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch headlines
+        run: node scripts/fetch_news.mjs
+
+      - name: Commit news.json if it changed
+        run: |
+          if git diff --quiet -- news.json; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git add news.json
+          # The site reads news.json straight from GitHub, so Netlify doesn't
+          # need to redeploy for a news update (each deploy costs credits).
+          git commit -m "Update news feed [skip netlify]"
+          git push

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>SA Political Compass</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght=0,700;0,900;1,700&family=DM+Sans:wght=300;400;500&family=DM+Mono:wght=400;500&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
 <style>
   :root {
     --green:   #00703C;
@@ -736,6 +736,58 @@
     margin-top: 1rem;
     flex-wrap: wrap;
   }
+  .manifesto-note { font-size: 0.7rem; color: var(--muted); line-height: 1.45; margin-top: 4px; }
+
+  /* ══ CLOSE CALL PANEL ══ */
+  .close-call-panel {
+    background: var(--white);
+    border: 1.5px solid #9CCBAF;
+    border-radius: var(--radius);
+    margin-bottom: 2rem;
+    overflow: hidden;
+  }
+  .close-call-header {
+    background: #EAF5EE;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #9CCBAF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .close-call-header-text {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.1em;
+    color: var(--green-dk);
+    text-transform: uppercase;
+  }
+  .close-call-body { padding: 1.25rem 1.5rem; }
+  .close-call-intro { font-size: 0.85rem; color: var(--ink); line-height: 1.55; margin-bottom: 1.25rem; }
+  .close-call-rival + .close-call-rival { margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid var(--border); }
+  .close-call-title { font-family: 'Playfair Display', serif; font-size: 1.15rem; font-weight: 700; color: var(--ink); margin-bottom: 4px; }
+  .close-call-gap { font-size: 0.8rem; color: var(--muted); line-height: 1.55; margin-bottom: 1rem; }
+  .close-call-group + .close-call-group { margin-top: 1rem; }
+  details.close-call-rival summary { cursor: pointer; list-style: none; }
+  details.close-call-rival summary::-webkit-details-marker { display: none; }
+  .close-call-toggle { display: inline-block; font-family: 'DM Mono', monospace; font-size: 0.7rem; color: var(--green); }
+  details.close-call-rival summary:hover .close-call-toggle { text-decoration: underline; text-underline-offset: 3px; }
+  details[open].close-call-rival .close-call-toggle { display: none; }
+  .cc-row {
+    display: grid;
+    grid-template-columns: 1fr auto auto 64px;
+    gap: 0.75rem;
+    align-items: center;
+    padding: 0.55rem 0;
+    border-bottom: 0.5px solid var(--border);
+    font-size: 0.75rem;
+  }
+  .cc-row:last-child { border-bottom: none; }
+  .cc-q { color: var(--ink); line-height: 1.4; }
+  .cc-you { display: block; font-size: 0.68rem; color: var(--muted); margin-top: 2px; }
+  .cc-edge { font-family: 'DM Mono', monospace; font-size: 0.75rem; font-weight: 500; text-align: right; white-space: nowrap; }
+  .cc-edge.for-top { color: var(--green); }
+  .cc-edge.for-rival { color: var(--muted); }
+  .close-call-note { font-size: 0.72rem; color: var(--muted); line-height: 1.6; margin-top: 1.25rem; padding-top: 0.75rem; border-top: 1px solid var(--border); }
 
   .results-section-label {
     font-family: 'DM Mono', monospace;
@@ -867,9 +919,15 @@
     background: rgba(17, 17, 17, 0.6);
     backdrop-filter: blur(4px);
     z-index: 200;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
-    padding: 1.5rem;
+    padding: 0;
+  }
+  @media (min-width: 681px) {
+    .modal-overlay {
+      align-items: center;
+      padding: 1.5rem;
+    }
   }
   .modal-overlay.active { display: flex; animation: fadeIn 0.2s ease both; }
   .modal-card {
@@ -882,6 +940,30 @@
     position: relative;
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
     animation: scaleUp 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+    max-height: 92vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  @media (max-width: 680px) {
+    .modal-card {
+      max-height: 88vh;
+      border-radius: var(--radius) var(--radius) 0 0;
+      padding: 1.5rem 1.25rem 2rem;
+      animation: slideUp 0.3s cubic-bezier(0.34, 1.1, 0.64, 1) both;
+    }
+    .modal-card::before {
+      content: '';
+      display: block;
+      width: 36px;
+      height: 4px;
+      background: var(--border);
+      border-radius: 2px;
+      margin: 0 auto 1.25rem;
+    }
+  }
+  @keyframes slideUp {
+    from { transform: translateY(100%); opacity: 0; }
+    to   { transform: translateY(0);    opacity: 1; }
   }
   @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
   @keyframes scaleUp { from { transform: scale(0.95); opacity: 0; } to { transform: scale(1); opacity: 1; } }
@@ -918,11 +1000,16 @@
     .opinion-label { font-size: 0.58rem; max-width: 48px; }
     .party-result-row { grid-template-columns: 72px 1fr 40px auto; gap: 6px; }
     .top-match-inner { grid-template-columns: auto 1fr; }
-    .top-match-score { display: none; }
+    .top-match-score, .top-match-pct { display: none; }
     .results-body { padding: 1.5rem 1.25rem 3rem; }
     .explainer-grid { grid-template-columns: 1fr; }
     .demo-grid { grid-template-columns: 1fr 1fr; }
-    
+    .close-call-header { padding: 0.9rem 1rem; }
+    .close-call-body { padding: 1rem; }
+    .cc-row { display: flex; flex-wrap: wrap; gap: 6px; }
+    .cc-q { flex: 0 0 100%; }
+    .cc-edge { margin-left: auto; }
+
     .pref-compare-cols {
       display: flex !important;
       gap: 0.75rem;
@@ -942,6 +1029,300 @@
       align-items: center;
       justify-content: center;
     }
+  }
+
+  /* ══ ELECTION MODE PICKER ══ */
+  .mode-picker { display: grid; gap: 10px; max-width: 420px; margin-bottom: 1.25rem; }
+  .mode-card {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 12px;
+    text-align: left;
+    padding: 1rem 1.25rem;
+    border-radius: var(--radius);
+    border: 1px solid rgba(255,255,255,0.18);
+    background: rgba(255,255,255,0.06);
+    color: var(--white);
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s, transform 0.1s;
+  }
+  .mode-card:hover:not(:disabled) { background: rgba(255,255,255,0.12); border-color: var(--gold); transform: translateY(-1px); }
+  .mode-card:disabled { opacity: 0.5; cursor: not-allowed; }
+  .mode-card.primary { background: var(--gold); color: var(--black); border-color: var(--gold); }
+  .mode-card.primary:hover:not(:disabled) { background: #FFD54F; }
+  .mode-card-title { font-weight: 500; font-size: 0.98rem; }
+  .mode-card-meta { font-family: 'DM Mono', monospace; font-size: 0.68rem; letter-spacing: 0.04em; opacity: 0.75; margin-top: 3px; }
+  .mode-card svg { width: 18px; height: 18px; }
+  .land-link-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    color: var(--gold);
+    font-family: 'DM Mono', monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    width: fit-content;
+  }
+  .land-link-btn:hover { color: #FFD54F; }
+  .party-chip-tag {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.58rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 1px 5px;
+  }
+  .quiz-mode-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold);
+    border: 1px solid rgba(232,168,0,0.5);
+    border-radius: 3px;
+    padding: 2px 7px;
+  }
+
+  /* ══ EVIDENCE TAGS ══ */
+  .basis-tag {
+    display: inline-block;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.58rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 1px 6px;
+    border-radius: 3px;
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+  .basis-manifesto { background: #EAF5EE; color: var(--green-dk); }
+  .basis-statement { background: #EEF2FF; color: #3730A3; }
+  .basis-national  { background: #FDF3D0; color: #7A5C00; }
+  .basis-inferred  { background: #F2F0EC; color: var(--muted); }
+  .coverage-note { font-size: 0.72rem; color: var(--muted); margin: -0.25rem 0 1rem; line-height: 1.5; }
+  .unscored-list { font-size: 0.78rem; color: var(--muted); line-height: 1.6; margin-top: 0.5rem; }
+
+  /* ══ TRUST RATINGS ══ */
+  .stars {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: var(--ink);
+    font-family: 'DM Mono', monospace;
+    text-align: left;
+  }
+  .stars:hover .stars-num { text-decoration: underline; text-underline-offset: 3px; }
+  .stars-track {
+    position: relative;
+    display: inline-block;
+    color: #D8D0C0;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1;
+    white-space: nowrap;
+  }
+  .stars-fill { position: absolute; top: 0; left: 0; bottom: 0; overflow: hidden; color: var(--gold); white-space: nowrap; }
+  .stars-num { font-size: 0.78rem; font-weight: 500; }
+  .stars-why { font-size: 0.65rem; color: var(--green); }
+  .stars.lg .stars-track { font-size: 2rem; letter-spacing: 3px; }
+  .stars.lg .stars-num { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 700; }
+  .stars.on-dark .stars-track { color: rgba(255,255,255,0.22); }
+  .stars.on-dark .stars-num { color: var(--white); }
+  .stars-compact {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--ink);
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 3px 6px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .stars-compact .star-ico { color: var(--gold); font-family: Arial, sans-serif; }
+  .stars-compact:hover { border-color: var(--gold); }
+  .trust-block { margin-top: 0.75rem; }
+  .trust-block-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+  .trust-label { font-size: 0.72rem; color: var(--muted); margin-top: 3px; line-height: 1.4; }
+  .limited-tag {
+    display: inline-block;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.58rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 1px 5px;
+    white-space: nowrap;
+  }
+
+  .page-intro {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem 1.5rem;
+    font-size: 0.85rem;
+    line-height: 1.65;
+    color: var(--ink);
+    margin-bottom: 1.5rem;
+  }
+  .page-intro p + p { margin-top: 0.6rem; }
+  .page-intro ul { margin: 0.6rem 0 0 1.1rem; }
+  .page-intro li { margin-bottom: 0.3rem; }
+
+  .trust-list { display: grid; gap: 8px; }
+  .trust-row {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding: 0.9rem 1.1rem;
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    cursor: pointer;
+    text-align: left;
+    font-family: 'DM Sans', sans-serif;
+    color: var(--ink);
+    transition: border-color 0.15s, transform 0.15s;
+  }
+  .trust-row:hover { border-color: var(--gold); transform: translateX(3px); }
+  .trust-row-name { font-weight: 500; font-size: 0.95rem; }
+  .trust-row-sub { font-size: 0.72rem; color: var(--muted); margin-top: 2px; }
+  .trust-row-right { text-align: right; display: flex; flex-direction: column; align-items: flex-end; gap: 3px; }
+
+  .calc-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+  }
+  .calc-row { display: grid; grid-template-columns: 1fr auto; gap: 1rem; padding: 1rem 1.25rem; border-top: 1px solid var(--border); }
+  .calc-row:first-child { border-top: none; }
+  .calc-title { font-weight: 500; font-size: 0.92rem; color: var(--ink); }
+  .calc-desc { font-size: 0.78rem; color: var(--muted); line-height: 1.6; margin-top: 3px; }
+  .calc-pts { font-family: 'DM Mono', monospace; font-size: 1rem; font-weight: 500; white-space: nowrap; }
+  .calc-pts.pos { color: var(--green); }
+  .calc-pts.neg { color: #991B1B; }
+  .calc-pts.zero { color: var(--muted); }
+  .calc-row.total { background: var(--gold-lt); }
+  .calc-row.total .calc-title { font-family: 'Playfair Display', serif; font-size: 1.15rem; font-weight: 700; }
+  .councils summary { cursor: pointer; font-size: 0.75rem; color: var(--green); margin-top: 8px; }
+  .council-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 4px 14px; margin-top: 8px; font-size: 0.72rem; color: var(--ink); }
+  .outcome-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+  .outcome-clean { background: #00703C; }
+  .outcome-unq   { background: #E8A800; }
+  .outcome-bad   { background: #B91C1C; }
+  .outcome-legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 0.7rem; color: var(--muted); margin-top: 8px; }
+
+  .tier-badge {
+    display: inline-flex;
+    align-items: center;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.62rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 3px;
+    white-space: nowrap;
+  }
+  .tier-conviction    { background: #FEE2E2; color: #991B1B; }
+  .tier-finding       { background: #FFEDD5; color: #9A3412; }
+  .tier-charged       { background: #FEF3C7; color: #92400E; }
+  .tier-investigation { background: #F2F0EC; color: #57534E; }
+  .rec-list { padding: 0 1.25rem; }
+  .rec-item { border-top: 1px solid var(--border); padding: 1rem 0; }
+  .rec-item:first-child { border-top: none; }
+  .rec-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 4px; }
+  .rec-top-left { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+  .rec-date { font-family: 'DM Mono', monospace; font-size: 0.68rem; color: var(--muted); }
+  .rec-title { font-weight: 500; font-size: 0.9rem; color: var(--ink); }
+  .rec-person { font-size: 0.75rem; color: var(--muted); margin-bottom: 4px; }
+  .rec-summary { font-size: 0.8rem; line-height: 1.6; color: var(--ink); }
+  .rec-status { font-size: 0.75rem; line-height: 1.5; color: var(--muted); margin-top: 4px; }
+  .rec-status strong { color: var(--ink); font-weight: 500; }
+  .rec-sources { margin-top: 4px; font-size: 0.72rem; }
+  .rec-sources a { color: var(--green); margin-right: 10px; }
+  .rec-maths { font-family: 'DM Mono', monospace; font-size: 0.65rem; color: var(--muted); margin-top: 6px; line-height: 1.5; }
+  .rec-empty { padding: 1rem 1.25rem; font-size: 0.8rem; color: var(--muted); font-style: italic; }
+  .rules-list { font-size: 0.75rem; color: var(--muted); line-height: 1.6; margin: 0.5rem 0 0 1.1rem; }
+  .rules-list li { margin-bottom: 0.3rem; }
+
+  /* ══ NEWS ══ */
+  .filter-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 1rem; }
+  .filter-chips button {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.72rem;
+    padding: 5px 11px;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    background: var(--white);
+    color: var(--ink);
+    cursor: pointer;
+  }
+  .filter-chips button.sel { background: var(--ink); color: var(--white); border-color: var(--ink); }
+  .news-toggle { display: inline-flex; align-items: center; gap: 8px; font-size: 0.78rem; color: var(--ink); margin-bottom: 1.25rem; cursor: pointer; }
+  .outlet-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; margin-bottom: 0.5rem; }
+  .outlet-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding: 0.7rem 0.9rem;
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .outlet-card:hover { border-color: var(--gold); }
+  .outlet-card span { font-family: 'DM Mono', monospace; font-size: 0.62rem; font-weight: 400; color: var(--muted); }
+  .news-list { list-style: none; }
+  .news-list li { padding: 0.65rem 0; border-top: 1px solid var(--border); font-size: 0.85rem; line-height: 1.45; }
+  .news-list li:first-child { border-top: none; }
+  .news-list a { color: var(--ink); text-decoration: none; font-weight: 500; }
+  .news-list a:hover { color: var(--green); text-decoration: underline; }
+  .news-meta { display: block; font-family: 'DM Mono', monospace; font-size: 0.63rem; color: var(--muted); margin-top: 3px; }
+  .news-flag { color: #9A3412; }
+  .news-empty { font-size: 0.8rem; color: var(--muted); font-style: italic; padding: 0.5rem 0; }
+  .news-panel { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 0.4rem 1.25rem; }
+  .page-footnote { font-size: 0.72rem; color: var(--muted); line-height: 1.6; margin-top: 1.5rem; }
+
+  @media (max-width: 680px) {
+    .calc-row { padding: 0.9rem 1rem; }
+    .rec-list { padding: 0 1rem; }
+    .stars.lg .stars-track { font-size: 1.6rem; letter-spacing: 2px; }
+    .trust-row { grid-template-columns: auto 1fr; }
+    .trust-row-right { grid-column: 1 / -1; flex-direction: row; align-items: center; justify-content: space-between; }
+    .party-result-row { grid-template-columns: 64px 1fr 40px auto; }
   }
 </style>
 </head>
@@ -966,19 +1347,36 @@
       <h1 class="land-title">Who <em>really</em> speaks for you?</h1>
       <p class="land-sub">
         Answer policy questions on the issues shaping South Africa.
-        Your responses to those questions and how much significance you attach to them will be compared 
-        with the manifestos and stances of 9 registered political parties in the country. 
-        Your scores are supposed to help you get started with your research but not replace the process of decision making. 
+        Your responses to those questions and how much significance you attach to them will be compared
+        with the manifestos and stances of registered political parties.
+        Your scores are supposed to help you get started with your research but not replace the process of decision making.
         Once you finish the test, you'll gain access to manifesto links and voter registration link for further research.
       </p>
       <div class="land-stats">
-        <div class="stat-block"><div class="stat-num">25</div><div class="stat-label">Policy issues</div></div>
-        <div class="stat-block"><div class="stat-num">9</div><div class="stat-label">Parties assessed</div></div>
-        <div class="stat-block"><div class="stat-num">~10</div><div class="stat-label">Minutes</div></div>
+        <div class="stat-block"><div class="stat-num">2</div><div class="stat-label">Election quizzes</div></div>
+        <div class="stat-block"><div class="stat-num" id="stat-parties">13</div><div class="stat-label">Parties assessed</div></div>
+        <div class="stat-block" id="stat-countdown-block"><div class="stat-num" id="stat-countdown">–</div><div class="stat-label">Days to local polls</div></div>
       </div>
-      <button class="btn-start" id="btn-start-quiz" onclick="startQuiz()" disabled>
-        Loading Data...
-      </button>
+      <div class="mode-picker">
+        <button class="mode-card primary" id="btn-start-local" onclick="startQuiz('local')" disabled>
+          <div>
+            <div class="mode-card-title">Local Government Elections</div>
+            <div class="mode-card-meta" id="meta-local">Loading…</div>
+          </div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </button>
+        <button class="mode-card" id="btn-start-national" onclick="startQuiz('national')" disabled>
+          <div>
+            <div class="mode-card-title">National &amp; Provincial Elections</div>
+            <div class="mode-card-meta" id="meta-national">Loading…</div>
+          </div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </button>
+      </div>
+      <div style="display:flex; flex-wrap:wrap; gap:0.5rem 1.5rem;">
+        <button class="land-link-btn" onclick="openTrustOverview()">★ Party trust ratings →</button>
+        <button class="land-link-btn" onclick="openNews()">📰 Latest political news →</button>
+      </div>
     </div>
     <div class="land-right">
       <div class="party-preview-label">Parties included</div>
@@ -986,7 +1384,7 @@
     </div>
   </div>
   <footer class="land-footer">
-    <p>Positions sourced from official 2024 election manifestos and public parliamentary records. Not affiliated with any party.</p>
+    <p>Positions sourced from official 2024 national and 2026 local election manifestos, party statements and public records. Not affiliated with any party.</p>
   </footer>
 </div>
 
@@ -1099,6 +1497,7 @@
   <header class="quiz-header">
     <div class="logo" onclick="goHome()" style="cursor:pointer">SA Political <span>Compass</span></div>
     <div style="display:flex; align-items:center; gap:1rem;">
+      <span class="quiz-mode-label" id="quiz-mode-label"></span>
       <button class="nav-btn" onclick="goHome()" style="padding:0.4rem 0.9rem; font-size:0.78rem;">🏠 Home</button>
       <div class="quiz-counter" id="q-counter">1 / 25</div>
     </div>
@@ -1158,10 +1557,13 @@
   </div>
   <div class="results-body">
     <div id="top-match-card" class="top-match-card"></div>
+    <div id="close-call-section"></div>
     <div id="pref-comparison-section"></div>
     
     <div class="results-section-label">Other parties — alignment scores</div>
+    <div id="coverage-note" class="coverage-note"></div>
     <div id="all-bars"></div>
+    <div id="unscored-parties" class="unscored-list"></div>
     
     <!-- ACCORDION DISCLOSURE WRAPPER FOR USER AGENDAS -->
     <div class="results-section-label accordion-trigger-header" id="glance-accordion-header" onclick="toggleAnswersGlance()">
@@ -1174,10 +1576,84 @@
 
     <div class="results-actions">
       <button class="btn-retake" onclick="restart()">← Retake quiz</button>
+      <button class="btn-retake" id="btn-switch-mode" onclick="startQuiz(MODE === 'local' ? 'national' : 'local')"></button>
+      <button class="btn-retake" onclick="openTrustOverview()">★ Party trust ratings</button>
+      <button class="btn-retake" onclick="openNews()">📰 Latest news</button>
       <button class="btn-retake" onclick="goHome()">🏠 Go to Home</button>
       <a href="https://www.elections.org.za" target="_blank" rel="noopener" class="btn-retake" style="text-decoration: none; display: inline-flex; align-items: center; background: var(--green); color: white; border-color: var(--green); gap: 6px; font-weight: 500;">
         🗳️ Voting & Registration (IEC) ↗
       </a>
+    </div>
+  </div>
+</div>
+
+<div id="screen-trust" class="screen">
+  <div class="results-header">
+    <div class="eyebrow">Promises vs. track record</div>
+    <h1>Party trust ratings</h1>
+    <p id="trust-subline"></p>
+  </div>
+  <div class="results-body">
+    <div class="page-intro" id="trust-intro"></div>
+    <div class="trust-list" id="trust-list"></div>
+    <p class="page-footnote" id="trust-footnote"></p>
+    <div class="results-actions">
+      <button class="btn-retake trust-back-btn" onclick="goBackFromInfo()">← Back</button>
+      <button class="btn-retake" onclick="openNews()">📰 Latest news</button>
+      <button class="btn-retake" onclick="goHome()">🏠 Go to Home</button>
+    </div>
+  </div>
+</div>
+
+<div id="screen-trust-party" class="screen">
+  <div class="results-header">
+    <div class="eyebrow">Trust rating — how we worked it out</div>
+    <h1 id="tp-name"></h1>
+    <div id="tp-stars" style="margin-top:0.6rem;"></div>
+    <p id="tp-label" style="margin-top:0.5rem;"></p>
+  </div>
+  <div class="results-body">
+    <div class="results-section-label" style="margin-top:0;">The calculation</div>
+    <div class="calc-card" id="tp-calc"></div>
+
+    <div class="results-section-label">What went into the integrity score</div>
+    <div class="calc-card" id="tp-record"></div>
+
+    <div class="results-section-label">Latest news about this party</div>
+    <div class="news-panel" id="tp-news"></div>
+    <p class="page-footnote">Headlines are shown for context only and don't change the rating. <a href="#" style="color:var(--green)" id="tp-all-news">See all news and outlets →</a></p>
+
+    <div class="results-section-label">The rules</div>
+    <ul class="rules-list" id="tp-rules"></ul>
+
+    <div class="results-actions">
+      <button class="btn-retake" onclick="openTrustOverview(true)">← All party ratings</button>
+      <button class="btn-retake trust-back-btn" onclick="goBackFromInfo()">← Back</button>
+      <button class="btn-retake" onclick="goHome()">🏠 Go to Home</button>
+    </div>
+  </div>
+</div>
+
+<div id="screen-news" class="screen">
+  <div class="results-header">
+    <div class="eyebrow">Collected daily from South African newsrooms</div>
+    <h1>Latest political news</h1>
+    <p id="news-subline"></p>
+  </div>
+  <div class="results-body">
+    <div class="results-section-label" style="margin-top:0;">Outlets we follow</div>
+    <div class="outlet-grid" id="news-outlets"></div>
+
+    <div class="results-section-label">Stories</div>
+    <div class="filter-chips" id="news-filter"></div>
+    <label class="news-toggle"><input type="checkbox" id="news-acc-only" onchange="renderNews()"> Only show stories about courts, charges and investigations</label>
+    <div class="news-panel"><ul class="news-list" id="news-list"></ul></div>
+    <p class="page-footnote">Stories are matched to parties by name and are shown for context only. They never change a party's trust rating. Click a headline to read the full story on the outlet's website.</p>
+
+    <div class="results-actions">
+      <button class="btn-retake trust-back-btn" onclick="goBackFromInfo()">← Back</button>
+      <button class="btn-retake" onclick="openTrustOverview()">★ Party trust ratings</button>
+      <button class="btn-retake" onclick="goHome()">🏠 Go to Home</button>
     </div>
   </div>
 </div>
@@ -1188,6 +1664,15 @@
 // ══════════════════════════════════════
 let ISSUES = [];
 let PARTIES = [];
+let MODE = 'national';
+const DATASETS = { national: { issues: [], parties: [] }, local: { issues: [], parties: [], meta: {} } };
+let ALL_PARTIES = {};
+let TRUST = { entries: [], scoring: null, labels: {}, governance: { parties: {} }, rules: [] };
+let NEWS = { items: [] };
+// A party needs a published position on at least this many of the user's
+// weighted issues before we show an alignment percentage for it.
+const MIN_SCORED_ISSUES = 4;
+const MODE_LABELS = { national: 'National & Provincial', local: 'Local Government 2026' };
 let current = 0;
 let answers = {};
 let userDemographics = { age: null, province: null, employment: null, partyPref: null };
@@ -1289,17 +1774,50 @@ const partyEnrichmentData = {
 // ══════════════════════════════════════
 // INIT
 // ══════════════════════════════════════
+async function fetchJson(url, fallback) {
+  try {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`${url}: HTTP ${res.status}`);
+    return await res.json();
+  } catch (err) {
+    if (fallback !== undefined) { console.warn(err); return fallback; }
+    throw err;
+  }
+}
+
+// The daily GitHub Action commits news.json to the repo without redeploying the
+// site, so after the deployed copy loads, check GitHub for a newer one. This
+// runs in the background so a slow GitHub never holds up the page.
+const NEWS_LIVE_URL = 'https://raw.githubusercontent.com/Kwamza/SA_political_compass/main/news.json';
+
+async function loadLatestNews() {
+  try {
+    const res = await fetch(NEWS_LIVE_URL);
+    if (!res.ok) return;
+    const latest = await res.json();
+    if (!latest || !Array.isArray(latest.items)) return;
+    if (String(latest.updated || '') <= String(NEWS.updated || '')) return;
+    NEWS = latest;
+  } catch (err) {
+    return;
+  }
+  const active = document.querySelector('.screen.active');
+  if (active && active.id === 'screen-news') renderNews();
+  else if (active && active.id === 'screen-trust-party' && shownTrustParty) renderTrustParty(shownTrustParty);
+}
+
 async function init() {
   try {
-    const [issuesRes, partiesRes] = await Promise.all([
-      fetch('issues.json'),
-      fetch('parties.json')
+    const [issues, parties, localIssues, localParties, trust, news] = await Promise.all([
+      fetchJson('issues.json'),
+      fetchJson('parties.json'),
+      fetchJson('issues_local.json'),
+      fetchJson('parties_local.json'),
+      fetchJson('trust.json', null),
+      fetchJson('news.json', { items: [] })
     ]);
-    if (!issuesRes.ok || !partiesRes.ok) throw new Error("Failed to load JSON files.");
-    ISSUES = await issuesRes.json();
-    
-    const parsedParties = await partiesRes.json();
-    PARTIES = parsedParties.map(p => {
+
+    const national = parties.map(p => {
       const enrichment = partyEnrichmentData[p.id.toLowerCase()];
       if (enrichment) {
         return {
@@ -1313,16 +1831,63 @@ async function init() {
       return p;
     });
 
-    const startBtn = document.getElementById('btn-start-quiz');
-    startBtn.disabled = false;
-    startBtn.innerHTML = `Start the quiz <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>`;
+    // Local parties reuse national profiles where they exist; only positions differ.
+    const local = localParties.parties.map(lp => {
+      const base = national.find(p => p.id === lp.id) || {};
+      return { ...base, ...lp, positions: lp.positions };
+    });
+
+    DATASETS.national = { issues, parties: national };
+    DATASETS.local = { issues: localIssues, parties: local, meta: localParties };
+    if (trust) TRUST = trust;
+    NEWS = news;
+    ALL_PARTIES = {};
+    [...national, ...local].forEach(p => { if (!ALL_PARTIES[p.id]) ALL_PARTIES[p.id] = p; });
+    PARTIES = national;
+
+    document.getElementById('meta-national').textContent =
+      `${issues.length} questions · ${national.length} parties · ~10 min`;
+    document.getElementById('meta-local').textContent =
+      `${formatDate(localParties.election_date, true)} · ${localIssues.length} questions · ${local.length} parties`;
+    document.getElementById('stat-parties').textContent = Object.keys(ALL_PARTIES).length;
+
+    const days = Math.ceil((new Date(localParties.election_date + 'T00:00:00+02:00') - Date.now()) / 86400000);
+    if (days > 0) document.getElementById('stat-countdown').textContent = days;
+    else document.getElementById('stat-countdown-block').style.display = 'none';
+
+    ['btn-start-local', 'btn-start-national'].forEach(id => document.getElementById(id).disabled = false);
 
     buildLanding();
-    buildPartyPrefGrid();
+    loadLatestNews();
   } catch (err) {
     console.error("Error:", err);
-    document.getElementById('btn-start-quiz').innerText = "CORS Error: Run via local server.";
+    document.getElementById('meta-national').textContent = "Couldn't load data — run via a local server.";
+    document.getElementById('meta-local').textContent = "Couldn't load data — run via a local server.";
   }
+}
+
+// ══════════════════════════════════════
+// HELPERS
+// ══════════════════════════════════════
+function esc(value) {
+  return String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+function safeUrl(url) {
+  return /^https:\/\//i.test(url || '') ? url : '#';
+}
+
+function formatDate(iso, withDay) {
+  const d = new Date(iso.length === 10 ? iso + 'T12:00:00' : iso);
+  if (isNaN(d)) return '';
+  return d.toLocaleDateString('en-ZA', withDay
+    ? { day: 'numeric', month: 'short', year: 'numeric' }
+    : { month: 'short', year: 'numeric' });
+}
+
+function hasPosition(party, issueId) {
+  const pos = party.positions && party.positions[issueId];
+  return !!pos && typeof pos.score === 'number';
 }
 
 // ══════════════════════════════════════
@@ -1340,30 +1905,51 @@ const MANIFESTO_URLS = {
   ffplus:     'https://www.vfplus.org.za/national-and-provincial-election-2024/'
 };
 
-function getManifestoUrl(partyId) {
-  return MANIFESTO_URLS[partyId] || '#';
+function localManifesto(partyId) {
+  const p = (DATASETS.local.parties || []).find(x => x.id === partyId);
+  return p && p.local_manifesto ? p.local_manifesto : null;
+}
+
+function nationalManifesto(partyId) {
+  return MANIFESTO_URLS[partyId] ? { url: MANIFESTO_URLS[partyId], label: '2024 national manifesto' } : null;
+}
+
+// The manifesto that matches the quiz someone took: local results link to the
+// 2026 local manifestos, national results to the 2024 national ones.
+function manifestoFor(partyId, mode) {
+  return mode === 'local'
+    ? (localManifesto(partyId) || nationalManifesto(partyId))
+    : (nationalManifesto(partyId) || localManifesto(partyId));
+}
+
+function manifestoNoteHtml(m) {
+  return m && m.note ? `<div class="manifesto-note">${esc(m.note)}</div>` : '';
 }
 
 function buildLanding() {
   const container = document.getElementById('party-chips');
   container.innerHTML = '';
-  PARTIES.forEach(p => {
+  Object.values(ALL_PARTIES).forEach(p => {
     const chip = document.createElement('div');
     chip.className = 'party-chip';
     chip.innerHTML = `
-      <div class="party-dot" style="background:${p.color}"></div>
-      <span class="party-chip-name">${p.abbreviation}</span>
-      <span class="party-chip-full">${p.name}</span>
-      <button class="party-chip-about" onclick="openPartyAbout('${p.id}'); event.stopPropagation();">Info</button>`;
+      <div class="party-dot" style="background:${esc(p.color)}"></div>
+      <span class="party-chip-name">${esc(p.abbreviation)}</span>
+      <span class="party-chip-full">${esc(p.name)}</span>
+      ${p.local_only ? '<span class="party-chip-tag" title="Included in the local election quiz only">Local</span>' : ''}
+      ${starsCompactHtml(p.id)}
+      <button class="party-chip-about" onclick="openPartyAbout('${esc(p.id)}'); event.stopPropagation();">Info</button>`;
     container.appendChild(chip);
   });
 }
 
 function openPartyAbout(partyId) {
-  const p = PARTIES.find(x => x.id.toLowerCase() === partyId.toLowerCase());
+  const p = ALL_PARTIES[partyId];
   if (!p) return;
 
-  const url = getManifestoUrl(p.id);
+  const pair = [nationalManifesto(p.id), localManifesto(p.id)];
+  if (MODE === 'local') pair.reverse();
+  const manifestos = pair.filter((m, i, arr) => m && arr.findIndex(o => o && o.url === m.url) === i);
   const container = document.getElementById('modal-content-area');
 
   let policiesHtml = '';
@@ -1399,10 +1985,14 @@ function openPartyAbout(partyId) {
 
     <div class="modal-section-header">Key Policies</div>
     <ul class="modal-policy-list">${policiesHtml}</ul>
-    
-    <div class="modal-footer-box">
-      Learn more: <a class="modal-manifesto-anchor" href="${url}" target="_blank" rel="noopener">Official Manifesto ↗</a>
-    </div>
+
+    <div class="modal-section-header">Trust rating</div>
+    ${trustBlockHtml(p.id, false)}
+
+    ${manifestos.length ? `<div class="modal-footer-box">
+      Learn more: ${manifestos.map(m => `<a class="modal-manifesto-anchor" href="${esc(safeUrl(m.url))}" target="_blank" rel="noopener">${esc(m.label.charAt(0).toUpperCase() + m.label.slice(1))} ↗</a>`).join(' &nbsp;·&nbsp; ')}
+      ${manifestos.map(manifestoNoteHtml).join('')}
+    </div>` : ''}
   `;
 
   document.getElementById('about-modal').classList.add('active');
@@ -1418,7 +2008,7 @@ function buildPartyPrefGrid() {
   PARTIES.forEach(p => {
     const label = document.createElement('label');
     label.className = 'demo-opt';
-    label.innerHTML = `<input type="radio" name="party_pref" value="${p.id}" onchange="demoStepCheck(4)"> ${p.abbreviation} <span style="font-size:0.72rem; color:var(--muted); display:block; font-weight:400;">${p.name}</span>`;
+    label.innerHTML = `<input type="radio" name="party_pref" value="${esc(p.id)}" onchange="demoStepCheck(4)"> ${esc(p.abbreviation)} <span style="font-size:0.72rem; color:var(--muted); display:block; font-weight:400;">${esc(p.name)}</span>`;
     grid.appendChild(label);
   });
 }
@@ -1426,7 +2016,13 @@ function buildPartyPrefGrid() {
 // ══════════════════════════════════════
 // DEMOGRAPHICS FLOW
 // ══════════════════════════════════════
-function startQuiz() {
+function startQuiz(mode) {
+  if (mode) MODE = mode;
+  ISSUES = DATASETS[MODE].issues;
+  PARTIES = DATASETS[MODE].parties;
+  buildPartyPrefGrid();
+  document.getElementById('quiz-mode-label').textContent = MODE_LABELS[MODE];
+
   current = 0;
   answers = {};
   userDemographics = { age: null, province: null, employment: null, partyPref: null };
@@ -1560,30 +2156,185 @@ function navigate(dir) {
 // ══════════════════════════════════════
 // RESULTS
 // ══════════════════════════════════════
+// Each party is scored only on the issues where it has a known position, so a
+// missing position isn't silently treated as "neutral". `coverage` records how
+// many of the user's weighted issues that score is based on.
+//
+// A party's percentage works out to 50 plus the sum of `contrib[party][issue]`,
+// so `contrib` shows how many percentage points each question moved it. That's
+// what the close-call panel uses to explain near-ties.
 function computeResults() {
-  const scores = {};
-  PARTIES.forEach(p => scores[p.id] = 0);
-  let maxPossible = 0;
-
-  ISSUES.forEach(issue => {
-    const ans = answers[issue.id];
-    if (ans === undefined || ans.importance === 0) return;
-    const importance = ans.importance;
-    const contribution = Math.abs(importance * 2 * 3);
-    maxPossible += contribution;
-    PARTIES.forEach(p => {
-      const ps = (p.positions[issue.id] || {}).score || 0;
-      scores[p.id] += ans.opinion * importance * ps;
-    });
-  });
-
   const pct = {};
+  const exact = {};
+  const coverage = {};
+  const contrib = {};
+  const weighted = ISSUES.filter(issue => answers[issue.id] && answers[issue.id].importance > 0);
+
   PARTIES.forEach(p => {
-    pct[p.id] = maxPossible > 0
-      ? Math.round(((scores[p.id] + maxPossible) / (maxPossible * 2)) * 100)
-      : 50;
+    let score = 0;
+    let maxPossible = 0;
+    let covered = 0;
+    const perIssue = {};
+    weighted.forEach(issue => {
+      if (!hasPosition(p, issue.id)) return;
+      const { opinion, importance } = answers[issue.id];
+      perIssue[issue.id] = opinion * importance * p.positions[issue.id].score;
+      score += perIssue[issue.id];
+      maxPossible += Math.abs(importance * 2 * 3);
+      covered++;
+    });
+    coverage[p.id] = { covered, total: weighted.length };
+    contrib[p.id] = {};
+    Object.keys(perIssue).forEach(id => { contrib[p.id][id] = (perIssue[id] / (maxPossible * 2)) * 100; });
+    if (weighted.length === 0) exact[p.id] = 50;
+    else exact[p.id] = covered >= Math.min(MIN_SCORED_ISSUES, weighted.length) && maxPossible > 0
+      ? ((score + maxPossible) / (maxPossible * 2)) * 100
+      : null;
+    pct[p.id] = exact[p.id] === null ? null : Math.round(exact[p.id]);
   });
-  return pct;
+  return { pct, exact, coverage, contrib };
+}
+
+// ══════════════════════════════════════
+// CLOSE CALLS
+// ══════════════════════════════════════
+// Parties within this many percentage points of the top match get the
+// close-call explanation.
+const CLOSE_GAP = 2;
+const IMPORTANCE_ORDER = [4, 2, 1];
+const IMPORTANCE_LABELS = { 1: 'Minor', 2: 'Important', 4: 'Critical' };
+const OPINION_LABELS = { '-2': 'Strongly Disagree', '-1': 'Disagree', '0': 'Neutral', '1': 'Agree', '2': 'Strongly Agree' };
+
+// How much a party's percentage comes from the questions the user rated at
+// each importance level, most important first.
+function importanceProfile(contrib, partyId) {
+  return IMPORTANCE_ORDER.map(level => ISSUES.reduce((sum, issue) =>
+    sum + (answers[issue.id] && answers[issue.id].importance === level ? (contrib[partyId][issue.id] || 0) : 0), 0));
+}
+
+// Ranks by exact score. When two parties are exactly level, the one that agrees
+// with the user more on their most important questions goes first.
+function compareParties(a, b, exact, contrib) {
+  const diff = exact[b.id] - exact[a.id];
+  if (Math.abs(diff) > 1e-9) return diff;
+  const pa = importanceProfile(contrib, a.id);
+  const pb = importanceProfile(contrib, b.id);
+  for (let i = 0; i < pa.length; i++) {
+    if (Math.abs(pb[i] - pa[i]) > 1e-9) return pb[i] - pa[i];
+  }
+  return 0;
+}
+
+// Questions where the two parties differ, with how many percentage points each
+// one gave the top party over the rival (negative means it favoured the rival).
+function decidingQuestions(top, rival, contrib) {
+  return ISSUES.map(issue => {
+    const ans = answers[issue.id];
+    if (!ans || ans.importance === 0) return null;
+    const topKnown = hasPosition(top, issue.id);
+    const rivalKnown = hasPosition(rival, issue.id);
+    if (!topKnown && !rivalKnown) return null;
+    if (topKnown && rivalKnown && top.positions[issue.id].score === rival.positions[issue.id].score) return null;
+    const edge = (contrib[top.id][issue.id] || 0) - (contrib[rival.id][issue.id] || 0);
+    if (Math.abs(edge) < 0.05) return null;
+    return { issue, ans, edge, topKnown, rivalKnown };
+  }).filter(Boolean);
+}
+
+function closeRivals(sorted, pct) {
+  const top = sorted[0];
+  return sorted.slice(1).filter(p => pct[top.id] - pct[p.id] <= CLOSE_GAP).slice(0, 3);
+}
+
+// Parties the quiz genuinely can't separate from the top match: same exact
+// score and the same agreement at every importance level.
+function inseparableFrom(sorted, exact, contrib) {
+  return sorted.slice(1).filter(p => compareParties(sorted[0], p, exact, contrib) === 0);
+}
+
+function closeCallHtml(sorted, pct, exact, contrib) {
+  const top = sorted[0];
+  const rivals = closeRivals(sorted, pct);
+  if (!rivals.length) return '';
+
+  const rowHtml = (row, rival) => {
+    const chip = (party, known) => {
+      if (!known) return `<div class="pref-diff-score neu" title="No published position, so this question didn't count towards its score">${esc(party.abbreviation)}: No position</div>`;
+      const lbl = scoreLabel(party.positions[row.issue.id].score);
+      return `<div class="pref-diff-score ${lbl.cls}">${esc(party.abbreviation)}: ${lbl.text}</div>`;
+    };
+    const q = row.issue.question.length > 90 ? row.issue.question.slice(0, 90) + '…' : row.issue.question;
+    return `
+      <div class="cc-row">
+        <div class="cc-q">${esc(q)}<span class="cc-you">You: ${OPINION_LABELS[String(row.ans.opinion)]} · ${IMPORTANCE_LABELS[row.ans.importance]}</span></div>
+        ${chip(top, row.topKnown)}
+        ${chip(rival, row.rivalKnown)}
+        <div class="cc-edge ${row.edge > 0 ? 'for-top' : 'for-rival'}" title="Moved the result this many percentage points">+${Math.abs(row.edge).toFixed(1)} pts</div>
+      </div>`;
+  };
+
+  const sections = rivals.map((rival, index) => {
+    const rows = decidingQuestions(top, rival, contrib);
+    const forTop = rows.filter(r => r.edge > 0).sort((a, b) => b.edge - a.edge).slice(0, 3);
+    const forRival = rows.filter(r => r.edge < 0).sort((a, b) => a.edge - b.edge).slice(0, 2);
+    const T = esc(top.abbreviation);
+    const R = esc(rival.abbreviation);
+    const exactGap = exact[top.id] - exact[rival.id];
+
+    const separable = compareParties(top, rival, exact, contrib) !== 0;
+    let gapText;
+    if (pct[top.id] !== pct[rival.id]) {
+      const pts = pct[top.id] - pct[rival.id];
+      gapText = `${R} is only ${pts} point${pts === 1 ? '' : 's'} behind ${T} (${pct[top.id]}% vs ${pct[rival.id]}%).`;
+    } else if (exactGap > 0.005) {
+      gapText = `${T} and ${R} both round to ${pct[top.id]}%, but before rounding ${T} is ahead by ${exactGap.toFixed(1)} points.`;
+    } else if (separable) {
+      const topProfile = importanceProfile(contrib, top.id);
+      const rivalProfile = importanceProfile(contrib, rival.id);
+      const level = IMPORTANCE_ORDER.find((lvl, i) => Math.abs(topProfile[i] - rivalProfile[i]) > 1e-9);
+      gapText = `${T} and ${R} are exactly tied at ${pct[top.id]}%. ${T} comes first because it's closer to you on the questions you marked ${IMPORTANCE_LABELS[level]}, and we count your most important questions first when breaking a tie.`;
+    } else if (forTop.length || forRival.length) {
+      gapText = `${T} and ${R} are exactly tied at ${pct[top.id]}%. They differ on the questions below, but those pull in opposite directions by the same amount, so the quiz can't pick between them. Their manifestos and trust ratings may help you decide.`;
+    } else {
+      gapText = `${T} and ${R} are exactly tied at ${pct[top.id]}% and took the same side on every question you weighed, so the quiz can't pick between them. Their manifestos and trust ratings may help you decide.`;
+    }
+
+    const group = (label, items) => items.length ? `
+      <div class="close-call-group">
+        <div class="pref-compare-issues-title">${label}</div>
+        ${items.map(r => rowHtml(r, rival)).join('')}
+      </div>` : '';
+
+    const head = `
+        <div class="close-call-title">${T} vs ${R}</div>
+        <p class="close-call-gap">${gapText}</p>`;
+    const body = group(separable ? `Questions that put ${T} ahead` : `Questions where ${T} was closer to you`, forTop) +
+      group(`Questions where ${R} was closer to you`, forRival);
+    // The closest rival is shown in full; any others start collapsed.
+    if (index === 0 || !body) return `<div class="close-call-rival">${head}${body}</div>`;
+    return `
+      <details class="close-call-rival">
+        <summary>${head}<span class="close-call-toggle">Show the questions ▼</span></summary>
+        ${body}
+      </details>`;
+  }).join('');
+
+  const names = rivals.map(r => esc(r.abbreviation));
+  const who = names.length === 1 ? names[0] : `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}`;
+  return `
+    <div class="close-call-panel">
+      <div class="close-call-header">
+        <span class="pref-comparison-header-icon">🔍</span>
+        <span class="close-call-header-text">Close call: ${esc(top.abbreviation)} vs ${who}</span>
+      </div>
+      <div class="close-call-body">
+        <p class="close-call-intro">${inseparableFrom(sorted, exact, contrib).length
+          ? "Your top result is a tie, so here's where the leading parties differ on the questions you answered."
+          : 'Your result was close, so here are the questions that decided it.'}</p>
+        ${sections}
+        <p class="close-call-note">Points show how much each question moved your match percentage. A question counts for more when you marked it as important, when you agreed or disagreed strongly, and when the parties' positions are far apart.</p>
+      </div>
+    </div>`;
 }
 
 function scoreLabel(score) {
@@ -1611,13 +2362,33 @@ function toggleAnswersGlance() {
 }
 
 function showResults() {
-  const pct = computeResults();
-  const sorted = [...PARTIES].sort((a, b) => pct[b.id] - pct[a.id]);
+  const { pct, exact, coverage, contrib } = computeResults();
+  const scoredParties = PARTIES.filter(p => pct[p.id] !== null);
+  const unscoredParties = PARTIES.filter(p => pct[p.id] === null);
+  const sorted = [...scoredParties].sort((a, b) => compareParties(a, b, exact, contrib));
   const top = sorted[0];
   const answered = Object.keys(answers).length;
+  const tiedWith = sorted.slice(1).filter(p => pct[p.id] === pct[top.id]);
+  const inseparable = inseparableFrom(sorted, exact, contrib);
+  const rivals = closeRivals(sorted, pct);
+  const listNames = names => names.length === 1 ? names[0] : `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}`;
 
-  document.getElementById('results-headline').textContent = `You align most with the ${top.abbreviation}`;
-  document.getElementById('results-subline').textContent = `${pct[top.id]}% alignment across ${answered} answered question${answered !== 1 ? 's' : ''}`;
+  document.getElementById('results-headline').textContent = inseparable.length
+    ? `You align equally with the ${listNames([top, ...inseparable].map(p => p.abbreviation))}`
+    : `You align most with the ${top.abbreviation}`;
+  document.getElementById('results-subline').textContent =
+    `${MODE_LABELS[MODE]} · ${pct[top.id]}% alignment across ${answered} answered question${answered !== 1 ? 's' : ''}` +
+    (coverage[top.id].covered < coverage[top.id].total
+      ? ` (${top.abbreviation} has known positions on ${coverage[top.id].covered} of your ${coverage[top.id].total} weighted issues)`
+      : '') +
+    (inseparable.length
+      ? ` · The quiz can't separate them. See where they differ below.`
+      : tiedWith.length
+        ? ` · Tied with ${listNames(tiedWith.map(p => p.abbreviation))}. See what separated them below.`
+        : rivals.length ? ` · A close call. See what decided it below.` : '');
+  document.getElementById('close-call-section').innerHTML = closeCallHtml(sorted, pct, exact, contrib);
+  document.getElementById('btn-switch-mode').textContent =
+    MODE === 'local' ? '🗳 Take the national quiz' : '🗳 Take the local election quiz';
 
   const wrapper = document.getElementById('breakdown-grid-wrapper');
   const header = document.getElementById('glance-accordion-header');
@@ -1630,18 +2401,21 @@ function showResults() {
   ISSUES.forEach(issue => {
     const ans = answers[issue.id];
     if (ans === undefined || ans.importance === 0) return;
+    const known = hasPosition(top, issue.id);
     const pos = topPos[issue.id] || {};
     const partyScore = pos.score || 0;
-    const stanceText = pos.stance || null;
-    const opinionLabels = {'-2':'Strongly Disagree','-1':'Disagree','0':'Neutral', '1':'Agree','2':'Strongly Agree'};
+    const stanceText = known ? pos.stance : 'No published position found for this election.';
+    const sourceLink = known && pos.source_url
+      ? ` <a href="${esc(safeUrl(pos.source_url))}" target="_blank" rel="noopener" style="color:var(--green); font-style:normal;">source ↗</a>`
+      : '';
     explainerHtml += `
       <div class="explainer-card">
         <div class="explainer-issue">${issue.question.length > 90 ? issue.question.slice(0,90)+'…' : issue.question}</div>
         <div class="explainer-scores">
-          <div class="explainer-score-item">Your view<span class="explainer-score-val">${opinionLabels[String(ans.opinion)]}</span></div>
-          <div class="explainer-score-item">${top.abbreviation} stance<span class="explainer-score-val" style="color:${top.color}">${partyScore > 0 ? '+'+partyScore : partyScore}</span></div>
+          <div class="explainer-score-item">Your view<span class="explainer-score-val">${OPINION_LABELS[String(ans.opinion)]}</span></div>
+          <div class="explainer-score-item">${esc(top.abbreviation)} stance<span class="explainer-score-val" style="color:${esc(top.color)}">${known ? OPINION_LABELS[String(partyScore)] : 'No position'}${basisTagHtml(pos.basis)}</span></div>
         </div>
-        ${stanceText ? `<div class="explainer-stance">${stanceText}</div>` : ''}
+        ${stanceText ? `<div class="explainer-stance">${esc(stanceText)}${sourceLink}</div>` : ''}
       </div>`;
   });
 
@@ -1665,16 +2439,17 @@ function showResults() {
     </div>
   `;
 
-  const topManifestoUrl = getManifestoUrl(top.id);
+  const topManifesto = manifestoFor(top.id, MODE);
   document.getElementById('top-match-card').innerHTML = `
     <div class="top-match-inner">
       <div class="top-match-swatch" style="background:${top.color}">${top.abbreviation[0]}</div>
       <div>
         <div class="top-match-name">${top.abbreviation}</div>
         <div class="top-match-full">${top.name}</div>
-        <a class="top-match-manifesto" href="${topManifestoUrl}" target="_blank" rel="noopener">
-          📄 Read official manifesto ↗
-        </a>
+        ${topManifesto ? `<a class="top-match-manifesto" href="${esc(safeUrl(topManifesto.url))}" target="_blank" rel="noopener">
+          📄 Read the ${esc(topManifesto.label)} ↗
+        </a>${manifestoNoteHtml(topManifesto)}` : ''}
+        ${trustBlockHtml(top.id)}
       </div>
       <div>
         <div class="top-match-score" style="color:${top.color}">${pct[top.id]}%</div>
@@ -1696,8 +2471,9 @@ function showResults() {
     ISSUES.forEach(issue => {
       const ans = answers[issue.id];
       if (!ans || ans.importance === 0) return;
-      const topScore  = (top.positions[issue.id] || {}).score || 0;
-      const prefScore = (prefParty.positions[issue.id] || {}).score || 0;
+      if (!hasPosition(top, issue.id) || !hasPosition(prefParty, issue.id)) return;
+      const topScore  = top.positions[issue.id].score;
+      const prefScore = prefParty.positions[issue.id].score;
       if (topScore !== prefScore) {
         diffRows.push({ issue, topScore, prefScore, importance: ans.importance });
       }
@@ -1708,8 +2484,10 @@ function showResults() {
     });
     const topDiffs = diffRows.slice(0, 8);
 
-    const topUrl  = getManifestoUrl(top.id);
-    const prefUrl = getManifestoUrl(prefParty.id);
+    const manifestoChip = party => {
+      const m = manifestoFor(party.id, MODE);
+      return m ? `<a class="party-chip-about" style="text-decoration:none;" href="${esc(safeUrl(m.url))}" target="_blank" rel="noopener" title="${esc(m.note || '')}">📄 ${esc(party.abbreviation)} ${esc(m.label)} ↗</a>` : '';
+    };
 
     let diffHtml = '';
     topDiffs.forEach(({ issue, topScore, prefScore }) => {
@@ -1737,13 +2515,15 @@ function showResults() {
               <div class="pref-compare-name" style="color:${top.color}">${top.abbreviation}</div>
               <div style="font-size:0.75rem; color:var(--muted); margin-bottom:4px;">${top.name}</div>
               <div class="pref-compare-score" style="color:${top.color}">${pct[top.id]}%</div>
+              <div style="margin-top:6px;">${starsCompactHtml(top.id, 'Trust ')}</div>
             </div>
             <div class="pref-compare-vs">vs</div>
             <div class="pref-compare-party preferred">
               <div class="pref-compare-label">Your preferred party</div>
               <div class="pref-compare-name" style="color:${prefParty.color}">${prefParty.abbreviation}</div>
               <div style="font-size:0.75rem; color:var(--muted); margin-bottom:4px;">${prefParty.name}</div>
-              <div class="pref-compare-score" style="color:${prefParty.color}">${pct[prefParty.id]}%</div>
+              <div class="pref-compare-score" style="color:${prefParty.color}">${pct[prefParty.id] === null ? '<span style="font-size:0.8rem">Not enough data</span>' : pct[prefParty.id] + '%'}</div>
+              <div style="margin-top:6px;">${starsCompactHtml(prefParty.id, 'Trust ')}</div>
             </div>
           </div>
           ${topDiffs.length > 0 ? `
@@ -1752,8 +2532,8 @@ function showResults() {
               ${diffHtml}
             </div>` : ''}
           <div class="pref-manifesto-row">
-            <a class="party-chip-about" style="text-decoration:none;" href="${topUrl}" target="_blank" rel="noopener">📄 ${top.abbreviation} manifesto ↗</a>
-            <a class="party-chip-about" style="text-decoration:none;" href="${prefUrl}" target="_blank" rel="noopener">📄 ${prefParty.abbreviation} manifesto ↗</a>
+            ${manifestoChip(top)}
+            ${manifestoChip(prefParty)}
           </div>
         </div>
       </div>`;
@@ -1763,22 +2543,35 @@ function showResults() {
 
   const barsEl = document.getElementById('all-bars');
   barsEl.innerHTML = '';
+  const partial = sorted.some(p => coverage[p.id].covered < coverage[p.id].total);
   sorted.forEach(p => {
     if (p.id === top.id) return;
 
-    const manifUrl = getManifestoUrl(p.id);
-    let controlActionElement = `<button class="party-chip-about" onclick="openPartyAbout('${p.id}');" style="padding:4px 10px; font-size:0.7rem;">Info</button>`;
+    const cov = coverage[p.id];
+    const covTitle = `Based on ${cov.covered} of your ${cov.total} weighted issues`;
+    let controlActionElement = `<button class="party-chip-about" onclick="openPartyAbout('${esc(p.id)}');" style="padding:4px 10px; font-size:0.7rem;">Info</button>`;
 
     barsEl.innerHTML += `
-      <div class="party-result-row">
-        <div class="party-result-name">${p.abbreviation}</div>
-        <div class="party-result-bar-bg"><div class="party-result-bar-fill" style="width:0%;background:${p.color}" data-w="${pct[p.id]}"></div></div>
-        <div class="party-result-pct">${pct[p.id]}%</div>
-        <div style="display:flex; justify-content:center; align-items:center; min-width:44px;">
+      <div class="party-result-row" title="${covTitle}">
+        <div class="party-result-name">${esc(p.abbreviation)}</div>
+        <div class="party-result-bar-bg"><div class="party-result-bar-fill" style="width:0%;background:${esc(p.color)}" data-w="${pct[p.id]}"></div></div>
+        <div class="party-result-pct">${pct[p.id]}%${cov.covered < cov.total ? `<span style="display:block; font-size:0.6rem; color:var(--muted); font-weight:400;">${cov.covered}/${cov.total}</span>` : ''}</div>
+        <div style="display:flex; justify-content:flex-end; align-items:center; gap:6px; min-width:44px;">
+          ${starsCompactHtml(p.id)}
           ${controlActionElement}
         </div>
       </div>`;
   });
+
+  document.getElementById('coverage-note').textContent = partial
+    ? 'Some parties have not published positions on every issue. Their scores use only the issues where a position is known; the small figure under a score shows how many of your weighted issues it covers. Each position is tagged with where it comes from: the 2026 manifesto, a public statement, the party\'s national stance, or inferred from its wider platform.'
+    : '';
+  const unscoredEl = document.getElementById('unscored-parties');
+  unscoredEl.innerHTML = unscoredParties.length
+    ? `<strong style="color:var(--ink); font-weight:500;">Not enough published positions to score:</strong> ` +
+      unscoredParties.map(p => `<a href="#" style="color:var(--green)" onclick="openPartyAbout('${esc(p.id)}'); return false;">${esc(p.abbreviation)}</a> (${coverage[p.id].covered}/${coverage[p.id].total})`).join(', ') +
+      `. We only score a party once it has a known position on at least ${MIN_SCORED_ISSUES} of your weighted issues.`
+    : '';
 
   const grid = document.getElementById('breakdown-grid');
   grid.innerHTML = '';
@@ -1824,7 +2617,367 @@ function goHome() {
   showScreen('screen-landing');
 }
 
-function restart() { startQuiz(); }
+function restart() { startQuiz(MODE); }
+
+// ══════════════════════════════════════
+// TRUST RATINGS
+// ══════════════════════════════════════
+const BASIS_LABELS = { manifesto: '2026 manifesto', statement: 'Public statement', national: 'National stance', inferred: 'Inferred' };
+const OUTCOME_CLASS = { 'Clean audit': 'clean', 'Unqualified with findings': 'unq' };
+const INFO_SCREENS = ['screen-trust', 'screen-trust-party', 'screen-news'];
+const RETURN_LABELS = { 'screen-results': '← Back to my results', 'screen-quiz': '← Back to the quiz', 'screen-demographics': '← Back' };
+let infoReturnScreen = 'screen-landing';
+let newsFilter = 'all';
+let shownTrustParty = null;
+const trustCache = {};
+
+function basisTagHtml(basis) {
+  if (!basis || !BASIS_LABELS[basis]) return '';
+  const legend = (DATASETS.local.meta.basis_legend || {})[basis] || '';
+  return `<span class="basis-tag basis-${basis}" title="${esc(legend)}">${BASIS_LABELS[basis]}</span>`;
+}
+
+function entriesForParty(partyId) {
+  return (TRUST.entries || [])
+    .filter(e => e.party === partyId)
+    .sort((a, b) => b.date.localeCompare(a.date));
+}
+
+// Works out a party's rating from trust.json and keeps every step, so the
+// breakdown page can show exactly how the number was reached.
+function computeTrust(partyId) {
+  if (trustCache[partyId]) return trustCache[partyId];
+  const sc = TRUST.scoring;
+  if (!sc) return null;
+
+  const councils = ((TRUST.governance.parties || {})[partyId] || {}).councils || [];
+  const gov = { councils, applies: councils.length >= sc.governance.min_councils, adjustment: 0, average: null, counts: {} };
+  councils.forEach(c => { gov.counts[c.outcome] = (gov.counts[c.outcome] || 0) + 1; });
+  if (gov.applies) {
+    gov.average = councils.reduce((s, c) => s + (sc.governance.points[c.outcome] || 0), 0) / councils.length;
+    gov.adjustment = sc.governance.scale * (gov.average - sc.governance.benchmark);
+  }
+
+  const r = sc.record;
+  const items = entriesForParty(partyId).map(e => {
+    const years = (Date.now() - new Date(e.date + 'T12:00:00')) / 31557600000;
+    const age = e.status_type === 'final'
+      ? r.age_weight.find(a => a.max_years === null || years <= a.max_years)
+      : null;
+    const factors = {
+      tier: r.tier_points[e.tier] ?? 0,
+      role: r.role_weight[e.role] ?? 1,
+      category: r.category_weight[e.category] ?? 1,
+      status: r.status_weight[e.status_type] ?? 1,
+      age: age ? age.weight : 1,
+    };
+    const points = factors.tier * factors.role * factors.category * factors.status * factors.age;
+    return { entry: e, factors, points, ageBand: age };
+  });
+  const rawRecord = items.reduce((s, i) => s + i.points, 0);
+  const record = Math.min(rawRecord, r.max_total);
+  const raw = sc.start + gov.adjustment - record;
+  const rating = Math.max(sc.min, Math.min(sc.max, raw));
+  const limited = !gov.applies;
+  return (trustCache[partyId] = { rating, raw, gov, items, rawRecord, record, capped: rawRecord > r.max_total, limited, label: trustLabel(rating, limited) });
+}
+
+function trustLabel(rating, limited) {
+  if (rating >= 4) return 'Strong track record';
+  if (rating >= 3.3) return 'Fair track record';
+  if (rating >= 2.7) return limited ? 'Unproven: little record either way' : 'Mixed track record';
+  if (rating >= 2) return 'Some concerns';
+  if (rating >= 1.5) return 'Serious concerns';
+  return 'Very serious concerns';
+}
+
+function fmt1(n) { return (Math.round(n * 10) / 10).toFixed(1); }
+function signed(n) {
+  const v = Math.round(n * 100) / 100;
+  return (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v).toFixed(2);
+}
+
+function starsHtml(partyId, opts = {}) {
+  const t = computeTrust(partyId);
+  if (!t) return '';
+  const p = ALL_PARTIES[partyId] || {};
+  const inner = `
+    <span class="stars-track" aria-hidden="true">★★★★★<span class="stars-fill" style="width:${(t.rating / 5) * 100}%">★★★★★</span></span>
+    <span class="stars-num">${fmt1(t.rating)}</span>${opts.why ? '<span class="stars-why">Why? →</span>' : ''}`;
+  const cls = `stars ${opts.size || ''} ${opts.dark ? 'on-dark' : ''}`;
+  const label = `${esc(p.abbreviation)} trust rating ${fmt1(t.rating)} out of 5`;
+  if (opts.static) return `<span class="${cls}" style="cursor:inherit" role="img" aria-label="${label}">${inner}</span>`;
+  return `<button class="${cls}" onclick="openTrustParty('${esc(partyId)}'); event.stopPropagation();" title="See how this rating was worked out" aria-label="${label}. See how it was worked out.">${inner}</button>`;
+}
+
+function starsCompactHtml(partyId, prefix = '') {
+  const t = computeTrust(partyId);
+  if (!t) return '';
+  const p = ALL_PARTIES[partyId] || {};
+  return `<button class="stars-compact" onclick="openTrustParty('${esc(partyId)}'); event.stopPropagation();" title="Trust rating ${fmt1(t.rating)} out of 5 — click to see why" aria-label="${esc(p.abbreviation)} trust rating ${fmt1(t.rating)} out of 5. See why.">${prefix}<span class="star-ico">★</span>${fmt1(t.rating)}</button>`;
+}
+
+function trustBlockHtml(partyId, withHeading = true) {
+  const t = computeTrust(partyId);
+  if (!t) return '';
+  return `<div class="trust-block">
+    ${withHeading ? '<div class="trust-block-label">Trust rating</div>' : ''}
+    ${starsHtml(partyId, { why: true })}
+    <div class="trust-label">${esc(t.label)}${t.limited ? " · hasn't run a council on its own" : ''}</div>
+  </div>`;
+}
+
+// Trust and news pages can be opened from anywhere; remember where the user came from.
+function rememberReturn() {
+  const active = document.querySelector('.screen.active');
+  if (active && !INFO_SCREENS.includes(active.id)) infoReturnScreen = active.id;
+  closeAboutModal();
+  document.querySelectorAll('.trust-back-btn').forEach(btn => {
+    btn.style.display = infoReturnScreen === 'screen-landing' ? 'none' : '';
+    btn.textContent = RETURN_LABELS[infoReturnScreen] || '← Back';
+  });
+}
+
+function goBackFromInfo() { showScreen(infoReturnScreen); }
+
+function openTrustOverview() {
+  rememberReturn();
+  renderTrustOverview();
+  showScreen('screen-trust');
+}
+
+function renderTrustOverview() {
+  const sc = TRUST.scoring;
+  document.getElementById('trust-subline').textContent =
+    `Last reviewed ${formatDate(TRUST.last_reviewed || '', true)} · Tap a party to see exactly how its rating was worked out`;
+  document.getElementById('trust-intro').innerHTML = !sc ? '<p>Trust ratings could not be loaded.</p>' : `
+    <p>${esc(TRUST.about)}</p>
+    <ul>
+      <li><strong>Every party starts at ${sc.start} stars:</strong> unproven.</li>
+      <li><strong>Running councils (up to ±${sc.governance.scale / 2} stars):</strong> parties that run councils on their own move up or down with the Auditor-General's audit results for those councils.</li>
+      <li><strong>Corruption and abuse of government power (up to −${sc.record.max_total} stars):</strong> court convictions, official findings, criminal charges and confirmed investigations involving the party or its senior figures take stars off. Other wrongdoing, such as hate speech or unrelated criminal cases, doesn't count.</li>
+    </ul>`;
+
+  const list = document.getElementById('trust-list');
+  list.innerHTML = '';
+  Object.values(ALL_PARTIES)
+    .map(p => ({ p, t: computeTrust(p.id) }))
+    .filter(x => x.t)
+    .sort((a, b) => b.t.rating - a.t.rating || a.p.abbreviation.localeCompare(b.p.abbreviation))
+    .forEach(({ p, t }) => {
+      const row = document.createElement('div');
+      row.className = 'trust-row';
+      row.setAttribute('role', 'button');
+      row.tabIndex = 0;
+      row.onclick = () => openTrustParty(p.id);
+      row.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openTrustParty(p.id); } };
+      row.innerHTML = `
+        <div class="party-dot" style="background:${esc(p.color)}; width:12px; height:12px;"></div>
+        <div>
+          <div class="trust-row-name">${esc(p.abbreviation)} ${t.limited ? '<span class="limited-tag" title="Has not run a council on its own">No council record</span>' : ''}</div>
+          <div class="trust-row-sub">${esc(p.name)} · ${t.items.length} record item${t.items.length === 1 ? '' : 's'}${t.gov.applies ? ` · runs ${t.gov.councils.length} councils` : ''}</div>
+        </div>
+        <div class="trust-row-right">
+          ${starsHtml(p.id, { static: true })}
+          <div class="trust-label">${esc(t.label)}</div>
+        </div>`;
+      list.appendChild(row);
+    });
+
+  document.getElementById('trust-footnote').textContent =
+    "Ratings are calculated automatically from the public record using fixed rules, which are listed on each party's page. Spotted an error or a missing finding? Please get in touch so it can be reviewed.";
+}
+
+function openTrustParty(partyId) {
+  if (!ALL_PARTIES[partyId] || !computeTrust(partyId)) return;
+  rememberReturn();
+  renderTrustParty(partyId);
+  showScreen('screen-trust-party');
+}
+
+function councilListHtml(councils) {
+  const sorted = [...councils].sort((a, b) => a.name.localeCompare(b.name));
+  return `<details class="councils"><summary>See all ${councils.length} councils and their audit results</summary>
+    <div class="council-grid">${sorted.map(c => `<div><span class="outcome-dot outcome-${OUTCOME_CLASS[c.outcome] || 'bad'}"></span>${esc(c.name)} <span style="color:var(--muted)">(${esc(c.province)}) · ${esc(c.outcome)}</span></div>`).join('')}</div>
+    <div class="outcome-legend"><span><span class="outcome-dot outcome-clean"></span>Clean audit = 1</span><span><span class="outcome-dot outcome-unq"></span>Unqualified with findings = ½</span><span><span class="outcome-dot outcome-bad"></span>Qualified or worse = 0</span></div>
+  </details>`;
+}
+
+function renderTrustParty(partyId) {
+  shownTrustParty = partyId;
+  const p = ALL_PARTIES[partyId];
+  const t = computeTrust(partyId);
+  const sc = TRUST.scoring;
+  const g = TRUST.governance;
+  const L = TRUST.labels;
+
+  document.getElementById('tp-name').textContent = p.name === p.abbreviation ? p.name : `${p.name} (${p.abbreviation})`;
+  document.getElementById('tp-stars').innerHTML = starsHtml(partyId, { size: 'lg', dark: true, static: true });
+  document.getElementById('tp-label').textContent = t.label +
+    (t.limited ? ". This party hasn't run a council on its own, so there's little evidence of how it governs." : '.');
+
+  let govDesc;
+  if (t.gov.applies) {
+    const parts = Object.entries(t.gov.counts).sort((a, b) => b[1] - a[1]).map(([k, n]) => `${n} × ${k.toLowerCase()}`);
+    govDesc = `Runs ${t.gov.councils.length} councils on its own (won a majority there in 2021). Auditor-General results for ${esc(g.audit_year)}: ${esc(parts.join(', '))}. ` +
+      `Average score ${t.gov.average.toFixed(2)}, against a pass mark of ${sc.governance.benchmark} (the average across all councils is ${g.all_councils.score.toFixed(2)}).` +
+      councilListHtml(t.gov.councils);
+  } else if (t.gov.councils.length) {
+    govDesc = `Runs only ${t.gov.councils.length} council${t.gov.councils.length === 1 ? '' : 's'} on its own, which is too few to judge (minimum ${sc.governance.min_councils}).`;
+  } else {
+    govDesc = "Hasn't won a majority on any council, so there's no governing record that belongs to this party alone. Councils run by coalitions aren't counted because responsibility is shared.";
+  }
+  govDesc += `<div style="margin-top:6px;">${esc(sc.governance.explain)} Sources: <a href="${esc(safeUrl(g.audit_source.url))}" target="_blank" rel="noopener" style="color:var(--green)">${esc(g.audit_source.label)} ↗</a>, <a href="${esc(safeUrl(g.control_source.url))}" target="_blank" rel="noopener" style="color:var(--green)">${esc(g.control_source.label)} ↗</a>. ${esc(g.note)}</div>`;
+
+  const ptsClass = n => (Math.abs(n) < 0.005 ? 'zero' : n > 0 ? 'pos' : 'neg');
+  const floorNote = t.raw < sc.min ? ` The calculation comes to ${fmt1(t.raw)}, but the lowest possible rating is ${sc.min} star.` : '';
+  document.getElementById('tp-calc').innerHTML = `
+    <div class="calc-row">
+      <div><div class="calc-title">Starting point</div><div class="calc-desc">Every party starts in the middle. A manifesto alone doesn't earn or lose trust.</div></div>
+      <div class="calc-pts">${sc.start.toFixed(2)}</div>
+    </div>
+    <div class="calc-row">
+      <div><div class="calc-title">Running councils</div><div class="calc-desc">${govDesc}</div></div>
+      <div class="calc-pts ${ptsClass(t.gov.adjustment)}">${signed(t.gov.adjustment)}</div>
+    </div>
+    <div class="calc-row">
+      <div><div class="calc-title">Corruption and abuse of power</div><div class="calc-desc">${t.items.length
+        ? `${t.items.length} item${t.items.length === 1 ? '' : 's'} on the public record, listed below with the points each one costs.${t.capped ? ` They add up to ${fmt1(t.rawRecord)}, but the most that can be taken off is ${sc.record.max_total}.` : ''}`
+        : "No court convictions, official findings, criminal charges or confirmed investigations for corruption or abuse of government power found for this party's leaders or public representatives."} ${esc(sc.record.explain)}</div></div>
+      <div class="calc-pts ${ptsClass(-t.record)}">${signed(-t.record)}</div>
+    </div>
+    <div class="calc-row total">
+      <div><div class="calc-title">Trust rating</div><div class="calc-desc" style="color:#7A5C00">${esc(t.label)}.${floorNote}</div></div>
+      <div class="calc-pts">${fmt1(t.rating)} / 5</div>
+    </div>`;
+
+  const recordEl = document.getElementById('tp-record');
+  if (!t.items.length) {
+    recordEl.innerHTML = `<div class="rec-empty">Nothing on the public record met the bar for this party. That doesn't certify it as clean, and smaller or newer parties have faced less scrutiny.</div>`;
+  } else {
+    recordEl.innerHTML = `<div class="rec-list">${t.items.map(({ entry: e, factors: f, points, ageBand }) => {
+      const timing = e.status_type === 'final'
+        ? `${f.age} (${ageBand.max_years === 5 ? 'settled in the last 5 years' : ageBand.max_years === 10 ? 'settled 5–10 years ago' : 'settled over 10 years ago'})`
+        : `${f.status} (${esc((L.status[e.status_type] || e.status_type).toLowerCase())})`;
+      return `
+      <div class="rec-item">
+        <div class="rec-top">
+          <div class="rec-top-left">
+            <span class="tier-badge tier-${esc(e.tier)}">${esc(L.tiers[e.tier] || e.tier)}</span>
+            <span class="rec-date">${esc(formatDate(e.date))} · ${esc(L.categories[e.category] || e.category)}</span>
+          </div>
+          <span class="calc-pts neg" style="font-size:0.85rem">${signed(-points)}</span>
+        </div>
+        <div class="rec-title">${esc(e.title)}</div>
+        <div class="rec-person">${esc(e.person)}</div>
+        <div class="rec-summary">${esc(e.summary)}</div>
+        <div class="rec-status"><strong>Status:</strong> ${esc(e.status)}</div>
+        <div class="rec-sources">${(e.sources || []).map(s => `<a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener">${esc(s.label)} ↗</a>`).join('')}</div>
+        <div class="rec-maths">${f.tier} (${esc((L.tiers[e.tier] || e.tier).toLowerCase())}) × ${f.role} (${esc((L.roles[e.role] || e.role).toLowerCase())}) × ${f.category !== 1 ? `${f.category} (${esc(e.category)}) × ` : ''}${timing} = ${points.toFixed(2)}</div>
+      </div>`;
+    }).join('')}</div>`;
+  }
+
+  const newsEl = document.getElementById('tp-news');
+  newsEl.innerHTML = '';
+  const ul = document.createElement('ul');
+  ul.className = 'news-list';
+  fillNewsList(ul, newsForParty(partyId, 8), false);
+  newsEl.appendChild(ul);
+  document.getElementById('tp-all-news').onclick = e => { e.preventDefault(); openNews(partyId); };
+
+  document.getElementById('tp-rules').innerHTML = (TRUST.rules || []).map(r => `<li>${esc(r)}</li>`).join('');
+}
+
+// ══════════════════════════════════════
+// NEWS
+// ══════════════════════════════════════
+function newsForParty(partyId, limit) {
+  return (NEWS.items || []).filter(i => i.parties && i.parties.includes(partyId)).slice(0, limit);
+}
+
+// Headlines come from third-party RSS feeds, so they're rendered with
+// textContent rather than innerHTML.
+function fillNewsList(ul, items, showParties) {
+  ul.innerHTML = '';
+  if (!items.length) {
+    const li = document.createElement('li');
+    li.className = 'news-empty';
+    li.textContent = 'No recent stories from the outlets we follow.';
+    ul.appendChild(li);
+    return;
+  }
+  items.forEach(item => {
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    a.href = safeUrl(item.link);
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.textContent = item.title;
+    const meta = document.createElement('span');
+    meta.className = 'news-meta';
+    const partyNames = showParties
+      ? ' · ' + item.parties.map(id => (ALL_PARTIES[id] || {}).abbreviation || id).join(', ')
+      : '';
+    meta.textContent = `${item.source} · ${formatDate(item.published, true)}${partyNames}`;
+    if (item.accountability) {
+      const flag = document.createElement('span');
+      flag.className = 'news-flag';
+      flag.textContent = ' · courts & investigations';
+      flag.title = 'Mentions courts, charges or investigations (detected by keyword). Not a finding.';
+      meta.appendChild(flag);
+    }
+    li.append(a, meta);
+    ul.appendChild(li);
+  });
+}
+
+function openNews(partyId) {
+  rememberReturn();
+  newsFilter = partyId && ALL_PARTIES[partyId] ? partyId : 'all';
+  renderNews();
+  showScreen('screen-news');
+}
+
+function renderNews() {
+  const items = NEWS.items || [];
+  document.getElementById('news-subline').textContent =
+    `${items.length} stories mentioning parties from the last ${NEWS.window_days || 30} days` +
+    (NEWS.updated ? ` · updated ${formatDate(NEWS.updated, true)}` : '');
+
+  const outletsEl = document.getElementById('news-outlets');
+  outletsEl.innerHTML = '';
+  const outlets = new Map();
+  (NEWS.feeds || []).forEach(f => { if (!outlets.has(f.source)) outlets.set(f.source, f.homepage || f.url); });
+  outlets.forEach((homepage, source) => {
+    const a = document.createElement('a');
+    a.className = 'outlet-card';
+    a.href = safeUrl(homepage);
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.textContent = `${source} ↗`;
+    const count = document.createElement('span');
+    count.textContent = `${items.filter(i => i.source === source).length} stories`;
+    a.appendChild(count);
+    outletsEl.appendChild(a);
+  });
+
+  const filterEl = document.getElementById('news-filter');
+  filterEl.innerHTML = '';
+  const counts = {};
+  items.forEach(i => i.parties.forEach(id => { counts[id] = (counts[id] || 0) + 1; }));
+  [{ id: 'all', abbreviation: 'All parties' }, ...Object.values(ALL_PARTIES).filter(p => counts[p.id])].forEach(p => {
+    const btn = document.createElement('button');
+    btn.textContent = p.id === 'all' ? `${p.abbreviation} (${items.length})` : `${p.abbreviation} (${counts[p.id]})`;
+    btn.className = newsFilter === p.id ? 'sel' : '';
+    btn.onclick = () => { newsFilter = p.id; renderNews(); };
+    filterEl.appendChild(btn);
+  });
+
+  const accOnly = document.getElementById('news-acc-only').checked;
+  const filtered = items.filter(i => (newsFilter === 'all' || i.parties.includes(newsFilter)) && (!accOnly || i.accountability));
+  fillNewsList(document.getElementById('news-list'), filtered, true);
+}
 
 // ══════════════════════════════════════
 // ANALYTICS INTEGRATION
@@ -1837,6 +2990,7 @@ function recordAnalytics(topParty, matchScores, userAnswers, demographics) {
   
   const payload = {
     timestamp: new Date().toISOString(),
+    election: MODE,
     demographics,
     topMatch: topParty,
     scores: matchScores,

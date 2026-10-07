@@ -7,21 +7,21 @@
     "founded": 1912,
     "ideology_notes": "Social democracy, African nationalism, mixed economy",
     "sources": {
-      "manifesto_2024": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
+      "manifesto_2024": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf",
       "website": "https://www.anc1912.org.za"
     },
     "positions": {
       "land_expropriation": {
         "score": 2,
         "stance": "Strongly supports expropriation without compensation as a tool for land reform",
-        "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
+        "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf",
         "source_date": "2024-02-24",
         "source_quote": "Accelerate land reform and redistribution to reduce asset inequality and protect the security of tenure, improve food security and agricultural production."
       },
       "eskom_privatisation": {
         "score": -1,
         "stance": "Supports limited private generation alongside a retained state-owned Eskom; opposes full market liberalisation that would reduce Eskom's role substantially.",
-        "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
+        "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf",
         "source_date": "2024-02-24",
         "source_quote": "Ensure Eskom remains in state hands while driving restructuring to bring in competitive, private generation options alongside public supply."
       },
@@ -35,28 +35,28 @@
       "crime_policing": {
         "score": 1,
         "stance": "Supports increased police capacity but emphasises social root causes",
-        "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
+        "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf",
         "source_date": "2024-02-24",
         "source_quote": "Strengthen the fight against crime by bolstering law enforcement capacity, expanding personnel, and actively addressing socioeconomic drivers of criminality."
       },
       "bbbee": {
         "score": 2,
         "stance": "Strongly supports race-based BBBEE as the essential mechanism of economic transformation; has strengthened scorecards and expanded sector charters in government.",
-        "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
+        "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf",
         "source_date": "2024-02-24",
         "source_quote": "Advance broad-based black economic empowerment to redress historical economic exclusion and promote structural demographic representation."
       },
       "immigration": {
         "score": 0,
         "stance": "Acknowledges public concern over undocumented migration but is bound by international refugee obligations; policy is inconsistent — rhetoric varies by coalition pressure.",
-        "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
+        "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf",
         "source_date": "2024-02-24",
         "source_quote": "We share a collective responsibility to build a brighter future for Africa while reforming border controls and ensuring adherence to international human rights laws."
       },
       "free_education": {
         "score": 2,
         "stance": "Supports fee-free higher education; expanded NSFAS significantly",
-        "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
+        "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf",
         "source_date": "2024-02-24",
         "source_quote": "Consolidate and expand the provision of fee-free higher education for students from poor and working-class backgrounds through the NSFAS scheme."
       },
@@ -70,84 +70,84 @@
       "state_owned_enterprises": {
         "score": 2,
         "stance": "Supports retention of strategic SOEs with reform rather than privatisation",
-        "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
+        "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf",
         "source_date": "2024-02-24",
         "source_quote": "Reposition and restructure strategic state-owned enterprises to ensure they effectively drive national development goals under state custody."
       },
       "abortion_rights": {
         "score": 2,
         "stance": "Supports existing legal framework for abortion rights",
-        "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
+        "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf",
         "source_date": "2024-02-24",
         "source_quote": "The reproductive rights campaign is integrally linked to delivering a top-quality public health system that guarantees healthcare access for all women."
       },
       "lgbtq_rights": {
         "score": 1,
         "stance": "Constitutionally committed but implementation inconsistent",
-        "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
+        "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf",
         "source_date": "2024-02-24",
         "source_quote": "Uphold the constitutional human rights, safety, and dignity of every individual, safeguarding against discrimination based on gender or sexual orientation."
       },
       "youth_unemployment": {
         "score": 2,
         "stance": "Supports state-led interventions including Presidential Employment Stimulus, YES programme, and expanded public employment schemes",
-        "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
+        "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf",
         "source_date": "2024-02-24",
         "source_quote": "Scale up youth employment interventions, including public employment initiatives and targeted incentives, to absorb millions of young jobseekers."
       },
       "tender_reform": {
         "score": -1,
         "stance": "Has passed procurement reform legislation and acknowledges corruption as a problem — but has explicitly defended cadre deployment as party policy and resists open tendering that would undermine transformation targets.",
-        "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
+        "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf",
         "source_date": "2024-02-24",
         "source_quote": "Strengthen state capacity, streamline public procurement legislation to root out corruption, and foster transparent public service frameworks."
       },
       "basic_education": {
         "score": 1,
         "stance": "Supports increased education spending and has expanded the DBE budget and ECD programmes; believes funding is a necessary part of fixing schools but resists accountability frameworks that reduce union influence, and has not prioritised merit-only teacher appointments.",
-        "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
+        "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf",
         "source_date": "2024-02-24",
         "source_quote": "Improve the quality of basic education through upgraded school infrastructure, early childhood development expansion, and enhanced curriculum support."
       },
       "basic_services": {
         "score": -1,
         "stance": "Generally resists private operators taking over municipal service delivery; prefers state-led turnaround support and provincial intervention over privatisation of water and sanitation.",
-        "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
+        "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf",
         "source_date": "2024-02-24",
         "source_quote": "Accelerate the municipal rollout of clean water, stable electricity, and safe sanitation infrastructure to historically marginalized communities."
       },
       "public_services_quality": {
         "score": 0,
         "stance": "Acknowledges service delivery failures but resists structural reforms that reduce state control or cadre deployment; favours increased funding and professionalisation within existing structures.",
-        "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
+        "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf",
         "source_date": "2024-02-24",
         "source_quote": "Build a capable, professionalized ethical state that is responsive to the needs of the people through strict public management codes."
       },
       "job_creation": {
         "score": 2,
         "stance": "Strongly interventionist — champions the Presidential Employment Stimulus, Expanded Public Works Programme, and direct state job creation as core policy",
-        "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
+        "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf",
         "source_date": "2024-02-24",
         "source_quote": "Put job creation at the center of economic policy via a National Jobs Plan anchored on infrastructure rollout and localized industrialization."
       },
       "local_manufacturing": {
         "score": 2,
         "stance": "Strongly supports industrial policy, Masterplans, and local procurement requirements; the 30% local content set-aside in government tenders is ANC policy",
-        "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
+        "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf",
         "source_date": "2024-02-24",
         "source_quote": "Build our domestic industries for an inclusive economy by expanding masterplans, supporting local procurement, and mandating domestic content."
       },
       "mining_regulation": {
         "score": 1,
         "stance": "Supports transformation, local community equity, and strict environmental compliance via the Mining Charter, but balances enforcement to avoid chasing away mining investment.",
-        "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
+        "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf",
         "source_date": "2024-02-24",
         "source_quote": "Promote transformation and community benefit-sharing within the mining sector while maintaining an attractive, stable environment for capital investment."
       },
       "renewable_energy": {
         "score": 0,
         "stance": "Committed to net-zero goals and signed the Climate Change Bill, but actively slows coal decommissioning to protect grid stability and ~90,000 coal-sector jobs; JETP implementation is slow.",
-        "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
+        "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf",
         "source_date": "2024-02-24",
         "source_quote": "Balance international net-zero commitments with grid security by managing a practical energy transition that utilizes diversified baseloads and expands renewables."
       },
@@ -166,14 +166,14 @@
       "gbv": {
         "score": 1,
         "stance": "Declared GBV a second pandemic and introduced the National Strategic Plan on GBV & Femicide; supports both stronger law enforcement and addressing root socioeconomic causes, though implementation has been widely criticised as slow and underfunded.",
-        "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
+        "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf",
         "source_date": "2024-02-24",
         "source_quote": "Intensify the fight against gender-based violence and femicide through strengthening law enforcement, supporting survivors, and addressing the social and economic root causes of GBV."
       },
       "townships": {
         "score": 2,
         "stance": "Strongly supports prioritising township and informal settlement upgrades; has built millions of RDP homes and frames township investment as a core electoral and social mandate, though delivery has been severely hampered by corruption and mismanagement.",
-        "source_url": "https://www.anc1912.org.za/anc-2024-election-manifesto/",
+        "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf",
         "source_date": "2024-02-24",
         "source_quote": "Accelerate the upgrade of informal settlements and townships through investment in housing, infrastructure, and basic services to provide dignity for all residents."
       }
@@ -553,147 +553,147 @@
     "founded": 2023,
     "ideology_notes": "African nationalism, social conservatism, Zulu traditionalism",
     "sources": {
-      "manifesto_2024": "https://www.umkhontoparty.co.za/manifesto",
+      "manifesto_2024": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf",
       "website": "https://www.umkhontoparty.co.za"
     },
     "positions": {
       "land_expropriation": {
         "score": 2,
         "stance": "Strongly supports land expropriation without compensation",
-        "source_url": "https://www.umkhontoparty.co.za/manifesto",
+        "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf",
         "source_date": "2024-04-01",
         "source_quote": "Expropriate all land without compensation to transfer absolute custodianship back into the hands of the state and traditional authorities."
       },
       "eskom_privatisation": {
         "score": -2,
         "stance": "Opposes privatisation or market liberalisation; wants Eskom retained as central state infrastructure under full public operational control.",
-        "source_url": "https://www.umkhontoparty.co.za/manifesto",
+        "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf",
         "source_date": "2024-04-01",
         "source_quote": "Halt all forms of unbundling or creeping privatization of Eskom, keeping state assets strictly under central public operational control."
       },
       "nhi": {
         "score": 2,
         "stance": "Supports universal healthcare and NHI as a mechanism to equalise access between rural and urban populations.",
-        "source_url": "https://www.umkhontoparty.co.za/manifesto",
+        "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf",
         "source_date": "2024-04-01",
         "source_quote": "Support universal healthcare frameworks to equalize medical treatment facilities across deep rural and urban zones."
       },
       "crime_policing": {
         "score": 1,
         "stance": "Supports stronger law enforcement",
-        "source_url": "https://www.umkhontoparty.co.za/manifesto",
+        "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf",
         "source_date": "2024-04-01",
         "source_quote": "Reinforce paramilitary capacity in policing and deal decisively with syndicates destabilizing national socioeconomic infrastructure."
       },
       "bbbee": {
         "score": 2,
         "stance": "Supports economic transformation policies targeting the black majority; endorses BBBEE as a necessary corrective tool.",
-        "source_url": "https://www.umkhontoparty.co.za/manifesto",
+        "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf",
         "source_date": "2024-04-01",
         "source_quote": "Advance deep black economic empowerment frameworks that structurally shift production into the hands of the African majority."
       },
       "immigration": {
         "score": 1,
         "stance": "Has expressed strong concern about immigration's impact on local jobs and services; supports stricter enforcement of border regulations.",
-        "source_url": "https://www.umkhontoparty.co.za/manifesto",
+        "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf",
         "source_date": "2024-04-01",
         "source_quote": "Implement stringent border regulations to protect local jobs and secure sovereignty against unmonitored immigration flows."
       },
       "free_education": {
         "score": 2,
         "stance": "Supports free education",
-        "source_url": "https://www.umkhontoparty.co.za/manifesto",
+        "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf",
         "source_date": "2024-04-01",
         "source_quote": "Guarantee completely state-funded, free education across tertiary levels for all qualifying African students."
       },
       "foreign_policy_west": {
         "score": -2,
         "stance": "Anti-Western stance — aligns with Russia and China; opposes ICC and what it frames as Western neo-colonialism in international institutions.",
-        "source_url": "https://www.umkhontoparty.co.za/manifesto",
+        "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf",
         "source_date": "2024-04-01",
         "source_quote": "Pivot away from Western economic hegemony, fortify relationships within BRICS, and explicitly align with traditional global allies like Russia and China."
       },
       "state_owned_enterprises": {
         "score": 2,
         "stance": "Supports state control of strategic sectors",
-        "source_url": "https://www.umkhontoparty.co.za/manifesto",
+        "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf",
         "source_date": "2024-04-01",
         "source_quote": "Mandate state-led management of all strategic sectors including banks, energy grids, and primary transport links."
       },
       "abortion_rights": {
         "score": -1,
         "stance": "Socially conservative; likely opposes expanded abortion access",
-        "source_url": "https://www.umkhontoparty.co.za/manifesto",
+        "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf",
         "source_date": "2024-04-01",
         "source_quote": "Review progressive social policies to bring national moral frameworks back into closer alignment with indigenous African traditionalism."
       },
       "lgbtq_rights": {
         "score": -1,
         "stance": "Traditionalist stance; less supportive of LGBTQ+ rights expansion",
-        "source_url": "https://www.umkhontoparty.co.za/manifesto",
+        "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf",
         "source_date": "2024-04-01",
         "source_quote": "Prioritize indigenous laws and customary values, often looking critically at Westernized rights frameworks."
       },
       "youth_unemployment": {
         "score": 2,
         "stance": "Supports state-led job creation and economic development programmes targeting youth",
-        "source_url": "https://www.umkhontoparty.co.za/manifesto",
+        "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf",
         "source_date": "2024-04-01",
         "source_quote": "Deploy youth into mandatory state skills programs and infrastructure development corps to break chronic underemployment."
       },
       "tender_reform": {
         "score": 0,
         "stance": "Anti-corruption rhetoric but no credible structural reform plan; party emerged from ANC patronage networks and has not committed to ending cadre deployment.",
-        "source_url": "https://www.umkhontoparty.co.za/manifesto",
+        "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf",
         "source_date": "2024-04-01",
         "source_quote": "Re-engineer state supply chains to minimize middle-man inflation while ensuring community councils lead resource procurement."
       },
       "basic_education": {
         "score": 0,
         "stance": "Supports improved education outcomes and indigenous language instruction but has not articulated a clear position on standardised testing or merit-based teacher accountability systems.",
-        "source_url": "https://www.umkhontoparty.co.za/manifesto",
+        "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf",
         "source_date": "2024-04-01",
         "source_quote": "Reform the basic education curriculum to incorporate traditional knowledge, patriotism, and mandatory indigenous language instruction."
       },
       "basic_services": {
         "score": -1,
         "stance": "Opposes private operators in service delivery; supports state-led delivery and community council oversight of municipal infrastructure.",
-        "source_url": "https://www.umkhontoparty.co.za/manifesto",
+        "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf",
         "source_date": "2024-04-01",
         "source_quote": "Redirect national financial priorities to build clean water delivery networks and grid connections across rural tribal lands."
       },
       "public_services_quality": {
         "score": 0,
         "stance": "Supports improving public services but attributes failures to underfunding and privatisation rather than structural management failures; favours state-led expansion over structural overhaul.",
-        "source_url": "https://www.umkhontoparty.co.za/manifesto",
+        "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf",
         "source_date": "2024-04-01",
         "source_quote": "Reassert state sovereignty over service lines to eliminate private corporate influence from dictating citizen welfare access."
       },
       "job_creation": {
         "score": 2,
         "stance": "Strongly supports state-led job creation through public works, nationalisation of key sectors, and mass employment programmes",
-        "source_url": "https://www.umkhontoparty.co.za/manifesto",
+        "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf",
         "source_date": "2024-04-01",
         "source_quote": "Drive a comprehensive industrial strategy where the state acts as the direct employer of choice across mass manufacturing projects."
       },
       "local_manufacturing": {
         "score": 2,
         "stance": "Strongly supports rebuilding domestic industry through state ownership, local procurement mandates, and protective trade policy aligned with Pan-African economic goals",
-        "source_url": "https://www.umkhontoparty.co.za/manifesto",
+        "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf",
         "source_date": "2024-04-01",
         "source_quote": "Rebuild domestic production capabilities via strict import substitution rules and absolute protection of localized manufacturing industries."
       },
       "mining_regulation": {
         "score": -1,
         "stance": "Leans against increasing regulations or taxes on primary production sectors, prioritizing deregulation and policy stability to attract private mining exploration infrastructure.",
-        "source_url": "https://www.umkhontoparty.co.za/manifesto",
+        "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf",
         "source_date": "2024-04-01",
         "source_quote": "Maximize raw extractive capability through stable infrastructure support before managing deeper corporate regulatory compliance layers."
       },
       "renewable_energy": {
         "score": 0,
         "stance": "Supports diversified energy including nuclear and renewables but does not advocate a rapid coal phase-out; prioritises energy access and cost stability over transition timelines.",
-        "source_url": "https://www.umkhontoparty.co.za/manifesto",
+        "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf",
         "source_date": "2024-04-01",
         "source_quote": "Promote clean baseload opportunities including nuclear options alongside expanding decentralized generation capabilities."
       },
@@ -712,14 +712,14 @@
       "gbv": {
         "score": 1,
         "stance": "Supports stronger enforcement against GBV but is complicated by the party's traditionalist stance on gender roles and customary authority, which tensions its commitment to women's rights.",
-        "source_url": "https://www.umkhontoparty.co.za/manifesto",
+        "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf",
         "source_date": "2024-04-01",
         "source_quote": "Strengthen mechanisms to protect women and children from violence while recognising the role of community and traditional structures in building safe households."
       },
       "townships": {
         "score": 2,
         "stance": "Strongly supports large-scale state investment in township and rural community infrastructure; frames township neglect as unfinished post-apartheid business requiring immediate and direct state intervention.",
-        "source_url": "https://www.umkhontoparty.co.za/manifesto",
+        "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf",
         "source_date": "2024-04-01",
         "source_quote": "Redirect national financial priorities to ensure all townships and rural communities receive quality housing, roads, clean water, and electricity as a matter of urgency."
       }
@@ -917,147 +917,147 @@
     "founded": 2023,
     "ideology_notes": "Progressive centrism, anti-corruption, public-private partnership model, evidence-based policy",
     "sources": {
-      "manifesto_2024": "https://www.risemzansi.org/manifesto",
+      "manifesto_2024": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf",
       "website": "https://www.risemzansi.org"
     },
     "positions": {
       "land_expropriation": {
         "score": 0,
         "stance": "Supports land reform but favours negotiated and market-assisted mechanisms over expropriation without compensation",
-        "source_url": "https://www.risemzansi.org/manifesto",
+        "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf",
         "source_date": "2024-01-20",
         "source_quote": "Accelerate land reform using pragmatic, market-assisted negotiation frameworks that preserve social cohesion and economic stability."
       },
       "eskom_privatisation": {
         "score": 1,
         "stance": "Supports significant private sector participation in generation to end load shedding, but does not advocate full dismantling of Eskom.",
-        "source_url": "https://www.risemzansi.org/manifesto",
+        "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf",
         "source_date": "2024-01-20",
         "source_quote": "Enable extensive private energy generation partnerships to rapidly diversify the national electricity network."
       },
       "nhi": {
         "score": 0,
         "stance": "Supports universal health coverage in principle but questions NHI's fiscal sustainability and implementation readiness; would reform the plan before implementing.",
-        "source_url": "https://www.risemzansi.org/manifesto",
+        "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf",
         "source_date": "2024-01-20",
         "source_quote": "Champion universal health coverage while reforming implementation plans to ensure transparent fiscal readiness."
       },
       "crime_policing": {
         "score": 2,
         "stance": "Supports strengthening SAPS capacity and accountability, alongside community policing",
-        "source_url": "https://www.risemzansi.org/manifesto",
+        "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf",
         "source_date": "2024-01-20",
         "source_quote": "Build secure communities by investing in localized policing capacity, accountability systems, and technological forensics."
       },
       "bbbee": {
         "score": -1,
         "stance": "Supports economic transformation but advocates evolving beyond race-based frameworks toward broader equity measures based on socioeconomic deprivation indicators.",
-        "source_url": "https://www.risemzansi.org/manifesto",
+        "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf",
         "source_date": "2024-01-20",
         "source_quote": "Evolve transformation policies toward broad-based equity systems that measure genuine broad deprivation indicators."
       },
       "immigration": {
         "score": 0,
         "stance": "Supports managed, rule-of-law-based immigration; neither strict restriction nor open borders — wants an efficient, rights-respecting migration system.",
-        "source_url": "https://www.risemzansi.org/manifesto",
+        "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf",
         "source_date": "2024-01-20",
         "source_quote": "Establish an efficient, rules-based migration infrastructure that respects human rights while protecting rule of law."
       },
       "free_education": {
         "score": 1,
         "stance": "Supports needs-based subsidised education; cautious on universal free higher education without fiscal sustainability plan",
-        "source_url": "https://www.risemzansi.org/manifesto",
+        "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf",
         "source_date": "2024-01-20",
         "source_quote": "Optimize funding via sustainable financial aid schemes focused on poor and missing middle students."
       },
       "foreign_policy_west": {
         "score": 1,
         "stance": "Favours closer alignment with democratic partners and international law institutions, but maintains non-alignment principles; would not fully subordinate BRICS membership to Western preferences.",
-        "source_url": "https://www.risemzansi.org/manifesto",
+        "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf",
         "source_date": "2024-01-20",
         "source_quote": "Anchor global diplomacy around the values of democratic accountability and cooperative international law links."
       },
       "state_owned_enterprises": {
         "score": -1,
         "stance": "Supports strategic reform and private participation in SOEs rather than full state retention of failing entities",
-        "source_url": "https://www.risemzansi.org/manifesto",
+        "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf",
         "source_date": "2024-01-20",
         "source_quote": "Introduce public-private operational models into failing SOEs to stabilize core logistics and national services."
       },
       "abortion_rights": {
         "score": 2,
         "stance": "Supports reproductive rights and access to healthcare",
-        "source_url": "https://www.risemzansi.org/manifesto",
+        "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf",
         "source_date": "2024-01-20",
         "source_quote": "Protect reproductive freedoms fully by expanding access to top-tier gender-affirming medical clinics."
       },
       "lgbtq_rights": {
         "score": 2,
         "stance": "Supports LGBTQ+ constitutional rights",
-        "source_url": "https://www.risemzansi.org/manifesto",
+        "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf",
         "source_date": "2024-01-20",
         "source_quote": "Defend the equal dignity of LGBTQ+ people through explicit legal protection and targeted hate crime mitigation."
       },
       "youth_unemployment": {
         "score": 2,
         "stance": "Supports targeted youth employment programmes and public-private learnerships",
-        "source_url": "https://www.risemzansi.org/manifesto",
+        "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf",
         "source_date": "2024-01-20",
         "source_quote": "Launch extensive collaborative training programs connecting young entry jobseekers with private enterprise internships."
       },
       "tender_reform": {
         "score": 2,
         "stance": "Demands complete structural overhaul of procurement; committed to ending cadre deployment and establishing full open tender systems, framing it as non-negotiable for capable state building.",
-        "source_url": "https://www.risemzansi.org/manifesto",
+        "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf",
         "source_date": "2024-01-20",
         "source_quote": "Overhaul procurement systems to eliminate political appointments and ensure full structural transparency across all tenders."
       },
       "basic_education": {
         "score": 1,
         "stance": "Partially agrees — treats increased funding and structural accountability as equally necessary and complementary, rather than seeing accountability as a substitute for investment; supports evidence-based literacy improvements alongside independent assessment frameworks.",
-        "source_url": "https://www.risemzansi.org/manifesto",
+        "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf",
         "source_date": "2024-01-20",
         "source_quote": "Prioritize evidence-based literacy improvements and increase accountability across school administration levels."
       },
       "basic_services": {
         "score": 1,
         "stance": "Open to public-private partnerships in service delivery as a pragmatic option where municipalities have demonstrably failed, but does not advocate broad privatisation.",
-        "source_url": "https://www.risemzansi.org/manifesto",
+        "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf",
         "source_date": "2024-01-20",
         "source_quote": "Restore reliable water and basic sewage services as non-negotiable baselines for human dignity."
       },
       "public_services_quality": {
         "score": 2,
         "stance": "Strongly advocates merit-based public service appointments and accountability systems",
-        "source_url": "https://www.risemzansi.org/manifesto",
+        "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf",
         "source_date": "2024-01-20",
         "source_quote": "Enforce strict meritocracy across state personnel lines, insulating public delivery channels from politics."
       },
       "job_creation": {
         "score": 1,
         "stance": "Rejects government as sole direct employer; advocates public-private structural investments and enabling environment for private job creation",
-        "source_url": "https://www.risemzansi.org/manifesto",
+        "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf",
         "source_date": "2024-01-20",
         "source_quote": "Create an enabling macroeconomic environment that prompts private market development and long-term employment."
       },
       "local_manufacturing": {
         "score": 1,
         "stance": "Partially supports — backs re-industrialisation through reliable energy access, infrastructure investment, and targeted industrial policy, but does not advocate broad protectionist tariffs or import duties as the primary tool; prefers an enabling investment environment over trade barriers.",
-        "source_url": "https://www.risemzansi.org/manifesto",
+        "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf",
         "source_date": "2024-01-20",
         "source_quote": "Drive modern industrial development by securing stable power links and funding high-capacity tech corridors."
       },
       "mining_regulation": {
         "score": 1,
         "stance": "Advocates for tight alignment between environmental protection and community justice frameworks, insisting mining companies fully internalize local socio-economic impacts.",
-        "source_url": "https://www.risemzansi.org/manifesto",
+        "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf",
         "source_date": "2024-01-20",
         "source_quote": "Ensure extraction initiatives operate under strict social justice pacts that benefit adjacent local communities."
       },
       "renewable_energy": {
         "score": 2,
         "stance": "Treats the climate crisis as a flagship platform priority; champions rapid implementation of green economic policies to shift decisively into zero-emission renewable grids.",
-        "source_url": "https://www.risemzansi.org/manifesto",
+        "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf",
         "source_date": "2024-01-20",
         "source_quote": "Treat the climate crisis as an absolute priority, accelerating shifts into comprehensive clean green grids."
       },
@@ -1076,14 +1076,14 @@
       "gbv": {
         "score": 2,
         "stance": "Treats GBV as a national crisis requiring both strengthened legal accountability for perpetrators and expanded support services for survivors; advocates evidence-based interventions.",
-        "source_url": "https://www.risemzansi.org/manifesto",
+        "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf",
         "source_date": "2024-01-20",
         "source_quote": "Build comprehensive GBV response systems that combine criminal accountability with expanded survivor support infrastructure and community-based prevention programmes."
       },
       "townships": {
         "score": 2,
         "stance": "Strongly supports targeted township and informal settlement upgrading as both a moral obligation and economic stimulus; advocates evidence-based spatial planning and public-private partnerships for scaling delivery.",
-        "source_url": "https://www.risemzansi.org/manifesto",
+        "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf",
         "source_date": "2024-01-20",
         "source_quote": "Prioritise upgrading of townships and informal settlements through coordinated investment in housing, sanitation, and digital and transport infrastructure."
       }
@@ -1099,147 +1099,147 @@
     "founded": 2023,
     "ideology_notes": "Liberal constitutionalism, anti-corruption, lean government, fiscal discipline",
     "sources": {
-      "manifesto_2024": "https://www.bosa.org.za/manifesto",
+      "manifesto_2024": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf",
       "website": "https://www.bosa.org.za"
     },
     "positions": {
       "land_expropriation": {
         "score": -2,
         "stance": "Opposes expropriation without compensation; supports willing-seller land reform and secure property rights",
-        "source_url": "https://www.bosa.org.za/manifesto",
+        "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Defend title deeds and private ownership, strongly rejecting arbitrary land seizure formats without compensation."
       },
       "eskom_privatisation": {
         "score": 2,
         "stance": "Strongly supports full liberalisation — dismantle centralised generation monopoly, open all segments to competitive private entry.",
-        "source_url": "https://www.bosa.org.za/manifesto",
+        "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Dismantle centralized grid power generation monopolies, fully opening energy delivery lines to competition."
       },
       "nhi": {
         "score": -2,
         "stance": "Opposes NHI as fiscally unaffordable and administratively unworkable; advocates modernising existing public hospitals using private system models instead.",
-        "source_url": "https://www.bosa.org.za/manifesto",
+        "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Oppose the unaffordable NHI proposal, opting to modernize current public hospitals using private systems."
       },
       "crime_policing": {
         "score": 2,
         "stance": "Supports strengthening law enforcement capacity and accountability within SAPS",
-        "source_url": "https://www.bosa.org.za/manifesto",
+        "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Depoliticize police services, double community visibility parameters, and enforce strict institutional accountability."
       },
       "bbbee": {
         "score": -2,
         "stance": "Strongly opposes race-based BBBEE; advocates replacing it with a non-racial model built purely on economic need, arguing BBBEE entrenches racial thinking and enables elite capture.",
-        "source_url": "https://www.bosa.org.za/manifesto",
+        "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Replace elite race-targeted compliance rules with a non-racial economic model built purely on economic need."
       },
       "immigration": {
         "score": 0,
         "stance": "Supports managed, rules-based immigration; critical of illegal immigration but does not advocate the kind of drastic restriction ActionSA proposes.",
-        "source_url": "https://www.bosa.org.za/manifesto",
+        "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Re-establish total control over border entry checkpoints to ensure immigration fully serves national development."
       },
       "free_education": {
         "score": -1,
         "stance": "Supports needs-based financial aid but questions universal free higher education on fiscal grounds",
-        "source_url": "https://www.bosa.org.za/manifesto",
+        "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Deliver robust financial support to low-income students while protecting the fiscal integrity of universities."
       },
       "foreign_policy_west": {
         "score": 2,
         "stance": "Supports alignment with democratic, rule-of-law nations; critical of SA's pro-Russia foreign policy; would re-anchor international engagement on human rights compliance.",
-        "source_url": "https://www.bosa.org.za/manifesto",
+        "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Anchor foreign engagement parameters on human rights compliance, backing traditional global democratic trading partners."
       },
       "state_owned_enterprises": {
         "score": -2,
         "stance": "Supports privatisation of non-strategic SOEs and strict reform of remaining entities",
-        "source_url": "https://www.bosa.org.za/manifesto",
+        "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Sell off or phase out non-performing, non-strategic entities that continually drain public financial reserves."
       },
       "abortion_rights": {
         "score": 1,
         "stance": "Supports existing legal framework for reproductive rights",
-        "source_url": "https://www.bosa.org.za/manifesto",
+        "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Uphold the progressive constitutional guarantees that secure healthcare access lines for all citizens."
       },
       "lgbtq_rights": {
         "score": 2,
         "stance": "Supports LGBTQ+ constitutional rights",
-        "source_url": "https://www.bosa.org.za/manifesto",
+        "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Defend equality frameworks, ensuring safety and absolute human dignity for LGBTQ+ individuals."
       },
       "youth_unemployment": {
         "score": -1,
         "stance": "Opposes direct state job creation for youth; prefers removing hiring barriers, reducing payroll taxes, and enterprise zone incentives over government employment programmes.",
-        "source_url": "https://www.bosa.org.za/manifesto",
+        "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Institute a voluntary national civilian service scheme to bridge the work-experience gap for school leavers."
       },
       "tender_reform": {
         "score": 2,
         "stance": "Advocates zero-tolerance for procurement fraud, full digital open-tender systems, and shrinking Cabinet; treats cadre deployment abolition as essential to any credible reform agenda.",
-        "source_url": "https://www.bosa.org.za/manifesto",
+        "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Slash the size of the cabinet and institute full digital open-tender systems to cancel corrupt bid setups."
       },
       "basic_education": {
         "score": -2,
         "stance": "Strongly disagrees — treats accountability structures as the primary fix, not additional funding; advocates raising the pass mark to 50%, independent assessment, and merit appointments, arguing that systemic management failures rather than underfunding drive poor outcomes.",
-        "source_url": "https://www.bosa.org.za/manifesto",
+        "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Lift the passing threshold standard to 50%, introducing independent assessment protocols across all districts."
       },
       "basic_services": {
         "score": 2,
         "stance": "Supports performance contracts and private operator involvement where municipalities have collapsed; links service delivery failures directly to state capture and cadre management.",
-        "source_url": "https://www.bosa.org.za/manifesto",
+        "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Decentralize infrastructural maintenance lines to ensure communities directly oversee water pipeline delivery."
       },
       "public_services_quality": {
         "score": 2,
         "stance": "Core platform — lean, accountable, merit-based government as the fix for service delivery failures",
-        "source_url": "https://www.bosa.org.za/manifesto",
+        "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Enforce strict professional standards across civil administration lines, removing non-performing staff."
       },
       "job_creation": {
         "score": -2,
         "stance": "Strongly opposes government expansion as an employer; views public payroll growth as fiscally unsustainable and economically damaging",
-        "source_url": "https://www.bosa.org.za/manifesto",
+        "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Oppose government workforce swelling, opting to foster enterprise zones that drive private hiring."
       },
       "local_manufacturing": {
         "score": -1,
         "stance": "Prefers service industry and knowledge economy growth over capital-intensive heavy manufacturing mandates; cautious on protectionist trade policy",
-        "source_url": "https://www.bosa.org.za/manifesto",
+        "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Prioritize modern high-tech services and knowledge-based economic models over heavy protectionist factories."
       },
       "mining_regulation": {
         "score": -1,
         "stance": "Argues that heavy regulatory burdens on extractive industries trigger capital flight; favors market-driven solutions and voluntary localized community trust accounts over added state constraints.",
-        "source_url": "https://www.bosa.org.za/manifesto",
+        "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Reduce administrative blocks inside primary extraction lines to secure global capital flows."
       },
       "renewable_energy": {
         "score": 2,
         "stance": "Supports rapid private-sector deployment of solar and wind installations, focusing on reducing reliability gaps associated with aging, state-run coal infrastructure.",
-        "source_url": "https://www.bosa.org.za/manifesto",
+        "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Encourage extensive private generation projects to balance the gaps of obsolete state-run coal pipelines."
       },
@@ -1258,14 +1258,14 @@
       "gbv": {
         "score": 2,
         "stance": "Strongly supports harsher sentencing for GBV perpetrators and a merit-appointed, depoliticised police service capable of properly investigating and prosecuting GBV cases.",
-        "source_url": "https://www.bosa.org.za/manifesto",
+        "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Enforce zero tolerance on GBV through properly resourced specialist units, harsher sentences, and an accountable, depoliticised SAPS."
       },
       "townships": {
         "score": 1,
         "stance": "Supports township infrastructure investment but argues that lean, accountable, merit-based local government is the precondition for effective delivery; links persistent township neglect directly to cadre deployment and mismanagement.",
-        "source_url": "https://www.bosa.org.za/manifesto",
+        "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf",
         "source_date": "2024-03-10",
         "source_quote": "Deliver upgraded township and informal settlement infrastructure by fixing the underlying management failures in municipalities that have blocked delivery for decades."
       }

@@ -1,0 +1,849 @@
+{
+  "election": "Local Government Elections",
+  "election_date": "2026-11-04",
+  "last_reviewed": "2026-10-04",
+  "basis_legend": {
+    "manifesto": "Stated in the party's 2026 local election manifesto",
+    "statement": "Said publicly by party leaders, candidates or in Parliament",
+    "national": "The party's stance on the same issue in its national election manifesto",
+    "inferred": "Not stated directly; worked out from the party's wider platform or record"
+  },
+  "parties": [
+    {
+      "id": "anc",
+      "positions": {
+        "private_operators": {
+          "score": -1,
+          "basis": "national",
+          "national_issue": "basic_services",
+          "stance": "Generally resists private operators taking over municipal service delivery; prefers state-led turnaround support and provincial intervention over privatisation of water and sanitation.",
+          "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf"
+        },
+        "power_choice": {
+          "score": 1,
+          "basis": "inferred",
+          "stance": "ANC-led national government opened the electricity market and allowed municipalities to buy from private producers, while keeping Eskom central.",
+          "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf"
+        },
+        "free_services": {
+          "score": 1,
+          "basis": "inferred",
+          "stance": "Promises electricity 'at prices that every family can afford' and keeps free basic services for registered poor households; no specific expansion promised.",
+          "source_url": "https://www.timeslive.co.za/politics/2026-08-23-anc-unveils-6-point-plan-for-2026-local-elections/"
+        },
+        "local_jobs": {
+          "score": 2,
+          "basis": "national",
+          "national_issue": "youth_unemployment",
+          "stance": "Supports state-led interventions including Presidential Employment Stimulus, YES programme, and expanded public employment schemes",
+          "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf"
+        },
+        "spaza_shops": {
+          "score": 0,
+          "basis": "inferred",
+          "stance": "Acknowledges concern about illegal immigration but is bound by international obligations; has not backed reserving spaza shops for citizens.",
+          "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf"
+        },
+        "law_enforcement": {
+          "score": 1,
+          "basis": "national",
+          "national_issue": "crime_policing",
+          "stance": "Supports increased police capacity but emphasises social root causes",
+          "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf"
+        },
+        "city_police": {
+          "score": -2,
+          "basis": "statement",
+          "stance": "Opposes devolving policing; wants SAPS kept under 'central control and command'.",
+          "source_url": "https://independentonsaturday.co.za/weekend-argus/news/2025-06-13-assessing-the-das-push-for-policing-devolution-in-south-africa"
+        },
+        "upgrade_townships": {
+          "score": 2,
+          "basis": "manifesto",
+          "stance": "Pledges to upgrade informal settlements as part of better services and infrastructure.",
+          "source_url": "https://www.timeslive.co.za/politics/2026-08-23-anc-unveils-6-point-plan-for-2026-local-elections/"
+        },
+        "housing_near_jobs": {
+          "score": 1,
+          "basis": "inferred",
+          "stance": "Supports upgrading informal settlements and township housing; no specific pledge on well-located land.",
+          "source_url": "https://www.timeslive.co.za/politics/2026-08-23-anc-unveils-6-point-plan-for-2026-local-elections/"
+        },
+        "youth_education": {
+          "score": 1,
+          "basis": "inferred",
+          "stance": "Nationally supports more spending on education and youth programmes.",
+          "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf"
+        },
+        "merit_jobs": {
+          "score": -1,
+          "basis": "national",
+          "national_issue": "tender_reform",
+          "stance": "Has passed procurement reform legislation and acknowledges corruption as a problem — but has explicitly defended cadre deployment as party policy and resists open tendering that would undermine transformation targets.",
+          "source_url": "https://www.anc1912.org.za/wp-content/uploads/2024/02/ANC-2024-Elections-Manifesto.pdf"
+        },
+        "small_parties": {
+          "score": 2,
+          "basis": "statement",
+          "stance": "Backs a 1% threshold for council seats and blames coalitions for failing municipalities.",
+          "source_url": "https://www.iol.co.za/news/politics/smaller-parties-reject-1-elections-threshold-proposed-by-the-anc-da-3ca9a093-df3a-47c9-bf01-d9f138ecd01a"
+        }
+      },
+      "local_manifesto": {
+        "url": "https://www.anc1912.org.za/wp-content/uploads/2026/08/ANC-2026-Local-Government-Manifesto.pdf",
+        "label": "2026 local election manifesto"
+      }
+    },
+    {
+      "id": "da",
+      "positions": {
+        "service_money": {
+          "score": 2,
+          "basis": "manifesto",
+          "stance": "Pledges to ring-fence water money for water infrastructure and reinvest electricity money into municipal grids.",
+          "source_url": "https://www.da.org.za/policy/2026-local-government-manifesto"
+        },
+        "private_operators": {
+          "score": 1,
+          "basis": "manifesto",
+          "stance": "Will bring in 'private investment and technical expertise where it improves delivery'.",
+          "source_url": "https://www.da.org.za/policy/2026-local-government-manifesto"
+        },
+        "power_choice": {
+          "score": 2,
+          "basis": "manifesto",
+          "stance": "Wants municipalities able to buy and sell power, and to pay households and businesses that feed extra electricity into the grid.",
+          "source_url": "https://www.da.org.za/policy/2026-local-government-manifesto"
+        },
+        "local_jobs": {
+          "score": -1,
+          "basis": "national",
+          "national_issue": "youth_unemployment",
+          "stance": "Opposes state-subsidised jobs as a primary tool; argues relaxing labour laws, scrapping minimum wage for youth, and private-sector incentives are the only sustainable solution to youth unemployment.",
+          "source_url": "https://www.da.org.za/2024/01/da-2024-election-manifesto"
+        },
+        "insourcing": {
+          "score": -1,
+          "basis": "inferred",
+          "stance": "Favours private partnerships and flexible labour rules over a bigger permanent municipal workforce.",
+          "source_url": "https://www.da.org.za/policy/2026-local-government-manifesto"
+        },
+        "spaza_shops": {
+          "score": -1,
+          "basis": "inferred",
+          "stance": "Nationally opposes stricter immigration limits beyond enforcing existing law; no pledge to reserve spaza shops for citizens.",
+          "source_url": "https://www.da.org.za/policy/2026-local-government-manifesto"
+        },
+        "law_enforcement": {
+          "score": 2,
+          "basis": "manifesto",
+          "stance": "Pledges to bring 'policing closer to residents', expand municipal safety capacity and use technology to fight crime.",
+          "source_url": "https://www.da.org.za/policy/2026-local-government-manifesto"
+        },
+        "city_police": {
+          "score": 2,
+          "basis": "statement",
+          "stance": "Long-standing push to give capable cities and provinces control of policing.",
+          "source_url": "https://independentonsaturday.co.za/weekend-argus/news/2025-06-13-assessing-the-das-push-for-policing-devolution-in-south-africa"
+        },
+        "land_invasions": {
+          "score": 1,
+          "basis": "inferred",
+          "stance": "DA-run Cape Town runs an anti-land-invasion unit; focuses on formal land release and title deeds.",
+          "source_url": "https://www.da.org.za/policy/2026-local-government-manifesto"
+        },
+        "upgrade_townships": {
+          "score": 1,
+          "basis": "national",
+          "national_issue": "townships",
+          "stance": "Supports upgrading townships through better-run municipalities rather than large state housing programmes; points to its track record in DA-governed areas as a model for improved service delivery and titling.",
+          "source_url": "https://www.da.org.za/2024/01/da-2024-election-manifesto"
+        },
+        "housing_near_jobs": {
+          "score": 2,
+          "basis": "manifesto",
+          "stance": "Pledges 'releasing well-located land and delivering title deeds'.",
+          "source_url": "https://www.da.org.za/policy/2026-local-government-manifesto"
+        },
+        "youth_education": {
+          "score": -1,
+          "basis": "inferred",
+          "stance": "Manifesto commits to 'focus relentlessly on the basics' like water, electricity and roads.",
+          "source_url": "https://www.da.org.za/policy/2026-local-government-manifesto"
+        },
+        "merit_jobs": {
+          "score": 2,
+          "basis": "manifesto",
+          "stance": "Pledges to end cadre deployment by 'appointing competent people on merit'.",
+          "source_url": "https://www.da.org.za/policy/2026-local-government-manifesto"
+        },
+        "small_parties": {
+          "score": 2,
+          "basis": "statement",
+          "stance": "Actively pushing a 1% threshold to keep very small parties out of councils.",
+          "source_url": "https://www.news24.com/politics/da-pushes-to-keep-small-parties-out-of-municipal-councils-20260828-0448"
+        }
+      },
+      "local_manifesto": {
+        "url": "https://www.da.org.za/policy/2026-local-government-manifesto",
+        "label": "2026 local election manifesto"
+      }
+    },
+    {
+      "id": "eff",
+      "positions": {
+        "private_operators": {
+          "score": -2,
+          "basis": "manifesto",
+          "stance": "Calls outsourcing a policy that enriches 'tenderpreneurs'; wants tenders gradually abolished.",
+          "source_url": "https://www.ewn.co.za/2026/07/25/malema-promises-direct-municipal-insourcing-at-eff-manifesto-launch"
+        },
+        "power_choice": {
+          "score": -1,
+          "basis": "inferred",
+          "stance": "Nationally opposes reducing Eskom's role and favours state-owned energy.",
+          "source_url": "https://effonline.org/wp-content/uploads/2024/02/A5-EFF-2024-Manifesto-full-version.pdf"
+        },
+        "free_services": {
+          "score": 2,
+          "basis": "manifesto",
+          "stance": "Promises free electricity and water for grant recipients, unemployed people and elderly residents.",
+          "source_url": "https://www.jacarandafm.com/news/news/malema-promises-land-free-basic-services-eff-run-municipalities/"
+        },
+        "debt_writeoff": {
+          "score": 2,
+          "basis": "manifesto",
+          "stance": "Promises to write off electricity debts for grant recipients and unemployed people.",
+          "source_url": "https://www.politicsweb.co.za/news/manifesto-our-plans-for-local-govt-eff"
+        },
+        "local_jobs": {
+          "score": 2,
+          "basis": "manifesto",
+          "stance": "Promises at least 500 youth jobs per municipality through small-scale farming projects, and direct hiring by municipalities.",
+          "source_url": "https://www.jacarandafm.com/news/news/malema-promises-land-free-basic-services-eff-run-municipalities/"
+        },
+        "insourcing": {
+          "score": 2,
+          "basis": "manifesto",
+          "stance": "Commits to bringing security, cleaning, waste collection and maintenance in-house within 24 months.",
+          "source_url": "https://www.ewn.co.za/2026/07/25/malema-promises-direct-municipal-insourcing-at-eff-manifesto-launch"
+        },
+        "spaza_shops": {
+          "score": -1,
+          "basis": "statement",
+          "stance": "Malema calls the debate over foreign-run spaza shops a distraction from who owns the wider economy.",
+          "source_url": "https://www.businessday.co.za/news/2026-05-05-mk-party-condemns-tribalism-amid-anti-immigration-protests/"
+        },
+        "law_enforcement": {
+          "score": 1,
+          "basis": "manifesto",
+          "stance": "Promises community safety workers to patrol streets with police and CCTV cameras in all crime hotspots.",
+          "source_url": "https://www.politicsweb.co.za/news/manifesto-our-plans-for-local-govt-eff"
+        },
+        "land_invasions": {
+          "score": -1,
+          "basis": "inferred",
+          "stance": "Would expropriate unused land and buildings for residents rather than prioritise evictions.",
+          "source_url": "https://www.jacarandafm.com/news/news/malema-promises-land-free-basic-services-eff-run-municipalities/"
+        },
+        "upgrade_townships": {
+          "score": 2,
+          "basis": "national",
+          "national_issue": "townships",
+          "stance": "Strongly advocates for massive state investment in township housing, infrastructure, and services; frames inadequate township conditions as a direct legacy of apartheid capitalism requiring radical state-led redistribution.",
+          "source_url": "https://effonline.org/"
+        },
+        "housing_near_jobs": {
+          "score": 2,
+          "basis": "manifesto",
+          "stance": "Would stop sales of municipal land and use it for housing and community use.",
+          "source_url": "https://www.jacarandafm.com/news/news/malema-promises-land-free-basic-services-eff-run-municipalities/"
+        },
+        "youth_education": {
+          "score": 2,
+          "basis": "manifesto",
+          "stance": "Its 2026 manifesto centres on youth issues alongside basic services.",
+          "source_url": "https://www.dailymaverick.co.za/article/2026-07-26-eff-celebrates-13-years-with-manifesto-focused-on-youth-issues-and-basic-services/"
+        },
+        "merit_jobs": {
+          "score": 2,
+          "basis": "manifesto",
+          "stance": "Says municipal staff will be hired on qualifications, not party membership, and promises to end cadre deployment.",
+          "source_url": "https://www.politicsweb.co.za/news/manifesto-our-plans-for-local-govt-eff"
+        }
+      },
+      "local_manifesto": {
+        "url": "https://effonline.org/wp-content/uploads/2026/07/A5-EFF-2026-Local-Manifesto-24.07.2026.pdf",
+        "label": "2026 local election manifesto"
+      }
+    },
+    {
+      "id": "mkp",
+      "positions": {
+        "private_operators": {
+          "score": -1,
+          "basis": "national",
+          "national_issue": "basic_services",
+          "stance": "Opposes private operators in service delivery; supports state-led delivery and community council oversight of municipal infrastructure.",
+          "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf"
+        },
+        "power_choice": {
+          "score": -1,
+          "basis": "inferred",
+          "stance": "Nationally opposes reducing Eskom's role.",
+          "source_url": "https://mkparty.org.za/our-manifesto/"
+        },
+        "free_services": {
+          "score": 1,
+          "basis": "inferred",
+          "stance": "National platform puts state-provided services for poor communities first.",
+          "source_url": "https://mkparty.org.za/our-manifesto/"
+        },
+        "local_jobs": {
+          "score": 2,
+          "basis": "national",
+          "national_issue": "youth_unemployment",
+          "stance": "Supports state-led job creation and economic development programmes targeting youth",
+          "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf"
+        },
+        "spaza_shops": {
+          "score": 2,
+          "basis": "statement",
+          "stance": "Tabled a private member's bill to reserve spaza shop ownership for South African citizens.",
+          "source_url": "https://iol.co.za/business/2026-05-04-mk-party-tables-controversial-bill-to-reserve-spaza-shop-ownership-for-south-african-citizens/"
+        },
+        "law_enforcement": {
+          "score": 1,
+          "basis": "national",
+          "national_issue": "crime_policing",
+          "stance": "Supports stronger law enforcement",
+          "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf"
+        },
+        "upgrade_townships": {
+          "score": 2,
+          "basis": "national",
+          "national_issue": "townships",
+          "stance": "Strongly supports large-scale state investment in township and rural community infrastructure; frames township neglect as unfinished post-apartheid business requiring immediate and direct state intervention.",
+          "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf"
+        },
+        "youth_education": {
+          "score": 1,
+          "basis": "inferred",
+          "stance": "Nationally supports free education and youth development.",
+          "source_url": "https://mkparty.org.za/our-manifesto/"
+        },
+        "merit_jobs": {
+          "score": 0,
+          "basis": "national",
+          "national_issue": "tender_reform",
+          "stance": "Anti-corruption rhetoric but no credible structural reform plan; party emerged from ANC patronage networks and has not committed to ending cadre deployment.",
+          "source_url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf"
+        },
+        "traditional_leaders": {
+          "score": 2,
+          "basis": "manifesto",
+          "stance": "Wants to strengthen 'the role and authority of traditional leaders in governance and community development'.",
+          "source_url": "https://mkparty.org.za/our-manifesto/"
+        }
+      },
+      "local_manifesto": {
+        "url": "https://mkparty.org.za/wp-content/uploads/2024/04/MK-Manifesto-The-Peoples-Mandate-Paths-Final-2.pdf",
+        "label": "2024 national manifesto",
+        "note": "The MK Party has not published a separate 2026 local manifesto."
+      }
+    },
+    {
+      "id": "actionsa",
+      "positions": {
+        "private_operators": {
+          "score": 2,
+          "basis": "national",
+          "national_issue": "basic_services",
+          "stance": "Supports allowing private operators where municipalities have failed — frames it as pragmatic accountability, not ideological privatisation.",
+          "source_url": "https://www.actionsa.org.za/manifesto"
+        },
+        "local_jobs": {
+          "score": 0,
+          "basis": "national",
+          "national_issue": "youth_unemployment",
+          "stance": "Supports learnerships but explicitly opposes state-subsidised job programmes as unsustainable; primary position is scrapping restrictive labour laws for under-35s and private employer tax breaks.",
+          "source_url": "https://www.actionsa.org.za/manifesto"
+        },
+        "insourcing": {
+          "score": 1,
+          "basis": "inferred",
+          "stance": "As Johannesburg mayor, Herman Mashaba brought the city's outsourced security guards in-house.",
+          "source_url": "https://iol.co.za/news/politics/2026-09-26-actionsa-manifesto-vows-to-fix-broken-municipalities-but-will-it-work-with-other-parties/"
+        },
+        "spaza_shops": {
+          "score": 2,
+          "basis": "statement",
+          "stance": "Campaigns for spaza shops to be 100% South African-owned through its #Spaza4Locals bill.",
+          "source_url": "https://www.actionsa.org.za/south-africans-demand-control-over-spaza-shops-in-their-communities/"
+        },
+        "law_enforcement": {
+          "score": 2,
+          "basis": "manifesto",
+          "stance": "Promises 'more municipal law-enforcement officers on the streets' and action against infrastructure theft.",
+          "source_url": "https://iol.co.za/news/politics/2026-09-26-actionsa-manifesto-vows-to-fix-broken-municipalities-but-will-it-work-with-other-parties/"
+        },
+        "land_invasions": {
+          "score": 1,
+          "basis": "inferred",
+          "stance": "Targets criminal syndicates and hijacked buildings.",
+          "source_url": "https://iol.co.za/news/politics/2026-09-26-actionsa-manifesto-vows-to-fix-broken-municipalities-but-will-it-work-with-other-parties/"
+        },
+        "upgrade_townships": {
+          "score": 1,
+          "basis": "national",
+          "national_issue": "townships",
+          "stance": "Supports township investment but argues that cadre deployment and corruption are the primary barriers to effective service delivery; frames merit-based governance reform as a precondition for meaningful township upliftment.",
+          "source_url": "https://www.actionsa.org.za/manifesto"
+        },
+        "housing_near_jobs": {
+          "score": 2,
+          "basis": "manifesto",
+          "stance": "Calls for 'greater use of municipal land for affordable housing' and faster title deeds.",
+          "source_url": "https://iol.co.za/news/politics/2026-09-26-actionsa-manifesto-vows-to-fix-broken-municipalities-but-will-it-work-with-other-parties/"
+        },
+        "youth_education": {
+          "score": -1,
+          "basis": "inferred",
+          "stance": "Manifesto centres on restoring basic services and sound finances first.",
+          "source_url": "https://iol.co.za/news/politics/2026-09-26-actionsa-manifesto-vows-to-fix-broken-municipalities-but-will-it-work-with-other-parties/"
+        },
+        "merit_jobs": {
+          "score": 2,
+          "basis": "manifesto",
+          "stance": "Appointments based on 'qualifications, competence, experience and merit'.",
+          "source_url": "https://iol.co.za/news/politics/2026-09-26-actionsa-manifesto-vows-to-fix-broken-municipalities-but-will-it-work-with-other-parties/"
+        }
+      },
+      "local_manifesto": {
+        "url": "https://www.actionsa.org.za/actionsa-2026-manifesto-a-declaration-of-war-on-broken-municipalities/",
+        "label": "2026 local election manifesto"
+      }
+    },
+    {
+      "id": "risemzansi",
+      "positions": {
+        "private_operators": {
+          "score": 1,
+          "basis": "national",
+          "national_issue": "basic_services",
+          "stance": "Open to public-private partnerships in service delivery as a pragmatic option where municipalities have demonstrably failed, but does not advocate broad privatisation.",
+          "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf"
+        },
+        "local_jobs": {
+          "score": 2,
+          "basis": "national",
+          "national_issue": "youth_unemployment",
+          "stance": "Supports targeted youth employment programmes and public-private learnerships",
+          "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf"
+        },
+        "spaza_shops": {
+          "score": 0,
+          "basis": "inferred",
+          "stance": "Takes a middle position on immigration nationally.",
+          "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf"
+        },
+        "law_enforcement": {
+          "score": 2,
+          "basis": "national",
+          "national_issue": "crime_policing",
+          "stance": "Supports strengthening SAPS capacity and accountability, alongside community policing",
+          "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf"
+        },
+        "upgrade_townships": {
+          "score": 2,
+          "basis": "national",
+          "national_issue": "townships",
+          "stance": "Strongly supports targeted township and informal settlement upgrading as both a moral obligation and economic stimulus; advocates evidence-based spatial planning and public-private partnerships for scaling delivery.",
+          "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf"
+        },
+        "housing_near_jobs": {
+          "score": 2,
+          "basis": "statement",
+          "stance": "Joint GOOD/RISE Cape Town candidate Brett Herron prioritises affordable housing and undoing apartheid planning.",
+          "source_url": "https://www.ewn.co.za/2026/06/08/good-party-s-cape-town-mayoral-candidate-plans-to-deal-with-inequality-in-the-city"
+        },
+        "youth_education": {
+          "score": 1,
+          "basis": "inferred",
+          "stance": "Nationally supports more investment in education alongside accountability.",
+          "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf"
+        },
+        "merit_jobs": {
+          "score": 2,
+          "basis": "national",
+          "national_issue": "tender_reform",
+          "stance": "Demands complete structural overhaul of procurement; committed to ending cadre deployment and establishing full open tender systems, framing it as non-negotiable for capable state building.",
+          "source_url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf"
+        }
+      },
+      "local_manifesto": {
+        "url": "https://assets.website-files.com/6512abc58b1468c2e0784360/65ab627c5faa95ea313ab276_RISE%20Mzansi%20Manifesto%20%2B%20.pdf",
+        "label": "2024 national manifesto",
+        "note": "RISE Mzansi has not published a separate 2026 local manifesto."
+      }
+    },
+    {
+      "id": "bosa",
+      "positions": {
+        "private_operators": {
+          "score": 2,
+          "basis": "national",
+          "national_issue": "basic_services",
+          "stance": "Supports performance contracts and private operator involvement where municipalities have collapsed; links service delivery failures directly to state capture and cadre management.",
+          "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf"
+        },
+        "local_jobs": {
+          "score": -1,
+          "basis": "national",
+          "national_issue": "youth_unemployment",
+          "stance": "Opposes direct state job creation for youth; prefers removing hiring barriers, reducing payroll taxes, and enterprise zone incentives over government employment programmes.",
+          "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf"
+        },
+        "insourcing": {
+          "score": -1,
+          "basis": "inferred",
+          "stance": "Favours lean government and flexible labour rules.",
+          "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf"
+        },
+        "spaza_shops": {
+          "score": 0,
+          "basis": "inferred",
+          "stance": "Takes a middle position on immigration nationally.",
+          "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf"
+        },
+        "law_enforcement": {
+          "score": 2,
+          "basis": "national",
+          "national_issue": "crime_policing",
+          "stance": "Supports strengthening law enforcement capacity and accountability within SAPS",
+          "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf"
+        },
+        "upgrade_townships": {
+          "score": 1,
+          "basis": "national",
+          "national_issue": "townships",
+          "stance": "Supports township infrastructure investment but argues that lean, accountable, merit-based local government is the precondition for effective delivery; links persistent township neglect directly to cadre deployment and mismanagement.",
+          "source_url": "https://cisp.cachefly.net/assets/articles/attachments/92815_bosa_job_plan.pdf"
+        },
+        "merit_jobs": {
+          "score": 2,
+          "basis": "statement",
+          "stance": "Campaigning to 'clamp down on political interference in the state' and fielding professionals rather than career politicians.",
+          "source_url": "https://ewn.co.za/2026/09/06/political-parties-hit-the-campaign-trail-ahead-of-municipal-polls"
+        }
+      },
+      "local_manifesto": {
+        "url": "https://static.pmg.org.za/BOSA_LG_Manifesto_2026.pdf",
+        "label": "2026 local election manifesto"
+      }
+    },
+    {
+      "id": "ifp",
+      "positions": {
+        "private_operators": {
+          "score": 1,
+          "basis": "national",
+          "national_issue": "basic_services",
+          "stance": "Supports private sector partnerships for failing service delivery at municipal level, especially housing and utilities; advocates public-private partnerships where state delivery has collapsed.",
+          "source_url": "https://www.ifp.org.za/wp-content/uploads/2024/03/Inkatha-Freedom-Party-2024-Manifesto.pdf"
+        },
+        "local_jobs": {
+          "score": 2,
+          "basis": "national",
+          "national_issue": "youth_unemployment",
+          "stance": "Strongly supports targeted youth employment programmes including an Unemployed Graduate Grant of R3,000, mandatory 12-month internships, learnerships, and reserving entry-level jobs for South African youth.",
+          "source_url": "https://www.ifp.org.za/wp-content/uploads/2024/03/Inkatha-Freedom-Party-2024-Manifesto.pdf"
+        },
+        "spaza_shops": {
+          "score": 1,
+          "basis": "inferred",
+          "stance": "Nationally takes a hard line on illegal immigration.",
+          "source_url": "https://www.ifp.org.za/wp-content/uploads/2024/03/Inkatha-Freedom-Party-2024-Manifesto.pdf"
+        },
+        "law_enforcement": {
+          "score": 2,
+          "basis": "national",
+          "national_issue": "crime_policing",
+          "stance": "Strongly supports increased police capacity, harsher sentencing, open debate on reinstating the death penalty, and mandatory denial of bail for violent offenders — particularly GBV perpetrators.",
+          "source_url": "https://www.ifp.org.za/wp-content/uploads/2024/03/Inkatha-Freedom-Party-2024-Manifesto.pdf"
+        },
+        "upgrade_townships": {
+          "score": 2,
+          "basis": "national",
+          "national_issue": "townships",
+          "stance": "Strongly supports upgrading townships and rural settlements through housing programmes, improved sanitation, and a rent-to-own model; has deep roots in KwaZulu-Natal communities and treats township upliftment as core policy.",
+          "source_url": "https://www.ifp.org.za/wp-content/uploads/2024/03/Inkatha-Freedom-Party-2024-Manifesto.pdf"
+        },
+        "youth_education": {
+          "score": 0,
+          "basis": "inferred",
+          "stance": "Local manifesto takes a 'fixed-basics approach', though nationally it supports education spending.",
+          "source_url": "https://www.enca.com/news-top-stories-videos/ifp-puts-water-heart-election-plan"
+        },
+        "merit_jobs": {
+          "score": 2,
+          "basis": "national",
+          "national_issue": "tender_reform",
+          "stance": "Strongly supports merit-based appointments and open procurement; calls for zero-tolerance on corruption, prompt dismissal of corrupt officials, and an end to politically motivated appointments.",
+          "source_url": "https://www.ifp.org.za/wp-content/uploads/2024/03/Inkatha-Freedom-Party-2024-Manifesto.pdf"
+        },
+        "traditional_leaders": {
+          "score": 2,
+          "basis": "manifesto",
+          "stance": "Its 2026 manifesto promises partnerships with traditional and Khoi-San leaders and a stronger role for them in local government.",
+          "source_url": "https://insidepolitic.co.za/ifp-promises-zero-tolerance-for-corruption-and-greater-role-for-traditional-leaders/"
+        }
+      },
+      "local_manifesto": {
+        "url": "https://ifp.org.za/newsroom/manifesto-launch-2026/",
+        "label": "2026 manifesto launch speech"
+      }
+    },
+    {
+      "id": "ffplus",
+      "positions": {
+        "private_operators": {
+          "score": 2,
+          "basis": "national",
+          "national_issue": "basic_services",
+          "stance": "Strongly supports private operators for service delivery; advocates for the free market to provide public services competitively, and for decentralisation to local government and community-level management.",
+          "source_url": "https://www.vfplus.org.za/national-and-provincial-election-2024/"
+        },
+        "power_choice": {
+          "score": 2,
+          "basis": "inferred",
+          "stance": "Nationally supports a fully open electricity market.",
+          "source_url": "https://www.vfplus.org.za/national-and-provincial-election-2024/"
+        },
+        "local_jobs": {
+          "score": -1,
+          "basis": "national",
+          "national_issue": "youth_unemployment",
+          "stance": "Disagrees — explicitly opposes government running job creation or subsidised employment programmes as unsustainable; focuses instead on creating a favourable private sector environment through lower taxes and deregulation so that businesses, not the state, absorb young jobseekers.",
+          "source_url": "https://www.vfplus.org.za/national-and-provincial-election-2024/"
+        },
+        "insourcing": {
+          "score": -1,
+          "basis": "inferred",
+          "stance": "Favours affordable rates and a lean municipal administration.",
+          "source_url": "https://www.polity.org.za/article/vf-plus-municipal-elections-manifesto-2026-2026-09-15"
+        },
+        "spaza_shops": {
+          "score": 1,
+          "basis": "inferred",
+          "stance": "Nationally takes a hard line on illegal immigration.",
+          "source_url": "https://www.vfplus.org.za/national-and-provincial-election-2024/"
+        },
+        "law_enforcement": {
+          "score": 2,
+          "basis": "national",
+          "national_issue": "crime_policing",
+          "stance": "Strongly supports more police capacity, professionalising SAPS by removing political appointments, reintroducing specialist units, and prioritising citizens' safety including effective border control.",
+          "source_url": "https://www.vfplus.org.za/national-and-provincial-election-2024/"
+        },
+        "city_police": {
+          "score": 1,
+          "basis": "inferred",
+          "stance": "Supports more local and regional control, including over safety.",
+          "source_url": "https://www.vfplus.org.za/national-and-provincial-election-2024/"
+        },
+        "land_invasions": {
+          "score": 2,
+          "basis": "inferred",
+          "stance": "Strong defender of private property rights.",
+          "source_url": "https://www.vfplus.org.za/national-and-provincial-election-2024/"
+        },
+        "upgrade_townships": {
+          "score": 1,
+          "basis": "national",
+          "national_issue": "townships",
+          "stance": "Supports upgrading township infrastructure through decentralised, community-driven service delivery and free market mechanisms; advocates private operators and community management over top-down state programmes.",
+          "source_url": "https://www.vfplus.org.za/national-and-provincial-election-2024/"
+        },
+        "youth_education": {
+          "score": -1,
+          "basis": "inferred",
+          "stance": "Focuses on infrastructure, affordable rates and a lean administration.",
+          "source_url": "https://www.polity.org.za/article/vf-plus-municipal-elections-manifesto-2026-2026-09-15"
+        },
+        "merit_jobs": {
+          "score": 2,
+          "basis": "manifesto",
+          "stance": "Calls for suitably qualified staff and an end to affirmative action and BEE in appointments.",
+          "source_url": "https://www.polity.org.za/article/vf-plus-municipal-elections-manifesto-2026-2026-09-15"
+        }
+      },
+      "local_manifesto": {
+        "url": "https://www.vfplus.org.za/wp-content/uploads/2026/09/VF-Plus-Manifesto-2026-02-1.pdf",
+        "label": "2026 local election manifesto"
+      }
+    },
+    {
+      "id": "pa",
+      "name": "Patriotic Alliance",
+      "abbreviation": "PA",
+      "color": "#5FA83A",
+      "founded": 2013,
+      "local_only": true,
+      "leader": "Gayton McKenzie",
+      "summary": "A populist party with strong support in coloured working-class communities, especially in the Western Cape, Gauteng and Nelson Mandela Bay. It is part of the national Government of National Unity and campaigns heavily on illegal immigration, crime and property ownership.",
+      "background": "Founded in 2013 by Gayton McKenzie and Kenny Kunene. Has held mayoral committee seats in several coalition-run metros, including Johannesburg.",
+      "famous_policies": [
+        "Municipal by-laws to act against businesses employing undocumented foreign nationals.",
+        "Writing off municipal debt for homes worth R1 million or less, and for elderly residents.",
+        "Faster transfer of title deeds to qualifying residents."
+      ],
+      "positions": {
+        "debt_writeoff": {
+          "score": 2,
+          "basis": "statement",
+          "stance": "Promises to 'write off the debt of everybody that has a property worth R1-million and less' and scrap rates debt for elderly residents.",
+          "source_url": "https://www.dailymaverick.co.za/article/2026-09-23-gayton-mckenzie-promises-debt-write-offs-abahambe-crackdown-in-nelson-mandela-bay/"
+        },
+        "spaza_shops": {
+          "score": 2,
+          "basis": "statement",
+          "stance": "Promises a crackdown on foreign-owned shops and by-laws against businesses employing undocumented foreigners.",
+          "source_url": "https://www.dailymaverick.co.za/article/2026-09-23-gayton-mckenzie-promises-debt-write-offs-abahambe-crackdown-in-nelson-mandela-bay/"
+        },
+        "law_enforcement": {
+          "score": 2,
+          "basis": "national",
+          "stance": "Its 2024 manifesto promised a tough line on crime, including the death penalty for murder.",
+          "source_url": "https://www.dailymaverick.co.za/article/2024-04-21-patriotic-alliance-manifesto-our-god-first-others-stay-out/"
+        }
+      },
+      "local_manifesto": {
+        "url": "https://insidepolitic.co.za/pa-launches-manifesto-in-bloemfontein/",
+        "label": "2026 manifesto launch (news report)",
+        "note": "The PA has not published its 2026 manifesto document online."
+      }
+    },
+    {
+      "id": "good",
+      "name": "GOOD",
+      "abbreviation": "GOOD",
+      "color": "#F58220",
+      "founded": 2018,
+      "local_only": true,
+      "leader": "Patricia de Lille",
+      "summary": "A social-democratic party focused on spatial justice, affordable housing and undoing apartheid geography, with its base in Cape Town and the Western Cape. It is contesting Cape Town jointly with RISE Mzansi.",
+      "background": "Founded in 2018 by former Cape Town mayor Patricia de Lille after she left the DA. De Lille serves in the national Government of National Unity as Minister of Tourism.",
+      "famous_policies": [
+        "Affordable, well-located housing to reverse apartheid spatial planning.",
+        "Rent stabilisation frameworks in Cape Town.",
+        "Opposition to vote thresholds that would exclude small parties from councils."
+      ],
+      "positions": {
+        "free_services": {
+          "score": 1,
+          "basis": "inferred",
+          "stance": "Its 2024 manifesto proposed a R999 monthly basic income grant for unemployed adults.",
+          "source_url": "https://www.ewn.co.za/2024/03/17/de-lille-proposes-r999-basic-income-grant-at-good-manifesto-launch"
+        },
+        "upgrade_townships": {
+          "score": 2,
+          "basis": "inferred",
+          "stance": "Campaigns to undo apartheid spatial planning and inequality between neighbourhoods.",
+          "source_url": "https://www.ewn.co.za/2026/06/08/good-party-s-cape-town-mayoral-candidate-plans-to-deal-with-inequality-in-the-city"
+        },
+        "housing_near_jobs": {
+          "score": 2,
+          "basis": "statement",
+          "stance": "Cape Town candidate Brett Herron prioritises affordable housing and dismantling apartheid-era spatial inequality.",
+          "source_url": "https://www.ewn.co.za/2026/06/08/good-party-s-cape-town-mayoral-candidate-plans-to-deal-with-inequality-in-the-city"
+        },
+        "small_parties": {
+          "score": -2,
+          "basis": "statement",
+          "stance": "Says a threshold would close democratic space for smaller parties.",
+          "source_url": "https://www.iol.co.za/news/politics/smaller-parties-reject-1-elections-threshold-proposed-by-the-anc-da-3ca9a093-df3a-47c9-bf01-d9f138ecd01a"
+        }
+      },
+      "local_manifesto": {
+        "url": "https://forgood.org.za/wp-content/uploads/2026/09/Mini-Manifesto_004.pdf",
+        "label": "2026 local election manifesto"
+      }
+    },
+    {
+      "id": "atm",
+      "name": "African Transformation Movement",
+      "abbreviation": "ATM",
+      "color": "#7B3F98",
+      "founded": 2018,
+      "local_only": true,
+      "leader": "Caesar Nongqunga",
+      "summary": "A socially conservative, church-linked party focused on Black economic empowerment and anti-corruption. It has an electoral pact with the MK Party. Vuyo Zungula is its Johannesburg mayoral candidate.",
+      "background": "Founded in 2018 with backing from the South African Council of Messianic Churches in Christ. Founder Caesar Nongqunga replaced Vuyo Zungula as president in 2025.",
+      "famous_policies": [
+        "Tougher enforcement against illegal immigration.",
+        "Greater investment in Black-owned businesses.",
+        "Anti-corruption and stronger political leadership in municipalities."
+      ],
+      "positions": {
+        "spaza_shops": {
+          "score": 1,
+          "basis": "statement",
+          "stance": "Says South Africa faces an immigration crisis and people here illegally should leave and return legally.",
+          "source_url": "https://www.citizen.co.za/multimedia/podcasts/watch-atms-vuyo-zungula-outlines-partys-local-election-vision-on-the-movement/"
+        }
+      },
+      "local_manifesto": {
+        "url": "https://www.sabcnews.com/sabcnews/live-atm-lge-2026-manifesto-launch/",
+        "label": "2026 manifesto launch (news report)",
+        "note": "The ATM has not published its 2026 manifesto document online."
+      }
+    },
+    {
+      "id": "aljamaah",
+      "name": "Al Jama-ah",
+      "abbreviation": "Al Jama-ah",
+      "color": "#00897B",
+      "founded": 2007,
+      "local_only": true,
+      "leader": "Ganief Hendricks",
+      "summary": "A small Muslim-oriented party that has held outsized influence in coalition-run councils, most notably supplying two Johannesburg mayors despite winning under 1% of the vote in 2021.",
+      "background": "Founded in 2007 by Ganief Hendricks, a long-serving MP. Strongest in Cape Town and Johannesburg councils.",
+      "famous_policies": [
+        "Opposes vote thresholds that would exclude small parties from councils.",
+        "Faith-based social policy and community development."
+      ],
+      "positions": {
+        "local_jobs": {
+          "score": 1,
+          "basis": "national",
+          "stance": "Its 2024 manifesto aimed for 'full employment by 2030' and backed local co-operatives.",
+          "source_url": "https://www.dailymaverick.co.za/article/2024-05-16-al-jama-ah-manifesto-food-baskets-nhi-and-digital-divide/"
+        },
+        "youth_education": {
+          "score": 1,
+          "basis": "national",
+          "stance": "Its 2024 manifesto focused on closing the digital divide and adult education.",
+          "source_url": "https://www.dailymaverick.co.za/article/2024-05-16-al-jama-ah-manifesto-food-baskets-nhi-and-digital-divide/"
+        },
+        "merit_jobs": {
+          "score": 2,
+          "basis": "national",
+          "stance": "Its 2024 manifesto promised to wipe out 'corruption and nepotism at all levels'.",
+          "source_url": "https://www.dailymaverick.co.za/article/2024-05-16-al-jama-ah-manifesto-food-baskets-nhi-and-digital-divide/"
+        },
+        "small_parties": {
+          "score": -2,
+          "basis": "statement",
+          "stance": "The only party to object in Parliament to the coalition framework; opposes a 1% threshold.",
+          "source_url": "https://www.aljama.co.za/wp-content/uploads/2023/07/PRESS-RELEASE-ON-COALITIONS-1.pdf"
+        }
+      },
+      "local_manifesto": {
+        "url": "https://www.aljama.co.za/vote-al-jama-ah/",
+        "label": "2026 campaign page",
+        "note": "Al Jama-ah has not published a separate 2026 manifesto document online."
+      }
+    }
+  ]
+}
