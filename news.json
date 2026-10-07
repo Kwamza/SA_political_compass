@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T23:57:26.313Z",
+  "updated": "2026-10-07T09:18:33.741Z",
   "window_days": 30,
   "feeds": [
     {
@@ -7,7 +7,7 @@
       "homepage": "https://www.dailymaverick.co.za",
       "url": "https://www.dailymaverick.co.za/dmrss/",
       "ok": true,
-      "items": 53
+      "items": 52
     },
     {
       "source": "News24",
@@ -53,6 +53,232 @@
     }
   ],
   "items": [
+    {
+      "title": "BIG READ: The BIG question – will the ANC make good on its prosperity promise?",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-07-the-big-question-will-the-anc-make-good-on-its-prosperity-promise/",
+      "source": "Daily Maverick",
+      "published": "2026-10-07T10:59:39.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ON THE ROAD | ‘All we could see was blood’: Aunt recalls day IFP candidate was killed",
+      "link": "https://www.news24.com/politics/on-the-road-all-we-could-see-was-blood-aunt-recalls-day-ifp-candidate-was-killed-20261007-0386",
+      "source": "News24",
+      "published": "2026-10-07T08:50:34.000Z",
+      "parties": [
+        "ifp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA bankrolls 4 mayoral candidates in Eastern Cape, seizing on ANC’s registration failure",
+      "link": "https://www.news24.com/southafrica/news/da-bankrolls-4-mayoral-candidates-in-eastern-cape-seizing-on-ancs-registration-failure-20261007-0383",
+      "source": "News24",
+      "published": "2026-10-07T08:11:20.000Z",
+      "parties": [
+        "anc",
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC condemns alleged rape, murder threats against Jacinta Ngobese-Zuma",
+      "link": "https://iol.co.za/news/politics/2026-10-07-anc-condemns-alleged-rape-murder-threats-against-jacinta-ngobese-zuma/",
+      "source": "IOL",
+      "published": "2026-10-07T07:41:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Understanding South Africa's 30 years of transformation and its challenges",
+      "link": "https://iol.co.za/opinion/2026-10-07-understanding-south-africas-30-years-of-transformation-and-its-challenges/",
+      "source": "IOL",
+      "published": "2026-10-07T07:12:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘Praat jy Afrikaans?’ DA’s Cilliers Brink in raid on suspected illegal migrants",
+      "link": "https://www.news24.com/politics/praat-jy-afrikaans-das-cilliers-brink-in-raid-on-suspected-illegal-migrants-20261006-1241",
+      "source": "News24",
+      "published": "2026-10-07T06:19:44.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "This is why DON’T VOTE ANC, DA & EFF is trending in SA",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/this-is-why-dont-vote-anc-da-eff-is-trending-in-sa/",
+      "source": "The Citizen",
+      "published": "2026-10-07T05:53:00.000Z",
+      "parties": [
+        "anc",
+        "da",
+        "eff"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "CAUGHT OUT: JSE-listed Blu Label mum on ownership details in McKenzie-linked Ticketpro takeover",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-07-blu-label-ticketpro-ownership-mckenzie/",
+      "source": "Daily Maverick",
+      "published": "2026-10-07T04:30:00.000Z",
+      "parties": [
+        "pa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "MK party blasts GNU as fuel price hike pushes petrol above R30/litre",
+      "link": "https://www.citizen.co.za/news/mk-party-blasts-gnu-fuel-price-hike-pushes-petrol-above-r30-litre/",
+      "source": "The Citizen",
+      "published": "2026-10-07T04:07:50.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Wing and a prayer won’t save ANC ahead of polls",
+      "link": "https://www.citizen.co.za/news/opinion/wing-and-a-prayer-wont-save-anc-ahead-of-polls/",
+      "source": "The Citizen",
+      "published": "2026-10-07T04:00:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "EFF’s Monica Dube murder probe gains momentum as second suspect arrested",
+      "link": "https://www.citizen.co.za/news/south-africa/crime/effs-monica-dube-murder-probe-gains-momentum-second-suspect-arrested/",
+      "source": "The Citizen",
+      "published": "2026-10-07T02:34:47.000Z",
+      "parties": [
+        "eff"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Local elections 2026: MK can win Joburg outright, says mayoral candidate Bongani Baloyi",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-06-mk-can-win-joburg-outright-says-mayoral-candidate-bongani-baloyi/",
+      "source": "Daily Maverick",
+      "published": "2026-10-06T21:09:15.000Z",
+      "parties": [
+        "anc",
+        "da",
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "TRC Roulette : Subpoena Thabo Mbeki, ANC stalwart Mathews Phosa urges TRC inquiry",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-06-subpoena-thabo-mbeki-anc-stalwart-mathews-phosa-urges-trc-inquiry/",
+      "source": "Daily Maverick",
+      "published": "2026-10-06T20:52:37.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "In case you missed it: Feroz Khan’s uncle killed | Mokonyane calls on ANC gods | Zuma-Sambudla, Ndhlela fight MK party expulsion",
+      "link": "https://www.citizen.co.za/news/in-case-you-missed-it-6-october-2026/",
+      "source": "The Citizen",
+      "published": "2026-10-06T18:00:00.000Z",
+      "parties": [
+        "anc",
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Mokonyane wants ANC settlement in Lungisa vs Mbalula as SG skips meeting with NMB branches",
+      "link": "https://www.news24.com/politics/mokonyane-wants-anc-settlement-in-lungisa-vs-mbalula-as-sg-skips-meeting-with-nmb-branches-20261006-0985",
+      "source": "News24",
+      "published": "2026-10-06T16:26:26.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "From ‘dirty votes’ to ancestral prayers: Nomvula Mokonyane under fire as ANC turns to spiritual intervention",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/ancestral-prayers-nomvula-mokonyane-anc-spiritual-intervention/",
+      "source": "The Citizen",
+      "published": "2026-10-06T12:50:26.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Bonang turns up the heat on Gayton McKenzie: ‘What about SA artists?’",
+      "link": "https://www.citizen.co.za/lifestyle/entertainment/celebrity-news/bonang-turns-up-the-heat-on-gayton-mckenzie-what-about-sa-artists/",
+      "source": "The Citizen",
+      "published": "2026-10-06T12:23:14.000Z",
+      "parties": [
+        "pa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Court orders Mbalula, Dlamini-Zuma to testify over vote buying claims",
+      "link": "https://www.news24.com/southafrica/crime-and-courts/court-orders-mbalula-dlamini-zuma-to-testify-over-vote-buying-claims-20261005-0928",
+      "source": "News24",
+      "published": "2026-10-05T19:47:47.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "ANC hits back at Lungisa as court battle over NMB ballot spot heads to judgment",
+      "link": "https://www.news24.com/southafrica/news/anc-hits-back-at-lungisa-as-court-battle-over-nmb-ballot-spot-heads-to-judgment-20261005-0900",
+      "source": "News24",
+      "published": "2026-10-05T15:21:35.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "ANCYL leader dies from gunshot wounds 3 months after brazen ambush",
+      "link": "https://www.news24.com/southafrica/crime-and-courts/ancyl-leader-dies-from-gunshot-wounds-3-months-after-brazen-ambush-20261005-0605",
+      "source": "News24",
+      "published": "2026-10-05T10:21:02.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Elections Poll ’26 | Who do South Africans want as leader? Patrice Motsepe, of course",
+      "link": "https://www.news24.com/politics/elections-poll-26-who-do-south-africans-want-as-leader-patrice-motsepe-of-course-20261004-1171",
+      "source": "News24",
+      "published": "2026-10-05T10:12:27.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA hails ‘real political shift’ as News24/SABI poll puts it ahead in 3 metros",
+      "link": "https://www.news24.com/politics/da-hails-real-political-shift-as-news24sabi-poll-puts-it-ahead-in-3-metros-20261004-1086",
+      "source": "News24",
+      "published": "2026-10-04T18:07:13.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
     {
       "title": "Calls grow for death penalty as Parliament debates GBVF crisis",
       "link": "https://iol.co.za/sunday-tribune/news/2026-10-04-calls-grow-for-death-penalty-as-parliament-debates-gbvf-crisis/",
