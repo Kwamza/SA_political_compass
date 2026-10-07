@@ -2383,7 +2383,6 @@ function showResults() {
     const pos = topPos[issue.id] || {};
     const partyScore = pos.score || 0;
     const stanceText = known ? pos.stance : 'No published position found for this election.';
-    const opinionLabels = {'-2':'Strongly Disagree','-1':'Disagree','0':'Neutral', '1':'Agree','2':'Strongly Agree'};
     const sourceLink = known && pos.source_url
       ? ` <a href="${esc(safeUrl(pos.source_url))}" target="_blank" rel="noopener" style="color:var(--green); font-style:normal;">source ↗</a>`
       : '';
@@ -2391,8 +2390,8 @@ function showResults() {
       <div class="explainer-card">
         <div class="explainer-issue">${issue.question.length > 90 ? issue.question.slice(0,90)+'…' : issue.question}</div>
         <div class="explainer-scores">
-          <div class="explainer-score-item">Your view<span class="explainer-score-val">${opinionLabels[String(ans.opinion)]}</span></div>
-          <div class="explainer-score-item">${esc(top.abbreviation)} stance<span class="explainer-score-val" style="color:${esc(top.color)}">${known ? (partyScore > 0 ? '+'+partyScore : partyScore) : '—'}${basisTagHtml(pos.basis)}</span></div>
+          <div class="explainer-score-item">Your view<span class="explainer-score-val">${OPINION_LABELS[String(ans.opinion)]}</span></div>
+          <div class="explainer-score-item">${esc(top.abbreviation)} stance<span class="explainer-score-val" style="color:${esc(top.color)}">${known ? OPINION_LABELS[String(partyScore)] : 'No position'}${basisTagHtml(pos.basis)}</span></div>
         </div>
         ${stanceText ? `<div class="explainer-stance">${esc(stanceText)}${sourceLink}</div>` : ''}
       </div>`;
