@@ -3000,13 +3000,10 @@ function recordAnalytics(topParty, matchScores, userAnswers, demographics) {
     answers: issueOpinions
   };
   
-  console.log("Analytics Payload:", payload);
-  
-  try {
-    const savedData = JSON.parse(localStorage.getItem('compassAnalytics') || '[]');
-    savedData.push(payload);
-    localStorage.setItem('compassAnalytics', JSON.stringify(savedData));
-  } catch(e) {}
+  // Results include political views, which POPIA treats as special personal
+  // information, so they aren't logged or kept on the device. This also clears
+  // the copy that earlier versions of the site saved in the browser.
+  try { localStorage.removeItem('compassAnalytics'); } catch (e) {}
 
   const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyw1s_4zhr80whl-dSMlTJgE7lqEWrUiIud398bh0yv4GeJggJ-eUaMA56uQ_LmAw_qNg/exec";
   
