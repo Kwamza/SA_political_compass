@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T09:18:33.741Z",
+  "updated": "2026-10-08T11:12:39.747Z",
   "window_days": 30,
   "feeds": [
     {
@@ -7,7 +7,7 @@
       "homepage": "https://www.dailymaverick.co.za",
       "url": "https://www.dailymaverick.co.za/dmrss/",
       "ok": true,
-      "items": 52
+      "items": 53
     },
     {
       "source": "News24",
@@ -54,22 +54,188 @@
   ],
   "items": [
     {
-      "title": "BIG READ: The BIG question – will the ANC make good on its prosperity promise?",
-      "link": "https://www.dailymaverick.co.za/article/2026-10-07-the-big-question-will-the-anc-make-good-on-its-prosperity-promise/",
-      "source": "Daily Maverick",
-      "published": "2026-10-07T10:59:39.000Z",
+      "title": "Former DA mayor turned MKP mayoral candidate vows to send illegal immigrants home",
+      "link": "https://www.news24.com/politics/former-da-mayor-turned-mkp-mayoral-candidate-vows-to-send-illegal-immigrants-home-20261008-0516",
+      "source": "News24",
+      "published": "2026-10-08T10:10:32.000Z",
+      "parties": [
+        "da",
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ON THE ROAD | ANC’s ballot blunder puts KZN stronghold uMshwathi in play as rivals circle",
+      "link": "https://www.news24.com/politics/on-the-road-ancs-ballot-blunder-puts-kzn-stronghold-umshwathi-in-play-as-rivals-circle-20261008-0523",
+      "source": "News24",
+      "published": "2026-10-08T09:25:48.000Z",
+      "parties": [
+        "anc",
+        "mkp",
+        "ifp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Lawyers question Brink’s defence of Tshwane raid as ‘clickbait’ stunt rattles DA",
+      "link": "https://www.news24.com/politics/lawyers-question-brinks-defence-of-tshwane-raid-as-clickbait-stunt-rattles-da-20261007-1319",
+      "source": "News24",
+      "published": "2026-10-08T06:07:24.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC’s internal squabbles dampen hopes",
+      "link": "https://www.citizen.co.za/news/opinion/ancs-internal-squabbles-dampen-hopes/",
+      "source": "The Citizen",
+      "published": "2026-10-08T06:00:00.000Z",
       "parties": [
         "anc"
       ],
       "accountability": false
     },
     {
+      "title": "Chris Pappas: Apartheid is not coming back [VIDEO]",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/chris-pappas-apartheid-is-not-coming-back-as-da-seeks-re-election-in-umngeni-video/",
+      "source": "The Citizen",
+      "published": "2026-10-08T04:00:00.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Gayton McKenzie may yet drive F1 to SA",
+      "link": "https://www.citizen.co.za/news/opinion/gayton-mckenzie-may-yet-drive-f1-to-sa/",
+      "source": "The Citizen",
+      "published": "2026-10-08T04:00:00.000Z",
+      "parties": [
+        "pa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Qaanitah Hunter | The ANC shrugs as investors arrive to dark streets",
+      "link": "https://www.news24.com/opinions/columnists/qaanitah-hunter-the-anc-shrugs-as-investors-arrive-to-dark-streets-20261007-0978",
+      "source": "News24",
+      "published": "2026-10-08T03:21:24.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Jacob Zuma gets clean bill of health after hospitalisation reports",
+      "link": "https://www.citizen.co.za/news/jacob-zuma-gets-clean-bill-of-health-after-hospitalisation-reports/",
+      "source": "The Citizen",
+      "published": "2026-10-08T02:58:32.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "LOCAL ELECTIONS 2026: ANC, DA have not governed a single municipality together as coalition talks loom",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-07-local-government-coalitions/",
+      "source": "Daily Maverick",
+      "published": "2026-10-07T22:14:43.000Z",
+      "parties": [
+        "anc",
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘Ugly white face’: Jibes at gun case magistrate are robust political speech – Malema",
+      "link": "https://www.news24.com/southafrica/news/ugly-white-face-jibes-at-gun-case-magistrate-are-robust-political-speech-malema-20261007-1224",
+      "source": "News24",
+      "published": "2026-10-07T20:28:39.000Z",
+      "parties": [
+        "eff"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Zuma ‘fit as a fiddle’, says MK Party after hospitalisation reports",
+      "link": "https://www.news24.com/southafrica/news/zuma-fit-as-a-fiddle-says-mk-party-after-hospitalisation-reports-20261007-1110",
+      "source": "News24",
+      "published": "2026-10-07T18:31:13.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Watch — Where’s the ANC? Inside the party’s quietest election campaign yet",
+      "link": "https://www.dailymaverick.co.za/video/2026-10-07-watch-wheres-the-anc-inside-the-partys-quietest-election-campaign-yet-1/",
+      "source": "Daily Maverick",
+      "published": "2026-10-07T18:23:16.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "In case you missed it: Why ‘Don’t Vote ANC, DA & EFF’ is trending | November petrol shock warning | Tired of spam calls?",
+      "link": "https://www.citizen.co.za/news/in-case-you-missed-it-7-october-2026/",
+      "source": "The Citizen",
+      "published": "2026-10-07T18:00:00.000Z",
+      "parties": [
+        "anc",
+        "da",
+        "eff"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘I make no apology’: Brink defends presence at Tshwane hijacked-house ‘raid’",
+      "link": "https://www.news24.com/politics/i-make-no-apology-brink-defends-presence-at-tshwane-hijacked-house-raid-20261007-0998",
+      "source": "News24",
+      "published": "2026-10-07T16:38:42.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC condemns ‘vile’ death, rape threat against Jacinta Ngobese-Zuma",
+      "link": "https://www.news24.com/politics/anc-condemns-vile-death-rape-threat-against-jacinta-ngobese-zuma-20261007-0922",
+      "source": "News24",
+      "published": "2026-10-07T15:23:55.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
       "title": "ON THE ROAD | ‘All we could see was blood’: Aunt recalls day IFP candidate was killed",
       "link": "https://www.news24.com/politics/on-the-road-all-we-could-see-was-blood-aunt-recalls-day-ifp-candidate-was-killed-20261007-0386",
       "source": "News24",
-      "published": "2026-10-07T08:50:34.000Z",
+      "published": "2026-10-07T13:52:08.000Z",
       "parties": [
         "ifp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "No more small parties leading councils, says Hlabisa as GNU partners eye hung metros",
+      "link": "https://www.news24.com/southafrica/news/no-more-small-parties-leading-councils-says-hlabisa-as-gnu-partners-eye-hung-metros-20261007-0804",
+      "source": "News24",
+      "published": "2026-10-07T13:25:08.000Z",
+      "parties": [
+        "ifp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "BIG READ: The BIG question – will the ANC make good on its prosperity promise?",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-07-the-big-question-will-the-anc-make-good-on-its-prosperity-promise/",
+      "source": "Daily Maverick",
+      "published": "2026-10-07T10:59:39.000Z",
+      "parties": [
+        "anc"
       ],
       "accountability": false
     },
