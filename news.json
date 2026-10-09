@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T11:12:39.747Z",
+  "updated": "2026-10-09T11:11:46.804Z",
   "window_days": 30,
   "feeds": [
     {
@@ -7,7 +7,7 @@
       "homepage": "https://www.dailymaverick.co.za",
       "url": "https://www.dailymaverick.co.za/dmrss/",
       "ok": true,
-      "items": 53
+      "items": 52
     },
     {
       "source": "News24",
@@ -54,12 +54,172 @@
   ],
   "items": [
     {
-      "title": "Former DA mayor turned MKP mayoral candidate vows to send illegal immigrants home",
-      "link": "https://www.news24.com/politics/former-da-mayor-turned-mkp-mayoral-candidate-vows-to-send-illegal-immigrants-home-20261008-0516",
+      "title": "Andile Lungisa’s exclusion from ANC election list ruled unconstitutional",
+      "link": "https://www.news24.com/politics/andile-lungisas-exclusion-from-anc-election-list-ruled-unconstitutional-20261009-0631",
       "source": "News24",
-      "published": "2026-10-08T10:10:32.000Z",
+      "published": "2026-10-09T10:31:39.000Z",
       "parties": [
-        "da",
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Court rules Lungisa’s removal from ANC PR list is unconstitutional",
+      "link": "https://www.sabcnews.com/sabcnews/court-rules-lungisas-removal-from-anc-pr-list-is-unconstitutional/",
+      "source": "SABC News",
+      "published": "2026-10-09T10:21:49.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "‘24 hours’: MK Party demands Masemola’s reinstatement after charges dropped",
+      "link": "https://iol.co.za/news/politics/2026-10-09-24-hours-mk-party-demands-masemolas-reinstatement-after-charges-dropped/",
+      "source": "IOL",
+      "published": "2026-10-09T10:07:00.000Z",
+      "parties": [
+        "mkp",
+        "atm"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Court rules Mbalula unlawfully removed Lungisa from ANC election list",
+      "link": "https://iol.co.za/news/crime-and-courts/2026-10-09-court-rules-mbalula-unlawfully-removed-lungisa-from-anc-election-list/",
+      "source": "IOL",
+      "published": "2026-10-09T10:00:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "‘EFF MP’ arrested after allegedly assaulting police officer",
+      "link": "https://www.citizen.co.za/news/south-africa/crime/eff-mp-arrested-allegedly-assaulting-police-officer/",
+      "source": "The Citizen",
+      "published": "2026-10-09T08:59:01.000Z",
+      "parties": [
+        "eff"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Zuma’s possible absence could reshape SA’s political landscape",
+      "link": "https://www.citizen.co.za/news/south-africa/politics/zumas-possible-absence-could-reshape-sas-political-landscape/",
+      "source": "The Citizen",
+      "published": "2026-10-09T08:13:37.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Cilliers Brink’s ‘raid’ not sanctioned by Tshwane’s metro police",
+      "link": "https://www.news24.com/politics/cilliers-brinks-raid-not-sanctioned-by-tshwanes-metro-police-20261009-0464",
+      "source": "News24",
+      "published": "2026-10-09T07:44:57.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "A VIEW OF THE WEEK: Why can’t the ANC just bench drama queen Nomvula?",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/a-view-of-the-week-nomvula-mokonyane/",
+      "source": "The Citizen",
+      "published": "2026-10-09T07:00:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘It’s not looking good’: Zuma’s brother after former president is hospitalised",
+      "link": "https://www.news24.com/politics/its-not-looking-good-zumas-brother-after-former-president-is-hospitalised-20261008-1230",
+      "source": "News24",
+      "published": "2026-10-09T05:48:16.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘Never be scared to kill’: Malema hate speech doesn’t disqualify him from JSC – Didiza",
+      "link": "https://www.news24.com/southafrica/news/never-be-scared-to-kill-malema-hate-speech-doesnt-disqualify-him-from-jsc-didiza-20261008-1145",
+      "source": "News24",
+      "published": "2026-10-09T03:51:23.000Z",
+      "parties": [
+        "eff"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "AGE OF ACCOUNTABILITY: DA asks court to make Nelson Mandela Bay mayor pay for R25m transformer lease",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-08-transformer-lease/",
+      "source": "Daily Maverick",
+      "published": "2026-10-08T22:27:33.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "MK party opens case against Zille over ‘profane and vulgar’ outburst at unaired debate",
+      "link": "https://www.citizen.co.za/news/south-africa/politics/mk-party-opens-case-against-zille-over-profane-and-vulgar-outburst-at-unaired-debate/",
+      "source": "The Citizen",
+      "published": "2026-10-08T19:22:33.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Thuma nina: Ramaphosa wishes he could send Eastern Cape ANC volunteers to Gauteng, eThekwini",
+      "link": "https://www.news24.com/southafrica/news/thuma-nina-ramaphosa-wishes-he-could-send-eastern-cape-anc-volunteers-to-gauteng-ethekwini-20261008-1099",
+      "source": "News24",
+      "published": "2026-10-08T18:19:22.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Zille leads GBV march to prison holding rape-accused suspended cop Sibiya",
+      "link": "https://www.news24.com/politics/zille-leads-gbv-march-to-prison-holding-rape-accused-suspended-cop-sibiya-20261008-1008",
+      "source": "News24",
+      "published": "2026-10-08T16:48:38.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘Women have lost faith in the justice system’: DA marches against murder and GBV",
+      "link": "https://www.citizen.co.za/news/women-have-lost-faith-in-the-justice-system-da-marches-against-murder-and-gbv/",
+      "source": "The Citizen",
+      "published": "2026-10-08T14:12:07.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Zille accused of verbal abuse during heated Moja Love debate",
+      "link": "https://www.news24.com/politics/zille-accused-of-verbal-abuse-during-heated-moja-love-debate-20261008-0807",
+      "source": "News24",
+      "published": "2026-10-08T13:28:15.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘He’s been sick these days,’ Zuma confidant says as former president remains in hospital",
+      "link": "https://www.news24.com/politics/hes-been-sick-these-days-zuma-confidant-says-as-former-president-remains-in-hospital-20261008-0724",
+      "source": "News24",
+      "published": "2026-10-08T13:08:37.000Z",
+      "parties": [
         "mkp"
       ],
       "accountability": false
@@ -68,11 +228,22 @@
       "title": "ON THE ROAD | ANC’s ballot blunder puts KZN stronghold uMshwathi in play as rivals circle",
       "link": "https://www.news24.com/politics/on-the-road-ancs-ballot-blunder-puts-kzn-stronghold-umshwathi-in-play-as-rivals-circle-20261008-0523",
       "source": "News24",
-      "published": "2026-10-08T09:25:48.000Z",
+      "published": "2026-10-08T12:41:33.000Z",
       "parties": [
         "anc",
         "mkp",
         "ifp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Former DA mayor turned MKP mayoral candidate vows to send illegal immigrants home",
+      "link": "https://www.news24.com/politics/former-da-mayor-turned-mkp-mayoral-candidate-vows-to-send-illegal-immigrants-home-20261008-0516",
+      "source": "News24",
+      "published": "2026-10-08T10:10:32.000Z",
+      "parties": [
+        "da",
+        "mkp"
       ],
       "accountability": false
     },
