@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T11:11:46.804Z",
+  "updated": "2026-10-10T10:28:48.798Z",
   "window_days": 30,
   "feeds": [
     {
@@ -53,6 +53,26 @@
     }
   ],
   "items": [
+    {
+      "title": "LOCAL ELECTIONS 2026: High court orders ANC to reinstate Andile Lungisa after unlawful removal",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-09-high-court-orders-anc-to-reinstate-andile-lungisa-after-unlawful-removal/",
+      "source": "Daily Maverick",
+      "published": "2026-10-09T14:45:05.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Court overturns Mbalula’s decision to remove Andile Lungisa from ANC election candidate list",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/mbalula-andile-lungisa-anc-election-candidate-list/",
+      "source": "The Citizen",
+      "published": "2026-10-09T14:28:13.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
     {
       "title": "Andile Lungisa’s exclusion from ANC election list ruled unconstitutional",
       "link": "https://www.news24.com/politics/andile-lungisas-exclusion-from-anc-election-list-ruled-unconstitutional-20261009-0631",
