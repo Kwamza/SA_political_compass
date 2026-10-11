@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T10:28:48.798Z",
+  "updated": "2026-10-11T10:40:40.494Z",
   "window_days": 30,
   "feeds": [
     {
@@ -54,6 +54,128 @@
   ],
   "items": [
     {
+      "title": "MK Party challenges report linking Zuma’s health to possible KZN troop deployment",
+      "link": "https://iol.co.za/news/politics/2026-10-11-mk-party-challenges-report-linking-zumas-health-to-possible-kzn-troop-deployment/",
+      "source": "IOL",
+      "published": "2026-10-11T07:32:00.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Concerns over ANC ward candidate due to GBV record",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/concerns-over-anc-ward-candidate-due-to-gbv-record/",
+      "source": "The Citizen",
+      "published": "2026-10-11T06:00:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Zuma family rules out airlift to military hospital, insists on KZN treatment",
+      "link": "https://www.news24.com/politics/zuma-family-rules-out-airlift-to-military-hospital-insists-on-kzn-treatment-20261010-1030",
+      "source": "News24",
+      "published": "2026-10-11T05:38:06.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "The DA’s choking curse",
+      "link": "https://www.citizen.co.za/news/opinion/the-das-choking-curse/",
+      "source": "The Citizen",
+      "published": "2026-10-11T05:04:00.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "In Sunday. | March leader’s R12m, Zuma airlift row and Mashatile son-in-law’s R5.4m",
+      "link": "https://specialprojects.news24.com/sunday-11-october-in-sunday-11-october-march-leaders-state-millions-mashatile-son-in-laws-r5-4m-cut-and-zuma-ill/index.html",
+      "source": "News24",
+      "published": "2026-10-11T03:12:39.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "PODCAST: Joburg needs more than pothole politics, says Rise Mzansi mayoral candidate",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/podcast-joburg-needs-more-than-pothole-politics-says-rise-mzansi-mayoral-candidate/",
+      "source": "The Citizen",
+      "published": "2026-10-10T19:00:00.000Z",
+      "parties": [
+        "risemzansi"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA puts the squeeze on small parties in last election push",
+      "link": "https://www.news24.com/politics/da-puts-the-squeeze-on-small-parties-in-last-election-push-20261010-0917",
+      "source": "News24",
+      "published": "2026-10-10T15:17:12.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Claims of Mbalula ducking special NEC as party anxiously awaits ConCourt, audit outcomes",
+      "link": "https://www.news24.com/politics/claims-of-mbalula-ducking-special-nec-as-party-anxiously-awaits-concourt-audit-outcomes-20261010-0753",
+      "source": "News24",
+      "published": "2026-10-10T12:34:33.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "ANC’s appeal over Lungisa ruling sets stage for constitutional showdown on party autonomy",
+      "link": "https://www.news24.com/politics/ancs-appeal-over-lungisa-ruling-sets-stage-for-constitutional-showdown-on-party-autonomy-20261010-0628",
+      "source": "News24",
+      "published": "2026-10-10T10:29:01.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Ramaphosa sends well wishes to Zuma who remains in hospital",
+      "link": "https://www.news24.com/politics/ramaphosa-sends-well-wishes-to-zuma-who-remains-in-hospital-20261009-1161",
+      "source": "News24",
+      "published": "2026-10-09T19:22:07.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "EFF declares ANC ‘dead’ in Buffalo City as party’s own mayoral hopeful admits unity crisis",
+      "link": "https://www.news24.com/politics/eff-declares-anc-dead-in-buffalo-city-as-partys-own-mayoral-hopeful-admits-unity-crisis-20261009-1109",
+      "source": "News24",
+      "published": "2026-10-09T18:30:01.000Z",
+      "parties": [
+        "anc",
+        "eff"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ELECTIONS 2026 | Helen Zille rules out forming an unwieldy coalition to run Joburg",
+      "link": "https://www.news24.com/politics/elections-2026-helen-zille-rules-out-forming-an-unwieldy-coalition-to-run-joburg-20261009-0706",
+      "source": "News24",
+      "published": "2026-10-09T15:40:20.000Z",
+      "parties": [
+        "da",
+        "eff"
+      ],
+      "accountability": false
+    },
+    {
       "title": "LOCAL ELECTIONS 2026: High court orders ANC to reinstate Andile Lungisa after unlawful removal",
       "link": "https://www.dailymaverick.co.za/article/2026-10-09-high-court-orders-anc-to-reinstate-andile-lungisa-after-unlawful-removal/",
       "source": "Daily Maverick",
@@ -74,10 +196,20 @@
       "accountability": true
     },
     {
+      "title": "ANC expels seven members for contesting elections for other parties",
+      "link": "https://www.news24.com/politics/anc-expels-seven-members-for-contesting-elections-for-other-parties-20261009-0843",
+      "source": "News24",
+      "published": "2026-10-09T14:04:52.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
       "title": "Andile Lungisa’s exclusion from ANC election list ruled unconstitutional",
       "link": "https://www.news24.com/politics/andile-lungisas-exclusion-from-anc-election-list-ruled-unconstitutional-20261009-0631",
       "source": "News24",
-      "published": "2026-10-09T10:31:39.000Z",
+      "published": "2026-10-09T13:29:06.000Z",
       "parties": [
         "anc"
       ],
