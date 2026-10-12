@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T10:40:40.494Z",
+  "updated": "2026-10-12T11:45:24.995Z",
   "window_days": 30,
   "feeds": [
     {
@@ -54,6 +54,137 @@
   ],
   "items": [
     {
+      "title": "High Court set for showdown over Ramaphosa impeachment inquiry [VIDEO]",
+      "link": "https://www.citizen.co.za/news/high-court-set-showdown-ramaphosa-impeachment-inquiry/",
+      "source": "The Citizen",
+      "published": "2026-10-12T11:12:27.000Z",
+      "parties": [
+        "eff"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "ANC argues IEC dispute is about ‘Law vs. System Design’",
+      "link": "https://www.sabcnews.com/sabcnews/anc-argues-iec-dispute-is-about-law-vs-system-design/",
+      "source": "SABC News",
+      "published": "2026-10-12T11:06:54.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "ANC tells ConCourt it complied with all IEC’s statutory requirements",
+      "link": "https://www.sabcnews.com/sabcnews/anc-tells-concourt-it-complied-with-all-iecs-statutory-requirements/",
+      "source": "SABC News",
+      "published": "2026-10-12T09:25:35.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Zuma Foundation blasts Ramaphosa as concerns over former leader’s health mount",
+      "link": "https://www.citizen.co.za/news/zuma-foundation-fires-back-ramaphosa-health-concerns-mount/",
+      "source": "The Citizen",
+      "published": "2026-10-12T09:10:33.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "LIVE | ANC in a bid to get its 181 councillors on the ballot",
+      "link": "https://www.sabcnews.com/sabcnews/live-anc-in-a-bid-to-get-its-181-councillors-on-the-ballot/",
+      "source": "SABC News",
+      "published": "2026-10-12T08:54:32.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Giyani residents slam Limpopo ANC for service delivery failures",
+      "link": "https://www.sabcnews.com/sabcnews/giyani-residents-slam-limpopo-anc-for-service-delivery-failures/",
+      "source": "SABC News",
+      "published": "2026-10-12T08:52:29.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘The person who will kill the ANC is not born yet,’ says Mbalula",
+      "link": "https://www.citizen.co.za/news/south-africa/politics/the-person-who-will-kill-the-anc-is-not-born-yet-says-mbalula/",
+      "source": "The Citizen",
+      "published": "2026-10-12T08:46:29.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Another ANC candidate seeks reinstatement",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/another-anc-candidate-seeks-reinstatement/",
+      "source": "The Citizen",
+      "published": "2026-10-12T05:00:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Madiba’s Qunu chief turns her back on the ANC, switches to ATM",
+      "link": "https://www.news24.com/southafrica/madibas-qunu-chief-turns-her-back-on-the-anc-switches-to-atm-20261011-1023",
+      "source": "News24",
+      "published": "2026-10-12T03:20:15.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Jacob Zuma health concerns grow as foundation slams media frenzy",
+      "link": "https://www.citizen.co.za/news/jacob-zuma-health-concerns-grow-foundation-slams-media-frenzy/",
+      "source": "The Citizen",
+      "published": "2026-10-12T01:31:55.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "LOCAL ELECTIONS 2026: On paper vs reality — could the DA and the ANC work together in Joburg?",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-11-on-paper-vs-reality-could-the-da-and-the-anc-work-together-in-joburg/",
+      "source": "Daily Maverick",
+      "published": "2026-10-11T20:17:02.000Z",
+      "parties": [
+        "anc",
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Zuma family rules out airlift to military hospital, insists on KZN treatment",
+      "link": "https://www.news24.com/politics/zuma-family-rules-out-airlift-to-military-hospital-insists-on-kzn-treatment-20261010-1030",
+      "source": "News24",
+      "published": "2026-10-11T18:53:27.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Ntshavheni urges respect for Zuma’s privacy as former president remains in KZN hospital",
+      "link": "https://www.news24.com/politics/ntshavheni-urges-respect-for-zumas-privacy-as-former-president-remains-in-kzn-hospital-20261011-0639",
+      "source": "News24",
+      "published": "2026-10-11T10:40:11.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
       "title": "MK Party challenges report linking Zuma’s health to possible KZN troop deployment",
       "link": "https://iol.co.za/news/politics/2026-10-11-mk-party-challenges-report-linking-zumas-health-to-possible-kzn-troop-deployment/",
       "source": "IOL",
@@ -70,16 +201,6 @@
       "published": "2026-10-11T06:00:00.000Z",
       "parties": [
         "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Zuma family rules out airlift to military hospital, insists on KZN treatment",
-      "link": "https://www.news24.com/politics/zuma-family-rules-out-airlift-to-military-hospital-insists-on-kzn-treatment-20261010-1030",
-      "source": "News24",
-      "published": "2026-10-11T05:38:06.000Z",
-      "parties": [
-        "mkp"
       ],
       "accountability": false
     },
@@ -739,16 +860,6 @@
       "accountability": true
     },
     {
-      "title": "ANCYL leader dies from gunshot wounds 3 months after brazen ambush",
-      "link": "https://www.news24.com/southafrica/crime-and-courts/ancyl-leader-dies-from-gunshot-wounds-3-months-after-brazen-ambush-20261005-0605",
-      "source": "News24",
-      "published": "2026-10-05T10:21:02.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "Elections Poll ’26 | Who do South Africans want as leader? Patrice Motsepe, of course",
       "link": "https://www.news24.com/politics/elections-poll-26-who-do-south-africans-want-as-leader-patrice-motsepe-of-course-20261004-1171",
       "source": "News24",
@@ -767,16 +878,6 @@
         "da"
       ],
       "accountability": false
-    },
-    {
-      "title": "Calls grow for death penalty as Parliament debates GBVF crisis",
-      "link": "https://iol.co.za/sunday-tribune/news/2026-10-04-calls-grow-for-death-penalty-as-parliament-debates-gbvf-crisis/",
-      "source": "IOL",
-      "published": "2026-10-03T23:15:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
     },
     {
       "title": "MK Party supporters disappointed as Zuma skips uMhlathuze rally",
@@ -891,16 +992,6 @@
       "accountability": false
     },
     {
-      "title": "Anger after Nelson Mandela Bay ANC leader’s brother tops election candidate list",
-      "link": "https://www.news24.com/politics/anger-after-nelson-mandela-bay-anc-leaders-brother-tops-election-candidate-list-20261002-0604",
-      "source": "News24",
-      "published": "2026-10-02T08:18:14.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "DA showdown: How party bosses tried to shield ‘bogus doctor’ from expulsion",
       "link": "https://www.news24.com/southafrica/news/da-showdown-how-party-bosses-tried-to-shield-bogus-doctor-from-expulsion-20261001-1146",
       "source": "News24",
@@ -917,16 +1008,6 @@
       "published": "2026-10-01T16:42:34.000Z",
       "parties": [
         "da"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "ANC Mangaung candidates take exclusion fight to the Constitutional Court",
-      "link": "https://www.news24.com/politics/anc-mangaung-candidates-take-exclusion-fight-to-the-constitutional-court-20261001-0827",
-      "source": "News24",
-      "published": "2026-10-01T11:57:17.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": true
     },
@@ -955,16 +1036,6 @@
       "accountability": true
     },
     {
-      "title": "High Court orders ANC to provide membership records in doomed Eastern Cape conference battle",
-      "link": "https://www.news24.com/politics/high-court-orders-anc-to-provide-membership-records-in-doomed-eastern-cape-conference-battle-20261001-0589",
-      "source": "News24",
-      "published": "2026-10-01T07:50:15.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
       "title": "Freedom Front Plus’ apartheid killers should not be elected councillors nor mayoral candidates",
       "link": "https://www.dailymaverick.co.za/opinionista/2026-09-30-freedom-front-plus-apartheid-killers-should-not-be-elected-councillors-nor-mayoral-candidates/",
       "source": "Daily Maverick",
@@ -988,16 +1059,6 @@
       "accountability": true
     },
     {
-      "title": "Gigaba quietly removed from parliamentary committee after ANC fracas",
-      "link": "https://www.news24.com/politics/gigaba-quietly-removed-from-parliamentary-committee-after-anc-fracas-20260930-0903",
-      "source": "News24",
-      "published": "2026-09-30T13:03:28.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "Significant, but delayed: 5 years later, Malema finally apologises to Judge Elias Matojane",
       "link": "https://www.news24.com/politics/significant-but-delayed-5-years-later-malema-finally-apologises-to-judge-elias-matojane-20260930-0891",
       "source": "News24",
@@ -1006,16 +1067,6 @@
         "eff"
       ],
       "accountability": true
-    },
-    {
-      "title": "Between candour and coercion — why SA won’t bend to Washington’s dictates",
-      "link": "https://www.dailymaverick.co.za/opinionista/2026-09-29-between-candour-and-coercion-why-sa-wont-bend-to-washingtons-dictates/",
-      "source": "Daily Maverick",
-      "published": "2026-09-29T23:29:35.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
     },
     {
       "title": "What the Gabrielle Goliath case has meant for SA’s art world",
