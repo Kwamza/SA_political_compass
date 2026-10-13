@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T11:45:24.995Z",
+  "updated": "2026-10-13T11:32:09.122Z",
   "window_days": 30,
   "feeds": [
     {
@@ -53,6 +53,210 @@
     }
   ],
   "items": [
+    {
+      "title": "Herman Mashaba opens Nandi Madida’s election podcast series",
+      "link": "https://iol.co.za/entertainment/streaming/2026-10-13-herman-mashaba-opens-nandi-madidas-election-podcast-series/",
+      "source": "IOL",
+      "published": "2026-10-13T11:10:00.000Z",
+      "parties": [
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "KZN premier defends army deployment as IFP infighting erupts after Durban unrest",
+      "link": "https://www.news24.com/southafrica/news/kzn-premier-defends-army-deployment-as-ifp-infighting-erupts-after-durban-unrest-20261013-0625",
+      "source": "News24",
+      "published": "2026-10-13T11:01:17.000Z",
+      "parties": [
+        "ifp"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "‘I have not withdrawn anything’: Gayton McKenzie denies Graaff-Reinet renaming ‘reversal’",
+      "link": "https://www.news24.com/southafrica/news/i-have-not-withdrawn-anything-gayton-mckenzie-denies-graaff-reinet-renaming-reversal-20261013-0647",
+      "source": "News24",
+      "published": "2026-10-13T10:52:04.000Z",
+      "parties": [
+        "pa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "MK Party reshuffle centralises power in Chief Whip’s office",
+      "link": "https://iol.co.za/news/politics/2026-10-13-mk-party-reshuffle-centralises-power-in-chief-whips-office/",
+      "source": "IOL",
+      "published": "2026-10-13T09:57:00.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Foundation denies reports Jacob Zuma has been discharged",
+      "link": "https://www.citizen.co.za/news/jacob-zuma-discharged-from-hospital-after-treatment/",
+      "source": "The Citizen",
+      "published": "2026-10-13T08:37:28.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "FACT CHECK | Manyi’s claims of unequal treatment for Zuma contradicted by evidence",
+      "link": "https://www.news24.com/southafrica/debunking/fact-check-manyis-claims-of-unequal-treatment-for-zuma-contradicted-by-evidence-20261012-1152",
+      "source": "News24",
+      "published": "2026-10-13T08:28:24.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Elections 2026: What the ANC, DA, EFF and MK party say on land",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/elections-2026-what-the-anc-da-eff-and-mk-party-say-on-land/",
+      "source": "The Citizen",
+      "published": "2026-10-13T06:04:00.000Z",
+      "parties": [
+        "anc",
+        "da",
+        "eff",
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Mantashe irks Cosatu congress as delegates decry ANC’s ‘Big Brother’ attitude",
+      "link": "https://www.citizen.co.za/news/south-africa/politics/mantashe-irks-cosatu-congress-as-delegates-decry-ancs-big-brother-attitude/",
+      "source": "The Citizen",
+      "published": "2026-10-13T04:30:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘Absolute chaos’: DA pushes ANC’s buttons in candidate list case in ConCourt",
+      "link": "https://www.news24.com/politics/absolute-chaos-da-pushes-ancs-buttons-in-candidate-list-case-in-concourt-20261012-1133",
+      "source": "News24",
+      "published": "2026-10-13T03:20:35.000Z",
+      "parties": [
+        "anc",
+        "da"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "ANC axes three Ekurhuleni councillors in pre-election crackdown, orders another to step aside",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/anc-axes-three-ekurhuleni-councillors-pre-election-crackdown-orders-another-step-aside/",
+      "source": "The Citizen",
+      "published": "2026-10-13T02:47:19.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "OUR CITY NEWS: Zille to ‘go into opposition’ if DA doesn’t win a workable coalition in Joburg",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-12-zille-joburg/",
+      "source": "Daily Maverick",
+      "published": "2026-10-12T21:59:03.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC vs IEC: ‘Drastic, far-reaching’: ConCourt questions exclusion of 181 ANC candidates",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-12-candidates-exclusion/",
+      "source": "Daily Maverick",
+      "published": "2026-10-12T21:54:27.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Madiba’s Qunu chief turns her back on the ANC, switches to ATM",
+      "link": "https://www.news24.com/southafrica/madibas-qunu-chief-turns-her-back-on-the-anc-switches-to-atm-20261011-1023",
+      "source": "News24",
+      "published": "2026-10-12T19:43:26.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC Ekurhuleni expels 3 councillors for backing competition, orders another to step aside",
+      "link": "https://www.news24.com/politics/anc-ekurhuleni-expels-3-councillors-for-backing-competition-orders-another-to-step-aside-20261012-1155",
+      "source": "News24",
+      "published": "2026-10-12T19:15:08.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Mbalula’s grip slips in Eastern Cape as region welcomes ruling he wants to appeal",
+      "link": "https://www.news24.com/politics/mbalulas-grip-slips-in-eastern-cape-as-region-welcomes-ruling-he-wants-to-appeal-20261012-0838",
+      "source": "News24",
+      "published": "2026-10-12T18:57:55.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "AFTER THE BELL: Whether Boxer or the ANC, succession planning separates strong institutions from fragile ones",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-12-boxer-and-the-anc/",
+      "source": "Daily Maverick",
+      "published": "2026-10-12T18:46:05.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Mantashe’s refusal to speak before SACP sparks more Cosatu congress chaos",
+      "link": "https://www.news24.com/politics/mantashes-refusal-to-speak-before-sacp-sparks-more-cosatu-congress-chaos-20261012-1005",
+      "source": "News24",
+      "published": "2026-10-12T16:46:21.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "POLITICALLY AWEH: Cupcake’s GBV family meeting and Zuma’s very short IEC pledge",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-12-cupcakes-gbv-family-meeting-and-zumas-very-short-iec-pledge/",
+      "source": "Daily Maverick",
+      "published": "2026-10-12T16:00:00.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC vs IEC: ConCourt grapples with what ‘submit’ really means",
+      "link": "https://www.news24.com/politics/anc-vs-iec-concourt-grapples-with-what-submit-really-means-20261012-0764",
+      "source": "News24",
+      "published": "2026-10-12T15:44:07.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Should failing to click a button exclude the ANC? ConCourt hears candidate deadline arguments",
+      "link": "https://www.citizen.co.za/news/should-failing-to-click-a-button-exclude-the-anc-concourt-hears-candidate-deadline-arguments/",
+      "source": "The Citizen",
+      "published": "2026-10-12T13:49:26.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
     {
       "title": "High Court set for showdown over Ramaphosa impeachment inquiry [VIDEO]",
       "link": "https://www.citizen.co.za/news/high-court-set-showdown-ramaphosa-impeachment-inquiry/",
@@ -128,16 +332,6 @@
       "link": "https://www.citizen.co.za/news/south-africa/elections/another-anc-candidate-seeks-reinstatement/",
       "source": "The Citizen",
       "published": "2026-10-12T05:00:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Madiba’s Qunu chief turns her back on the ANC, switches to ATM",
-      "link": "https://www.news24.com/southafrica/madibas-qunu-chief-turns-her-back-on-the-anc-switches-to-atm-20261011-1023",
-      "source": "News24",
-      "published": "2026-10-12T03:20:15.000Z",
       "parties": [
         "anc"
       ],
@@ -695,26 +889,6 @@
       "accountability": false
     },
     {
-      "title": "ANC condemns alleged rape, murder threats against Jacinta Ngobese-Zuma",
-      "link": "https://iol.co.za/news/politics/2026-10-07-anc-condemns-alleged-rape-murder-threats-against-jacinta-ngobese-zuma/",
-      "source": "IOL",
-      "published": "2026-10-07T07:41:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "Understanding South Africa's 30 years of transformation and its challenges",
-      "link": "https://iol.co.za/opinion/2026-10-07-understanding-south-africas-30-years-of-transformation-and-its-challenges/",
-      "source": "IOL",
-      "published": "2026-10-07T07:12:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "‘Praat jy Afrikaans?’ DA’s Cilliers Brink in raid on suspected illegal migrants",
       "link": "https://www.news24.com/politics/praat-jy-afrikaans-das-cilliers-brink-in-raid-on-suspected-illegal-migrants-20261006-1241",
       "source": "News24",
@@ -757,16 +931,6 @@
       "accountability": false
     },
     {
-      "title": "Wing and a prayer won’t save ANC ahead of polls",
-      "link": "https://www.citizen.co.za/news/opinion/wing-and-a-prayer-wont-save-anc-ahead-of-polls/",
-      "source": "The Citizen",
-      "published": "2026-10-07T04:00:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "EFF’s Monica Dube murder probe gains momentum as second suspect arrested",
       "link": "https://www.citizen.co.za/news/south-africa/crime/effs-monica-dube-murder-probe-gains-momentum-second-suspect-arrested/",
       "source": "The Citizen",
@@ -789,16 +953,6 @@
       "accountability": false
     },
     {
-      "title": "TRC Roulette : Subpoena Thabo Mbeki, ANC stalwart Mathews Phosa urges TRC inquiry",
-      "link": "https://www.dailymaverick.co.za/article/2026-10-06-subpoena-thabo-mbeki-anc-stalwart-mathews-phosa-urges-trc-inquiry/",
-      "source": "Daily Maverick",
-      "published": "2026-10-06T20:52:37.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
       "title": "In case you missed it: Feroz Khan’s uncle killed | Mokonyane calls on ANC gods | Zuma-Sambudla, Ndhlela fight MK party expulsion",
       "link": "https://www.citizen.co.za/news/in-case-you-missed-it-6-october-2026/",
       "source": "The Citizen",
@@ -806,26 +960,6 @@
       "parties": [
         "anc",
         "mkp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Mokonyane wants ANC settlement in Lungisa vs Mbalula as SG skips meeting with NMB branches",
-      "link": "https://www.news24.com/politics/mokonyane-wants-anc-settlement-in-lungisa-vs-mbalula-as-sg-skips-meeting-with-nmb-branches-20261006-0985",
-      "source": "News24",
-      "published": "2026-10-06T16:26:26.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "From ‘dirty votes’ to ancestral prayers: Nomvula Mokonyane under fire as ANC turns to spiritual intervention",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/ancestral-prayers-nomvula-mokonyane-anc-spiritual-intervention/",
-      "source": "The Citizen",
-      "published": "2026-10-06T12:50:26.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": false
     },
@@ -838,26 +972,6 @@
         "pa"
       ],
       "accountability": false
-    },
-    {
-      "title": "Court orders Mbalula, Dlamini-Zuma to testify over vote buying claims",
-      "link": "https://www.news24.com/southafrica/crime-and-courts/court-orders-mbalula-dlamini-zuma-to-testify-over-vote-buying-claims-20261005-0928",
-      "source": "News24",
-      "published": "2026-10-05T19:47:47.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "ANC hits back at Lungisa as court battle over NMB ballot spot heads to judgment",
-      "link": "https://www.news24.com/southafrica/news/anc-hits-back-at-lungisa-as-court-battle-over-nmb-ballot-spot-heads-to-judgment-20261005-0900",
-      "source": "News24",
-      "published": "2026-10-05T15:21:35.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
     },
     {
       "title": "Elections Poll ’26 | Who do South Africans want as leader? Patrice Motsepe, of course",
