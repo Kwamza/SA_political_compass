@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T11:32:09.122Z",
+  "updated": "2026-10-14T09:22:33.719Z",
   "window_days": 30,
   "feeds": [
     {
@@ -7,7 +7,7 @@
       "homepage": "https://www.dailymaverick.co.za",
       "url": "https://www.dailymaverick.co.za/dmrss/",
       "ok": true,
-      "items": 52
+      "items": 50
     },
     {
       "source": "News24",
@@ -53,6 +53,201 @@
     }
   ],
   "items": [
+    {
+      "title": "MK Party cancels rally amid candidate list dispute and Zuma health concerns",
+      "link": "https://iol.co.za/news/politics/2026-10-14-mk-party-cancels-rally-amid-candidate-list-dispute-and-zuma-health-concerns/",
+      "source": "IOL",
+      "published": "2026-10-14T09:13:00.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "ANC distances itself from proposed regulation of churches by CRL commission",
+      "link": "https://www.citizen.co.za/news/south-africa/politics/anc-distances-itself-from-proposed-regulation-of-churches-by-crl-commission/",
+      "source": "The Citizen",
+      "published": "2026-10-14T08:21:27.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Two children injured in crossfire as gunman kills two at ANCYL memorial in Katlehong",
+      "link": "https://www.news24.com/southafrica/crime-and-courts/two-children-injured-in-crossfire-as-gunman-kills-two-at-ancyl-memorial-in-katlehong-20261014-0381",
+      "source": "News24",
+      "published": "2026-10-14T06:22:05.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "MK party sustainability question grows as Zuma is hospitalised",
+      "link": "https://www.citizen.co.za/news/opinion/mk-party-sustainability-question-grows-as-zuma-is-hospitalised/",
+      "source": "The Citizen",
+      "published": "2026-10-14T06:00:00.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC or SACP? Cosatu leadership battle reflects alliance tensions",
+      "link": "https://www.citizen.co.za/news/south-africa/politics/anc-or-sacp-cosatu-leadership-battle-reflects-alliance-tensions/",
+      "source": "The Citizen",
+      "published": "2026-10-14T05:15:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA wants parties to name their PR councillors upfront. The court has questions",
+      "link": "https://www.news24.com/politics/judges-note-difficulty-in-das-pr-list-case-against-mkp-eff-actionsa-good-20261013-1241",
+      "source": "News24",
+      "published": "2026-10-14T04:55:02.000Z",
+      "parties": [
+        "da",
+        "eff",
+        "mkp",
+        "actionsa",
+        "good"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Zuma fails to challenge ruling that forces him to face trial in 2027, drops all appeals",
+      "link": "https://www.news24.com/southafrica/crime-and-courts/zuma-fails-to-challenge-ruling-that-forces-him-to-face-trial-in-2027-drops-all-appeals-20261013-1237",
+      "source": "News24",
+      "published": "2026-10-14T04:35:22.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Moody’s expects GNU to survive local elections – and a new ANC president",
+      "link": "https://www.news24.com/business/economy/moodys-expects-gnu-will-survive-local-elections-and-a-new-anc-president-20261013-1073",
+      "source": "News24",
+      "published": "2026-10-14T04:32:21.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Carol Paton | South Africa is changing. What will the future look like?",
+      "link": "https://www.news24.com/opinions/analysis/carol-paton-south-africa-is-changing-what-will-the-future-look-like-20261013-0906",
+      "source": "News24",
+      "published": "2026-10-14T04:18:36.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "MK party scraps rally ahead of elections as Zuma health concerns grow",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/mk-party-scraps-rally-ahead-of-elections-as-zuma-health-concerns-grow/",
+      "source": "The Citizen",
+      "published": "2026-10-14T04:08:42.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Tshwane reduces water tanker budget by 79%",
+      "link": "https://www.citizen.co.za/news/tshwane-reduces-water-tanker-budget-by-79/",
+      "source": "The Citizen",
+      "published": "2026-10-14T03:45:00.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Gauteng traffic chief Samuel Mashaba dies amid suspension linked to cocaine bust allegations",
+      "link": "https://www.citizen.co.za/news/gauteng-traffic-chief-samuel-mashaba-dies-amid-suspension-linked-cocaine-bust-allegations/",
+      "source": "The Citizen",
+      "published": "2026-10-14T01:43:57.000Z",
+      "parties": [
+        "actionsa"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "KATLEHONG KILLINGS: Four dead after gunman opens fire at ANCYL Ekurhuleni memorial",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-14-two-ancyl-members-shot-dead-in-ekurhuleni-three-others-wounded/",
+      "source": "Daily Maverick",
+      "published": "2026-10-14T01:05:04.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘Absolute chaos’: DA pushes ANC’s buttons in candidate list case in ConCourt",
+      "link": "https://www.news24.com/politics/absolute-chaos-da-pushes-ancs-buttons-in-candidate-list-case-in-concourt-20261012-1133",
+      "source": "News24",
+      "published": "2026-10-13T19:03:13.000Z",
+      "parties": [
+        "anc",
+        "da"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "MK Party cancels final rally ahead of 4 November elections as Zuma remains in hospital",
+      "link": "https://www.news24.com/politics/mk-party-cancels-final-rally-ahead-of-4-november-elections-as-zuma-remains-in-hospital-20261013-1034",
+      "source": "News24",
+      "published": "2026-10-13T17:15:04.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "EFF kicks off court bid to reverse impeachment committee decision on evidence leader",
+      "link": "https://www.news24.com/politics/eff-kicks-off-court-bid-to-reverse-impeachment-committee-decision-on-evidence-leader-20261013-1009",
+      "source": "News24",
+      "published": "2026-10-13T16:56:31.000Z",
+      "parties": [
+        "eff"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "‘The president complained’: EFF challenges reversal of Phala Phala evidence leader nomination",
+      "link": "https://www.citizen.co.za/news/south-africa/courts/eff-phala-phala-evidence-leader-nomination/",
+      "source": "The Citizen",
+      "published": "2026-10-13T16:45:12.000Z",
+      "parties": [
+        "eff"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "16 000 applied, 388 employed, but no interviews held for Emfuleni jobs – DA alleges",
+      "link": "https://www.news24.com/southafrica/news/16-000-applied-388-employed-but-no-interviews-held-for-emfuleni-jobs-da-alleges-20261013-0904",
+      "source": "News24",
+      "published": "2026-10-13T15:04:52.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘Vote for both’: Cosatu stuck between ANC and SACP as two parties battle",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/vote-for-both-cosatu-stuck-between-anc-and-sacp-as-two-parties-battle/",
+      "source": "The Citizen",
+      "published": "2026-10-13T14:06:46.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
     {
       "title": "Herman Mashaba opens Nandi Madida’s election podcast series",
       "link": "https://iol.co.za/entertainment/streaming/2026-10-13-herman-mashaba-opens-nandi-madidas-election-podcast-series/",
@@ -135,17 +330,6 @@
         "anc"
       ],
       "accountability": false
-    },
-    {
-      "title": "‘Absolute chaos’: DA pushes ANC’s buttons in candidate list case in ConCourt",
-      "link": "https://www.news24.com/politics/absolute-chaos-da-pushes-ancs-buttons-in-candidate-list-case-in-concourt-20261012-1133",
-      "source": "News24",
-      "published": "2026-10-13T03:20:35.000Z",
-      "parties": [
-        "anc",
-        "da"
-      ],
-      "accountability": true
     },
     {
       "title": "ANC axes three Ekurhuleni councillors in pre-election crackdown, orders another to step aside",
@@ -755,16 +939,6 @@
       "accountability": false
     },
     {
-      "title": "Qaanitah Hunter | The ANC shrugs as investors arrive to dark streets",
-      "link": "https://www.news24.com/opinions/columnists/qaanitah-hunter-the-anc-shrugs-as-investors-arrive-to-dark-streets-20261007-0978",
-      "source": "News24",
-      "published": "2026-10-08T03:21:24.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "Jacob Zuma gets clean bill of health after hospitalisation reports",
       "link": "https://www.citizen.co.za/news/jacob-zuma-gets-clean-bill-of-health-after-hospitalisation-reports/",
       "source": "The Citizen",
@@ -806,16 +980,6 @@
       "accountability": false
     },
     {
-      "title": "Watch — Where’s the ANC? Inside the party’s quietest election campaign yet",
-      "link": "https://www.dailymaverick.co.za/video/2026-10-07-watch-wheres-the-anc-inside-the-partys-quietest-election-campaign-yet-1/",
-      "source": "Daily Maverick",
-      "published": "2026-10-07T18:23:16.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "In case you missed it: Why ‘Don’t Vote ANC, DA & EFF’ is trending | November petrol shock warning | Tired of spam calls?",
       "link": "https://www.citizen.co.za/news/in-case-you-missed-it-7-october-2026/",
       "source": "The Citizen",
@@ -838,16 +1002,6 @@
       "accountability": false
     },
     {
-      "title": "ANC condemns ‘vile’ death, rape threat against Jacinta Ngobese-Zuma",
-      "link": "https://www.news24.com/politics/anc-condemns-vile-death-rape-threat-against-jacinta-ngobese-zuma-20261007-0922",
-      "source": "News24",
-      "published": "2026-10-07T15:23:55.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
       "title": "ON THE ROAD | ‘All we could see was blood’: Aunt recalls day IFP candidate was killed",
       "link": "https://www.news24.com/politics/on-the-road-all-we-could-see-was-blood-aunt-recalls-day-ifp-candidate-was-killed-20261007-0386",
       "source": "News24",
@@ -864,16 +1018,6 @@
       "published": "2026-10-07T13:25:08.000Z",
       "parties": [
         "ifp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "BIG READ: The BIG question – will the ANC make good on its prosperity promise?",
-      "link": "https://www.dailymaverick.co.za/article/2026-10-07-the-big-question-will-the-anc-make-good-on-its-prosperity-promise/",
-      "source": "Daily Maverick",
-      "published": "2026-10-07T10:59:39.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": false
     },
