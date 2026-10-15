@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T09:22:33.719Z",
+  "updated": "2026-10-15T09:00:17.854Z",
   "window_days": 30,
   "feeds": [
     {
@@ -7,7 +7,7 @@
       "homepage": "https://www.dailymaverick.co.za",
       "url": "https://www.dailymaverick.co.za/dmrss/",
       "ok": true,
-      "items": 50
+      "items": 51
     },
     {
       "source": "News24",
@@ -53,6 +53,222 @@
     }
   ],
   "items": [
+    {
+      "title": "ConCourt rules for ANC in candidate lists case",
+      "link": "https://www.news24.com/politics/concourt-rules-for-anc-in-candidate-lists-case-20261015-0500",
+      "source": "News24",
+      "published": "2026-10-15T08:50:35.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "ANC wins ConCourt bid against IEC in candidate lists case",
+      "link": "https://www.sabcnews.com/sabcnews/concourt-rules-in-favour-of-anc-on-candidate-list-dispute/",
+      "source": "SABC News",
+      "published": "2026-10-15T08:43:18.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "BREAKING | ConCourt overturns exclusion of 181 ANC councillor candidates",
+      "link": "https://iol.co.za/capetimes/2026-10-15-breaking--concourt-overturns-exclusion-of-181-anc-councillor-candidates/",
+      "source": "IOL",
+      "published": "2026-10-15T08:35:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Parliament defends decision to drop Madonsela as Phala Phala evidence leader",
+      "link": "https://iol.co.za/the-star/2026-10-15-parliament-defends-decision-to-drop-madonsela-as-phala-phala-evidence-leader/",
+      "source": "IOL",
+      "published": "2026-10-15T08:30:00.000Z",
+      "parties": [
+        "eff"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "BREAKING | ConCourt rules 181 ANC councillor candidates may contest municipal elections",
+      "link": "https://iol.co.za/news/politics/2026-10-15-breaking-concourt-rules-181-anc-councillor-candidates-may-contest-municipal-elections/",
+      "source": "IOL",
+      "published": "2026-10-15T08:14:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "ConCourt rules in favour of ANC’s ‘final button’ argument against IEC",
+      "link": "https://www.citizen.co.za/news/south-africa/courts/constitutional-court-rules-in-favour-ancs-final-button-argument/",
+      "source": "The Citizen",
+      "published": "2026-10-15T08:12:33.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Free schooling, jailing parents, and testing teachers: What SA’s biggest parties are saying about education",
+      "link": "https://www.citizen.co.za/news/south-africa/education/free-schooling-jailing-parents-and-testing-teachers-what-sas-biggest-parties-are-saying-about-education/",
+      "source": "The Citizen",
+      "published": "2026-10-15T08:00:00.000Z",
+      "parties": [
+        "anc",
+        "da",
+        "eff",
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Mantashe defends Mbalula as ANC awaits ConCourt ruling on 181 candidates",
+      "link": "https://iol.co.za/news/politics/2026-10-15-mantashe-defends-mbalula-as-anc-awaits-concourt-ruling-on-181-candidates/",
+      "source": "IOL",
+      "published": "2026-10-15T07:58:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "‘Johannesburg cannot be a bargaining chip’: Zungula’s plan to fix the city",
+      "link": "https://iol.co.za/the-star/city-watch/2026-10-15-johannesburg-cannot-be-a-bargaining-chip-zungulas-plan-to-fix-the-city/",
+      "source": "IOL",
+      "published": "2026-10-15T07:00:00.000Z",
+      "parties": [
+        "atm"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘I don’t have a pool’: Vosloorus pensioner’s R4k water bill haunts Mashatile’s campaign",
+      "link": "https://www.news24.com/politics/i-dont-have-a-pool-volsloorus-pensioners-r4k-water-bill-haunts-mashatiles-campaign-20261015-0316",
+      "source": "News24",
+      "published": "2026-10-15T06:36:07.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "IEC faces high cost of reprinting 66% of 79 million ballots if ConCourt rules in ANC’s favour",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/iec-faces-high-cost-of-reprinting-66-of-79-million-ballots/",
+      "source": "The Citizen",
+      "published": "2026-10-15T05:40:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "LOCAL ELECTIONS 2026: Cosatu breaks with exclusive ANC support to back left-wing ‘super pact’",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-14-cosatu-breaks-with-exclusive-anc-support-to-back-left-wing-super-pact/",
+      "source": "Daily Maverick",
+      "published": "2026-10-14T21:12:39.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "LOCAL ELECTIONS 2026: Frustrated ANC supporters tell Mashatile, back from illness, to ‘act right’",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-14-frustrated-anc-supporters-tell-mashatile-back-from-illness-to-act-right/",
+      "source": "Daily Maverick",
+      "published": "2026-10-14T21:10:39.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "LOCAL ELECTIONS 2026: MK will ‘hoover up’ eThekwini, but race could lead to a shaky coalition",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-14-mk-will-hoover-up-ethekwini-but-race-could-lead-to-a-shaky-coalition/",
+      "source": "Daily Maverick",
+      "published": "2026-10-14T20:45:12.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "The ANC clings to its flawed, elite-enrichment BEE — and SA pays the price",
+      "link": "https://www.dailymaverick.co.za/opinionista/2026-10-14-the-anc-clings-to-its-flawed-elite-enrichment-bee-and-sa-pays-the-price/",
+      "source": "Daily Maverick",
+      "published": "2026-10-14T19:30:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA launches portal for dodgy tenders as defaulter register remains empty",
+      "link": "https://www.news24.com/politics/da-launches-portal-for-dodgy-tenders-as-defaulter-register-remains-empty-20261014-0979",
+      "source": "News24",
+      "published": "2026-10-14T16:21:21.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "COSATU congress ends with compromise",
+      "link": "https://groundup.org.za/article/cosatu-congress-ends-with-compromise/",
+      "source": "GroundUp",
+      "published": "2026-10-14T16:10:36.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "IEC readies contingency plans as ConCourt mulls ANC candidate lists saga",
+      "link": "https://www.news24.com/politics/iec-readies-contingency-plans-as-concourt-mulls-anc-candidate-lists-saga-20261014-0959",
+      "source": "News24",
+      "published": "2026-10-14T16:01:50.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "PODCAST: ANC defends North West record amid municipal service delivery challenges",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/podcast-anc-defends-north-west-record-amid-municipal-service-delivery-challenges/",
+      "source": "The Citizen",
+      "published": "2026-10-14T15:20:42.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Water crisis: What the ANC, DA, EFF and MK party promise ahead of the 4 November local elections",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/water-crisis-what-the-anc-da-eff-and-mk-party-promise-ahead-of-the-4-november-local-elections/",
+      "source": "The Citizen",
+      "published": "2026-10-14T12:21:44.000Z",
+      "parties": [
+        "anc",
+        "da",
+        "eff",
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "OUR CITY NEWS: Lukhona Mnguni and Rise Mzansi’s pitch for a Joburg that belongs to everyone",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-14-lukhona-mnguni-and-rise-mzansis-pitch-for-a-joburg-that-belongs-to-everyone/",
+      "source": "Daily Maverick",
+      "published": "2026-10-14T11:33:26.000Z",
+      "parties": [
+        "risemzansi"
+      ],
+      "accountability": false
+    },
     {
       "title": "MK Party cancels rally amid candidate list dispute and Zuma health concerns",
       "link": "https://iol.co.za/news/politics/2026-10-14-mk-party-cancels-rally-amid-candidate-list-dispute-and-zuma-health-concerns/",
@@ -512,16 +728,6 @@
       "accountability": false
     },
     {
-      "title": "Another ANC candidate seeks reinstatement",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/another-anc-candidate-seeks-reinstatement/",
-      "source": "The Citizen",
-      "published": "2026-10-12T05:00:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "Jacob Zuma health concerns grow as foundation slams media frenzy",
       "link": "https://www.citizen.co.za/news/jacob-zuma-health-concerns-grow-foundation-slams-media-frenzy/",
       "source": "The Citizen",
@@ -573,16 +779,6 @@
       "accountability": false
     },
     {
-      "title": "Concerns over ANC ward candidate due to GBV record",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/concerns-over-anc-ward-candidate-due-to-gbv-record/",
-      "source": "The Citizen",
-      "published": "2026-10-11T06:00:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "The DA’s choking curse",
       "link": "https://www.citizen.co.za/news/opinion/the-das-choking-curse/",
       "source": "The Citizen",
@@ -623,26 +819,6 @@
       "accountability": false
     },
     {
-      "title": "Claims of Mbalula ducking special NEC as party anxiously awaits ConCourt, audit outcomes",
-      "link": "https://www.news24.com/politics/claims-of-mbalula-ducking-special-nec-as-party-anxiously-awaits-concourt-audit-outcomes-20261010-0753",
-      "source": "News24",
-      "published": "2026-10-10T12:34:33.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "ANC’s appeal over Lungisa ruling sets stage for constitutional showdown on party autonomy",
-      "link": "https://www.news24.com/politics/ancs-appeal-over-lungisa-ruling-sets-stage-for-constitutional-showdown-on-party-autonomy-20261010-0628",
-      "source": "News24",
-      "published": "2026-10-10T10:29:01.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "Ramaphosa sends well wishes to Zuma who remains in hospital",
       "link": "https://www.news24.com/politics/ramaphosa-sends-well-wishes-to-zuma-who-remains-in-hospital-20261009-1161",
       "source": "News24",
@@ -675,56 +851,6 @@
       "accountability": false
     },
     {
-      "title": "LOCAL ELECTIONS 2026: High court orders ANC to reinstate Andile Lungisa after unlawful removal",
-      "link": "https://www.dailymaverick.co.za/article/2026-10-09-high-court-orders-anc-to-reinstate-andile-lungisa-after-unlawful-removal/",
-      "source": "Daily Maverick",
-      "published": "2026-10-09T14:45:05.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "Court overturns Mbalula’s decision to remove Andile Lungisa from ANC election candidate list",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/mbalula-andile-lungisa-anc-election-candidate-list/",
-      "source": "The Citizen",
-      "published": "2026-10-09T14:28:13.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "ANC expels seven members for contesting elections for other parties",
-      "link": "https://www.news24.com/politics/anc-expels-seven-members-for-contesting-elections-for-other-parties-20261009-0843",
-      "source": "News24",
-      "published": "2026-10-09T14:04:52.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Andile Lungisa’s exclusion from ANC election list ruled unconstitutional",
-      "link": "https://www.news24.com/politics/andile-lungisas-exclusion-from-anc-election-list-ruled-unconstitutional-20261009-0631",
-      "source": "News24",
-      "published": "2026-10-09T13:29:06.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "Court rules Lungisa’s removal from ANC PR list is unconstitutional",
-      "link": "https://www.sabcnews.com/sabcnews/court-rules-lungisas-removal-from-anc-pr-list-is-unconstitutional/",
-      "source": "SABC News",
-      "published": "2026-10-09T10:21:49.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
       "title": "‘24 hours’: MK Party demands Masemola’s reinstatement after charges dropped",
       "link": "https://iol.co.za/news/politics/2026-10-09-24-hours-mk-party-demands-masemolas-reinstatement-after-charges-dropped/",
       "source": "IOL",
@@ -732,16 +858,6 @@
       "parties": [
         "mkp",
         "atm"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "Court rules Mbalula unlawfully removed Lungisa from ANC election list",
-      "link": "https://iol.co.za/news/crime-and-courts/2026-10-09-court-rules-mbalula-unlawfully-removed-lungisa-from-anc-election-list/",
-      "source": "IOL",
-      "published": "2026-10-09T10:00:00.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": true
     },
@@ -772,16 +888,6 @@
       "published": "2026-10-09T07:44:57.000Z",
       "parties": [
         "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "A VIEW OF THE WEEK: Why can’t the ANC just bench drama queen Nomvula?",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/a-view-of-the-week-nomvula-mokonyane/",
-      "source": "The Citizen",
-      "published": "2026-10-09T07:00:00.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": false
     },
@@ -822,16 +928,6 @@
       "published": "2026-10-08T19:22:33.000Z",
       "parties": [
         "mkp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Thuma nina: Ramaphosa wishes he could send Eastern Cape ANC volunteers to Gauteng, eThekwini",
-      "link": "https://www.news24.com/southafrica/news/thuma-nina-ramaphosa-wishes-he-could-send-eastern-cape-anc-volunteers-to-gauteng-ethekwini-20261008-1099",
-      "source": "News24",
-      "published": "2026-10-08T18:19:22.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": false
     },
@@ -905,16 +1001,6 @@
       "published": "2026-10-08T06:07:24.000Z",
       "parties": [
         "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "ANC’s internal squabbles dampen hopes",
-      "link": "https://www.citizen.co.za/news/opinion/ancs-internal-squabbles-dampen-hopes/",
-      "source": "The Citizen",
-      "published": "2026-10-08T06:00:00.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": false
     },
