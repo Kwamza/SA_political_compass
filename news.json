@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T08:51:28.097Z",
+  "updated": "2026-10-17T08:21:52.141Z",
   "window_days": 30,
   "feeds": [
     {
@@ -7,7 +7,7 @@
       "homepage": "https://www.dailymaverick.co.za",
       "url": "https://www.dailymaverick.co.za/dmrss/",
       "ok": true,
-      "items": 52
+      "items": 51
     },
     {
       "source": "News24",
@@ -54,7 +54,127 @@
   ],
   "items": [
     {
-      "title": "KATLEHONG MASS SHOOTING: Girl, 11, who survived mass shooting still has bullet lodged near her spine",
+      "title": "Six councillor killings cast shadow over Crossroads community",
+      "link": "https://www.sabcnews.com/sabcnews/six-councillor-killings-cast-shadow-over-crossroads-community/",
+      "source": "SABC News",
+      "published": "2026-10-17T08:20:24.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘If anything happens to my father’: Zuma-Sambudla warns, demands urgent probe",
+      "link": "https://www.citizen.co.za/news/if-anything-happens-to-my-father-zuma-sambudla-warns-demands-urgent-probe/",
+      "source": "The Citizen",
+      "published": "2026-10-17T08:06:53.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Duduzile Zuma-Sambudla urges urgent review of Jacob Zuma’s security and medical care",
+      "link": "https://iol.co.za/ios/news/2026-10-17-duduzile-zuma-sambudla-urges-urgent-review-of-jacob-zumas-security-and-medical-care/",
+      "source": "IOL",
+      "published": "2026-10-17T06:55:00.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC President leads party’s campaign trail in Cape Town metro",
+      "link": "https://www.sabcnews.com/sabcnews/anc-president-leads-partys-campaign-trail-in-cape-town-metro/",
+      "source": "SABC News",
+      "published": "2026-10-17T04:24:26.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘If anything happens to my father’: Zuma-Sambudla vows to hold PPS head Rhoode accountable",
+      "link": "https://www.news24.com/politics/if-anything-happens-to-my-father-zuma-sambudla-vows-to-hold-pps-head-rhoode-accountable-20261016-1137",
+      "source": "News24",
+      "published": "2026-10-16T19:01:42.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Helen Zille spins BMW ‘gusheshe’ in latest campaign stunt",
+      "link": "https://www.news24.com/southafrica/news/helen-zille-spins-bmw-gusheshe-in-latest-campaign-stunt-20261016-1010",
+      "source": "News24",
+      "published": "2026-10-16T16:51:45.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "OUR CITY NEWS: Herman Mashaba targets illegal immigration in bid for Joburg mayoralty",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-16-herman-mashaba-targets-illegal-immigration-in-bid-for-joburg-mayoralty/",
+      "source": "Daily Maverick",
+      "published": "2026-10-16T16:30:00.000Z",
+      "parties": [
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "City scratches its head over 160 sick in Tshwane",
+      "link": "https://www.citizen.co.za/news/city-scratches-its-head-over-160-sick-in-tshwane/",
+      "source": "The Citizen",
+      "published": "2026-10-16T13:16:40.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "WATCH: Poop goes punk over Ekurhuleni sewage crisis",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/east-rand-poop-goes-punk/",
+      "source": "The Citizen",
+      "published": "2026-10-16T11:52:18.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ConCourt ruling has given Mbalula another shot at the ANC 2027 leadership race",
+      "link": "https://www.citizen.co.za/news/south-africa/politics/concourt-ruling-has-given-mbalula-another-shot-at-the-anc-2027-leadership-race-says-expert/",
+      "source": "The Citizen",
+      "published": "2026-10-16T11:40:48.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Watch — Ngobese-Zuma’s March and March: Tenders, funding and MKP",
+      "link": "https://www.dailymaverick.co.za/video/2026-10-16-watch-ngobese-zumas-march-and-march-tenders-funding-and-mkp/",
+      "source": "Daily Maverick",
+      "published": "2026-10-16T11:00:00.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Right of reply: CRL Rights Commission welcomes ANC’s clarification on religious freedom and self-regulation",
+      "link": "https://www.citizen.co.za/news/right-of-reply-crl-rights-commission-welcomes-ancs-clarification-on-religious-freedom-and-self-regulation/",
+      "source": "The Citizen",
+      "published": "2026-10-16T10:52:42.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "ANCYL MASS SHOOTING: Shot while buying sweets: the little girl with a bullet in her spine",
       "link": "https://www.dailymaverick.co.za/article/2026-10-16-girl-11-who-survived-mass-shooting-still-has-bullet-lodged-near-her-spine/",
       "source": "Daily Maverick",
       "published": "2026-10-16T10:06:37.000Z",
@@ -62,6 +182,16 @@
         "anc"
       ],
       "accountability": false
+    },
+    {
+      "title": "MADLANGA COMMISSION: No-show witness Suliman Carrim nabbed at OR Tambo Airport",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-16-madlanga-commission-no-show-witness-nabbed-at-or-tambo-airport-boarding-flight-out-of-sa/",
+      "source": "Daily Maverick",
+      "published": "2026-10-16T08:59:07.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
     },
     {
       "title": "ANCYL calls on Ramaphosa to punish DA and get EFF to join GNU",
@@ -177,16 +307,6 @@
         "da"
       ],
       "accountability": true
-    },
-    {
-      "title": "Carol Paton | South Africa is changing. What will the future look like?",
-      "link": "https://www.news24.com/opinions/analysis/carol-paton-south-africa-is-changing-what-will-the-future-look-like-20261013-0906",
-      "source": "News24",
-      "published": "2026-10-15T18:53:56.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
     },
     {
       "title": "In case you missed it: ANC wins ConCourt battle against IEC | NPA, police deny March and March warrants | Roaming lion found",
@@ -393,20 +513,6 @@
       "accountability": true
     },
     {
-      "title": "DA wants parties to name their PR councillors upfront. The court has questions",
-      "link": "https://www.news24.com/politics/judges-note-difficulty-in-das-pr-list-case-against-mkp-eff-actionsa-good-20261013-1241",
-      "source": "News24",
-      "published": "2026-10-15T03:16:31.000Z",
-      "parties": [
-        "da",
-        "eff",
-        "mkp",
-        "actionsa",
-        "good"
-      ],
-      "accountability": true
-    },
-    {
       "title": "LOCAL ELECTIONS 2026: Cosatu breaks with exclusive ANC support to back left-wing ‘super pact’",
       "link": "https://www.dailymaverick.co.za/article/2026-10-14-cosatu-breaks-with-exclusive-anc-support-to-back-left-wing-super-pact/",
       "source": "Daily Maverick",
@@ -560,6 +666,20 @@
       "accountability": false
     },
     {
+      "title": "DA wants parties to name their PR councillors upfront. The court has questions",
+      "link": "https://www.news24.com/politics/judges-note-difficulty-in-das-pr-list-case-against-mkp-eff-actionsa-good-20261013-1241",
+      "source": "News24",
+      "published": "2026-10-14T04:55:02.000Z",
+      "parties": [
+        "da",
+        "eff",
+        "mkp",
+        "actionsa",
+        "good"
+      ],
+      "accountability": true
+    },
+    {
       "title": "Zuma fails to challenge ruling that forces him to face trial in 2027, drops all appeals",
       "link": "https://www.news24.com/southafrica/crime-and-courts/zuma-fails-to-challenge-ruling-that-forces-him-to-face-trial-in-2027-drops-all-appeals-20261013-1237",
       "source": "News24",
@@ -574,6 +694,16 @@
       "link": "https://www.news24.com/business/economy/moodys-expects-gnu-will-survive-local-elections-and-a-new-anc-president-20261013-1073",
       "source": "News24",
       "published": "2026-10-14T04:32:21.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Carol Paton | South Africa is changing. What will the future look like?",
+      "link": "https://www.news24.com/opinions/analysis/carol-paton-south-africa-is-changing-what-will-the-future-look-like-20261013-0906",
+      "source": "News24",
+      "published": "2026-10-14T04:18:36.000Z",
       "parties": [
         "anc"
       ],
@@ -608,16 +738,6 @@
         "actionsa"
       ],
       "accountability": true
-    },
-    {
-      "title": "KATLEHONG KILLINGS: Four dead after gunman opens fire at ANCYL Ekurhuleni memorial",
-      "link": "https://www.dailymaverick.co.za/article/2026-10-14-two-ancyl-members-shot-dead-in-ekurhuleni-three-others-wounded/",
-      "source": "Daily Maverick",
-      "published": "2026-10-14T01:05:04.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
     },
     {
       "title": "‘Absolute chaos’: DA pushes ANC’s buttons in candidate list case in ConCourt",
@@ -667,16 +787,6 @@
       "published": "2026-10-13T15:04:52.000Z",
       "parties": [
         "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "‘Vote for both’: Cosatu stuck between ANC and SACP as two parties battle",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/vote-for-both-cosatu-stuck-between-anc-and-sacp-as-two-parties-battle/",
-      "source": "The Citizen",
-      "published": "2026-10-13T14:06:46.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": false
     },
@@ -750,16 +860,6 @@
         "da",
         "eff",
         "mkp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Mantashe irks Cosatu congress as delegates decry ANC’s ‘Big Brother’ attitude",
-      "link": "https://www.citizen.co.za/news/south-africa/politics/mantashe-irks-cosatu-congress-as-delegates-decry-ancs-big-brother-attitude/",
-      "source": "The Citizen",
-      "published": "2026-10-13T04:30:00.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": false
     },
@@ -1300,16 +1400,6 @@
       "accountability": false
     },
     {
-      "title": "MK Party supporters disappointed as Zuma skips uMhlathuze rally",
-      "link": "https://www.sabcnews.com/sabcnews/mk-party-supporters-disappointed-as-zuma-skips-umhlathuze-rally/",
-      "source": "SABC News",
-      "published": "2026-10-03T19:37:38.000Z",
-      "parties": [
-        "mkp"
-      ],
-      "accountability": false
-    },
-    {
       "title": "Malema calls for lower electricity prices in SA",
       "link": "https://www.sabcnews.com/sabcnews/1165764-2/",
       "source": "SABC News",
@@ -1361,16 +1451,6 @@
       "accountability": false
     },
     {
-      "title": "The Constitutional Court has ruled on the DA's system of corruption",
-      "link": "https://iol.co.za/thepost/opinion/2026-10-03-the-constitutional-court-has-ruled-on-the-das-system-of-corruption/",
-      "source": "IOL",
-      "published": "2026-10-03T12:00:00.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": true
-    },
-    {
       "title": "Rivals gun for DA over alleged ‘sextorter’, ‘bogus doctor’ on its candidate lists",
       "link": "https://www.news24.com/southafrica/news/rivals-gun-for-da-over-alleged-sextorter-bogus-doctor-on-its-candidate-lists-20261002-1146",
       "source": "News24",
@@ -1378,16 +1458,6 @@
       "parties": [
         "da",
         "actionsa"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "DA’s ‘water tanker mafia’ billboard removed after eThekwini mayor threatens legal action",
-      "link": "https://www.news24.com/politics/das-water-tanker-mafia-billboard-removed-after-ethekwini-mayor-threatens-legal-action-20261002-1007",
-      "source": "News24",
-      "published": "2026-10-02T14:47:59.000Z",
-      "parties": [
-        "da"
       ],
       "accountability": true
     },
