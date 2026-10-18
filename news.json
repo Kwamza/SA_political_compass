@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T08:21:52.141Z",
+  "updated": "2026-10-18T08:42:07.795Z",
   "window_days": 30,
   "feeds": [
     {
@@ -54,6 +54,149 @@
   ],
   "items": [
     {
+      "title": "DA calls on Masemola to introduce lifestyle audits for senior cops",
+      "link": "https://www.sabcnews.com/sabcnews/da-calls-on-masemola-to-introduce-lifestyle-audits-for-senior-cops/",
+      "source": "SABC News",
+      "published": "2026-10-18T08:33:12.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "MK Party takes campaign to ward where two ANC members died",
+      "link": "https://www.sabcnews.com/sabcnews/mk-party-takes-campaign-to-ward-where-two-anc-members-died/",
+      "source": "SABC News",
+      "published": "2026-10-18T08:18:48.000Z",
+      "parties": [
+        "anc",
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "R1.27m monthly security bill for non-operational pools sparks corruption probe by DA",
+      "link": "https://www.news24.com/politics/r127m-monthly-security-bill-for-non-operational-pools-sparks-corruption-probe-by-da-20261018-0494",
+      "source": "News24",
+      "published": "2026-10-18T08:14:45.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Four VF Plus women candidates target service delivery in eThekwini wards",
+      "link": "https://iol.co.za/sunday-tribune/news/2026-10-18-four-vf-plus-women-candidates-target-service-delivery-in-ethekwini-wards/",
+      "source": "IOL",
+      "published": "2026-10-18T08:00:00.000Z",
+      "parties": [
+        "ffplus"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Jacob Zuma discharged from hospital, MK party says he’s ‘healthy and jovial’",
+      "link": "https://www.citizen.co.za/news/jacob-zuma-discharged-hospital-mk-party-healthy-jovial/",
+      "source": "The Citizen",
+      "published": "2026-10-18T06:47:54.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Leaked dossier alleges network of PA links to public appointments",
+      "link": "https://iol.co.za/capetimes/2026-10-18-leaked-dossier-alleges-network-of-pa-links-to-public-appointments/",
+      "source": "IOL",
+      "published": "2026-10-18T06:42:00.000Z",
+      "parties": [
+        "pa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ON THE ROAD | In uMkhanyakude: Children wash, cows drink. And taps in KwaShukela remain dry",
+      "link": "https://www.news24.com/politics/on-the-road-in-umkhanyakude-children-wash-cows-drink-and-taps-in-kwashukela-remain-dry-20261017-0982",
+      "source": "News24",
+      "published": "2026-10-18T05:48:28.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA candidate teaching men to ‘be better’ seen on video beating his ex-wife",
+      "link": "https://www.news24.com/southafrica/news/da-candidate-teaching-men-to-be-better-seen-on-video-beating-his-ex-wife-20261017-0943",
+      "source": "News24",
+      "published": "2026-10-18T05:39:31.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "UPDATE | Jacob Zuma discharged from KZN hospital",
+      "link": "https://www.news24.com/politics/jacob-zuma-discharged-from-kzn-hospital-20261017-1030",
+      "source": "News24",
+      "published": "2026-10-17T18:43:41.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘I ordered him to rest’: Ramaphosa reassures public on Mbalula’s health after ConCourt win",
+      "link": "https://www.news24.com/politics/i-ordered-him-to-rest-ramaphosa-reassures-public-on-mbalulas-health-after-concourt-win-20261017-1098",
+      "source": "News24",
+      "published": "2026-10-17T18:27:32.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "A year after shootings, IFP and MKP say Gauteng hostels open for campaigning",
+      "link": "https://www.news24.com/politics/a-year-after-shootings-ifp-and-mkp-say-gauteng-hostels-open-for-campaigning-20261017-0988",
+      "source": "News24",
+      "published": "2026-10-17T16:28:27.000Z",
+      "parties": [
+        "mkp",
+        "ifp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Soyiso Maliti | KZN premier caught out of step with IFP’s swing on migration policy",
+      "link": "https://www.news24.com/opinions/analysis/soyiso-maliti-kzn-premier-caught-out-of-step-with-ifps-swing-on-migration-policy-20261017-0786",
+      "source": "News24",
+      "published": "2026-10-17T13:07:03.000Z",
+      "parties": [
+        "ifp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘Do not vote out of habit’: Mashaba launches scathing attack on ANC governance in Limpopo",
+      "link": "https://www.news24.com/politics/do-not-vote-out-of-habit-mashaba-launches-scathing-attack-on-anc-governance-in-limpopo-20261017-0697",
+      "source": "News24",
+      "published": "2026-10-17T11:37:58.000Z",
+      "parties": [
+        "anc",
+        "actionsa"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "‘We are in this game to win’: Ramaphosa confident ANC can grow support in Western Cape",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/ramaphosa-confident-anc-can-grow-support-western-cape/",
+      "source": "The Citizen",
+      "published": "2026-10-17T09:58:05.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
       "title": "Six councillor killings cast shadow over Crossroads community",
       "link": "https://www.sabcnews.com/sabcnews/six-councillor-killings-cast-shadow-over-crossroads-community/",
       "source": "SABC News",
@@ -84,6 +227,16 @@
       "accountability": false
     },
     {
+      "title": "ON THE ROAD | ‘This is about votes, nothing else’: Free State municipality builds RDP homes ahead of poll",
+      "link": "https://www.news24.com/politics/on-the-road-this-is-about-votes-nothing-else-free-state-municipality-builds-rdp-homes-ahead-of-poll-20261015-1124",
+      "source": "News24",
+      "published": "2026-10-17T05:50:55.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
       "title": "ANC President leads party’s campaign trail in Cape Town metro",
       "link": "https://www.sabcnews.com/sabcnews/anc-president-leads-partys-campaign-trail-in-cape-town-metro/",
       "source": "SABC News",
@@ -92,6 +245,16 @@
         "anc"
       ],
       "accountability": false
+    },
+    {
+      "title": "‘Victory for democracy’: ConCourt puts 19 uMshwathi ANC PR candidates back on ballot paper",
+      "link": "https://www.news24.com/politics/victory-for-democracy-concourt-puts-19-umshwathi-anc-pr-candidates-back-on-ballot-paper-20261016-0741",
+      "source": "News24",
+      "published": "2026-10-16T20:06:31.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
     },
     {
       "title": "‘If anything happens to my father’: Zuma-Sambudla vows to hold PPS head Rhoode accountable",
@@ -124,6 +287,16 @@
       "accountability": false
     },
     {
+      "title": "UPDATE | IEC says ConCourt’s ruling on missing ANC candidates will apply to all parties",
+      "link": "https://www.news24.com/politics/iec-says-concourts-ruling-on-missing-anc-candidates-will-apply-to-all-parties-20261016-0755",
+      "source": "News24",
+      "published": "2026-10-16T15:12:06.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
       "title": "City scratches its head over 160 sick in Tshwane",
       "link": "https://www.citizen.co.za/news/city-scratches-its-head-over-160-sick-in-tshwane/",
       "source": "The Citizen",
@@ -152,6 +325,16 @@
         "anc"
       ],
       "accountability": true
+    },
+    {
+      "title": "New defence committee co-chair elected after Malusi Gigaba’s controversial exit",
+      "link": "https://www.news24.com/politics/new-defence-committee-co-chair-elected-after-malusi-gigabas-controversial-exit-20261016-0683",
+      "source": "News24",
+      "published": "2026-10-16T11:23:23.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
     },
     {
       "title": "Watch — Ngobese-Zuma’s March and March: Tenders, funding and MKP",
@@ -261,16 +444,6 @@
       "link": "https://www.news24.com/southafrica/succession-the-race-for-joburg-episode-3-20261015-1101",
       "source": "News24",
       "published": "2026-10-16T04:10:46.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "ON THE ROAD | ‘This is about votes, nothing else’: Free State municipality builds RDP homes ahead of poll",
-      "link": "https://www.news24.com/politics/on-the-road-this-is-about-votes-nothing-else-free-state-municipality-builds-rdp-homes-ahead-of-poll-20261015-1124",
-      "source": "News24",
-      "published": "2026-10-16T03:26:20.000Z",
       "parties": [
         "anc"
       ],
@@ -583,16 +756,6 @@
       "accountability": true
     },
     {
-      "title": "PODCAST: ANC defends North West record amid municipal service delivery challenges",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/podcast-anc-defends-north-west-record-amid-municipal-service-delivery-challenges/",
-      "source": "The Citizen",
-      "published": "2026-10-14T15:20:42.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
       "title": "Water crisis: What the ANC, DA, EFF and MK party promise ahead of the 4 November local elections",
       "link": "https://www.citizen.co.za/news/south-africa/elections/water-crisis-what-the-anc-da-eff-and-mk-party-promise-ahead-of-the-4-november-local-elections/",
       "source": "The Citizen",
@@ -626,42 +789,12 @@
       "accountability": true
     },
     {
-      "title": "ANC distances itself from proposed regulation of churches by CRL commission",
-      "link": "https://www.citizen.co.za/news/south-africa/politics/anc-distances-itself-from-proposed-regulation-of-churches-by-crl-commission/",
-      "source": "The Citizen",
-      "published": "2026-10-14T08:21:27.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "Two children injured in crossfire as gunman kills two at ANCYL memorial in Katlehong",
-      "link": "https://www.news24.com/southafrica/crime-and-courts/two-children-injured-in-crossfire-as-gunman-kills-two-at-ancyl-memorial-in-katlehong-20261014-0381",
-      "source": "News24",
-      "published": "2026-10-14T06:22:05.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "MK party sustainability question grows as Zuma is hospitalised",
       "link": "https://www.citizen.co.za/news/opinion/mk-party-sustainability-question-grows-as-zuma-is-hospitalised/",
       "source": "The Citizen",
       "published": "2026-10-14T06:00:00.000Z",
       "parties": [
         "mkp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "ANC or SACP? Cosatu leadership battle reflects alliance tensions",
-      "link": "https://www.citizen.co.za/news/south-africa/politics/anc-or-sacp-cosatu-leadership-battle-reflects-alliance-tensions/",
-      "source": "The Citizen",
-      "published": "2026-10-14T05:15:00.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": false
     },
@@ -688,26 +821,6 @@
         "mkp"
       ],
       "accountability": true
-    },
-    {
-      "title": "Moody’s expects GNU to survive local elections – and a new ANC president",
-      "link": "https://www.news24.com/business/economy/moodys-expects-gnu-will-survive-local-elections-and-a-new-anc-president-20261013-1073",
-      "source": "News24",
-      "published": "2026-10-14T04:32:21.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Carol Paton | South Africa is changing. What will the future look like?",
-      "link": "https://www.news24.com/opinions/analysis/carol-paton-south-africa-is-changing-what-will-the-future-look-like-20261013-0906",
-      "source": "News24",
-      "published": "2026-10-14T04:18:36.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
     },
     {
       "title": "MK party scraps rally ahead of elections as Zuma health concerns grow",
@@ -1201,16 +1314,6 @@
       "accountability": false
     },
     {
-      "title": "Jacob Zuma gets clean bill of health after hospitalisation reports",
-      "link": "https://www.citizen.co.za/news/jacob-zuma-gets-clean-bill-of-health-after-hospitalisation-reports/",
-      "source": "The Citizen",
-      "published": "2026-10-08T02:58:32.000Z",
-      "parties": [
-        "mkp"
-      ],
-      "accountability": false
-    },
-    {
       "title": "LOCAL ELECTIONS 2026: ANC, DA have not governed a single municipality together as coalition talks loom",
       "link": "https://www.dailymaverick.co.za/article/2026-10-07-local-government-coalitions/",
       "source": "Daily Maverick",
@@ -1230,16 +1333,6 @@
         "eff"
       ],
       "accountability": true
-    },
-    {
-      "title": "Zuma ‘fit as a fiddle’, says MK Party after hospitalisation reports",
-      "link": "https://www.news24.com/southafrica/news/zuma-fit-as-a-fiddle-says-mk-party-after-hospitalisation-reports-20261007-1110",
-      "source": "News24",
-      "published": "2026-10-07T18:31:13.000Z",
-      "parties": [
-        "mkp"
-      ],
-      "accountability": false
     },
     {
       "title": "In case you missed it: Why ‘Don’t Vote ANC, DA & EFF’ is trending | November petrol shock warning | Tired of spam calls?",
@@ -1327,16 +1420,6 @@
       "accountability": false
     },
     {
-      "title": "MK party blasts GNU as fuel price hike pushes petrol above R30/litre",
-      "link": "https://www.citizen.co.za/news/mk-party-blasts-gnu-fuel-price-hike-pushes-petrol-above-r30-litre/",
-      "source": "The Citizen",
-      "published": "2026-10-07T04:07:50.000Z",
-      "parties": [
-        "mkp"
-      ],
-      "accountability": false
-    },
-    {
       "title": "EFF’s Monica Dube murder probe gains momentum as second suspect arrested",
       "link": "https://www.citizen.co.za/news/south-africa/crime/effs-monica-dube-murder-probe-gains-momentum-second-suspect-arrested/",
       "source": "The Citizen",
@@ -1359,43 +1442,12 @@
       "accountability": false
     },
     {
-      "title": "In case you missed it: Feroz Khan’s uncle killed | Mokonyane calls on ANC gods | Zuma-Sambudla, Ndhlela fight MK party expulsion",
-      "link": "https://www.citizen.co.za/news/in-case-you-missed-it-6-october-2026/",
-      "source": "The Citizen",
-      "published": "2026-10-06T18:00:00.000Z",
-      "parties": [
-        "anc",
-        "mkp"
-      ],
-      "accountability": false
-    },
-    {
       "title": "Bonang turns up the heat on Gayton McKenzie: ‘What about SA artists?’",
       "link": "https://www.citizen.co.za/lifestyle/entertainment/celebrity-news/bonang-turns-up-the-heat-on-gayton-mckenzie-what-about-sa-artists/",
       "source": "The Citizen",
       "published": "2026-10-06T12:23:14.000Z",
       "parties": [
         "pa"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Elections Poll ’26 | Who do South Africans want as leader? Patrice Motsepe, of course",
-      "link": "https://www.news24.com/politics/elections-poll-26-who-do-south-africans-want-as-leader-patrice-motsepe-of-course-20261004-1171",
-      "source": "News24",
-      "published": "2026-10-05T10:12:27.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "DA hails ‘real political shift’ as News24/SABI poll puts it ahead in 3 metros",
-      "link": "https://www.news24.com/politics/da-hails-real-political-shift-as-news24sabi-poll-puts-it-ahead-in-3-metros-20261004-1086",
-      "source": "News24",
-      "published": "2026-10-04T18:07:13.000Z",
-      "parties": [
-        "da"
       ],
       "accountability": false
     },
@@ -1427,16 +1479,6 @@
       "parties": [
         "eff",
         "mkp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "DA warns 78% of Joburg bridges are poor or very poor",
-      "link": "https://www.news24.com/southafrica/news/da-warns-78-of-joburg-bridges-are-poor-or-very-poor-20261003-0924",
-      "source": "News24",
-      "published": "2026-10-03T13:25:19.000Z",
-      "parties": [
-        "da"
       ],
       "accountability": false
     },
