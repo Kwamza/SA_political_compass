@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T09:13:13.072Z",
+  "updated": "2026-10-22T09:16:04.400Z",
   "window_days": 30,
   "feeds": [
     {
@@ -54,6 +54,140 @@
   ],
   "items": [
     {
+      "title": "DA blasted over ‘militarisation’ approach to crime fighting on Cape Flats",
+      "link": "https://iol.co.za/lge2026/2026-10-22-da-blasted-over-militarisation-approach-to-crime-fighting-on-cape-flats/",
+      "source": "IOL",
+      "published": "2026-10-22T09:00:00.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "ANC at war with itself: Mbalula refuses to tell Joburg who the party plans to put forward as mayor",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/anc-at-war-with-itself-mbalula-refuses-to-tell-joburg-who-the-party-plans-to-put-forward-as-mayor/",
+      "source": "The Citizen",
+      "published": "2026-10-22T08:32:51.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Mbalula says Mantashe has apologised over sex-for-jobs remarks",
+      "link": "https://iol.co.za/news/politics/2026-10-22-mbalula-says-mantashe-has-apologised-over-sex-for-jobs-remarks/",
+      "source": "IOL",
+      "published": "2026-10-22T08:23:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "UNREAD | Fuel relief and other budget takeaways, Sibiya’s bail bid, and Tshwane’s water woes",
+      "link": "https://www.news24.com/multimedia/unread-fuel-relief-and-other-budget-takeaways-sibiyas-bail-bid-and-tshwanes-water-woes-20261021-1213",
+      "source": "News24",
+      "published": "2026-10-22T04:26:43.000Z",
+      "parties": [
+        "pa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Pretoria police battle poor conditions and lack of resources",
+      "link": "https://www.citizen.co.za/news/south-africa/pretoria-police-battle-poor-conditions-and-lack-of-resources/",
+      "source": "The Citizen",
+      "published": "2026-10-22T03:30:00.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Voters want solutions, not stunts and township culture symbols",
+      "link": "https://www.citizen.co.za/news/opinion/voters-want-solutions-not-stunts-and-township-culture-symbols/",
+      "source": "The Citizen",
+      "published": "2026-10-22T03:00:00.000Z",
+      "parties": [
+        "anc",
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Trump Inc, American kleptocracy and the art of US State Capture",
+      "link": "https://www.dailymaverick.co.za/opinionista/2026-10-21-trump-inc-american-kleptocracy-and-the-art-of-us-state-capture/",
+      "source": "Daily Maverick",
+      "published": "2026-10-21T19:50:59.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "ANC officials to decide Joburg mayoral candidate, not region – Mbalula",
+      "link": "https://www.news24.com/politics/anc-officials-to-decide-joburg-mayoral-candidate-not-region-mbalula-20261021-1140",
+      "source": "News24",
+      "published": "2026-10-21T19:04:12.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘I don’t know what I must apologise for’: Gwede Mantashe on ‘sex-for-jobs’ remarks",
+      "link": "https://www.citizen.co.za/news/i-dont-know-what-i-must-apologise-for-gwede-mantashe-on-sex-for-jobs-remarks/",
+      "source": "The Citizen",
+      "published": "2026-10-21T15:47:31.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Khalipha’s last stand: Convicted Free State mayor fights to keep career alive",
+      "link": "https://www.news24.com/politics/khaliphas-last-stand-convicted-free-state-mayor-fights-to-keep-career-alive-20261021-0849",
+      "source": "News24",
+      "published": "2026-10-21T14:10:24.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Tshwane water crisis: EFF asks Public Protector to probe chlorine failure that left hundreds ill",
+      "link": "https://www.citizen.co.za/news/tshwane-water-crisis-eff-asks-public-protector-to-probe-chlorine-failure-that-left-hundreds-ill/",
+      "source": "The Citizen",
+      "published": "2026-10-21T13:31:04.000Z",
+      "parties": [
+        "eff"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "What the DA, ANC, EFF and MK party manifestos promise on healthcare in South Africa",
+      "link": "https://www.citizen.co.za/news/what-the-da-anc-eff-and-mk-party-manifestos-promise-on-healthcare-in-south-africa/",
+      "source": "The Citizen",
+      "published": "2026-10-21T11:20:47.000Z",
+      "parties": [
+        "anc",
+        "da",
+        "eff",
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "The Queue | Herman Mashaba makes his pitch to Johannesburg residents",
+      "link": "https://www.news24.com/politics/the-queue-herman-mashaba-makes-his-pitch-to-johannesburg-residents-20261021-0463",
+      "source": "News24",
+      "published": "2026-10-21T09:09:37.000Z",
+      "parties": [
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
       "title": "Gabuza loses second bid to challenge ANC Ward 98 candidate",
       "link": "https://iol.co.za/capeargus/news/2026-10-21-gabuza-loses-second-bid-to-challenge-anc-ward-98-candidate/",
       "source": "IOL",
@@ -102,16 +236,6 @@
         "da"
       ],
       "accountability": true
-    },
-    {
-      "title": "The Queue | Herman Mashaba makes his pitch to Johannesburg residents",
-      "link": "https://www.news24.com/politics/the-queue-herman-mashaba-makes-his-pitch-to-johannesburg-residents-20261021-0463",
-      "source": "News24",
-      "published": "2026-10-21T07:57:00.000Z",
-      "parties": [
-        "actionsa"
-      ],
-      "accountability": false
     },
     {
       "title": "The ANC will raise your child for you: Ramaphosa speaks about his party’s successes",
@@ -586,16 +710,6 @@
       "accountability": false
     },
     {
-      "title": "ANC Women’s League wants Mantashe disciplined for ‘derogatory’ remarks against women",
-      "link": "https://www.news24.com/politics/anc-womens-league-wants-mantashe-disciplined-for-derogatory-remarks-against-women-20261018-0874",
-      "source": "News24",
-      "published": "2026-10-18T14:43:27.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "ANC president Ramaphosa campaigns in DA-led City of Cape Town, urges moral reflection",
       "link": "https://www.news24.com/politics/anc-president-ramaphosa-campaigns-in-da-led-city-of-cape-town-urges-moral-reflection-20261018-0801",
       "source": "News24",
@@ -708,16 +822,6 @@
       "accountability": false
     },
     {
-      "title": "‘I ordered him to rest’: Ramaphosa reassures public on Mbalula’s health after ConCourt win",
-      "link": "https://www.news24.com/politics/i-ordered-him-to-rest-ramaphosa-reassures-public-on-mbalulas-health-after-concourt-win-20261017-1098",
-      "source": "News24",
-      "published": "2026-10-17T18:27:32.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
       "title": "A year after shootings, IFP and MKP say Gauteng hostels open for campaigning",
       "link": "https://www.news24.com/politics/a-year-after-shootings-ifp-and-mkp-say-gauteng-hostels-open-for-campaigning-20261017-0988",
       "source": "News24",
@@ -748,26 +852,6 @@
         "actionsa"
       ],
       "accountability": true
-    },
-    {
-      "title": "‘We are in this game to win’: Ramaphosa confident ANC can grow support in Western Cape",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/ramaphosa-confident-anc-can-grow-support-western-cape/",
-      "source": "The Citizen",
-      "published": "2026-10-17T09:58:05.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Six councillor killings cast shadow over Crossroads community",
-      "link": "https://www.sabcnews.com/sabcnews/six-councillor-killings-cast-shadow-over-crossroads-community/",
-      "source": "SABC News",
-      "published": "2026-10-17T08:20:24.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
     },
     {
       "title": "‘If anything happens to my father’: Zuma-Sambudla warns, demands urgent probe",
@@ -1290,17 +1374,6 @@
       "accountability": false
     },
     {
-      "title": "LOCAL ELECTIONS 2026: On paper vs reality — could the DA and the ANC work together in Joburg?",
-      "link": "https://www.dailymaverick.co.za/article/2026-10-11-on-paper-vs-reality-could-the-da-and-the-anc-work-together-in-joburg/",
-      "source": "Daily Maverick",
-      "published": "2026-10-11T20:17:02.000Z",
-      "parties": [
-        "anc",
-        "da"
-      ],
-      "accountability": false
-    },
-    {
       "title": "Zuma family rules out airlift to military hospital, insists on KZN treatment",
       "link": "https://www.news24.com/politics/zuma-family-rules-out-airlift-to-military-hospital-insists-on-kzn-treatment-20261010-1030",
       "source": "News24",
@@ -1321,52 +1394,12 @@
       "accountability": false
     },
     {
-      "title": "MK Party challenges report linking Zuma’s health to possible KZN troop deployment",
-      "link": "https://iol.co.za/news/politics/2026-10-11-mk-party-challenges-report-linking-zumas-health-to-possible-kzn-troop-deployment/",
-      "source": "IOL",
-      "published": "2026-10-11T07:32:00.000Z",
-      "parties": [
-        "mkp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "The DA’s choking curse",
-      "link": "https://www.citizen.co.za/news/opinion/the-das-choking-curse/",
-      "source": "The Citizen",
-      "published": "2026-10-11T05:04:00.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "In Sunday. | March leader’s R12m, Zuma airlift row and Mashatile son-in-law’s R5.4m",
-      "link": "https://specialprojects.news24.com/sunday-11-october-in-sunday-11-october-march-leaders-state-millions-mashatile-son-in-laws-r5-4m-cut-and-zuma-ill/index.html",
-      "source": "News24",
-      "published": "2026-10-11T03:12:39.000Z",
-      "parties": [
-        "mkp"
-      ],
-      "accountability": false
-    },
-    {
       "title": "PODCAST: Joburg needs more than pothole politics, says Rise Mzansi mayoral candidate",
       "link": "https://www.citizen.co.za/news/south-africa/elections/podcast-joburg-needs-more-than-pothole-politics-says-rise-mzansi-mayoral-candidate/",
       "source": "The Citizen",
       "published": "2026-10-10T19:00:00.000Z",
       "parties": [
         "risemzansi"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "DA puts the squeeze on small parties in last election push",
-      "link": "https://www.news24.com/politics/da-puts-the-squeeze-on-small-parties-in-last-election-push-20261010-0917",
-      "source": "News24",
-      "published": "2026-10-10T15:17:12.000Z",
-      "parties": [
-        "da"
       ],
       "accountability": false
     },
