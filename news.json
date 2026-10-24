@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T09:12:05.238Z",
+  "updated": "2026-10-24T08:45:25.708Z",
   "window_days": 30,
   "feeds": [
     {
@@ -7,7 +7,7 @@
       "homepage": "https://www.dailymaverick.co.za",
       "url": "https://www.dailymaverick.co.za/dmrss/",
       "ok": true,
-      "items": 50
+      "items": 52
     },
     {
       "source": "News24",
@@ -54,10 +54,141 @@
   ],
   "items": [
     {
+      "title": "FF Plus targets townships in bid to break beyond its white voter base",
+      "link": "https://iol.co.za/news/politics/2026-10-24-ff-plus-targets-townships-in-bid-to-break-beyond-its-white-voter-base/",
+      "source": "IOL",
+      "published": "2026-10-24T08:08:00.000Z",
+      "parties": [
+        "ffplus"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "eThekwini mayoral candidates set out plans for water, finances and service delivery",
+      "link": "https://iol.co.za/thepost/news/2026-10-24-ethekwini-mayoral-candidates-set-out-plans-for-water-finances-and-service-delivery/",
+      "source": "IOL",
+      "published": "2026-10-24T08:00:00.000Z",
+      "parties": [
+        "ffplus"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Zuma removes Nomvalo from MK parliamentary caucus and restores whip structure",
+      "link": "https://iol.co.za/news/politics/2026-10-24-zuma-removes-nomvalo-from-mk-parliamentary-caucus-and-restores-whip-structure/",
+      "source": "IOL",
+      "published": "2026-10-24T07:01:00.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Natasha Govender contests all 41 wards in Pietermaritzburg’s uMsunduzi",
+      "link": "https://iol.co.za/ios/news/2026-10-24-natasha-govender-contests-all-41-wards-in-pietermaritzburgs-umsunduzi/",
+      "source": "IOL",
+      "published": "2026-10-24T06:35:00.000Z",
+      "parties": [
+        "ffplus"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "R48.9m Joshco housing project remains unfinished after PA-linked donation",
+      "link": "https://iol.co.za/ios/news/2026-10-24-r489m-joshco-housing-project-remains-unfinished-after-pa-linked-donation/",
+      "source": "IOL",
+      "published": "2026-10-24T06:31:00.000Z",
+      "parties": [
+        "pa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Sibling rivalry: Cape Town’s brother vs brother election face-off echoes DA-PA fight",
+      "link": "https://www.news24.com/politics/sibling-rivalry-cape-towns-brother-vs-brother-election-face-off-echoes-da-pa-fight-20261023-1211",
+      "source": "News24",
+      "published": "2026-10-24T05:30:36.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "FF Plus candidates undeterred by stance on BEE and AA",
+      "link": "https://www.sabcnews.com/sabcnews/ff-plus-candidates-undeterred-by-stance-on-bee-and-aa/",
+      "source": "SABC News",
+      "published": "2026-10-24T04:50:32.000Z",
+      "parties": [
+        "ffplus"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "In case you missed it: MK Party fires another SG | Tshwane water crisis ‘indefensible’ | Olivia Dean headlines festival",
+      "link": "https://www.citizen.co.za/news/in-case-you-missed-it-23-october-2026/",
+      "source": "The Citizen",
+      "published": "2026-10-23T18:00:00.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA targets Ekurhuleni majority in make-or-break municipal election",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/da-targets-majority-in-ekurhuleni/",
+      "source": "The Citizen",
+      "published": "2026-10-23T14:33:00.000Z",
+      "parties": [
+        "anc",
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA election campaign posters removed from Free State streets as police investigate theft case",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/da-election-campaign-posters-theft-free-state/",
+      "source": "The Citizen",
+      "published": "2026-10-23T13:18:16.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Ditsobotla on its way to financial recovery after 15 years under administration, says municipal manager",
+      "link": "https://www.citizen.co.za/news/south-africa/politics/ditsobotla-on-its-way-to-financial-recovery-after-15-years-under-administration-says-municipal-manager/",
+      "source": "The Citizen",
+      "published": "2026-10-23T11:13:06.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
       "title": "Here’s how MK party’s latest leadership change could affect them at the polls",
       "link": "https://www.citizen.co.za/news/south-africa/elections/heres-how-mk-partys-latest-leadership-change-could-affect-them-at-the-polls/",
       "source": "The Citizen",
       "published": "2026-10-23T09:05:27.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC directs Mantashe to apologise for sex for jobs comments",
+      "link": "https://www.news24.com/politics/anc-directs-mantashe-to-apologise-for-sex-for-jobs-comments-20261023-0493",
+      "source": "News24",
+      "published": "2026-10-23T08:13:40.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "MK Party axes SG Sibonelo Nomvalo 13 days before polls, despite Zuma not being seen for weeks",
+      "link": "https://www.news24.com/politics/mk-party-axes-sg-sibonelo-nomvalo-13-days-before-polls-despite-zuma-not-being-seen-for-weeks-20261023-0397",
+      "source": "News24",
+      "published": "2026-10-23T06:37:18.000Z",
       "parties": [
         "mkp"
       ],
@@ -738,16 +869,6 @@
       "accountability": false
     },
     {
-      "title": "ANCWL demands apology, disciplinary action against Mantashe over ‘derogatory’ sex-for-jobs remarks",
-      "link": "https://iol.co.za/news/politics/2026-10-19-ancwl-demands-apology-disciplinary-action-against-mantashe-over-derogatory-sex-for-jobs-remarks/",
-      "source": "IOL",
-      "published": "2026-10-19T07:16:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "ANC Youth League calls for DA ministers to be removed from GNU",
       "link": "https://iol.co.za/capetimes/news/2026-10-19-anc-youth-league-calls-for-da-ministers-to-be-removed-from-gnu/",
       "source": "IOL",
@@ -1250,33 +1371,12 @@
       "accountability": false
     },
     {
-      "title": "Tshwane reduces water tanker budget by 79%",
-      "link": "https://www.citizen.co.za/news/tshwane-reduces-water-tanker-budget-by-79/",
-      "source": "The Citizen",
-      "published": "2026-10-14T03:45:00.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": false
-    },
-    {
       "title": "Gauteng traffic chief Samuel Mashaba dies amid suspension linked to cocaine bust allegations",
       "link": "https://www.citizen.co.za/news/gauteng-traffic-chief-samuel-mashaba-dies-amid-suspension-linked-cocaine-bust-allegations/",
       "source": "The Citizen",
       "published": "2026-10-14T01:43:57.000Z",
       "parties": [
         "actionsa"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "‘Absolute chaos’: DA pushes ANC’s buttons in candidate list case in ConCourt",
-      "link": "https://www.news24.com/politics/absolute-chaos-da-pushes-ancs-buttons-in-candidate-list-case-in-concourt-20261012-1133",
-      "source": "News24",
-      "published": "2026-10-13T19:03:13.000Z",
-      "parties": [
-        "anc",
-        "da"
       ],
       "accountability": true
     },
@@ -1307,16 +1407,6 @@
       "published": "2026-10-13T16:45:12.000Z",
       "parties": [
         "eff"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "16 000 applied, 388 employed, but no interviews held for Emfuleni jobs – DA alleges",
-      "link": "https://www.news24.com/southafrica/news/16-000-applied-388-employed-but-no-interviews-held-for-emfuleni-jobs-da-alleges-20261013-0904",
-      "source": "News24",
-      "published": "2026-10-13T15:04:52.000Z",
-      "parties": [
-        "da"
       ],
       "accountability": false
     },
@@ -1394,16 +1484,6 @@
       "accountability": false
     },
     {
-      "title": "POLITICALLY AWEH: Cupcake’s GBV family meeting and Zuma’s very short IEC pledge",
-      "link": "https://www.dailymaverick.co.za/article/2026-10-12-cupcakes-gbv-family-meeting-and-zumas-very-short-iec-pledge/",
-      "source": "Daily Maverick",
-      "published": "2026-10-12T16:00:00.000Z",
-      "parties": [
-        "mkp"
-      ],
-      "accountability": false
-    },
-    {
       "title": "High Court set for showdown over Ramaphosa impeachment inquiry [VIDEO]",
       "link": "https://www.citizen.co.za/news/high-court-set-showdown-ramaphosa-impeachment-inquiry/",
       "source": "The Citizen",
@@ -1412,16 +1492,6 @@
         "eff"
       ],
       "accountability": true
-    },
-    {
-      "title": "Zuma Foundation blasts Ramaphosa as concerns over former leader’s health mount",
-      "link": "https://www.citizen.co.za/news/zuma-foundation-fires-back-ramaphosa-health-concerns-mount/",
-      "source": "The Citizen",
-      "published": "2026-10-12T09:10:33.000Z",
-      "parties": [
-        "mkp"
-      ],
-      "accountability": false
     },
     {
       "title": "PODCAST: Joburg needs more than pothole politics, says Rise Mzansi mayoral candidate",
