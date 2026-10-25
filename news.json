@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T08:45:25.708Z",
+  "updated": "2026-10-25T09:01:12.836Z",
   "window_days": 30,
   "feeds": [
     {
@@ -54,6 +54,108 @@
   ],
   "items": [
     {
+      "title": "Ramaphosa hails Mangaung cleanup gains as ANC battles to win voter confidence",
+      "link": "https://iol.co.za/news/politics/2026-10-25-ramaphosa-hails-mangaung-cleanup-gains-as-anc-battles-to-win-voter-confidence/",
+      "source": "IOL",
+      "published": "2026-10-25T08:17:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Former ANC MP Boy Mamabolo vows to push party below 50% in Polokwane",
+      "link": "https://iol.co.za/news/politics/2026-10-25-former-anc-mp-boy-mamabolo-vows-to-push-party-below-50-in-polokwane/",
+      "source": "IOL",
+      "published": "2026-10-25T08:13:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "The Trojan horse at UWC and the DA’s persistent links to Cape Exit separatism",
+      "link": "https://iol.co.za/opinion/2026-10-25-the-trojan-horse-at-uwc-and-the-das-persistent-links-to-cape-exit-separatism/",
+      "source": "IOL",
+      "published": "2026-10-25T07:41:00.000Z",
+      "parties": [
+        "da",
+        "eff"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Sibling rivalry: Cape Town’s brother vs brother election face-off echoes DA-PA fight",
+      "link": "https://www.news24.com/politics/sibling-rivalry-cape-towns-brother-vs-brother-election-face-off-echoes-da-pa-fight-20261023-1211",
+      "source": "News24",
+      "published": "2026-10-25T07:09:37.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA’s poll shows it winning in six metros, ANC in catastrophic collapse",
+      "link": "https://www.news24.com/politics/das-poll-shows-it-surging-in-five-metros-anc-in-catastrophic-collapse-20261024-0757",
+      "source": "News24",
+      "published": "2026-10-25T06:58:23.000Z",
+      "parties": [
+        "anc",
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC regional chair Ndithini Tyhido quits Cape Town council ahead of elections",
+      "link": "https://iol.co.za/capetimes/2026-10-25-anc-regional-chair-ndithini-tyhido-quits-cape-town-council-ahead-of-elections/",
+      "source": "IOL",
+      "published": "2026-10-25T05:30:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ATM vows to end ‘intentional destruction’ of Joburg, close non-compliant spaza shops",
+      "link": "https://www.news24.com/politics/atm-vows-to-end-intentional-destruction-of-joburg-close-non-compliant-spaza-shops-20261024-1053",
+      "source": "News24",
+      "published": "2026-10-24T17:51:10.000Z",
+      "parties": [
+        "atm"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "National ANC officials – not regions – to control coalition talks",
+      "link": "https://www.news24.com/politics/national-anc-officials-not-regions-to-control-coalition-talks-20261024-0846",
+      "source": "News24",
+      "published": "2026-10-24T17:44:47.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA takes jobs pitch to Mpumalanga ahead of local government elections",
+      "link": "https://www.news24.com/politics/da-takes-jobs-pitch-to-mpumalanga-ahead-of-local-government-elections-20261024-0746",
+      "source": "News24",
+      "published": "2026-10-24T12:30:16.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "MK party expresses ‘distrust’ in IEC after candidate list alteration request denied",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/mk-party-expresses-distrust-in-iec-after-candidate-list-alteration-request-denied/",
+      "source": "The Citizen",
+      "published": "2026-10-24T10:36:44.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
       "title": "FF Plus targets townships in bid to break beyond its white voter base",
       "link": "https://iol.co.za/news/politics/2026-10-24-ff-plus-targets-townships-in-bid-to-break-beyond-its-white-voter-base/",
       "source": "IOL",
@@ -100,16 +202,6 @@
       "published": "2026-10-24T06:31:00.000Z",
       "parties": [
         "pa"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Sibling rivalry: Cape Town’s brother vs brother election face-off echoes DA-PA fight",
-      "link": "https://www.news24.com/politics/sibling-rivalry-cape-towns-brother-vs-brother-election-face-off-echoes-da-pa-fight-20261023-1211",
-      "source": "News24",
-      "published": "2026-10-24T05:30:36.000Z",
-      "parties": [
-        "da"
       ],
       "accountability": false
     },
@@ -766,16 +858,6 @@
       "accountability": false
     },
     {
-      "title": "Mbalula back at work: From coalitions to factions, here are 3 things he needs to do now",
-      "link": "https://www.citizen.co.za/news/south-africa/politics/the-body-did-what-the-body-does-mbalula-back-at-work-after-collapsing/",
-      "source": "The Citizen",
-      "published": "2026-10-19T09:23:27.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
       "title": "EFF open to joining GNU if DA and FF Plus exit: Malema",
       "link": "https://www.sabcnews.com/sabcnews/eff-open-to-joining-gnu-if-da-and-ff-plus-exit-malema/",
       "source": "SABC News",
@@ -788,42 +870,12 @@
       "accountability": false
     },
     {
-      "title": "ANC hauled to court over unpaid R40m debt owed for 2019 election campaign branding",
-      "link": "https://www.news24.com/southafrica/news/anc-hauled-to-court-over-unpaid-r40m-debt-owed-for-2019-election-campaign-branding-20261019-0532",
-      "source": "News24",
-      "published": "2026-10-19T08:53:02.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "Mbalula returns to work after collapse, says he is ‘fit as a fiddle’",
-      "link": "https://iol.co.za/news/politics/2026-10-19-mbalula-returns-to-work-after-collapse-says-he-is-fit-as-a-fiddle/",
-      "source": "IOL",
-      "published": "2026-10-19T08:07:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "‘He is present at all decision-making’: Duduzane gives Jacob Zuma health update",
       "link": "https://www.citizen.co.za/news/south-africa/politics/he-is-present-at-all-decision-making-duduzane-gives-jacob-zuma-health-update/",
       "source": "The Citizen",
       "published": "2026-10-19T08:06:29.000Z",
       "parties": [
         "mkp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Ramaphosa calls on men to lead fight against GBV in Khayelitsha",
-      "link": "https://iol.co.za/capeargus/news/2026-10-19-ramaphosa-calls-on-men-to-lead-fight-against-gbv-in-khayelitsha/",
-      "source": "IOL",
-      "published": "2026-10-19T08:00:00.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": false
     },
@@ -1284,16 +1336,6 @@
       "accountability": false
     },
     {
-      "title": "DA launches portal for dodgy tenders as defaulter register remains empty",
-      "link": "https://www.news24.com/politics/da-launches-portal-for-dodgy-tenders-as-defaulter-register-remains-empty-20261014-0979",
-      "source": "News24",
-      "published": "2026-10-14T16:21:21.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": true
-    },
-    {
       "title": "Water crisis: What the ANC, DA, EFF and MK party promise ahead of the 4 November local elections",
       "link": "https://www.citizen.co.za/news/south-africa/elections/water-crisis-what-the-anc-da-eff-and-mk-party-promise-ahead-of-the-4-november-local-elections/",
       "source": "The Citizen",
@@ -1459,16 +1501,6 @@
         "mkp"
       ],
       "accountability": false
-    },
-    {
-      "title": "FACT CHECK | Manyi’s claims of unequal treatment for Zuma contradicted by evidence",
-      "link": "https://www.news24.com/southafrica/debunking/fact-check-manyis-claims-of-unequal-treatment-for-zuma-contradicted-by-evidence-20261012-1152",
-      "source": "News24",
-      "published": "2026-10-13T08:28:24.000Z",
-      "parties": [
-        "mkp"
-      ],
-      "accountability": true
     },
     {
       "title": "Elections 2026: What the ANC, DA, EFF and MK party say on land",
