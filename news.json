@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T09:01:12.836Z",
+  "updated": "2026-10-26T09:55:01.769Z",
   "window_days": 30,
   "feeds": [
     {
@@ -7,7 +7,7 @@
       "homepage": "https://www.dailymaverick.co.za",
       "url": "https://www.dailymaverick.co.za/dmrss/",
       "ok": true,
-      "items": 52
+      "items": 53
     },
     {
       "source": "News24",
@@ -53,6 +53,221 @@
     }
   ],
   "items": [
+    {
+      "title": "Ramaphosa takes credit for Madlanga Commission, says ANC did not betray SA",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/ramaphosa-takes-credit-for-madlanga-comission-heres-what-he-wants-to-tackle-next/",
+      "source": "The Citizen",
+      "published": "2026-10-26T09:29:17.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "RISE Mzansi says new leadership can tackle youth unemployment",
+      "link": "https://www.sabcnews.com/sabcnews/rise-mzansi-says-new-leadership-can-tackle-youth-unemployment/",
+      "source": "SABC News",
+      "published": "2026-10-26T09:15:54.000Z",
+      "parties": [
+        "risemzansi"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Battle for eThekwini: Can MK Party turn former ANC strongholds into a council majority? | LGE 2026",
+      "link": "https://iol.co.za/lge2026/2026-10-26-battle-for-ethekwini-can-mk-party-turn-former-anc-strongholds-into-a-council-majority-lge-2026/",
+      "source": "IOL",
+      "published": "2026-10-26T09:10:00.000Z",
+      "parties": [
+        "anc",
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Helen Zille, the DA and the constitutional limits of political convenience",
+      "link": "https://iol.co.za/thepost/opinion/2026-10-26-helen-zille-the-da-and-the-constitutional-limits-of-political-convenience/",
+      "source": "IOL",
+      "published": "2026-10-26T08:00:00.000Z",
+      "parties": [
+        "anc",
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA pledges better services and accountable municipalities in KZN",
+      "link": "https://iol.co.za/sunday-tribune/opinion/2026-10-26-da-pledges-better-services-and-accountable-municipalities-in-kzn/",
+      "source": "IOL",
+      "published": "2026-10-26T08:00:00.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘If you mess around, we will remove you’: Duduzane Zuma warns MK members",
+      "link": "https://iol.co.za/news/politics/2026-10-26-if-you-mess-around-we-will-remove-you-duduzane-zuma-warns-mk-members/",
+      "source": "IOL",
+      "published": "2026-10-26T07:55:00.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Father killed in scuffle for water as family vows to vote for ‘the ANC of Mandela’",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/father-killed-in-scuffle-for-water-as-family-vows-to-vote-for-the-anc-of-mandela/",
+      "source": "The Citizen",
+      "published": "2026-10-26T07:00:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC issues urgent warning over fake ‘free R300’ election scam",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/anc-issues-urgent-warning-fake-free-r300-election-scam/",
+      "source": "The Citizen",
+      "published": "2026-10-26T06:49:16.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "CAUGHT OUT: Gayton McKenzie’s Blu Label visits raise fresh questions over Ticketpro sale",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-26-gayton-mckenzies-blu-label-visits-raise-fresh-questions-over-ticketpro-sale/",
+      "source": "Daily Maverick",
+      "published": "2026-10-26T05:40:53.000Z",
+      "parties": [
+        "pa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Mbalula blasts DA for calling Western Cape residents ‘refugees’, warns ANC collapse would harm SA [VIDEO]",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/mbalula-blasts-da-calling-western-cape-residents-refugees-warns-anc-collapse-would-harm-sa/",
+      "source": "The Citizen",
+      "published": "2026-10-26T05:14:28.000Z",
+      "parties": [
+        "anc",
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Opposition claims ANC is using council jobs to ‘buy votes’ in Ekurhuleni",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/anc-buy-votes-ekurhuleni-council-actionsa/",
+      "source": "The Citizen",
+      "published": "2026-10-26T03:30:00.000Z",
+      "parties": [
+        "anc",
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "The Queue | Willie Spies pitches FF Plus as Tshwane’s bridge-builder",
+      "link": "https://www.news24.com/politics/elections/the-queue-willie-spies-pitches-ff-plus-as-tshwanes-bridge-builder-20261025-1122",
+      "source": "News24",
+      "published": "2026-10-26T03:23:03.000Z",
+      "parties": [
+        "ffplus"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "The Queue | Bongani Baloyi promises to fix Joburg’s finances first",
+      "link": "https://www.news24.com/politics/the-queue-bongani-baloyi-promises-to-fix-joburgs-finances-first-20261022-1069",
+      "source": "News24",
+      "published": "2026-10-26T03:21:53.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘Damning’ report reveals Tshwane mayor knew about water crisis, claims DA’s Brink",
+      "link": "https://www.citizen.co.za/news/report-tshwane-mayor-moya-water-crisis/",
+      "source": "The Citizen",
+      "published": "2026-10-26T03:00:00.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "This is why South Africans should still trust the ANC, according to Ramaphosa",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/why-south-africans-should-still-trust-anc-according-ramaphosa/",
+      "source": "The Citizen",
+      "published": "2026-10-26T01:51:35.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "POLITICS & POLICING: From EFF’s Malema to ANC’s Carrim — the politics permeating SA’s cop collusion scandal",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-25-from-effs-malema-to-ancs-carrim-the-politics-permeating-sas-cop-collusion-scandal/",
+      "source": "Daily Maverick",
+      "published": "2026-10-25T21:49:16.000Z",
+      "parties": [
+        "anc",
+        "eff"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Watch – Top Court puts ANC candidates back on ballot after missed deadline",
+      "link": "https://www.dailymaverick.co.za/video/2026-10-25-watch-top-court-puts-anc-candidates-back-on-ballot-after-missed-deadline/",
+      "source": "Daily Maverick",
+      "published": "2026-10-25T21:45:36.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "‘What have you done for us?’: Ramaphosa slams criticism against ANC during campaign trail",
+      "link": "https://www.news24.com/southafrica/news/what-have-you-done-for-us-ramaphosa-slams-criticism-against-anc-during-campaign-trail-20261025-1173",
+      "source": "News24",
+      "published": "2026-10-25T19:34:43.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘Why are we not talking about our fellow Europeans?’ – Duduzane Zuma questions anti-illegal immigration sentiment",
+      "link": "https://www.citizen.co.za/news/south-africa/politics/duduzane-zuma-anti-illegal-immigration-sentiment/",
+      "source": "The Citizen",
+      "published": "2026-10-25T18:54:59.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC Cape Town leader steps down as opposition head ahead of local government elections",
+      "link": "https://www.news24.com/politics/anc-cape-town-leader-steps-down-as-opposition-head-ahead-of-local-government-elections-20261025-0873",
+      "source": "News24",
+      "published": "2026-10-25T14:38:34.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "SMOOTH OPERATOR: Gayton McKenzie’s gift of the gab is both his blessing and his curse",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-25-gayton-mckenzies-gift-of-the-gab-is-both-his-blessing-and-his-curse/",
+      "source": "Daily Maverick",
+      "published": "2026-10-25T11:04:24.000Z",
+      "parties": [
+        "pa"
+      ],
+      "accountability": false
+    },
     {
       "title": "Ramaphosa hails Mangaung cleanup gains as ANC battles to win voter confidence",
       "link": "https://iol.co.za/news/politics/2026-10-25-ramaphosa-hails-mangaung-cleanup-gains-as-anc-battles-to-win-voter-confidence/",
@@ -303,16 +518,6 @@
       "published": "2026-10-23T04:50:43.000Z",
       "parties": [
         "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "The Queue | Bongani Baloyi promises to fix Joburg’s finances first",
-      "link": "https://www.news24.com/politics/the-queue-bongani-baloyi-promises-to-fix-joburgs-finances-first-20261022-1069",
-      "source": "News24",
-      "published": "2026-10-23T03:50:37.000Z",
-      "parties": [
-        "mkp"
       ],
       "accountability": false
     },
@@ -725,46 +930,6 @@
       "accountability": false
     },
     {
-      "title": "Committee hits back at Lex Libertas, ‘Parliament won’t be intimidated or silenced’",
-      "link": "https://www.citizen.co.za/news/committee-hits-back-lex-libertas-parliament-wont-be-intimidated-or-silenced/",
-      "source": "The Citizen",
-      "published": "2026-10-20T04:30:34.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "ANC ruling sparks debate over precedent and voter rights",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/anc-ruling-sparks-debate-over-precedent-and-voter-rights/",
-      "source": "The Citizen",
-      "published": "2026-10-20T04:30:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "‘I had carried something heavy for seven weeks’: Mbalula back at work after court collapse",
-      "link": "https://www.news24.com/politics/i-had-carried-something-heavy-for-seven-weeks-mbalula-back-at-work-after-court-collapse-20261018-1149",
-      "source": "News24",
-      "published": "2026-10-20T03:32:58.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "Shoprite collapse would hurt SA more than the ANC’s, says author Steven Sidley",
-      "link": "https://www.news24.com/business/companies/shoprite-collapse-would-hurt-sa-more-than-the-ancs-says-author-steven-sidley-20261019-1072",
-      "source": "News24",
-      "published": "2026-10-20T03:31:56.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "THE LOWLY NEWSPAPERMAN: Ramaphosa’s GNU survived an ANC rebellion, but Joburg will test everything",
       "link": "https://www.dailymaverick.co.za/article/2026-10-19-ramaphosas-gnu-survived-an-anc-rebellion-but-joburg-will-test-everything/",
       "source": "Daily Maverick",
@@ -772,56 +937,6 @@
       "parties": [
         "anc",
         "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "LOCAL ELECTIONS 2026: ANC abandons plan to name mayoral candidates amid fears of supporter backlash",
-      "link": "https://www.dailymaverick.co.za/article/2026-10-19-anc-abandons-plan-to-name-mayoral-candidates-amid-fears-of-supporter-backlash/",
-      "source": "Daily Maverick",
-      "published": "2026-10-19T21:36:37.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "KHAMPEPE COMMISSION: Mbeki denies secret deals with apartheid-era generals, blames NPA for TRC prosecution delays",
-      "link": "https://www.dailymaverick.co.za/article/2026-10-19-mbeki-denies-secret-deals-with-apartheid-era-generals-blames-npa-for-trc-prosecution-delays/",
-      "source": "Daily Maverick",
-      "published": "2026-10-19T21:18:49.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "‘It’s an insult’: Mbeki pushes back against claims that Cradock Four were betrayed",
-      "link": "https://www.news24.com/politics/its-an-insult-mbeki-pushes-back-against-claims-that-cradock-four-were-betrayed-20261019-1242",
-      "source": "News24",
-      "published": "2026-10-19T20:44:56.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "DIGITAL POLITICS OP-ED: Borders, ballots, court clashes — how the anti-immigrant movement is setting SA’s elections agenda",
-      "link": "https://www.dailymaverick.co.za/article/2026-10-19-borders-ballots-court-clashes-how-the-anti-immigrant-movement-is-setting-sas-elections-agenda/",
-      "source": "Daily Maverick",
-      "published": "2026-10-19T19:26:25.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "AFTER THE BELL: Escaping the debt trap could set SA on the road to fiscal victory",
-      "link": "https://www.dailymaverick.co.za/article/2026-10-19-escaping-the-debt-trap-could-set-sa-on-the-road-to-fiscal-victory/",
-      "source": "Daily Maverick",
-      "published": "2026-10-19T18:57:57.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": false
     },
@@ -844,16 +959,6 @@
         "anc",
         "da",
         "eff"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Mbeki urges respect for agreements made during SA’s transition",
-      "link": "https://www.sabcnews.com/sabcnews/mbeki-urges-respect-for-agreements-made-during-sas-transition/",
-      "source": "SABC News",
-      "published": "2026-10-19T09:29:33.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": false
     },
@@ -1231,17 +1336,6 @@
       "accountability": true
     },
     {
-      "title": "ANALYSIS | Mbalula gets a reprieve. But is the GNU on the chopping block?",
-      "link": "https://www.news24.com/politics/analysis-mbalula-gets-a-reprieve-but-is-the-gnu-on-the-chopping-block-20261015-1170",
-      "source": "News24",
-      "published": "2026-10-15T19:51:19.000Z",
-      "parties": [
-        "anc",
-        "da"
-      ],
-      "accountability": true
-    },
-    {
       "title": "‘No Zuma, no MKP’: Conflicting health reports expose a party fighting for survival",
       "link": "https://www.news24.com/politics/no-zuma-no-mkp-conflicting-health-reports-expose-a-party-fighting-for-survival-20261015-0943",
       "source": "News24",
@@ -1268,27 +1362,6 @@
       "published": "2026-10-15T15:13:34.000Z",
       "parties": [
         "ffplus"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "LOCAL ELECTIONS 2026: Mbalula fires DA warning after ANC’s ConCourt victory — ‘Nothing binds us forever’",
-      "link": "https://www.dailymaverick.co.za/article/2026-10-15-mbalula-fires-da-warning-after-concourt-victory-nothing-binds-us-forever/",
-      "source": "Daily Maverick",
-      "published": "2026-10-15T12:21:04.000Z",
-      "parties": [
-        "anc",
-        "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Emotional Mbalula questions DA’s place in GNU as he celebrates ConCourt ruling",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/emotional-mbalula-questions-das-gnu-participation-as-he-celebrates-concourt-ruling/",
-      "source": "The Citizen",
-      "published": "2026-10-15T11:04:11.000Z",
-      "parties": [
-        "da"
       ],
       "accountability": false
     },
@@ -1423,16 +1496,6 @@
       "accountability": true
     },
     {
-      "title": "MK Party cancels final rally ahead of 4 November elections as Zuma remains in hospital",
-      "link": "https://www.news24.com/politics/mk-party-cancels-final-rally-ahead-of-4-november-elections-as-zuma-remains-in-hospital-20261013-1034",
-      "source": "News24",
-      "published": "2026-10-13T17:15:04.000Z",
-      "parties": [
-        "mkp"
-      ],
-      "accountability": true
-    },
-    {
       "title": "EFF kicks off court bid to reverse impeachment committee decision on evidence leader",
       "link": "https://www.news24.com/politics/eff-kicks-off-court-bid-to-reverse-impeachment-committee-decision-on-evidence-leader-20261013-1009",
       "source": "News24",
@@ -1479,26 +1542,6 @@
       "published": "2026-10-13T10:52:04.000Z",
       "parties": [
         "pa"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "MK Party reshuffle centralises power in Chief Whip’s office",
-      "link": "https://iol.co.za/news/politics/2026-10-13-mk-party-reshuffle-centralises-power-in-chief-whips-office/",
-      "source": "IOL",
-      "published": "2026-10-13T09:57:00.000Z",
-      "parties": [
-        "mkp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Foundation denies reports Jacob Zuma has been discharged",
-      "link": "https://www.citizen.co.za/news/jacob-zuma-discharged-from-hospital-after-treatment/",
-      "source": "The Citizen",
-      "published": "2026-10-13T08:37:28.000Z",
-      "parties": [
-        "mkp"
       ],
       "accountability": false
     },
