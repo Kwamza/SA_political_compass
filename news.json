@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T09:55:01.769Z",
+  "updated": "2026-10-27T09:41:19.845Z",
   "window_days": 30,
   "feeds": [
     {
@@ -53,6 +53,67 @@
     }
   ],
   "items": [
+    {
+      "title": "ANC warns of fake R300 giveaway scam ahead of 2026 elections",
+      "link": "https://iol.co.za/news/politics/2026-10-27-anc-warns-of-fake-r300-giveaway-scam-ahead-of-2026-elections/",
+      "source": "IOL",
+      "published": "2026-10-27T09:00:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "ANC Veterans League: Don’t vote ANC because of its struggle legacy",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/anc-veterans-league-dont-vote-anc-because-of-its-struggle-legacy/",
+      "source": "The Citizen",
+      "published": "2026-10-27T08:16:15.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC fights to protect IEC funds from R40 million debt claim",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/anc-fights-to-protect-iec-funds-from-r40-million-debt-claim/",
+      "source": "The Citizen",
+      "published": "2026-10-27T06:40:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "‘Deadbeat’ ANC must pay R40m debt before getting IEC funds",
+      "link": "https://www.citizen.co.za/news/opinion/deadbeat-anc-must-pay-r40m-debt-before-getting-iec-funds/",
+      "source": "The Citizen",
+      "published": "2026-10-27T04:00:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "LOCAL ELECTIONS 2026: Four eThekwini polls show MK’s possible paths to power",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-26-four-ethekwini-polls-show-mks-possible-paths-to-power/",
+      "source": "Daily Maverick",
+      "published": "2026-10-26T21:57:42.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "In case you missed it: EFF denies UJ protest links | Distraught family loyal to ANC | Eugene de Kock at Khampepe commission",
+      "link": "https://www.citizen.co.za/news/in-case-you-missed-it-26-october-2026/",
+      "source": "The Citizen",
+      "published": "2026-10-26T18:00:00.000Z",
+      "parties": [
+        "anc",
+        "eff"
+      ],
+      "accountability": true
+    },
     {
       "title": "Ramaphosa takes credit for Madlanga Commission, says ANC did not betray SA",
       "link": "https://www.citizen.co.za/news/south-africa/elections/ramaphosa-takes-credit-for-madlanga-comission-heres-what-he-wants-to-tackle-next/",
@@ -817,26 +878,6 @@
       "accountability": true
     },
     {
-      "title": "LOCAL ELECTIONS 2026: Defiant Andile Lungisa claims Nelson Mandela Bay mayoral crown despite ANC appeal plans",
-      "link": "https://www.dailymaverick.co.za/article/2026-10-21-andile-lungisa-claims-nelson-mandela-bay-mayoral-spot-despite-anc-appeal-plans/",
-      "source": "Daily Maverick",
-      "published": "2026-10-21T05:30:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "Zille warns Joburg voters: Split opposition vote could keep ANC in power [WATCH]",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/zille-warns-joburg-voters-split-opposition-vote-could-keep-anc-in-power/",
-      "source": "The Citizen",
-      "published": "2026-10-21T04:50:41.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "FF+ calls for DA strategist’s head in ‘fight for votes’",
       "link": "https://www.citizen.co.za/news/ff-calls-for-da-strategists-head-in-fight-for-votes/",
       "source": "The Citizen",
@@ -859,16 +900,6 @@
       "accountability": false
     },
     {
-      "title": "No excuses — Mantashe must apologise for crude, politically sexist remarks on sexual exploitation",
-      "link": "https://www.dailymaverick.co.za/opinionista/2026-10-20-no-excuses-mantashe-must-apologise-for-crude-politically-sexist-remarks-on-sexual-exploitation/",
-      "source": "Daily Maverick",
-      "published": "2026-10-20T22:28:31.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "LOCAL ELECTIONS 2026: Four national polls show ANC decline, DA growth and MK drift",
       "link": "https://www.dailymaverick.co.za/article/2026-10-20-four-national-polls-show-anc-decline-da-growth-and-mk-drift/",
       "source": "Daily Maverick",
@@ -886,16 +917,6 @@
       "published": "2026-10-20T21:02:59.000Z",
       "parties": [
         "mkp"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "TRC Roulette : Mbeki’s Radio Freedom broadcast on eve of Cradock Four funeral played at Khampepe inquiry",
-      "link": "https://www.dailymaverick.co.za/article/2026-10-20-mbekis-radio-freedom-broadcast-on-eve-of-cradock-four-funeral-played-at-khampepe-inquiry/",
-      "source": "Daily Maverick",
-      "published": "2026-10-20T21:02:29.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": true
     },
@@ -1474,16 +1495,6 @@
         "mkp"
       ],
       "accountability": true
-    },
-    {
-      "title": "MK party scraps rally ahead of elections as Zuma health concerns grow",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/mk-party-scraps-rally-ahead-of-elections-as-zuma-health-concerns-grow/",
-      "source": "The Citizen",
-      "published": "2026-10-14T04:08:42.000Z",
-      "parties": [
-        "mkp"
-      ],
-      "accountability": false
     },
     {
       "title": "Gauteng traffic chief Samuel Mashaba dies amid suspension linked to cocaine bust allegations",
