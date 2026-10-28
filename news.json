@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T09:41:19.845Z",
+  "updated": "2026-10-28T10:25:41.149Z",
   "window_days": 30,
   "feeds": [
     {
@@ -7,7 +7,7 @@
       "homepage": "https://www.dailymaverick.co.za",
       "url": "https://www.dailymaverick.co.za/dmrss/",
       "ok": true,
-      "items": 53
+      "items": 51
     },
     {
       "source": "News24",
@@ -54,6 +54,158 @@
   ],
   "items": [
     {
+      "title": "Maimane: State capture never ended; it just moved to municipalities [PODCAST]",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/maimane-state-capture-never-ended-it-just-moved-to-municipalities-podcast/",
+      "source": "The Citizen",
+      "published": "2026-10-28T10:19:50.000Z",
+      "parties": [
+        "bosa"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "‘If we don’t adapt, we’ll die’: Maropene Ramokgopa says ANC should start behaving like a political party",
+      "link": "https://www.citizen.co.za/news/south-africa/politics/maropene-ramokgopa-says-anc-should-start-behaving-like-political-party/",
+      "source": "The Citizen",
+      "published": "2026-10-28T10:10:59.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "SAPS denies negligence claims after Lavender Hill shooting",
+      "link": "https://iol.co.za/capeargus/news/2026-10-28-saps-denies-negligence-claims-after-lavender-hill-shooting/",
+      "source": "IOL",
+      "published": "2026-10-28T10:00:00.000Z",
+      "parties": [
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Ramaphosa in KZN: ANC intensifies election campaign in crucial eThekwini battleground",
+      "link": "https://iol.co.za/news/south-africa/2026-10-28-ramaphosa-in-kzn-anc-intensifies-election-campaign-in-crucial-ethekwini-battleground/",
+      "source": "IOL",
+      "published": "2026-10-28T09:43:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Gayton McKenzie defends Joshlin Smith search role, says he has given police new information",
+      "link": "https://iol.co.za/the-star/news/2026-10-28-gayton-mckenzie-defends-joshlin-smith-search-role-says-he-has-given-police-new-information/",
+      "source": "IOL",
+      "published": "2026-10-28T09:00:00.000Z",
+      "parties": [
+        "pa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "MK party faces battle for outright majority in eThekwini",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/mk-party-faces-battle-for-outright-majority-in-ethekwini/",
+      "source": "The Citizen",
+      "published": "2026-10-28T05:20:00.000Z",
+      "parties": [
+        "anc",
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Andile Lungisa’s mayoral bid goes to DA wards, coloured areas to undo ‘2016 collapse’",
+      "link": "https://www.news24.com/politics/andile-lungisas-mayoral-bid-goes-to-da-wards-coloured-areas-to-undo-2016-collapse-20261027-1228",
+      "source": "News24",
+      "published": "2026-10-28T04:22:49.000Z",
+      "parties": [
+        "anc",
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Mashaba plans to fight crime and corruption in Joburg return",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/mashaba-plans-to-fight-crime-and-corruption-in-joburg-return/",
+      "source": "The Citizen",
+      "published": "2026-10-28T04:20:00.000Z",
+      "parties": [
+        "actionsa"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "The Queue | Nasiphi Moya defends her record as Tshwane mayor",
+      "link": "https://www.news24.com/politics/elections/the-queue-nasiphi-moya-defends-her-record-as-tshwane-mayor-20261027-1150",
+      "source": "News24",
+      "published": "2026-10-28T03:40:55.000Z",
+      "parties": [
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Ramaphosa heads to KZN for ANC’s final push ahead of elections",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/ramaphosa-heads-kzn-ancs-final-election-push-local-polls-loom/",
+      "source": "The Citizen",
+      "published": "2026-10-28T02:56:48.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "LOCAL ELECTIONS 2026: Hill-Lewis warns small parties could force a coalition government in Cape Town",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-27-hill-lewis-warns-small-parties-could-force-a-coalition-government-in-cape-town/",
+      "source": "Daily Maverick",
+      "published": "2026-10-27T21:04:21.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘Mama Africa called me back’: White EFF candidate takes on racial hatred, cost of living",
+      "link": "https://www.news24.com/politics/mama-africa-called-me-back-white-eff-candidate-takes-on-racial-hatred-cost-of-living-20261026-1179",
+      "source": "News24",
+      "published": "2026-10-27T18:45:43.000Z",
+      "parties": [
+        "eff"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA councillor shot dead in the Free State",
+      "link": "https://www.news24.com/politics/da-councillor-shot-dead-in-the-free-state-20261027-0684",
+      "source": "News24",
+      "published": "2026-10-27T16:11:42.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Here’s how many spoilt ballots were previously cast and how they could have mattered",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/how-many-spoilt-ballots-cast-how-they-could-have-mattered/",
+      "source": "The Citizen",
+      "published": "2026-10-27T13:20:18.000Z",
+      "parties": [
+        "ifp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Hill-Lewis urges Capetonians to avoid ‘coalition chaos’",
+      "link": "https://www.news24.com/politics/hill-lewis-urges-capetonians-to-avoid-coalition-chaos-20261027-0788",
+      "source": "News24",
+      "published": "2026-10-27T13:09:14.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
       "title": "ANC warns of fake R300 giveaway scam ahead of 2026 elections",
       "link": "https://iol.co.za/news/politics/2026-10-27-anc-warns-of-fake-r300-giveaway-scam-ahead-of-2026-elections/",
       "source": "IOL",
@@ -74,6 +226,16 @@
       "accountability": false
     },
     {
+      "title": "ANC withholds 14 councillors’ pay in Eastern Cape amid SACP defection claims",
+      "link": "https://www.news24.com/politics/anc-withholds-14-councillors-pay-in-eastern-cape-amid-sacp-defection-claims-20261027-0424",
+      "source": "News24",
+      "published": "2026-10-27T07:04:42.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
       "title": "ANC fights to protect IEC funds from R40 million debt claim",
       "link": "https://www.citizen.co.za/news/south-africa/elections/anc-fights-to-protect-iec-funds-from-r40-million-debt-claim/",
       "source": "The Citizen",
@@ -82,6 +244,26 @@
         "anc"
       ],
       "accountability": true
+    },
+    {
+      "title": "DA candidate’s safe house hit by petrol bombs after home attack",
+      "link": "https://www.news24.com/southafrica/news/petrol-bombed-twice-but-nothing-will-stop-auntie-yola-fighting-for-joburgs-ward-58-20261026-1070",
+      "source": "News24",
+      "published": "2026-10-27T04:45:52.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Home hit with 4 petrol bombs, but DA’s Koesister Queen won’t back down",
+      "link": "https://www.news24.com/southafrica/news/home-hit-with-4-petrol-bombs-but-das-koeksister-queen-wont-back-down-20261026-1204",
+      "source": "News24",
+      "published": "2026-10-27T04:25:27.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
     },
     {
       "title": "‘Deadbeat’ ANC must pay R40m debt before getting IEC funds",
@@ -104,6 +286,26 @@
       "accountability": false
     },
     {
+      "title": "Mbalula warns ANC supporters voter apathy can destroy party, ordinary citizens’ future",
+      "link": "https://www.news24.com/politics/mbalula-warns-anc-supporters-voter-apathy-can-destroy-party-ordinary-citizens-future-20261026-1143",
+      "source": "News24",
+      "published": "2026-10-26T19:05:05.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "High Court fight between ‘bogus doctor’, DA delayed as election deadline looms",
+      "link": "https://www.news24.com/southafrica/crime-and-courts/high-court-fight-between-bogus-doctor-da-delayed-as-election-deadline-looms-20261026-1130",
+      "source": "News24",
+      "published": "2026-10-26T18:52:31.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": true
+    },
+    {
       "title": "In case you missed it: EFF denies UJ protest links | Distraught family loyal to ANC | Eugene de Kock at Khampepe commission",
       "link": "https://www.citizen.co.za/news/in-case-you-missed-it-26-october-2026/",
       "source": "The Citizen",
@@ -113,6 +315,16 @@
         "eff"
       ],
       "accountability": true
+    },
+    {
+      "title": "Ramaphosa spared true horrors on Mamelodi visit",
+      "link": "https://www.news24.com/politics/ramaphosa-spared-true-horrors-on-mamelodi-visit-20261026-1076",
+      "source": "News24",
+      "published": "2026-10-26T17:57:32.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
     },
     {
       "title": "Ramaphosa takes credit for Madlanga Commission, says ANC did not betray SA",
@@ -734,26 +946,6 @@
       "accountability": true
     },
     {
-      "title": "‘I don’t know what I must apologise for’: Gwede Mantashe on ‘sex-for-jobs’ remarks",
-      "link": "https://www.citizen.co.za/news/i-dont-know-what-i-must-apologise-for-gwede-mantashe-on-sex-for-jobs-remarks/",
-      "source": "The Citizen",
-      "published": "2026-10-21T15:47:31.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Khalipha’s last stand: Convicted Free State mayor fights to keep career alive",
-      "link": "https://www.news24.com/politics/khaliphas-last-stand-convicted-free-state-mayor-fights-to-keep-career-alive-20261021-0849",
-      "source": "News24",
-      "published": "2026-10-21T14:10:24.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
       "title": "Tshwane water crisis: EFF asks Public Protector to probe chlorine failure that left hundreds ill",
       "link": "https://www.citizen.co.za/news/tshwane-water-crisis-eff-asks-public-protector-to-probe-chlorine-failure-that-left-hundreds-ill/",
       "source": "The Citizen",
@@ -787,32 +979,12 @@
       "accountability": false
     },
     {
-      "title": "Gabuza loses second bid to challenge ANC Ward 98 candidate",
-      "link": "https://iol.co.za/capeargus/news/2026-10-21-gabuza-loses-second-bid-to-challenge-anc-ward-98-candidate/",
-      "source": "IOL",
-      "published": "2026-10-21T09:00:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
       "title": "Reintroducing fuel levy relief ‘will come at a cost’ for Treasury",
       "link": "https://www.citizen.co.za/business/reintroducing-fuel-levy-relief-will-come-at-a-cost-for-treasury/",
       "source": "The Citizen",
       "published": "2026-10-21T08:58:06.000Z",
       "parties": [
         "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Morero vows to continue ANC’s Johannesburg recovery plan if re-elected",
-      "link": "https://iol.co.za/the-star/city-watch/2026-10-21-morero-vows-to-continue-ancs-johannesburg-recovery-plan-if-re-elected/",
-      "source": "IOL",
-      "published": "2026-10-21T08:30:00.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": false
     },
@@ -837,16 +1009,6 @@
       "accountability": true
     },
     {
-      "title": "The ANC will raise your child for you: Ramaphosa speaks about his party’s successes",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/the-anc-will-raise-your-child-for-you-ramaphosa-speaks-about-his-partys-successes/",
-      "source": "The Citizen",
-      "published": "2026-10-21T07:39:26.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "MK party swings axe again, names new parliamentary whips",
       "link": "https://www.citizen.co.za/news/mk-party-swings-axe-again-zumas-official-opposition-unveils-new-parliament-whips/",
       "source": "The Citizen",
@@ -864,16 +1026,6 @@
       "parties": [
         "da",
         "eff"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "ConCourt win won’t save the ANC",
-      "link": "https://www.citizen.co.za/news/opinion/concourt-win-wont-save-the-anc/",
-      "source": "The Citizen",
-      "published": "2026-10-21T06:00:00.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": true
     },
@@ -1171,16 +1323,6 @@
       "accountability": false
     },
     {
-      "title": "DA candidate teaching men to ‘be better’ seen on video beating his ex-wife",
-      "link": "https://www.news24.com/southafrica/news/da-candidate-teaching-men-to-be-better-seen-on-video-beating-his-ex-wife-20261017-0943",
-      "source": "News24",
-      "published": "2026-10-18T05:39:31.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": false
-    },
-    {
       "title": "UPDATE | Jacob Zuma discharged from KZN hospital",
       "link": "https://www.news24.com/politics/jacob-zuma-discharged-from-kzn-hospital-20261017-1030",
       "source": "News24",
@@ -1253,42 +1395,12 @@
       "accountability": false
     },
     {
-      "title": "Helen Zille spins BMW ‘gusheshe’ in latest campaign stunt",
-      "link": "https://www.news24.com/southafrica/news/helen-zille-spins-bmw-gusheshe-in-latest-campaign-stunt-20261016-1010",
-      "source": "News24",
-      "published": "2026-10-16T16:51:45.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": false
-    },
-    {
       "title": "OUR CITY NEWS: Herman Mashaba targets illegal immigration in bid for Joburg mayoralty",
       "link": "https://www.dailymaverick.co.za/article/2026-10-16-herman-mashaba-targets-illegal-immigration-in-bid-for-joburg-mayoralty/",
       "source": "Daily Maverick",
       "published": "2026-10-16T16:30:00.000Z",
       "parties": [
         "actionsa"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "City scratches its head over 160 sick in Tshwane",
-      "link": "https://www.citizen.co.za/news/city-scratches-its-head-over-160-sick-in-tshwane/",
-      "source": "The Citizen",
-      "published": "2026-10-16T13:16:40.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "WATCH: Poop goes punk over Ekurhuleni sewage crisis",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/east-rand-poop-goes-punk/",
-      "source": "The Citizen",
-      "published": "2026-10-16T11:52:18.000Z",
-      "parties": [
-        "da"
       ],
       "accountability": false
     },
@@ -1323,16 +1435,6 @@
         "mkp"
       ],
       "accountability": true
-    },
-    {
-      "title": "WATCH: Helen Zille features in spinning stunt for Joburg mayoral campaign",
-      "link": "https://iol.co.za/sunday-tribune/news/2026-10-16-watch-helen-zille-features-in-spinning-stunt-for-joburg-mayoral-campaign/",
-      "source": "IOL",
-      "published": "2026-10-16T07:38:00.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": false
     },
     {
       "title": "ANCYL’s Malatji tells Ramaphosa to remove DA ministers, says EFF must ‘warm up and behave’",
@@ -1483,16 +1585,6 @@
         "mkp",
         "actionsa",
         "good"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "Zuma fails to challenge ruling that forces him to face trial in 2027, drops all appeals",
-      "link": "https://www.news24.com/southafrica/crime-and-courts/zuma-fails-to-challenge-ruling-that-forces-him-to-face-trial-in-2027-drops-all-appeals-20261013-1237",
-      "source": "News24",
-      "published": "2026-10-14T04:35:22.000Z",
-      "parties": [
-        "mkp"
       ],
       "accountability": true
     },
