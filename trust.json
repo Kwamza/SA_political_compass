@@ -3,7 +3,7 @@
   "about": "Manifestos are promises. This rating looks at what parties have actually done: how well the councils they run are managed, and what courts, watchdogs and investigators have found about the party and its senior figures. Every number below links back to a public source.",
   "scoring": {
     "start": 3,
-    "min": 1,
+    "min": 0,
     "max": 5,
     "governance": {
       "min_councils": 3,

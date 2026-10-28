@@ -2830,7 +2830,7 @@ function renderTrustParty(partyId) {
   govDesc += `<div style="margin-top:6px;">${esc(sc.governance.explain)} Sources: <a href="${esc(safeUrl(g.audit_source.url))}" target="_blank" rel="noopener" style="color:var(--green)">${esc(g.audit_source.label)} ↗</a>, <a href="${esc(safeUrl(g.control_source.url))}" target="_blank" rel="noopener" style="color:var(--green)">${esc(g.control_source.label)} ↗</a>. ${esc(g.note)}</div>`;
 
   const ptsClass = n => (Math.abs(n) < 0.005 ? 'zero' : n > 0 ? 'pos' : 'neg');
-  const floorNote = t.raw < sc.min ? ` The calculation comes to ${fmt1(t.raw)}, but the lowest possible rating is ${sc.min} star.` : '';
+  const floorNote = t.raw < sc.min ? ` The calculation comes to ${fmt1(t.raw)}, but the lowest possible rating is ${sc.min} star${sc.min === 1 ? '' : 's'}.` : '';
   document.getElementById('tp-calc').innerHTML = `
     <div class="calc-row">
       <div><div class="calc-title">Starting point</div><div class="calc-desc">Every party starts in the middle. A manifesto alone doesn't earn or lose trust.</div></div>
