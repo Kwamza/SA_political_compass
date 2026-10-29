@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T10:25:41.149Z",
+  "updated": "2026-10-29T10:46:33.688Z",
   "window_days": 30,
   "feeds": [
     {
@@ -7,7 +7,7 @@
       "homepage": "https://www.dailymaverick.co.za",
       "url": "https://www.dailymaverick.co.za/dmrss/",
       "ok": true,
-      "items": 51
+      "items": 50
     },
     {
       "source": "News24",
@@ -53,6 +53,88 @@
     }
   ],
   "items": [
+    {
+      "title": "'Steenhuisen was a tougher opponent': Hill-Lewis and McKenzie in war of words",
+      "link": "https://iol.co.za/capeargus/news/2026-10-29-steenhuisen-was-a-tougher-opponent-hill-lewis-and-mckenzie-in-war-of-words/",
+      "source": "IOL",
+      "published": "2026-10-29T10:00:00.000Z",
+      "parties": [
+        "da",
+        "pa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Ramaphosa not worried about ANC election collapse predictions",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/ramaphosa-not-worried-about-anc-election-collapse-predictions/",
+      "source": "The Citizen",
+      "published": "2026-10-29T09:15:55.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC must listen to critics like Mbeki and Motlanthe",
+      "link": "https://www.citizen.co.za/news/opinion/anc-must-listen-to-critics-like-mbeki-and-motlanthe/",
+      "source": "The Citizen",
+      "published": "2026-10-29T06:00:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC denies owing Eltel R36m over 2019 election campaign",
+      "link": "https://www.citizen.co.za/news/south-africa/courts/anc-denies-owing-eltel-r36m-over-2019-election-campaign/",
+      "source": "The Citizen",
+      "published": "2026-10-29T04:40:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Painting the city red: EFF’s Tlaleng Mofokeng wants to put Joburg under the scalpel",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/effs-tlaleng-mofokeng-wants-to-put-joburg-under-the-scalpel/",
+      "source": "The Citizen",
+      "published": "2026-10-29T03:40:00.000Z",
+      "parties": [
+        "eff"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "PROJECT MAYIBUYE: SSA operation targeting EFF lacked national security basis, court told",
+      "link": "https://www.dailymaverick.co.za/article/2026-10-28-ssa-operation-targeting-eff-lacked-national-security-basis-court-told/",
+      "source": "Daily Maverick",
+      "published": "2026-10-28T23:44:00.000Z",
+      "parties": [
+        "eff"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Watch — Frank Chikane, DA polls and the ANC’s retreat from the cities",
+      "link": "https://www.dailymaverick.co.za/video/2026-10-28-watch-frank-chikane-da-polls-and-the-ancs-retreat-from-the-cities/",
+      "source": "Daily Maverick",
+      "published": "2026-10-28T22:49:04.000Z",
+      "parties": [
+        "anc",
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "In case you missed it: Carrim granted bail | Father’s pension fund blocked over maintenance case | ANC must ‘adapt or die’",
+      "link": "https://www.citizen.co.za/news/in-case-you-missed-it-28-october-2026/",
+      "source": "The Citizen",
+      "published": "2026-10-28T18:00:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
     {
       "title": "Maimane: State capture never ended; it just moved to municipalities [PODCAST]",
       "link": "https://www.citizen.co.za/news/south-africa/elections/maimane-state-capture-never-ended-it-just-moved-to-municipalities-podcast/",
@@ -166,16 +248,6 @@
       "accountability": false
     },
     {
-      "title": "‘Mama Africa called me back’: White EFF candidate takes on racial hatred, cost of living",
-      "link": "https://www.news24.com/politics/mama-africa-called-me-back-white-eff-candidate-takes-on-racial-hatred-cost-of-living-20261026-1179",
-      "source": "News24",
-      "published": "2026-10-27T18:45:43.000Z",
-      "parties": [
-        "eff"
-      ],
-      "accountability": false
-    },
-    {
       "title": "DA councillor shot dead in the Free State",
       "link": "https://www.news24.com/politics/da-councillor-shot-dead-in-the-free-state-20261027-0684",
       "source": "News24",
@@ -272,6 +344,16 @@
       "published": "2026-10-27T04:00:00.000Z",
       "parties": [
         "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘Mama Africa called me back’: White EFF candidate takes on racial hatred, cost of living",
+      "link": "https://www.news24.com/politics/mama-africa-called-me-back-white-eff-candidate-takes-on-racial-hatred-cost-of-living-20261026-1179",
+      "source": "News24",
+      "published": "2026-10-27T03:16:47.000Z",
+      "parties": [
+        "eff"
       ],
       "accountability": false
     },
@@ -845,36 +927,6 @@
       "accountability": true
     },
     {
-      "title": "ANC officials to decide Joburg mayoral candidate, not region – Mbalula",
-      "link": "https://www.news24.com/politics/anc-officials-to-decide-joburg-mayoral-candidate-not-region-mbalula-20261021-1140",
-      "source": "News24",
-      "published": "2026-10-22T14:09:22.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "POLL PERIL: ANC campaigner suffers electric shock and broken leg during poster drive",
-      "link": "https://www.dailymaverick.co.za/article/2026-10-22-anc-campaigner-suffers-electric-shock-and-broken-leg-during-poster-drive/",
-      "source": "Daily Maverick",
-      "published": "2026-10-22T11:39:58.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "ANC Women’s League says Mantashe’s ‘uncouth behaviour’ is unbecoming, and he must apologise",
-      "link": "https://www.news24.com/politics/anc-womens-league-says-mantashes-uncouth-behaviour-is-unbecoming-and-he-must-apologise-20261022-0645",
-      "source": "News24",
-      "published": "2026-10-22T11:04:25.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "DA blasted over ‘militarisation’ approach to crime fighting on Cape Flats",
       "link": "https://iol.co.za/lge2026/2026-10-22-da-blasted-over-militarisation-approach-to-crime-fighting-on-cape-flats/",
       "source": "IOL",
@@ -883,26 +935,6 @@
         "da"
       ],
       "accountability": true
-    },
-    {
-      "title": "ANC at war with itself: Mbalula refuses to tell Joburg who the party plans to put forward as mayor",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/anc-at-war-with-itself-mbalula-refuses-to-tell-joburg-who-the-party-plans-to-put-forward-as-mayor/",
-      "source": "The Citizen",
-      "published": "2026-10-22T08:32:51.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Mbalula says Mantashe has apologised over sex-for-jobs remarks",
-      "link": "https://iol.co.za/news/politics/2026-10-22-mbalula-says-mantashe-has-apologised-over-sex-for-jobs-remarks/",
-      "source": "IOL",
-      "published": "2026-10-22T08:23:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
     },
     {
       "title": "UNREAD | Fuel relief and other budget takeaways, Sibiya’s bail bid, and Tshwane’s water woes",
@@ -1252,16 +1284,6 @@
       "accountability": true
     },
     {
-      "title": "DA calls on Masemola to introduce lifestyle audits for senior cops",
-      "link": "https://www.sabcnews.com/sabcnews/da-calls-on-masemola-to-introduce-lifestyle-audits-for-senior-cops/",
-      "source": "SABC News",
-      "published": "2026-10-18T08:33:12.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": false
-    },
-    {
       "title": "MK Party takes campaign to ward where two ANC members died",
       "link": "https://www.sabcnews.com/sabcnews/mk-party-takes-campaign-to-ward-where-two-anc-members-died/",
       "source": "SABC News",
@@ -1271,16 +1293,6 @@
         "mkp"
       ],
       "accountability": false
-    },
-    {
-      "title": "R1.27m monthly security bill for non-operational pools sparks corruption probe by DA",
-      "link": "https://www.news24.com/politics/r127m-monthly-security-bill-for-non-operational-pools-sparks-corruption-probe-by-da-20261018-0494",
-      "source": "News24",
-      "published": "2026-10-18T08:14:45.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": true
     },
     {
       "title": "Four VF Plus women candidates target service delivery in eThekwini wards",
@@ -1936,16 +1948,6 @@
         "da",
         "eff",
         "mkp"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "Significant, but delayed: 5 years later, Malema finally apologises to Judge Elias Matojane",
-      "link": "https://www.news24.com/politics/significant-but-delayed-5-years-later-malema-finally-apologises-to-judge-elias-matojane-20260930-0891",
-      "source": "News24",
-      "published": "2026-09-30T12:52:57.000Z",
-      "parties": [
-        "eff"
       ],
       "accountability": true
     },
