@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T10:15:02.314Z",
+  "updated": "2026-11-01T11:07:32.047Z",
   "window_days": 30,
   "feeds": [
     {
@@ -53,6 +53,78 @@
     }
   ],
   "items": [
+    {
+      "title": "IFP remains confident ahead of election day",
+      "link": "https://www.sabcnews.com/sabcnews/ifp-remains-confident-ahead-of-election-day/",
+      "source": "SABC News",
+      "published": "2026-11-01T10:17:45.000Z",
+      "parties": [
+        "ifp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "LOCAL ELECTIONS 2026: Ten critical questions as South Africa heads into high-stakes poll",
+      "link": "https://www.dailymaverick.co.za/article/2026-11-01-ten-critical-questions-as-south-africa-heads-into-high-stakes-poll/",
+      "source": "Daily Maverick",
+      "published": "2026-11-01T09:46:28.000Z",
+      "parties": [
+        "anc",
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ActionSA targets municipal failures in KZN",
+      "link": "https://iol.co.za/sunday-tribune/opinion/2026-11-01-actionsa-targets-municipal-failures-in-kzn/",
+      "source": "IOL",
+      "published": "2026-11-01T09:11:00.000Z",
+      "parties": [
+        "actionsa"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "LIVE | uMkhonto weSizwe Party’s final “Sithatha Omaspala” Rally",
+      "link": "https://www.sabcnews.com/sabcnews/live-umkhonto-wesizwe-partys-final-sithatha-omaspala-rally/",
+      "source": "SABC News",
+      "published": "2026-11-01T08:06:31.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "LIVE | IFP’s holds final “Siyanqoba” Rally",
+      "link": "https://www.sabcnews.com/sabcnews/live-ifps-holds-final-siyanqoba-rally/",
+      "source": "SABC News",
+      "published": "2026-11-01T08:04:43.000Z",
+      "parties": [
+        "ifp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "LIVE | African National Congress’ final “Siyanqoba” Rally",
+      "link": "https://www.sabcnews.com/sabcnews/live-african-national-congress-final-siyanqoba-rally/",
+      "source": "SABC News",
+      "published": "2026-11-01T08:03:10.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Zuma to make first public appearance since hospital discharge",
+      "link": "https://iol.co.za/sunday-tribune/news/2026-11-01-zuma-to-make-first-public-appearance-since-hospital-discharge/",
+      "source": "IOL",
+      "published": "2026-11-01T08:00:00.000Z",
+      "parties": [
+        "eff",
+        "mkp"
+      ],
+      "accountability": false
+    },
     {
       "title": "EFF leaders divided on party’s stance on immigration: Analyst",
       "link": "https://www.sabcnews.com/sabcnews/eff-leaders-divided-on-partys-stance-on-immigration-analyst/",
@@ -164,6 +236,36 @@
       "accountability": false
     },
     {
+      "title": "Tale of two Nelson Mandela Bay metro bosses: One got 10-year ban, other was suspended",
+      "link": "https://www.news24.com/politics/tale-of-nelson-mandela-bays-2-metro-bosses-one-got-10-year-ban-other-was-suspended-20261030-1281",
+      "source": "News24",
+      "published": "2026-10-31T05:28:32.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘I was somewhere’: Zuma doesn’t address health in video but vows MKP is ready ‘to take over’",
+      "link": "https://www.news24.com/politics/i-was-somewhere-zuma-doesnt-address-health-in-video-but-vows-mkp-is-ready-to-take-over-20261030-1230",
+      "source": "News24",
+      "published": "2026-10-30T20:38:38.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "WRAP | Jacob Zuma ‘addresses the nation’",
+      "link": "https://www.news24.com/politics/live-chaos-in-durban-after-protest-court-ruling-zuma-addresses-nation-20261030-1096",
+      "source": "News24",
+      "published": "2026-10-30T19:06:07.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
       "title": "In case you missed it: Johnson and Khan granted bail | More charges against Carrim | Nomvalo breaks silence on MK party sacking",
       "link": "https://www.citizen.co.za/news/in-case-you-missed-it-30-october-2026/",
       "source": "The Citizen",
@@ -174,12 +276,53 @@
       "accountability": true
     },
     {
+      "title": "Race politics is dead. Taps are dry. And the DA wants Ekurhuleni to notice",
+      "link": "https://www.news24.com/politics/race-politics-is-dead-taps-are-dry-and-the-da-wants-ekurhuleni-to-notice-20261030-1026",
+      "source": "News24",
+      "published": "2026-10-30T17:06:47.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Electoral Court throws out DA bid to block single-name party lists",
+      "link": "https://www.news24.com/politics/electoral-court-throws-out-da-bid-to-block-single-name-party-lists-20261030-0880",
+      "source": "News24",
+      "published": "2026-10-30T14:40:57.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "FF Plus places candidate on suspension after allegedly removing ANC posters",
+      "link": "https://www.news24.com/politics/ff-plus-places-candidate-on-suspension-after-allegedly-removing-anc-posters-20261030-0775",
+      "source": "News24",
+      "published": "2026-10-30T12:56:57.000Z",
+      "parties": [
+        "anc",
+        "ffplus"
+      ],
+      "accountability": false
+    },
+    {
       "title": "PODCAST: DA banking on voter turnout to secure stronger position in local elections",
       "link": "https://www.citizen.co.za/news/south-africa/elections/podcast-da-banking-on-voter-turnout-to-secure-stronger-position-in-local-elections/",
       "source": "The Citizen",
       "published": "2026-10-30T12:26:26.000Z",
       "parties": [
         "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘I’ll never be destroyed by drunkards and womanisers,’ says tearful Nomvalo on MKP axing",
+      "link": "https://www.news24.com/politics/ill-never-be-destroyed-by-drunkards-and-womanisers-says-tearful-nomvalo-on-mkp-axing-20261030-0716",
+      "source": "News24",
+      "published": "2026-10-30T11:59:08.000Z",
+      "parties": [
+        "mkp"
       ],
       "accountability": false
     },
@@ -222,6 +365,16 @@
         "anc",
         "da",
         "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Spy boss Thulani Dlomo loses discharge bid in R12m SSA EFF infiltration plot case",
+      "link": "https://www.news24.com/investigations/spy-boss-thulani-dlomo-loses-discharge-bid-in-r12m-ssa-eff-infiltration-plot-case-20261030-0585",
+      "source": "News24",
+      "published": "2026-10-30T09:45:13.000Z",
+      "parties": [
+        "eff"
       ],
       "accountability": false
     },
@@ -948,16 +1101,6 @@
       "accountability": false
     },
     {
-      "title": "This is why South Africans should still trust the ANC, according to Ramaphosa",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/why-south-africans-should-still-trust-anc-according-ramaphosa/",
-      "source": "The Citizen",
-      "published": "2026-10-26T01:51:35.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "POLITICS & POLICING: From EFF’s Malema to ANC’s Carrim — the politics permeating SA’s cop collusion scandal",
       "link": "https://www.dailymaverick.co.za/article/2026-10-25-from-effs-malema-to-ancs-carrim-the-politics-permeating-sas-cop-collusion-scandal/",
       "source": "Daily Maverick",
@@ -1212,43 +1355,12 @@
       "accountability": false
     },
     {
-      "title": "DA blasted over ‘militarisation’ approach to crime fighting on Cape Flats",
-      "link": "https://iol.co.za/lge2026/2026-10-22-da-blasted-over-militarisation-approach-to-crime-fighting-on-cape-flats/",
-      "source": "IOL",
-      "published": "2026-10-22T09:00:00.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": true
-    },
-    {
       "title": "UNREAD | Fuel relief and other budget takeaways, Sibiya’s bail bid, and Tshwane’s water woes",
       "link": "https://www.news24.com/multimedia/unread-fuel-relief-and-other-budget-takeaways-sibiyas-bail-bid-and-tshwanes-water-woes-20261021-1213",
       "source": "News24",
       "published": "2026-10-22T04:26:43.000Z",
       "parties": [
         "pa"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Pretoria police battle poor conditions and lack of resources",
-      "link": "https://www.citizen.co.za/news/south-africa/pretoria-police-battle-poor-conditions-and-lack-of-resources/",
-      "source": "The Citizen",
-      "published": "2026-10-22T03:30:00.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Voters want solutions, not stunts and township culture symbols",
-      "link": "https://www.citizen.co.za/news/opinion/voters-want-solutions-not-stunts-and-township-culture-symbols/",
-      "source": "The Citizen",
-      "published": "2026-10-22T03:00:00.000Z",
-      "parties": [
-        "anc",
-        "da"
       ],
       "accountability": false
     },
@@ -1577,16 +1689,6 @@
       "accountability": false
     },
     {
-      "title": "‘If anything happens to my father’: Zuma-Sambudla vows to hold PPS head Rhoode accountable",
-      "link": "https://www.news24.com/politics/if-anything-happens-to-my-father-zuma-sambudla-vows-to-hold-pps-head-rhoode-accountable-20261016-1137",
-      "source": "News24",
-      "published": "2026-10-16T19:01:42.000Z",
-      "parties": [
-        "mkp"
-      ],
-      "accountability": false
-    },
-    {
       "title": "OUR CITY NEWS: Herman Mashaba targets illegal immigration in bid for Joburg mayoralty",
       "link": "https://www.dailymaverick.co.za/article/2026-10-16-herman-mashaba-targets-illegal-immigration-in-bid-for-joburg-mayoralty/",
       "source": "Daily Maverick",
@@ -1595,16 +1697,6 @@
         "actionsa"
       ],
       "accountability": false
-    },
-    {
-      "title": "Watch — Ngobese-Zuma’s March and March: Tenders, funding and MKP",
-      "link": "https://www.dailymaverick.co.za/video/2026-10-16-watch-ngobese-zumas-march-and-march-tenders-funding-and-mkp/",
-      "source": "Daily Maverick",
-      "published": "2026-10-16T11:00:00.000Z",
-      "parties": [
-        "mkp"
-      ],
-      "accountability": true
     },
     {
       "title": "ANCYL calls on Ramaphosa to punish DA and get EFF to join GNU",
@@ -1618,17 +1710,6 @@
       "accountability": false
     },
     {
-      "title": "ANC calls for arrests after two campaign volunteers killed in shooting",
-      "link": "https://iol.co.za/news/politics/2026-10-16-anc-calls-for-arrests-after-two-campaign-volunteers-killed-in-shooting/",
-      "source": "IOL",
-      "published": "2026-10-16T07:46:00.000Z",
-      "parties": [
-        "anc",
-        "mkp"
-      ],
-      "accountability": true
-    },
-    {
       "title": "ANCYL’s Malatji tells Ramaphosa to remove DA ministers, says EFF must ‘warm up and behave’",
       "link": "https://iol.co.za/news/politics/2026-10-16-ancyls-malatji-tells-ramaphosa-to-remove-da-ministers-says-eff-must-warm-up-and-behave/",
       "source": "IOL",
@@ -1636,27 +1717,6 @@
       "parties": [
         "da",
         "eff"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "MK party cries foul over ANC’s 181-candidate court victory, threatens legal action",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/mk-party-cries-foul-ancs-candidate-court-victory-threatens-legal-action/",
-      "source": "The Citizen",
-      "published": "2026-10-16T02:29:07.000Z",
-      "parties": [
-        "anc",
-        "mkp"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "‘No Zuma, no MKP’: Conflicting health reports expose a party fighting for survival",
-      "link": "https://www.news24.com/politics/no-zuma-no-mkp-conflicting-health-reports-expose-a-party-fighting-for-survival-20261015-0943",
-      "source": "News24",
-      "published": "2026-10-15T18:02:08.000Z",
-      "parties": [
-        "mkp"
       ],
       "accountability": false
     },
@@ -2001,26 +2061,6 @@
         "pa"
       ],
       "accountability": false
-    },
-    {
-      "title": "Malema calls for lower electricity prices in SA",
-      "link": "https://www.sabcnews.com/sabcnews/1165764-2/",
-      "source": "SABC News",
-      "published": "2026-10-03T19:02:39.000Z",
-      "parties": [
-        "eff"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "‘Government must be your sugar daddy’: Malema says social grants should be increased",
-      "link": "https://www.citizen.co.za/news/south-africa/politics/government-must-be-your-sugar-daddy-malema-says-social-grants-should-be-increased/",
-      "source": "The Citizen",
-      "published": "2026-10-03T17:09:04.000Z",
-      "parties": [
-        "eff"
-      ],
-      "accountability": true
     },
     {
       "title": "Rivals gun for DA over alleged ‘sextorter’, ‘bogus doctor’ on its candidate lists",
