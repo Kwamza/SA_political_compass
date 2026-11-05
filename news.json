@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T11:56:10.531Z",
+  "updated": "2026-11-05T11:58:55.977Z",
   "window_days": 30,
   "feeds": [
     {
@@ -7,7 +7,7 @@
       "homepage": "https://www.dailymaverick.co.za",
       "url": "https://www.dailymaverick.co.za/dmrss/",
       "ok": true,
-      "items": 52
+      "items": 51
     },
     {
       "source": "News24",
@@ -53,6 +53,303 @@
     }
   ],
   "items": [
+    {
+      "title": "LOCAL ELECTIONS 2026: ANC losing wall-to-wall support as ActionSA, DA show growth",
+      "link": "https://www.dailymaverick.co.za/article/2026-11-05-anc-losing-wall-to-wall-support-as-actionsa-da-show-growth/",
+      "source": "Daily Maverick",
+      "published": "2026-11-05T12:41:23.000Z",
+      "parties": [
+        "anc",
+        "da",
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "WATCH: MK Party claims strong early showing in Msunduzi and uMgungundlovu",
+      "link": "https://iol.co.za/lge2026/2026-11-05-mk-party-claims-strong-early-showing-in-msunduzi-and-umgungundlovu/",
+      "source": "IOL",
+      "published": "2026-11-05T11:50:22.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA regains Cape Town’s Ward 56 as Ashwin Jansen vows to do the work",
+      "link": "https://iol.co.za/lge2026/2026-11-05-da-regains-cape-towns-ward-56-as-ashwin-jansen-vows-to-do-the-work/",
+      "source": "IOL",
+      "published": "2026-11-05T11:50:00.000Z",
+      "parties": [
+        "da",
+        "pa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Family of murdered ANC member calls for arrests",
+      "link": "https://www.sabcnews.com/sabcnews/family-of-murdered-anc-member-calls-for-arrests/",
+      "source": "SABC News",
+      "published": "2026-11-05T11:43:16.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "IFP plays hardball ahead of coalition talks",
+      "link": "https://iol.co.za/lge2026/2026-11-05-ifp-plays-hardball-ahead-of-coalition-talks/",
+      "source": "IOL",
+      "published": "2026-11-05T11:22:00.000Z",
+      "parties": [
+        "ifp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "After 9% of voted counted, DA takes early lead in Johannesburg",
+      "link": "https://www.sabcnews.com/sabcnews/da-takes-early-lead-against-anc-in-johannesburg/",
+      "source": "SABC News",
+      "published": "2026-11-05T11:14:59.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Zwakele Mncwango thanks KZN voters after ActionSA’s eThekwini mayoral defeat",
+      "link": "https://iol.co.za/lge2026/2026-11-05-zwakele-mncwango-thanks-kzn-voters-after-actionsas-ethekwini-mayoral-defeat/",
+      "source": "IOL",
+      "published": "2026-11-05T10:56:46.000Z",
+      "parties": [
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘ONS HET HULLE GEMOER’ - DA declares victory in Cape Town elections",
+      "link": "https://iol.co.za/lge2026/2026-11-05-ons-het-hulle-gemoer-da-declares-victory-in-cape-town-elections/",
+      "source": "IOL",
+      "published": "2026-11-05T10:40:00.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA and Geordin Hill-Lewis declare victory in Cape Town with less than a quarter of votes counted",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/da-geordin-hill-lewis-declare-victory-cape-town-less-than-quarter-votes-counted/",
+      "source": "The Citizen",
+      "published": "2026-11-05T10:39:20.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Mantashe unfazed as rivals chip away at ANC support",
+      "link": "https://iol.co.za/lge2026/2026-11-05-mantashe-unfazed-as-rivals-chip-away-at-anc-support/",
+      "source": "IOL",
+      "published": "2026-11-05T10:29:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "EFF member killed outside voting station",
+      "link": "https://www.sabcnews.com/sabcnews/eff-member-killed-outside-voting-station/",
+      "source": "SABC News",
+      "published": "2026-11-05T10:09:33.000Z",
+      "parties": [
+        "eff"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA claims historic breakthrough as it projects surpassing EFF among black voters",
+      "link": "https://www.news24.com/politics/da-claims-historic-breakthrough-as-it-projects-surpassing-eff-among-black-voters-20261105-0507",
+      "source": "News24",
+      "published": "2026-11-05T09:24:13.000Z",
+      "parties": [
+        "da",
+        "eff"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA claims more than 1 million black South Africans voted for it, but analyst says ‘not so fast’",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/da-says-1-million-black-south-africans-voted-for-it-but-analyst-says-not-so-fast/",
+      "source": "The Citizen",
+      "published": "2026-11-05T09:17:19.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA claims historic black voter breakthrough as support tops one million",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/da-claims-historic-black-voter-breakthrough-as-support-tops-one-million/",
+      "source": "The Citizen",
+      "published": "2026-11-05T07:14:58.000Z",
+      "parties": [
+        "da",
+        "eff"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘God had another plan’: MK party’s Mchunu defends Zuma as election results trickle in",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/god-had-another-plan-mk-partys-mchunu-defends-zuma-as-election-results-trickle-in/",
+      "source": "The Citizen",
+      "published": "2026-11-05T06:16:18.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Battle for the Western Cape: DA warns of coalition chaos as rivals vie for votes",
+      "link": "https://www.news24.com/politics/battle-for-the-western-cape-da-warns-of-coalition-chaos-as-rivals-vie-for-votes-20261104-1364",
+      "source": "News24",
+      "published": "2026-11-05T05:58:37.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "EFF mayoral candidate faces electoral intimidation charges",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/eff-mayoral-candidate-faces-electoral-intimidation-charges/",
+      "source": "The Citizen",
+      "published": "2026-11-05T05:30:00.000Z",
+      "parties": [
+        "eff"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "The ANC’s problem isn’t communication — it’s contempt",
+      "link": "https://www.dailymaverick.co.za/opinionista/2026-11-05-the-ancs-problem-isnt-communication-its-contempt/",
+      "source": "Daily Maverick",
+      "published": "2026-11-05T05:09:27.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANALYSIS: ANC on the rack — coalition minefield could unleash biggest internal ructions yet",
+      "link": "https://www.dailymaverick.co.za/article/2026-11-05-anc-on-the-rack-coalition-minefield-could-unleash-biggest-internal-ructions-yet/",
+      "source": "Daily Maverick",
+      "published": "2026-11-05T05:00:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA eyes growth in Buffalo City, and no royal treatment for Mayor Faku",
+      "link": "https://www.news24.com/politics/elections/da-eyes-growth-in-buffalo-city-and-no-royal-treatment-for-mayor-faku-20261104-1316",
+      "source": "News24",
+      "published": "2026-11-05T04:41:02.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘It’s wonderful to be leading from the start’: DA celebrates as first election results trickle in",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/election-results-trickle-as-race-municipal-power-intensifies/",
+      "source": "The Citizen",
+      "published": "2026-11-05T04:13:45.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "LOCAL ELECTIONS 2026: DA aims for metro dominance — but what do voters think?",
+      "link": "https://www.dailymaverick.co.za/article/2026-11-04-da-aims-for-metro-dominance-but-what-do-voters-think/",
+      "source": "Daily Maverick",
+      "published": "2026-11-04T22:47:19.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Different political choices, one shared dream: eThekwini residents want a better SA (WATCH)",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/different-political-choices-one-shared-dream-ethekwini-residents-want-a-better-sa/",
+      "source": "The Citizen",
+      "published": "2026-11-04T20:20:21.000Z",
+      "parties": [
+        "anc",
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Brink warns Tshwane voters: Choose DA governance or coalition chaos",
+      "link": "https://www.news24.com/politics/elections/brink-warns-tshwane-voters-choose-da-governance-or-coalition-chaos-20261104-1032",
+      "source": "News24",
+      "published": "2026-11-04T17:13:09.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "[WATCH] Zandile Gumede: ANC in KZN is drinking its own medicine, claims MK Party is a ‘messiah’",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/zandile-gumede-anc-in-kzn-is-drinking-its-own-medicine-claims-mk-party-is-a-messiah/",
+      "source": "The Citizen",
+      "published": "2026-11-04T16:28:05.000Z",
+      "parties": [
+        "anc",
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "EFF banks on 40 wards to deliver Tshwane victory",
+      "link": "https://www.news24.com/politics/elections/eff-banks-on-40-wards-to-deliver-tshwane-victory-20261104-0983",
+      "source": "News24",
+      "published": "2026-11-04T16:24:30.000Z",
+      "parties": [
+        "eff"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Mantashe urges ANC to respect election results as coalition politics loom",
+      "link": "https://www.news24.com/politics/elections/mantashe-urges-anc-to-respect-election-results-as-coalition-politics-loom-20261104-0876",
+      "source": "News24",
+      "published": "2026-11-04T14:37:12.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Mbalula: ANC to announce mayoral candidates after election results as coalition talks remain on hold",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/mbalula-anc-mayoral-candidates-election-results/",
+      "source": "The Citizen",
+      "published": "2026-11-04T14:24:59.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC ward candidate can contest elections despite alleged Saps employment, Electoral Court rules",
+      "link": "https://www.citizen.co.za/news/south-africa/courts/anc-ward-candidate-saps-electoral-court/",
+      "source": "The Citizen",
+      "published": "2026-11-04T12:07:49.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
     {
       "title": "WATCH: DA eThekwini mayoral candidate Haniff Hoosen votes in Chatsworth",
       "link": "https://iol.co.za/lge2026/2026-11-04-watch-da-ethekwini-mayoral-candidate-haniff-hoosen-votes-in-chatsworth/",
@@ -814,16 +1111,6 @@
       "accountability": false
     },
     {
-      "title": "Ghost workers, racism and hate speech: The ANC’s Mangaung factional war",
-      "link": "https://www.news24.com/politics/ghost-workers-racism-and-hate-speech-the-ancs-mangaung-factional-war-20261031-0873",
-      "source": "News24",
-      "published": "2026-11-01T04:52:49.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "Geordin Hill-Lewis frames local elections as a ‘two-horse race’ in final push for DA dominance",
       "link": "https://www.news24.com/politics/geordin-hill-lewis-frames-local-elections-as-a-two-horse-race-in-final-push-for-da-dominance-20261031-0667",
       "source": "News24",
@@ -851,16 +1138,6 @@
       "published": "2026-10-31T09:40:58.000Z",
       "parties": [
         "eff"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "ANC Limpopo confident of retaining control of all municipalities",
-      "link": "https://www.sabcnews.com/sabcnews/anc-limpopo-confident-of-retaining-control-of-all-municipalities/",
-      "source": "SABC News",
-      "published": "2026-10-31T09:37:42.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": false
     },
@@ -935,26 +1212,6 @@
       "accountability": false
     },
     {
-      "title": "Will the ANC meet Ramaphosa’s 90% vote target in Limpopo?",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/will-the-anc-meet-ramaphosas-90-votes-demand-in-limpopo/",
-      "source": "The Citizen",
-      "published": "2026-10-31T06:04:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Tale of two Nelson Mandela Bay metro bosses: One got 10-year ban, other was suspended",
-      "link": "https://www.news24.com/politics/tale-of-nelson-mandela-bays-2-metro-bosses-one-got-10-year-ban-other-was-suspended-20261030-1281",
-      "source": "News24",
-      "published": "2026-10-31T05:28:32.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "‘I was somewhere’: Zuma doesn’t address health in video but vows MKP is ready ‘to take over’",
       "link": "https://www.news24.com/politics/i-was-somewhere-zuma-doesnt-address-health-in-video-but-vows-mkp-is-ready-to-take-over-20261030-1230",
       "source": "News24",
@@ -995,16 +1252,6 @@
       "accountability": false
     },
     {
-      "title": "Electoral Court throws out DA bid to block single-name party lists",
-      "link": "https://www.news24.com/politics/electoral-court-throws-out-da-bid-to-block-single-name-party-lists-20261030-0880",
-      "source": "News24",
-      "published": "2026-10-30T14:40:57.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": true
-    },
-    {
       "title": "FF Plus places candidate on suspension after allegedly removing ANC posters",
       "link": "https://www.news24.com/politics/ff-plus-places-candidate-on-suspension-after-allegedly-removing-anc-posters-20261030-0775",
       "source": "News24",
@@ -1012,16 +1259,6 @@
       "parties": [
         "anc",
         "ffplus"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "PODCAST: DA banking on voter turnout to secure stronger position in local elections",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/podcast-da-banking-on-voter-turnout-to-secure-stronger-position-in-local-elections/",
-      "source": "The Citizen",
-      "published": "2026-10-30T12:26:26.000Z",
-      "parties": [
-        "da"
       ],
       "accountability": false
     },
@@ -1042,26 +1279,6 @@
       "published": "2026-10-30T10:52:47.000Z",
       "parties": [
         "mkp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "BREAKING | DA loses court battle over rival parties’ one-name election lists",
-      "link": "https://iol.co.za/news/politics/breaking-or-da-loses-court-battle-over-rival-parties-one-name-election-lists/",
-      "source": "IOL",
-      "published": "2026-10-30T10:37:00.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "IEC flags AI-generated Nelson Mandela video ahead of local government elections",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/iec-flags-ai-generated-nelson-mandela-video-ahead-local-government-election/",
-      "source": "The Citizen",
-      "published": "2026-10-30T10:21:16.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": false
     },
@@ -1098,62 +1315,12 @@
       "accountability": false
     },
     {
-      "title": "‘Rubbish,’ says Mbalula as Buffalo City youth league boss accuses him of double standards",
-      "link": "https://iol.co.za/news/2026-10-30-rubbish-says-mbalula-as-buffalo-city-youth-league-boss-accuses-him-of-double-standards/",
-      "source": "IOL",
-      "published": "2026-10-30T09:21:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Stellenbosch mourns councillor Wilhelmina ‘Minnie’ Petersen",
-      "link": "https://iol.co.za/capetimes/2026-10-30-stellenbosch-mourns-councillor-wilhelmina-minnie-petersen/",
-      "source": "IOL",
-      "published": "2026-10-30T09:00:00.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": false
-    },
-    {
       "title": "Another EFF flip-flop: Calls for Tshwane CFO to be placed under suspension",
       "link": "https://www.citizen.co.za/news/south-africa/politics/another-eff-flip-flop-calls-for-tshwane-cfo-to-be-placed-under-suspension/",
       "source": "The Citizen",
       "published": "2026-10-30T08:36:46.000Z",
       "parties": [
         "eff"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Government’s new anti-misinformation chatbot generates misinformation",
-      "link": "https://groundup.org.za/article/governments-new-anti-misinformation-chatbot-generates-misinformation/",
-      "source": "GroundUp",
-      "published": "2026-10-30T08:05:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "DA calls for review of Harassment Act amid alleged abuse",
-      "link": "https://www.citizen.co.za/news/da-calls-for-review-of-harassment-act-amid-alleged-abuse/",
-      "source": "The Citizen",
-      "published": "2026-10-30T05:15:00.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Steve Biko Hospital surgeries delayed as air-con fails again",
-      "link": "https://www.citizen.co.za/news/steve-biko-hospital-surgeries-delayed-as-air-con-fails-again/",
-      "source": "The Citizen",
-      "published": "2026-10-30T04:15:00.000Z",
-      "parties": [
-        "da"
       ],
       "accountability": false
     },
@@ -1179,37 +1346,6 @@
       "accountability": false
     },
     {
-      "title": "‘Tell them to voetsek’: Hill-Lewis urges Nelson Mandela Bay voters to reject small parties",
-      "link": "https://www.news24.com/politics/tell-them-to-voetsek-hill-lewis-urges-nelson-mandela-bay-voters-to-reject-small-parties-20261029-0982",
-      "source": "News24",
-      "published": "2026-10-29T16:25:34.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Gauteng govt denies claim Lesufi took credit for Soweto transformer",
-      "link": "https://www.citizen.co.za/news/south-africa/did-lesufi-take-credit-for-da-funded-transformer-in-soweto/",
-      "source": "The Citizen",
-      "published": "2026-10-29T15:41:43.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "DA makes final Mangaung campaign push in ANC stronghold Botshabelo ahead of elections",
-      "link": "https://www.news24.com/politics/da-makes-final-mangaung-campaign-push-in-anc-stronghold-botshabelo-ahead-of-elections-20261029-0876",
-      "source": "News24",
-      "published": "2026-10-29T14:37:29.000Z",
-      "parties": [
-        "anc",
-        "da"
-      ],
-      "accountability": false
-    },
-    {
       "title": "Court grants EFF partial access to records in R12m SSA fraud case",
       "link": "https://www.news24.com/investigations/court-grants-eff-partial-access-to-records-in-r12m-ssa-fraud-case-20261029-0626",
       "source": "News24",
@@ -1228,16 +1364,6 @@
       "parties": [
         "da",
         "pa"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Lesufi takes ‘old Ford Cortina’ jab at Zille as Joburg metro race heats up",
-      "link": "https://www.news24.com/politics/lesufi-takes-old-ford-cortina-jab-at-zille-as-joburg-metro-race-heats-up-20261029-0508",
-      "source": "News24",
-      "published": "2026-10-29T08:31:39.000Z",
-      "parties": [
-        "da"
       ],
       "accountability": false
     },
@@ -1681,16 +1807,6 @@
       "accountability": false
     },
     {
-      "title": "MK party swings axe again, names new parliamentary whips",
-      "link": "https://www.citizen.co.za/news/mk-party-swings-axe-again-zumas-official-opposition-unveils-new-parliament-whips/",
-      "source": "The Citizen",
-      "published": "2026-10-21T06:59:19.000Z",
-      "parties": [
-        "mkp"
-      ],
-      "accountability": false
-    },
-    {
       "title": "Mayor faces charges and criticism over water contamination failures that put lives at risk",
       "link": "https://www.citizen.co.za/news/mayor-faces-charges-criticism-water-contamination-failures/",
       "source": "The Citizen",
@@ -1724,32 +1840,12 @@
       "accountability": false
     },
     {
-      "title": "UNLAWFUL AMMUNITION: Former top cop Mphego’s path, from Selebi and Zuma scandals to ammo accused",
-      "link": "https://www.dailymaverick.co.za/article/2026-10-20-former-top-cop-mphegos-path-from-selebi-and-zuma-scandals-to-ammo-accused/",
-      "source": "Daily Maverick",
-      "published": "2026-10-20T21:02:59.000Z",
-      "parties": [
-        "mkp"
-      ],
-      "accountability": true
-    },
-    {
       "title": "‘We’re going to tackle it very aggressively’: Hlabisa ramps up IFP rhetoric on immigration",
       "link": "https://www.news24.com/politics/were-going-to-tackle-it-very-aggressively-hlabisa-ramps-up-ifp-rhetoric-on-immigration-20261020-1025",
       "source": "News24",
       "published": "2026-10-20T17:05:48.000Z",
       "parties": [
         "ifp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "MKP once again makes parliamentary leadership changes",
-      "link": "https://www.news24.com/politics/mkp-once-again-makes-parliamentary-leadership-changes-20261020-0870",
-      "source": "News24",
-      "published": "2026-10-20T14:31:50.000Z",
-      "parties": [
-        "mkp"
       ],
       "accountability": false
     },
@@ -1882,16 +1978,6 @@
       "accountability": false
     },
     {
-      "title": "‘He aimed for the head’: ANCYL slams ‘trigger-happy’ suspect, alleges political motive in Katlehong shooting",
-      "link": "https://www.citizen.co.za/news/south-africa/courts/ancyl-alleges-political-motive-katlehong-shooting/",
-      "source": "The Citizen",
-      "published": "2026-10-15T15:59:00.000Z",
-      "parties": [
-        "eff"
-      ],
-      "accountability": false
-    },
-    {
       "title": "At Solidarity’s behest, FF Plus reports Lamola to clearing house over handling of US talks",
       "link": "https://www.news24.com/politics/at-solidaritys-behest-ff-plus-reports-lamola-to-clearing-house-over-handling-of-us-talks-20261015-0763",
       "source": "News24",
@@ -1902,48 +1988,12 @@
       "accountability": false
     },
     {
-      "title": "Parliament defends decision to drop Madonsela as Phala Phala evidence leader",
-      "link": "https://iol.co.za/the-star/2026-10-15-parliament-defends-decision-to-drop-madonsela-as-phala-phala-evidence-leader/",
-      "source": "IOL",
-      "published": "2026-10-15T08:30:00.000Z",
-      "parties": [
-        "eff"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "Free schooling, jailing parents, and testing teachers: What SA’s biggest parties are saying about education",
-      "link": "https://www.citizen.co.za/news/south-africa/education/free-schooling-jailing-parents-and-testing-teachers-what-sas-biggest-parties-are-saying-about-education/",
-      "source": "The Citizen",
-      "published": "2026-10-15T08:00:00.000Z",
-      "parties": [
-        "anc",
-        "da",
-        "eff",
-        "mkp"
-      ],
-      "accountability": false
-    },
-    {
       "title": "‘Johannesburg cannot be a bargaining chip’: Zungula’s plan to fix the city",
       "link": "https://iol.co.za/the-star/city-watch/2026-10-15-johannesburg-cannot-be-a-bargaining-chip-zungulas-plan-to-fix-the-city/",
       "source": "IOL",
       "published": "2026-10-15T07:00:00.000Z",
       "parties": [
         "atm"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Water crisis: What the ANC, DA, EFF and MK party promise ahead of the 4 November local elections",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/water-crisis-what-the-anc-da-eff-and-mk-party-promise-ahead-of-the-4-november-local-elections/",
-      "source": "The Citizen",
-      "published": "2026-10-14T12:21:44.000Z",
-      "parties": [
-        "anc",
-        "da",
-        "eff",
-        "mkp"
       ],
       "accountability": false
     },
