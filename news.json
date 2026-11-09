@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T11:07:52.581Z",
+  "updated": "2026-11-09T12:39:24.811Z",
   "window_days": 30,
   "feeds": [
     {
@@ -7,7 +7,7 @@
       "homepage": "https://www.dailymaverick.co.za",
       "url": "https://www.dailymaverick.co.za/dmrss/",
       "ok": true,
-      "items": 51
+      "items": 50
     },
     {
       "source": "News24",
@@ -54,10 +54,266 @@
   ],
   "items": [
     {
+      "title": "LOCAL ELECTIONS 2026: Joburg after the vote: four things to watch as coalition talks begin",
+      "link": "https://www.dailymaverick.co.za/article/2026-11-09-joburg-after-the-vote-four-things-to-watch-as-coalition-talks-begin/",
+      "source": "Daily Maverick",
+      "published": "2026-11-09T12:44:58.000Z",
+      "parties": [
+        "anc",
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ActionSA opens coalition talks with ANC and EFF",
+      "link": "https://www.citizen.co.za/news/actionsa-opens-coalition-talks-with-anc-and-eff/",
+      "source": "The Citizen",
+      "published": "2026-11-09T12:24:07.000Z",
+      "parties": [
+        "anc",
+        "da",
+        "eff",
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Tensions arise within MK Party following release of election results",
+      "link": "https://www.sabcnews.com/sabcnews/tensions-arise-within-mk-party-following-release-of-election-results/",
+      "source": "SABC News",
+      "published": "2026-11-09T12:21:20.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Why voters left the liberation movement: an EFF MP’s soul-searching",
+      "link": "https://iol.co.za/opinion/2026-11-09-why-voters-left-the-liberation-movement-an-eff-mps-soul-searching/",
+      "source": "IOL",
+      "published": "2026-11-09T11:13:21.000Z",
+      "parties": [
+        "anc",
+        "eff"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Will MK party be blocked from governing eThekwini?",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/will-the-mk-party-be-blocked-from-governing-ethekwini/",
+      "source": "The Citizen",
+      "published": "2026-11-09T11:12:33.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA in KZN rules out coalition with MKP and EFF",
+      "link": "https://www.sabcnews.com/sabcnews/da-in-kzn-rules-out-coalition-with-mkp-and-eff/",
+      "source": "SABC News",
+      "published": "2026-11-09T11:03:08.000Z",
+      "parties": [
+        "da",
+        "eff",
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Motlanthe says ANC must fix service delivery after historic election losses",
+      "link": "https://www.news24.com/southafrica/news/motlanthe-says-anc-must-fix-service-delivery-after-historic-election-losses-20261109-0623",
+      "source": "News24",
+      "published": "2026-11-09T10:34:04.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Turnout up, ANC down, and a wave of coalitions",
+      "link": "https://groundup.org.za/article/turnout-up-anc-down-and-a-wave-of-coalitions/",
+      "source": "GroundUp",
+      "published": "2026-11-09T10:02:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Where did the ANC’s votes go? Here are the parties, places, and numbers",
+      "link": "https://www.news24.com/politics/where-did-the-ancs-votes-go-here-are-the-parties-places-and-numbers-20261108-1202",
+      "source": "News24",
+      "published": "2026-11-09T04:53:01.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Ramaphosa rejects resignation rumours after ANC election blow",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/its-preposterous-ramaphosa-rejects-resignation-rumours-anc-election-blow/",
+      "source": "The Citizen",
+      "published": "2026-11-09T04:41:31.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA may invoke GNU coalition terms in City of Joburg",
+      "link": "https://www.citizen.co.za/news/south-africa/politics/da-gnu-coalition-city-of-joburg/",
+      "source": "The Citizen",
+      "published": "2026-11-09T03:30:00.000Z",
+      "parties": [
+        "anc",
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "If ActionSA, ANC join up to keep DA out it will anger voters – analyst",
+      "link": "https://www.citizen.co.za/news/south-africa/politics/actionsa-anc-da-gauteng-metros-elections/",
+      "source": "The Citizen",
+      "published": "2026-11-09T03:15:00.000Z",
+      "parties": [
+        "anc",
+        "da",
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "LOCAL ELECTIONS 2026: DA goes on coalition offensive as battle for Nelson Mandela Bay begins",
+      "link": "https://www.dailymaverick.co.za/article/2026-11-08-da-goes-on-coalition-offensive-as-battle-for-nelson-mandela-bay-begins/",
+      "source": "Daily Maverick",
+      "published": "2026-11-08T23:17:06.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "14 DAYS TO FIX LOCAL: Herman Mashaba: ‘Very, very slim’ chance of coalitions with the DA",
+      "link": "https://www.dailymaverick.co.za/article/2026-11-08-herman-mashaba-very-very-slim-chance-of-coalitions-with-the-da/",
+      "source": "Daily Maverick",
+      "published": "2026-11-08T22:46:54.000Z",
+      "parties": [
+        "da",
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "LOCAL ELECTIONS 2026: KZN coalition dilemma: Will election losers find their way back to power?",
+      "link": "https://www.dailymaverick.co.za/article/2026-11-08-kzn-coalition-dilemma-will-election-losers-find-their-way-back-to-power/",
+      "source": "Daily Maverick",
+      "published": "2026-11-08T22:34:09.000Z",
+      "parties": [
+        "anc",
+        "da",
+        "mkp",
+        "ifp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "LOCAL ELECTIONS 2026 OP-ED: The DA hammered the ANC in Emfuleni — the how and the why",
+      "link": "https://www.dailymaverick.co.za/article/2026-11-08-the-da-hammered-the-anc-in-emfuleni-the-how-and-the-why/",
+      "source": "Daily Maverick",
+      "published": "2026-11-08T22:20:54.000Z",
+      "parties": [
+        "anc",
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "LOCAL ELECTIONS 2026: SACP’s strong showing signals end of the Tripartite Alliance",
+      "link": "https://www.dailymaverick.co.za/article/2026-11-08-sacps-strong-showing-signals-end-of-the-tripartite-alliance/",
+      "source": "Daily Maverick",
+      "published": "2026-11-08T22:12:09.000Z",
+      "parties": [
+        "pa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "CRIME AND JUSTICE: Alleged hitman arrested for Knysna councillor Aubrey Tsengwa’s murder",
+      "link": "https://www.dailymaverick.co.za/article/2026-11-08-alleged-hitman-arrested-for-knysna-councillor-aubrey-tsengwas-murder/",
+      "source": "Daily Maverick",
+      "published": "2026-11-08T22:04:53.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "2 million votes: Despite internal chaos, MKP cements its grip on KZN",
+      "link": "https://www.news24.com/politics/2-million-votes-despite-internal-chaos-mkp-cements-its-grip-on-kzn-20261107-1248",
+      "source": "News24",
+      "published": "2026-11-08T20:23:12.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Election hangover: How 7 councils got majorities nobody voted for",
+      "link": "https://www.news24.com/politics/elections/election-hangover-how-7-councils-got-majorities-nobody-voted-for-20261108-1173",
+      "source": "News24",
+      "published": "2026-11-08T19:38:18.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC tops 2026 local government election results as Ramaphosa warns parties ahead of coalition talks",
+      "link": "https://www.citizen.co.za/news/anc-2026-local-government-election-ramaphosa-coalition/",
+      "source": "The Citizen",
+      "published": "2026-11-08T17:51:38.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Here are the final 2026 local government election results for SA’s eight metros",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/final-2026-local-government-election-results-eight-metros/",
+      "source": "The Citizen",
+      "published": "2026-11-08T17:35:50.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC results: Ramaphosa will not resign, say Mantashe, Mokonyane and Mbalula",
+      "link": "https://www.news24.com/politics/anc-results-ramaphosa-will-not-resign-say-mantashe-mokonyane-and-mbalula-20261108-0843",
+      "source": "News24",
+      "published": "2026-11-08T14:26:10.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC vote share collapses in Ekurhuleni as DA emerges as largest party in historic shift",
+      "link": "https://www.news24.com/politics/elections/anc-vote-share-collapses-in-ekurhuleni-as-da-emerges-as-largest-party-in-historic-shift-20261108-0740",
+      "source": "News24",
+      "published": "2026-11-08T12:42:51.000Z",
+      "parties": [
+        "anc",
+        "da"
+      ],
+      "accountability": false
+    },
+    {
       "title": "Bye-bye Dada: Overhang scuppers Morero, Loyiso Masuku’s return to Joburg council",
       "link": "https://www.news24.com/politics/bye-bye-dada-overhang-scuppers-morero-loyiso-masukus-return-to-joburg-council-20261108-0629",
       "source": "News24",
-      "published": "2026-11-08T10:40:08.000Z",
+      "published": "2026-11-08T11:47:25.000Z",
       "parties": [
         "anc"
       ],
@@ -143,16 +399,6 @@
       "published": "2026-11-08T06:02:41.000Z",
       "parties": [
         "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "2 million votes: Despite internal chaos, MKP cements its grip on KZN",
-      "link": "https://www.news24.com/politics/2-million-votes-despite-internal-chaos-mkp-cements-its-grip-on-kzn-20261107-1248",
-      "source": "News24",
-      "published": "2026-11-08T05:40:48.000Z",
-      "parties": [
-        "mkp"
       ],
       "accountability": false
     },
@@ -489,16 +735,6 @@
       "accountability": false
     },
     {
-      "title": "Electoral battle nears finality as ANC counts casualties",
-      "link": "https://www.news24.com/politics/elections/electoral-battle-nears-finality-as-anc-counts-casualties-20261106-1279",
-      "source": "News24",
-      "published": "2026-11-07T05:42:39.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "MKP demands for eThekwini’s final results to be delayed",
       "link": "https://www.sabcnews.com/sabcnews/mkp-demands-for-ethekwinis-final-results-to-be-delayed/",
       "source": "SABC News",
@@ -572,16 +808,6 @@
       "accountability": false
     },
     {
-      "title": "ANC the big loser in Buffalo City, as UDM becomes kingmaker after historic surge",
-      "link": "https://www.news24.com/southafrica/news/anc-the-big-loser-in-buffalo-city-as-udm-becomes-kingmaker-after-historic-surge-20261106-1154",
-      "source": "News24",
-      "published": "2026-11-06T19:15:18.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "LOCAL ELECTIONS 2026: From ActionSA to MK, what Gauteng’s top parties will demand in coalition talks",
       "link": "https://www.dailymaverick.co.za/article/2026-11-06-from-actionsa-to-mk-what-gautengs-top-parties-will-demand-in-coalition-talks/",
       "source": "Daily Maverick",
@@ -599,16 +825,6 @@
       "parties": [
         "da",
         "ffplus"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Mabuyane blames ANC’s metro losses on ‘sponsored regime change campaign’",
-      "link": "https://www.news24.com/politics/elections/mabuyane-blames-ancs-metro-losses-on-sponsored-regime-change-campaign-20261106-0906",
-      "source": "News24",
-      "published": "2026-11-06T15:07:29.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": false
     },
@@ -653,16 +869,6 @@
       "accountability": false
     },
     {
-      "title": "ANC admits disappointment after poor Cape Town election showing",
-      "link": "https://iol.co.za/lge2026/2026-11-06-anc-admits-disappointment-after-poor-cape-town-election-showing/",
-      "source": "IOL",
-      "published": "2026-11-06T10:35:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "DA draws coalition red line as Western Cape faces hung councils",
       "link": "https://iol.co.za/lge2026/2026-11-06-da-draws-coalition-red-line-as-western-cape-faces-hung-councils/",
       "source": "IOL",
@@ -681,16 +887,6 @@
         "anc",
         "da",
         "mkp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Collen Malatji | South Africans did not vote for the ANC to take an ‘L’",
-      "link": "https://www.citizen.co.za/news/opinion/south-africans-did-not-vote-for-the-anc-to-take-an-l-collen-malatji/",
-      "source": "The Citizen",
-      "published": "2026-11-06T10:14:58.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": false
     },
@@ -784,16 +980,6 @@
       "published": "2026-11-06T08:10:49.000Z",
       "parties": [
         "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Bela-Bela municipality in Limpopo set to become a hung council: IEC",
-      "link": "https://www.sabcnews.com/sabcnews/bela-bela-municipality-in-limpopo-set-to-become-a-hung-council-iec/",
-      "source": "SABC News",
-      "published": "2026-11-06T08:03:50.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": false
     },
@@ -973,16 +1159,6 @@
       "accountability": false
     },
     {
-      "title": "DA declares 60% majority in KZN municipality",
-      "link": "https://groundup.org.za/article/da-declares-60-majority-in-kzn-municipality/",
-      "source": "GroundUp",
-      "published": "2026-11-05T14:17:00.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": false
-    },
-    {
       "title": "DA leader says MK party is not a real threat in KZN",
       "link": "https://www.citizen.co.za/news/south-africa/elections/da-mk-party-is-not-a-real-threat-in-kzn/",
       "source": "The Citizen",
@@ -1013,17 +1189,6 @@
         "anc",
         "da",
         "actionsa"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "DA on course to take Nelson Mandela Bay as ANC support drops",
-      "link": "https://www.news24.com/politics/elections/da-on-course-to-take-nelson-mandela-bay-as-anc-support-drops-20261105-0691",
-      "source": "News24",
-      "published": "2026-11-05T12:34:51.000Z",
-      "parties": [
-        "anc",
-        "da"
       ],
       "accountability": false
     },
@@ -1059,26 +1224,6 @@
       "accountability": false
     },
     {
-      "title": "Geordin Hill-Lewis declares Cape Town victory early, says it looks like 58% for DA",
-      "link": "https://www.news24.com/politics/geordin-hill-lewis-declares-cape-town-victory-early-says-it-looks-like-58-for-da-20261105-0676",
-      "source": "News24",
-      "published": "2026-11-05T11:16:56.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "After 9% of voted counted, DA takes early lead in Johannesburg",
-      "link": "https://www.sabcnews.com/sabcnews/da-takes-early-lead-against-anc-in-johannesburg/",
-      "source": "SABC News",
-      "published": "2026-11-05T11:14:59.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": false
-    },
-    {
       "title": "Zwakele Mncwango thanks KZN voters after ActionSA’s eThekwini mayoral defeat",
       "link": "https://iol.co.za/lge2026/2026-11-05-zwakele-mncwango-thanks-kzn-voters-after-actionsas-ethekwini-mayoral-defeat/",
       "source": "IOL",
@@ -1089,42 +1234,12 @@
       "accountability": false
     },
     {
-      "title": "‘ONS HET HULLE GEMOER’ - DA declares victory in Cape Town elections",
-      "link": "https://iol.co.za/lge2026/2026-11-05-ons-het-hulle-gemoer-da-declares-victory-in-cape-town-elections/",
-      "source": "IOL",
-      "published": "2026-11-05T10:40:00.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "DA and Geordin Hill-Lewis declare victory in Cape Town with less than a quarter of votes counted",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/da-geordin-hill-lewis-declare-victory-cape-town-less-than-quarter-votes-counted/",
-      "source": "The Citizen",
-      "published": "2026-11-05T10:39:20.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": false
-    },
-    {
       "title": "EFF member killed outside voting station",
       "link": "https://www.sabcnews.com/sabcnews/eff-member-killed-outside-voting-station/",
       "source": "SABC News",
       "published": "2026-11-05T10:09:33.000Z",
       "parties": [
         "eff"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "DA claims more than 1 million black South Africans voted for it, but analyst says ‘not so fast’",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/da-says-1-million-black-south-africans-voted-for-it-but-analyst-says-not-so-fast/",
-      "source": "The Citizen",
-      "published": "2026-11-05T09:17:19.000Z",
-      "parties": [
-        "da"
       ],
       "accountability": false
     },
@@ -1262,16 +1377,6 @@
       "accountability": false
     },
     {
-      "title": "Zuma meets March and March as MK party pushes tougher action on illegal immigration",
-      "link": "https://www.citizen.co.za/news/zuma-meets-march-and-march-mk-party-pushes-tougher-action-illegal-immigration/",
-      "source": "The Citizen",
-      "published": "2026-11-04T01:23:51.000Z",
-      "parties": [
-        "mkp"
-      ],
-      "accountability": false
-    },
-    {
       "title": "LOCAL ELECTIONS 2026: Fourteen days to find a mayor — Mashaba holds the key, ANC the lock",
       "link": "https://www.dailymaverick.co.za/article/2026-11-03-fourteen-days-to-find-a-mayor-mashaba-holds-the-key-anc-the-lock/",
       "source": "Daily Maverick",
@@ -1279,16 +1384,6 @@
       "parties": [
         "anc",
         "actionsa"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "‘Human rights must be respected’: Zuma holds talks with March and March",
-      "link": "https://www.news24.com/southafrica/news/human-rights-must-be-respected-zuma-holds-talks-with-march-and-march-20261103-1244",
-      "source": "News24",
-      "published": "2026-11-03T20:45:02.000Z",
-      "parties": [
-        "mkp"
       ],
       "accountability": false
     },
@@ -1791,34 +1886,12 @@
       "accountability": false
     },
     {
-      "title": "POLITICS & POLICING: From EFF’s Malema to ANC’s Carrim — the politics permeating SA’s cop collusion scandal",
-      "link": "https://www.dailymaverick.co.za/article/2026-10-25-from-effs-malema-to-ancs-carrim-the-politics-permeating-sas-cop-collusion-scandal/",
-      "source": "Daily Maverick",
-      "published": "2026-10-25T21:49:16.000Z",
-      "parties": [
-        "anc",
-        "eff"
-      ],
-      "accountability": true
-    },
-    {
       "title": "SMOOTH OPERATOR: Gayton McKenzie’s gift of the gab is both his blessing and his curse",
       "link": "https://www.dailymaverick.co.za/article/2026-10-25-gayton-mckenzies-gift-of-the-gab-is-both-his-blessing-and-his-curse/",
       "source": "Daily Maverick",
       "published": "2026-10-25T11:04:24.000Z",
       "parties": [
         "pa"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "The Trojan horse at UWC and the DA’s persistent links to Cape Exit separatism",
-      "link": "https://iol.co.za/opinion/2026-10-25-the-trojan-horse-at-uwc-and-the-das-persistent-links-to-cape-exit-separatism/",
-      "source": "IOL",
-      "published": "2026-10-25T07:41:00.000Z",
-      "parties": [
-        "da",
-        "eff"
       ],
       "accountability": false
     },
@@ -1879,16 +1952,6 @@
       "published": "2026-10-24T04:50:32.000Z",
       "parties": [
         "ffplus"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Fuel levy relief welcomed but not enough, say critics and EFF",
-      "link": "https://www.citizen.co.za/news/fuel-levy-relief-welcomed-but-not-enough-say-critics-and-eff/",
-      "source": "The Citizen",
-      "published": "2026-10-23T03:00:00.000Z",
-      "parties": [
-        "eff"
       ],
       "accountability": false
     },
