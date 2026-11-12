@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T11:44:05.508Z",
+  "updated": "2026-11-12T12:21:21.230Z",
   "window_days": 30,
   "feeds": [
     {
@@ -7,7 +7,7 @@
       "homepage": "https://www.dailymaverick.co.za",
       "url": "https://www.dailymaverick.co.za/dmrss/",
       "ok": true,
-      "items": 51
+      "items": 50
     },
     {
       "source": "News24",
@@ -21,7 +21,7 @@
       "homepage": "https://www.news24.com",
       "url": "https://feeds.capi24.com/v1/Search/articles/news24/TopStories/rss",
       "ok": true,
-      "items": 0
+      "items": 1
     },
     {
       "source": "GroundUp",
@@ -53,6 +53,232 @@
     }
   ],
   "items": [
+    {
+      "title": "ANC rejects one-size-fits-all approach to coalition talks",
+      "link": "https://iol.co.za/lge2026/2026-11-12-anc-rejects-one-size-fits-all-approach-to-coalition-talks/",
+      "source": "IOL",
+      "published": "2026-11-12T12:14:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC dismisses claims that Ramaphosa offered to resign",
+      "link": "https://www.sabcnews.com/sabcnews/anc-dismisses-claims-that-ramaphosa-offered-to-resign/",
+      "source": "SABC News",
+      "published": "2026-11-12T12:13:36.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC maintains it is the best choice for SA as NEC discusses coalitions",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/we-still-the-best-choice-for-sa-says-anc-as-coalition-nec-meets/",
+      "source": "The Citizen",
+      "published": "2026-11-12T12:08:48.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "WATCH: Phoenix musician composes Hindi song dedicated to Jacob and Duduzane Zuma",
+      "link": "https://iol.co.za/thepost/news/2026-11-12-phoenix-musician-composes-hindi-song-dedicated-to-jacob-and-duduzane-zuma/",
+      "source": "IOL",
+      "published": "2026-11-12T11:45:00.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Round 2: ‘Please resign’ – Bonang tells minister Gayton McKenzie to step down",
+      "link": "https://www.citizen.co.za/lifestyle/entertainment/celebrity-news/round-2-please-resign-bonang-tells-minister-gayton-mckenzie-to-step-down/",
+      "source": "The Citizen",
+      "published": "2026-11-12T11:39:19.000Z",
+      "parties": [
+        "pa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Rise Mzansi says coalitions ultimately a political exercise",
+      "link": "https://www.sabcnews.com/sabcnews/rise-mzansi-says-coalitions-ultimately-a-political-exercise/",
+      "source": "SABC News",
+      "published": "2026-11-12T11:39:14.000Z",
+      "parties": [
+        "risemzansi"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Why Ramaphosa cannot be blamed for the ANC’s electoral humiliation",
+      "link": "https://iol.co.za/pretoria-news/opinion/2026-11-12-why-ramaphosa-cannot-be-blamed-for-the-ancs-electoral-humiliation/",
+      "source": "IOL",
+      "published": "2026-11-12T11:36:14.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC sets coalition mandate, puts municipal service delivery first",
+      "link": "https://iol.co.za/mercury/news/2026-11-12-anc-sets-coalition-mandate-puts-municipal-service-delivery-first/",
+      "source": "IOL",
+      "published": "2026-11-12T11:30:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "120 voters in one house: ANC heads to electoral court",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/120-voters-in-one-house-anc-heads-to-electoral-court/",
+      "source": "The Citizen",
+      "published": "2026-11-12T08:33:44.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "ANC deaf to SA voices after historic election loss",
+      "link": "https://www.citizen.co.za/news/opinion/anc-deaf-to-sa-voices-after-historic-election-loss/",
+      "source": "The Citizen",
+      "published": "2026-11-12T06:00:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "City coalitions: Nelson Mandela Bay edges towards a deal as ANC NEC meets",
+      "link": "https://www.news24.com/politics/nelson-mandela-bay-edges-toward-a-coalition-deal-20261111-1244",
+      "source": "News24",
+      "published": "2026-11-12T05:30:29.000Z",
+      "parties": [
+        "anc",
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Money doesn’t go to SA’s athletes as Smith leaves",
+      "link": "https://www.citizen.co.za/news/opinion/money-doesnt-go-to-sas-athletes-as-smith-leaves/",
+      "source": "The Citizen",
+      "published": "2026-11-12T05:00:00.000Z",
+      "parties": [
+        "pa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA begins coalition talks with ANC and new party in Mpumalanga",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/da-begins-coalition-talks-with-anc-new-party-mpumalanga/",
+      "source": "The Citizen",
+      "published": "2026-11-12T04:20:00.000Z",
+      "parties": [
+        "anc",
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘We will never go to bed with the ANC’: Civic organisations hold keys to Emfuleni’s future",
+      "link": "https://www.news24.com/southafrica/news/we-will-never-go-to-bed-with-the-anc-civic-organisations-hold-keys-to-emfulenis-future-20261111-1150",
+      "source": "News24",
+      "published": "2026-11-12T03:20:46.000Z",
+      "parties": [
+        "anc",
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "COALITION COUNTDOWN: ANC NEC to decide Gauteng coalition strategy as DA to meet ActionSA",
+      "link": "https://www.dailymaverick.co.za/article/2026-11-11-anc-nec-to-decide-gauteng-coalition-strategy-as-da-to-meet-actionsa/",
+      "source": "Daily Maverick",
+      "published": "2026-11-11T22:00:00.000Z",
+      "parties": [
+        "anc",
+        "da",
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "COALITION COUNTDOWN ANALYSIS: ActionSA at the crossroads — real governance or just another ego-driven party?",
+      "link": "https://www.dailymaverick.co.za/article/2026-11-11-actionsa-at-the-crossroads-real-governance-or-just-another-ego-driven-party/",
+      "source": "Daily Maverick",
+      "published": "2026-11-11T21:45:11.000Z",
+      "parties": [
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "In case you missed it: Matlala on Bheki Cele’s ‘greed’ | ActionSA voters unhappy | SABC fights to stay on air",
+      "link": "https://www.citizen.co.za/news/in-case-you-missed-it-11-november-2026/",
+      "source": "The Citizen",
+      "published": "2026-11-11T18:00:00.000Z",
+      "parties": [
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "UDM rejects ANC’s offer of Buffalo City deputy mayor in exchange for coalition deal",
+      "link": "https://www.news24.com/southafrica/news/udm-rejects-ancs-offer-of-buffalo-city-deputy-mayor-in-exchange-for-coalition-deal-20261111-0793",
+      "source": "News24",
+      "published": "2026-11-11T16:09:04.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Changing the tune: ActionSA voters turn on Mashaba over ANC coalition talks",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/actionsa-voters-turn-on-mashaba/",
+      "source": "The Citizen",
+      "published": "2026-11-11T15:18:49.000Z",
+      "parties": [
+        "anc",
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Are political donors unfairly swaying SA’s democracy after DA’s R225m revealed?",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/are-political-donors-unfairly-swaying-sas-democracy-after-das-r225m-revealed/",
+      "source": "The Citizen",
+      "published": "2026-11-11T14:15:11.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Criticism for lack of financial support is ‘regrettable’, says sports minister Gayton McKenzie",
+      "link": "https://www.citizen.co.za/sport/criticism-lack-financial-support-gayton-mckenzie/",
+      "source": "The Citizen",
+      "published": "2026-11-11T14:10:23.000Z",
+      "parties": [
+        "pa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "MK Party and IEC end legal dispute over Duduzane Zuma’s election remarks",
+      "link": "https://www.news24.com/politics/mk-party-and-iec-end-legal-dispute-over-duduzane-zumas-election-remarks-20261111-0780",
+      "source": "News24",
+      "published": "2026-11-11T13:01:14.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": true
+    },
     {
       "title": "Mashaba offers to drop Johannesburg mayoral bid if Zille also steps aside",
       "link": "https://iol.co.za/lge2026/2026-11-11-mashaba-offers-to-drop-johannesburg-mayoral-bid-if-zille-also-steps-aside/",
@@ -568,46 +794,6 @@
       "accountability": false
     },
     {
-      "title": "Motlanthe says ANC must fix service delivery after historic election losses",
-      "link": "https://www.news24.com/southafrica/news/motlanthe-says-anc-must-fix-service-delivery-after-historic-election-losses-20261109-0623",
-      "source": "News24",
-      "published": "2026-11-09T10:34:04.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Turnout up, ANC down, and a wave of coalitions",
-      "link": "https://groundup.org.za/article/turnout-up-anc-down-and-a-wave-of-coalitions/",
-      "source": "GroundUp",
-      "published": "2026-11-09T10:02:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Where did the ANC’s votes go? Here are the parties, places, and numbers",
-      "link": "https://www.news24.com/politics/where-did-the-ancs-votes-go-here-are-the-parties-places-and-numbers-20261108-1202",
-      "source": "News24",
-      "published": "2026-11-09T04:53:01.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "Ramaphosa rejects resignation rumours after ANC election blow",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/its-preposterous-ramaphosa-rejects-resignation-rumours-anc-election-blow/",
-      "source": "The Citizen",
-      "published": "2026-11-09T04:41:31.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "DA may invoke GNU coalition terms in City of Joburg",
       "link": "https://www.citizen.co.za/news/south-africa/politics/da-gnu-coalition-city-of-joburg/",
       "source": "The Citizen",
@@ -686,16 +872,6 @@
       "accountability": false
     },
     {
-      "title": "CRIME AND JUSTICE: Alleged hitman arrested for Knysna councillor Aubrey Tsengwa’s murder",
-      "link": "https://www.dailymaverick.co.za/article/2026-11-08-alleged-hitman-arrested-for-knysna-councillor-aubrey-tsengwas-murder/",
-      "source": "Daily Maverick",
-      "published": "2026-11-08T22:04:53.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
-    },
-    {
       "title": "2 million votes: Despite internal chaos, MKP cements its grip on KZN",
       "link": "https://www.news24.com/politics/2-million-votes-despite-internal-chaos-mkp-cements-its-grip-on-kzn-20261107-1248",
       "source": "News24",
@@ -706,42 +882,12 @@
       "accountability": false
     },
     {
-      "title": "Election hangover: How 7 councils got majorities nobody voted for",
-      "link": "https://www.news24.com/politics/elections/election-hangover-how-7-councils-got-majorities-nobody-voted-for-20261108-1173",
-      "source": "News24",
-      "published": "2026-11-08T19:38:18.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "ANC tops 2026 local government election results as Ramaphosa warns parties ahead of coalition talks",
-      "link": "https://www.citizen.co.za/news/anc-2026-local-government-election-ramaphosa-coalition/",
-      "source": "The Citizen",
-      "published": "2026-11-08T17:51:38.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "Here are the final 2026 local government election results for SA’s eight metros",
       "link": "https://www.citizen.co.za/news/south-africa/elections/final-2026-local-government-election-results-eight-metros/",
       "source": "The Citizen",
       "published": "2026-11-08T17:35:50.000Z",
       "parties": [
         "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "ANC results: Ramaphosa will not resign, say Mantashe, Mokonyane and Mbalula",
-      "link": "https://www.news24.com/politics/anc-results-ramaphosa-will-not-resign-say-mantashe-mokonyane-and-mbalula-20261108-0843",
-      "source": "News24",
-      "published": "2026-11-08T14:26:10.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": false
     },
@@ -1146,42 +1292,12 @@
       "accountability": false
     },
     {
-      "title": "New and re-elected eThekwini DA councillors set out service-delivery priorities",
-      "link": "https://iol.co.za/thepost/news/2026-11-06-new-and-re-elected-ethekwini-da-councillors-set-out-service-delivery-priorities/",
-      "source": "IOL",
-      "published": "2026-11-06T11:45:00.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": false
-    },
-    {
       "title": "LIVE | LGE 2026: MK Party demands answers over delayed KZN election results",
       "link": "https://iol.co.za/lge2026/2026-11-04-live-or-lge-2026-mk-party-demands-answers-over-delayed-kzn-election-results/",
       "source": "IOL",
       "published": "2026-11-06T11:32:00.000Z",
       "parties": [
         "mkp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Will GLU hold us together? Geordin Hill-Lewis reveals pre-prepared coalition options",
-      "link": "https://www.news24.com/politics/will-glu-hold-us-together-geordin-hill-lewis-reveals-pre-prepared-coalition-options-20261106-0635",
-      "source": "News24",
-      "published": "2026-11-06T10:35:54.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "DA draws coalition red line as Western Cape faces hung councils",
-      "link": "https://iol.co.za/lge2026/2026-11-06-da-draws-coalition-red-line-as-western-cape-faces-hung-councils/",
-      "source": "IOL",
-      "published": "2026-11-06T10:30:00.000Z",
-      "parties": [
-        "da"
       ],
       "accountability": false
     },
@@ -1225,16 +1341,6 @@
       "published": "2026-11-06T10:00:37.000Z",
       "parties": [
         "mkp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "DA ready for coalition talks",
-      "link": "https://www.sabcnews.com/sabcnews/da-ready-for-coalition-talks-as-results-point-to-hung-municipalities/",
-      "source": "SABC News",
-      "published": "2026-11-06T09:38:34.000Z",
-      "parties": [
-        "da"
       ],
       "accountability": false
     },
@@ -1429,16 +1535,6 @@
       "accountability": false
     },
     {
-      "title": "WATCH: MK Party claims strong early showing in Msunduzi and uMgungundlovu",
-      "link": "https://iol.co.za/lge2026/2026-11-05-mk-party-claims-strong-early-showing-in-msunduzi-and-umgungundlovu/",
-      "source": "IOL",
-      "published": "2026-11-05T11:50:22.000Z",
-      "parties": [
-        "mkp"
-      ],
-      "accountability": false
-    },
-    {
       "title": "DA regains Cape Town’s Ward 56 as Ashwin Jansen vows to do the work",
       "link": "https://iol.co.za/lge2026/2026-11-05-da-regains-cape-towns-ward-56-as-ashwin-jansen-vows-to-do-the-work/",
       "source": "IOL",
@@ -1487,16 +1583,6 @@
       "parties": [
         "da",
         "eff"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "‘God had another plan’: MK party’s Mchunu defends Zuma as election results trickle in",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/god-had-another-plan-mk-partys-mchunu-defends-zuma-as-election-results-trickle-in/",
-      "source": "The Citizen",
-      "published": "2026-11-05T06:16:18.000Z",
-      "parties": [
-        "mkp"
       ],
       "accountability": false
     },
@@ -1928,16 +2014,6 @@
       "accountability": false
     },
     {
-      "title": "The Queue | Nasiphi Moya defends her record as Tshwane mayor",
-      "link": "https://www.news24.com/politics/elections/the-queue-nasiphi-moya-defends-her-record-as-tshwane-mayor-20261027-1150",
-      "source": "News24",
-      "published": "2026-10-29T03:16:34.000Z",
-      "parties": [
-        "actionsa"
-      ],
-      "accountability": false
-    },
-    {
       "title": "Maimane: State capture never ended; it just moved to municipalities [PODCAST]",
       "link": "https://www.citizen.co.za/news/south-africa/elections/maimane-state-capture-never-ended-it-just-moved-to-municipalities-podcast/",
       "source": "The Citizen",
@@ -1948,16 +2024,6 @@
       "accountability": true
     },
     {
-      "title": "SAPS denies negligence claims after Lavender Hill shooting",
-      "link": "https://iol.co.za/capeargus/news/2026-10-28-saps-denies-negligence-claims-after-lavender-hill-shooting/",
-      "source": "IOL",
-      "published": "2026-10-28T10:00:00.000Z",
-      "parties": [
-        "actionsa"
-      ],
-      "accountability": false
-    },
-    {
       "title": "Gayton McKenzie defends Joshlin Smith search role, says he has given police new information",
       "link": "https://iol.co.za/the-star/news/2026-10-28-gayton-mckenzie-defends-joshlin-smith-search-role-says-he-has-given-police-new-information/",
       "source": "IOL",
@@ -1966,16 +2032,6 @@
         "pa"
       ],
       "accountability": false
-    },
-    {
-      "title": "Mashaba plans to fight crime and corruption in Joburg return",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/mashaba-plans-to-fight-crime-and-corruption-in-joburg-return/",
-      "source": "The Citizen",
-      "published": "2026-10-28T04:20:00.000Z",
-      "parties": [
-        "actionsa"
-      ],
-      "accountability": true
     },
     {
       "title": "Here’s how many spoilt ballots were previously cast and how they could have mattered",
@@ -2004,17 +2060,6 @@
       "published": "2026-10-26T05:40:53.000Z",
       "parties": [
         "pa"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Opposition claims ANC is using council jobs to ‘buy votes’ in Ekurhuleni",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/anc-buy-votes-ekurhuleni-council-actionsa/",
-      "source": "The Citizen",
-      "published": "2026-10-26T03:30:00.000Z",
-      "parties": [
-        "anc",
-        "actionsa"
       ],
       "accountability": false
     },
@@ -2246,26 +2291,6 @@
         "good"
       ],
       "accountability": true
-    },
-    {
-      "title": "KZN premier defends army deployment as IFP infighting erupts after Durban unrest",
-      "link": "https://www.news24.com/southafrica/news/kzn-premier-defends-army-deployment-as-ifp-infighting-erupts-after-durban-unrest-20261013-0625",
-      "source": "News24",
-      "published": "2026-10-13T11:01:17.000Z",
-      "parties": [
-        "ifp"
-      ],
-      "accountability": true
-    },
-    {
-      "title": "‘I have not withdrawn anything’: Gayton McKenzie denies Graaff-Reinet renaming ‘reversal’",
-      "link": "https://www.news24.com/southafrica/news/i-have-not-withdrawn-anything-gayton-mckenzie-denies-graaff-reinet-renaming-reversal-20261013-0647",
-      "source": "News24",
-      "published": "2026-10-13T10:52:04.000Z",
-      "parties": [
-        "pa"
-      ],
-      "accountability": false
     }
   ]
 }
