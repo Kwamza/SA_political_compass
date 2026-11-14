@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T11:57:51.735Z",
+  "updated": "2026-11-14T11:16:15.354Z",
   "window_days": 30,
   "feeds": [
     {
@@ -7,7 +7,7 @@
       "homepage": "https://www.dailymaverick.co.za",
       "url": "https://www.dailymaverick.co.za/dmrss/",
       "ok": true,
-      "items": 52
+      "items": 51
     },
     {
       "source": "News24",
@@ -53,6 +53,161 @@
     }
   ],
   "items": [
+    {
+      "title": "MKP-DA locked in possible coalition discussions in Johannesburg",
+      "link": "https://www.sabcnews.com/sabcnews/mkp-da-coalition-discussions-underway-in-johannesburg/",
+      "source": "SABC News",
+      "published": "2026-11-14T11:00:57.000Z",
+      "parties": [
+        "da",
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "SACP rules out DA, FF+ coalitions as Western Cape parties outline priorities",
+      "link": "https://iol.co.za/weekend-argus/news/2026-11-14-sacp-rules-out-da-ff-coalitions-as-western-cape-parties-outline-priorities/",
+      "source": "IOL",
+      "published": "2026-11-14T11:00:00.000Z",
+      "parties": [
+        "da",
+        "ffplus"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Coalition indisposition: ANC deliberations go into overtime due to lack of consensus",
+      "link": "https://www.news24.com/politics/coalition-indisposition-anc-deliberations-go-into-overtime-due-to-lack-of-consensus-20261114-0628",
+      "source": "News24",
+      "published": "2026-11-14T10:50:36.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Probe branches under 50% in LGE, says ANCYL in Limpopo",
+      "link": "https://www.sabcnews.com/sabcnews/1177872-2/",
+      "source": "SABC News",
+      "published": "2026-11-14T10:28:55.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Mantashe bemoans fragmented black vote after ANC decline",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/mantashe-bemoans-fragmented-black-vote-after-anc-decline/",
+      "source": "The Citizen",
+      "published": "2026-11-14T10:08:45.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC says no party is excluded from coalition talks",
+      "link": "https://iol.co.za/lge2026/2026-11-14-anc-says-no-party-is-excluded-from-coalition-talks/",
+      "source": "IOL",
+      "published": "2026-11-14T09:33:45.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Chris Pappas re-elected uMngeni mayor as DA retains control",
+      "link": "https://iol.co.za/mercury/news/2026-11-14-chris-pappas-re-elected-umngeni-mayor-as-da-retains-control/",
+      "source": "IOL",
+      "published": "2026-11-14T08:33:29.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC’s resistance to forming coalitions with DA welcomed by SACP",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/anc-resistance-coalitions-da-welcomed-sacp/",
+      "source": "The Citizen",
+      "published": "2026-11-14T07:35:41.000Z",
+      "parties": [
+        "anc",
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "PARTY RESET OP-ED: The ANC’s liberation history cannot substitute for effective governance",
+      "link": "https://www.dailymaverick.co.za/article/2026-11-14-the-ancs-liberation-history-cannot-substitute-for-effective-governance/",
+      "source": "Daily Maverick",
+      "published": "2026-11-14T07:00:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Chris Pappas sworn in for second term as uMngeni mayor after DA surges to 60%",
+      "link": "https://www.news24.com/politics/chris-pappas-sworn-in-for-second-term-as-umngeni-mayor-after-da-surges-to-60-20261113-1104",
+      "source": "News24",
+      "published": "2026-11-13T18:25:10.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "From Parly to the Palm Tree State: Ex-ANC MP and Zuma man now a US ‘refugee’",
+      "link": "https://www.news24.com/politics/from-parly-to-the-palm-tree-state-ex-anc-mp-and-zuma-man-now-a-us-refugee-20261113-1081",
+      "source": "News24",
+      "published": "2026-11-13T18:03:41.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "In case you missed it: Will DA deliver Zille’s head to Mashaba? | Brown Mogotsi’s partial win | Anele an Buzza’s love story",
+      "link": "https://www.citizen.co.za/news/in-case-you-missed-it-13-november-2026/",
+      "source": "The Citizen",
+      "published": "2026-11-13T18:00:00.000Z",
+      "parties": [
+        "da",
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "SACP throws weight behind ANC in Eastern Cape’s hung municipalities",
+      "link": "https://www.news24.com/southafrica/news/sacp-throws-weight-behind-anc-in-eastern-capes-hung-municipalities-20261113-0975",
+      "source": "News24",
+      "published": "2026-11-13T16:15:57.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC says DA is ‘party of last resort’, but still wants to engage over possible coalitions",
+      "link": "https://www.news24.com/politics/push-anc-says-da-is-party-of-last-resort-but-still-wants-to-engage-over-possible-coalitions-20261113-0739",
+      "source": "News24",
+      "published": "2026-11-13T15:25:22.000Z",
+      "parties": [
+        "anc",
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "EFF, ALPA lose court bid over withdrawal of Phala Phala evidence leader",
+      "link": "https://www.citizen.co.za/news/south-africa/courts/eff-alpa-phala-phala-impeachment-evidence-leader/",
+      "source": "The Citizen",
+      "published": "2026-11-13T13:02:27.000Z",
+      "parties": [
+        "eff"
+      ],
+      "accountability": true
+    },
     {
       "title": "Watch – Zille vs Mashaba: the egos shaping Joburg’s coalition talks",
       "link": "https://www.dailymaverick.co.za/video/2026-11-13-watch-zille-vs-mashaba-the-egos-shaping-joburgs-coalition-talks/",
@@ -596,16 +751,6 @@
       "accountability": false
     },
     {
-      "title": "‘ANC banked on handouts, we worked the ground’: OMO’s strategy to clean up in Merafong",
-      "link": "https://www.news24.com/southafrica/news/anc-banked-on-handouts-we-worked-the-ground-omos-strategy-to-clean-up-in-merafong-20261110-1154",
-      "source": "News24",
-      "published": "2026-11-10T20:46:26.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "UPDATE | ‘See you in court’ – Zille to Malema’s demand for retraction of corruption claims",
       "link": "https://www.news24.com/politics/malema-to-zille-retract-claims-against-me-or-face-legal-action-20261110-0668",
       "source": "News24",
@@ -617,46 +762,6 @@
       "accountability": true
     },
     {
-      "title": "ANC Youth League slams PR system as ‘anti-democratic’ after election blow",
-      "link": "https://www.news24.com/politics/anc-youth-league-slams-pr-system-as-anti-democratic-after-election-blow-20261110-1165",
-      "source": "News24",
-      "published": "2026-11-10T19:25:39.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Mbeki is part of the problem: ANCYL defends Ramaphosa amid calls for resignation",
-      "link": "https://www.news24.com/politics/mbeki-is-part-of-the-problem-ancyl-defends-ramaphosa-amid-calls-for-resignation-20261110-0875",
-      "source": "News24",
-      "published": "2026-11-10T16:19:38.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Mbeki: ANC must first answer ‘what went wrong’ before deciding on coalitions",
-      "link": "https://www.news24.com/politics/mbeki-anc-must-first-answer-what-went-wrong-before-deciding-on-coalitions-20261110-0782",
-      "source": "News24",
-      "published": "2026-11-10T13:37:38.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Youth League president blames Mbeki and Yengeni for starting ANC decline",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/brand-anc-started-eroding-from-then-ancyl-president-slams-thabo-mbeki-and-tony-yengeni/",
-      "source": "The Citizen",
-      "published": "2026-11-10T12:56:37.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "ActionSA offers to trade Mashaba for Zille, suggesting both withdraw from Joburg",
       "link": "https://www.news24.com/politics/actionsa-offers-to-trade-mashaba-for-zille-suggesting-both-withdraw-from-joburg-20261110-0755",
       "source": "News24",
@@ -666,26 +771,6 @@
         "actionsa"
       ],
       "accountability": false
-    },
-    {
-      "title": "Civic movements rise as ANC loses grip on Eastern Cape",
-      "link": "https://groundup.org.za/article/civic-movements-rise-as-anc-loses-grip-on-eastern-cape/",
-      "source": "GroundUp",
-      "published": "2026-11-10T12:05:49.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "State to lead evidence in Magaqa murder trial",
-      "link": "https://iol.co.za/news/crime-and-courts/2026-11-10-state-to-lead-evidence-in-magaqa-murder-trial/",
-      "source": "IOL",
-      "published": "2026-11-10T12:01:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": true
     },
     {
       "title": "RISE Mzansi and GOOD secure six Cape Town council seats",
@@ -735,16 +820,6 @@
       "published": "2026-11-10T11:00:00.000Z",
       "parties": [
         "risemzansi"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "ANC loses ground in North West but remains biggest party",
-      "link": "https://groundup.org.za/article/anc-loses-ground-in-north-west-but-remains-biggest-party/",
-      "source": "GroundUp",
-      "published": "2026-11-10T10:23:00.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": false
     },
@@ -980,16 +1055,6 @@
       "accountability": false
     },
     {
-      "title": "LOCAL ELECTIONS 2026: DA goes on coalition offensive as battle for Nelson Mandela Bay begins",
-      "link": "https://www.dailymaverick.co.za/article/2026-11-08-da-goes-on-coalition-offensive-as-battle-for-nelson-mandela-bay-begins/",
-      "source": "Daily Maverick",
-      "published": "2026-11-08T23:17:06.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": false
-    },
-    {
       "title": "14 DAYS TO FIX LOCAL: Herman Mashaba: ‘Very, very slim’ chance of coalitions with the DA",
       "link": "https://www.dailymaverick.co.za/article/2026-11-08-herman-mashaba-very-very-slim-chance-of-coalitions-with-the-da/",
       "source": "Daily Maverick",
@@ -1014,17 +1079,6 @@
       "accountability": false
     },
     {
-      "title": "LOCAL ELECTIONS 2026 OP-ED: The DA hammered the ANC in Emfuleni — the how and the why",
-      "link": "https://www.dailymaverick.co.za/article/2026-11-08-the-da-hammered-the-anc-in-emfuleni-the-how-and-the-why/",
-      "source": "Daily Maverick",
-      "published": "2026-11-08T22:20:54.000Z",
-      "parties": [
-        "anc",
-        "da"
-      ],
-      "accountability": false
-    },
-    {
       "title": "LOCAL ELECTIONS 2026: SACP’s strong showing signals end of the Tripartite Alliance",
       "link": "https://www.dailymaverick.co.za/article/2026-11-08-sacps-strong-showing-signals-end-of-the-tripartite-alliance/",
       "source": "Daily Maverick",
@@ -1041,27 +1095,6 @@
       "published": "2026-11-08T20:23:12.000Z",
       "parties": [
         "mkp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Here are the final 2026 local government election results for SA’s eight metros",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/final-2026-local-government-election-results-eight-metros/",
-      "source": "The Citizen",
-      "published": "2026-11-08T17:35:50.000Z",
-      "parties": [
-        "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "ANC vote share collapses in Ekurhuleni as DA emerges as largest party in historic shift",
-      "link": "https://www.news24.com/politics/elections/anc-vote-share-collapses-in-ekurhuleni-as-da-emerges-as-largest-party-in-historic-shift-20261108-0740",
-      "source": "News24",
-      "published": "2026-11-08T12:42:51.000Z",
-      "parties": [
-        "anc",
-        "da"
       ],
       "accountability": false
     },
@@ -1704,17 +1737,6 @@
       "accountability": false
     },
     {
-      "title": "LOCAL ELECTIONS 2026: Fourteen days to find a mayor — Mashaba holds the key, ANC the lock",
-      "link": "https://www.dailymaverick.co.za/article/2026-11-03-fourteen-days-to-find-a-mayor-mashaba-holds-the-key-anc-the-lock/",
-      "source": "Daily Maverick",
-      "published": "2026-11-03T21:27:00.000Z",
-      "parties": [
-        "anc",
-        "actionsa"
-      ],
-      "accountability": false
-    },
-    {
       "title": "‘South Africa must trade with the world, not be bullied by it’ – EFF on Agoa",
       "link": "https://www.citizen.co.za/business/south-africa-must-trade-with-the-world-not-be-bullied-by-it-eff-on-agoa/",
       "source": "The Citizen",
@@ -1961,16 +1983,6 @@
       "link": "https://www.news24.com/investigations/spy-boss-thulani-dlomo-loses-discharge-bid-in-r12m-ssa-eff-infiltration-plot-case-20261030-0585",
       "source": "News24",
       "published": "2026-10-30T09:45:13.000Z",
-      "parties": [
-        "eff"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Another EFF flip-flop: Calls for Tshwane CFO to be placed under suspension",
-      "link": "https://www.citizen.co.za/news/south-africa/politics/another-eff-flip-flop-calls-for-tshwane-cfo-to-be-placed-under-suspension/",
-      "source": "The Citizen",
-      "published": "2026-10-30T08:36:46.000Z",
       "parties": [
         "eff"
       ],
@@ -2229,16 +2241,6 @@
       "published": "2026-10-15T15:13:34.000Z",
       "parties": [
         "ffplus"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "‘Johannesburg cannot be a bargaining chip’: Zungula’s plan to fix the city",
-      "link": "https://iol.co.za/the-star/city-watch/2026-10-15-johannesburg-cannot-be-a-bargaining-chip-zungulas-plan-to-fix-the-city/",
-      "source": "IOL",
-      "published": "2026-10-15T07:00:00.000Z",
-      "parties": [
-        "atm"
       ],
       "accountability": false
     }
