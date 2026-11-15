@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T11:16:15.354Z",
+  "updated": "2026-11-15T11:49:33.891Z",
   "window_days": 30,
   "feeds": [
     {
@@ -14,7 +14,7 @@
       "homepage": "https://www.news24.com",
       "url": "https://feeds.capi24.com/v1/Search/articles/news24/Politics/rss",
       "ok": true,
-      "items": 20
+      "items": 0
     },
     {
       "source": "News24",
@@ -53,6 +53,109 @@
     }
   ],
   "items": [
+    {
+      "title": "SACP rules out DA and FF+ coalitions as Western Cape parties set council priorities",
+      "link": "https://iol.co.za/capetimes/2026-11-15-sacp-rules-out-da-and-ff-coalitions-as-western-cape-parties-set-council-priorities/",
+      "source": "IOL",
+      "published": "2026-11-15T11:00:00.000Z",
+      "parties": [
+        "da",
+        "ffplus"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANC divisions exposed by poor local election results – will the GNU survive?",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/anc-divisions-exposed-poor-local-election-results-gnu/",
+      "source": "The Citizen",
+      "published": "2026-11-15T10:58:06.000Z",
+      "parties": [
+        "anc",
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "The ANC's perilous path: Facing electoral decline without a plan",
+      "link": "https://iol.co.za/sundayindependent/dispatch/2026-11-15-the-ancs-perilous-path-facing-electoral-decline-without-a-plan/",
+      "source": "IOL",
+      "published": "2026-11-15T10:30:12.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "A look at Malema's history of insults as Zille refuses to retract controversial claims",
+      "link": "https://iol.co.za/saturday-star/news/2026-11-15-a-look-at-malemas-history-of-insults-as-zille-refuses-to-retract-controversial-claims/",
+      "source": "IOL",
+      "published": "2026-11-15T10:03:51.000Z",
+      "parties": [
+        "eff"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ANCYL admits failure to win youth support as ANC reels from election losses",
+      "link": "https://iol.co.za/news/politics/2026-11-15-ancyl-admits-failure-to-win-youth-support-as-anc-reels-from-election-losses/",
+      "source": "IOL",
+      "published": "2026-11-15T10:00:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Jobs bloodbath sparks debate in Limpopo",
+      "link": "https://www.citizen.co.za/news/jobs-bloodbath-sparks-debate-in-limpopo/",
+      "source": "The Citizen",
+      "published": "2026-11-15T08:00:00.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA’s Fran Kristopher sets service-delivery priorities for eThekwini Ward 33",
+      "link": "https://iol.co.za/dailynews/news/2026-11-15-das-fran-kristopher-sets-service-delivery-priorities-for-ethekwini-ward-33/",
+      "source": "IOL",
+      "published": "2026-11-15T08:00:00.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "MK’s Manyi warns parties against being outmanoeuvred by DA",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/mk-manyi-warns-parties-against-outmanoeuvred-da/",
+      "source": "The Citizen",
+      "published": "2026-11-15T07:45:55.000Z",
+      "parties": [
+        "da",
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "The ANC’s political complacency is exhausting",
+      "link": "https://www.citizen.co.za/news/opinion/the-ancs-political-complacency-is-exhausting/",
+      "source": "The Citizen",
+      "published": "2026-11-15T05:01:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "In case you missed it: SACP backs ANC’s coalition decision | Mantashe on ANC’s decline | Ramathuba cracks the whip on MECs",
+      "link": "https://www.citizen.co.za/news/in-case-you-missed-it-14-november-2026/",
+      "source": "The Citizen",
+      "published": "2026-11-14T18:00:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
     {
       "title": "MKP-DA locked in possible coalition discussions in Johannesburg",
       "link": "https://www.sabcnews.com/sabcnews/mkp-da-coalition-discussions-underway-in-johannesburg/",
@@ -700,36 +803,6 @@
       "accountability": false
     },
     {
-      "title": "ANC’s declining support: Ramaphosa must carry the can",
-      "link": "https://www.citizen.co.za/news/opinion/ancs-declining-support-ramaphosa-must-carry-the-can/",
-      "source": "The Citizen",
-      "published": "2026-11-11T06:00:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "ANC running out of chances as 2029 wipeout predicted",
-      "link": "https://www.citizen.co.za/news/south-africa/politics/anc-running-out-of-chances-as-experts-predict-2029-wipeout/",
-      "source": "The Citizen",
-      "published": "2026-11-11T05:40:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Will Panyaza Lesufi be the next ANC president? Premier clears the air on 2027 leadership race",
-      "link": "https://www.citizen.co.za/news/south-africa/politics/panyaza-lesufi-rejects-anc-presidency-calls-ahead-2027-leadership-race/",
-      "source": "The Citizen",
-      "published": "2026-11-11T04:57:16.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "ANC divided on DA ahead of crucial coalition decision",
       "link": "https://www.news24.com/politics/anc-divided-on-da-ahead-of-crucial-coalition-decision-20261110-1242",
       "source": "News24",
@@ -954,28 +1027,6 @@
       "accountability": true
     },
     {
-      "title": "History made, promises due: DA becomes NMB’s largest party as it takes 5 wards from ANC",
-      "link": "https://www.news24.com/politics/history-made-promises-due-da-becomes-nmbs-largest-party-as-it-takes-5-wards-from-anc-20261109-0793",
-      "source": "News24",
-      "published": "2026-11-09T13:15:36.000Z",
-      "parties": [
-        "anc",
-        "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "LOCAL ELECTIONS 2026: Joburg after the vote: four things to watch as coalition talks begin",
-      "link": "https://www.dailymaverick.co.za/article/2026-11-09-joburg-after-the-vote-four-things-to-watch-as-coalition-talks-begin/",
-      "source": "Daily Maverick",
-      "published": "2026-11-09T12:44:58.000Z",
-      "parties": [
-        "anc",
-        "da"
-      ],
-      "accountability": false
-    },
-    {
       "title": "ActionSA opens coalition talks with ANC and EFF",
       "link": "https://www.citizen.co.za/news/actionsa-opens-coalition-talks-with-anc-and-eff/",
       "source": "The Citizen",
@@ -1028,17 +1079,6 @@
         "da",
         "eff",
         "mkp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "DA may invoke GNU coalition terms in City of Joburg",
-      "link": "https://www.citizen.co.za/news/south-africa/politics/da-gnu-coalition-city-of-joburg/",
-      "source": "The Citizen",
-      "published": "2026-11-09T03:30:00.000Z",
-      "parties": [
-        "anc",
-        "da"
       ],
       "accountability": false
     },
@@ -1544,16 +1584,6 @@
       "accountability": false
     },
     {
-      "title": "Zuma’s MK party draws coalition red lines: here’s its non-negotiable",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/zumas-mk-party-draws-coalition-red-lines-heres-its-non-negotiable/",
-      "source": "The Citizen",
-      "published": "2026-11-06T04:23:00.000Z",
-      "parties": [
-        "mkp"
-      ],
-      "accountability": false
-    },
-    {
       "title": "Election surprise: ActionSA surges to take 53 Gauteng wards off ANC",
       "link": "https://www.news24.com/politics/elections/election-surprise-actionsa-surges-to-take-53-gauteng-wards-off-anc-20261105-1274",
       "source": "News24",
@@ -1979,16 +2009,6 @@
       "accountability": false
     },
     {
-      "title": "Spy boss Thulani Dlomo loses discharge bid in R12m SSA EFF infiltration plot case",
-      "link": "https://www.news24.com/investigations/spy-boss-thulani-dlomo-loses-discharge-bid-in-r12m-ssa-eff-infiltration-plot-case-20261030-0585",
-      "source": "News24",
-      "published": "2026-10-30T09:45:13.000Z",
-      "parties": [
-        "eff"
-      ],
-      "accountability": false
-    },
-    {
       "title": "'Steenhuisen was a tougher opponent': Hill-Lewis and McKenzie in war of words",
       "link": "https://iol.co.za/capeargus/news/2026-10-29-steenhuisen-was-a-tougher-opponent-hill-lewis-and-mckenzie-in-war-of-words/",
       "source": "IOL",
@@ -2231,16 +2251,6 @@
       "published": "2026-10-17T13:07:03.000Z",
       "parties": [
         "ifp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "At Solidarity’s behest, FF Plus reports Lamola to clearing house over handling of US talks",
-      "link": "https://www.news24.com/politics/at-solidaritys-behest-ff-plus-reports-lamola-to-clearing-house-over-handling-of-us-talks-20261015-0763",
-      "source": "News24",
-      "published": "2026-10-15T15:13:34.000Z",
-      "parties": [
-        "ffplus"
       ],
       "accountability": false
     }
