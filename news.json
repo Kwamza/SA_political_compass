@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T12:53:08.080Z",
+  "updated": "2026-11-18T12:46:47.590Z",
   "window_days": 30,
   "feeds": [
     {
@@ -7,7 +7,7 @@
       "homepage": "https://www.dailymaverick.co.za",
       "url": "https://www.dailymaverick.co.za/dmrss/",
       "ok": true,
-      "items": 50
+      "items": 52
     },
     {
       "source": "News24",
@@ -54,13 +54,99 @@
   ],
   "items": [
     {
-      "title": "Leadership vacuum: Can the ANC field anyone for Joburg positions in coalition with ActionSA?",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/leadership-vacuum-can-the-anc-field-anyone-for-joburg-positions-in-coalition-with-actionsa/",
+      "title": "‘ANC is arguably the most logical coalition partner for the MKP’, says expert",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/anc-is-arguably-the-most-logical-coalition-partner-for-the-mkp-says-expert/",
       "source": "The Citizen",
-      "published": "2026-11-17T12:29:35.000Z",
+      "published": "2026-11-18T12:39:05.000Z",
       "parties": [
         "anc",
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "WATCH: Reggie Ngcobo elected mayor as MK Party takes control of Richmond",
+      "link": "https://iol.co.za/dailynews/news/2026-11-18-watch-reggie-ngcobo-elected-mayor-as-mk-party-takes-control-of-richmond/",
+      "source": "IOL",
+      "published": "2026-11-18T12:05:00.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Pappas vows to build on first-term gains as he begins second term as uMngeni mayor",
+      "link": "https://iol.co.za/dailynews/news/2026-11-18-pappas-vows-to-build-on-first-term-gains-as-he-begins-second-term-as-umngeni-mayor/",
+      "source": "IOL",
+      "published": "2026-11-18T12:00:00.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA’s Stephen Korabie secures second term as Drakenstein Mayor",
+      "link": "https://www.sabcnews.com/sabcnews/das-stephen-korabie-secures-second-term-as-drakenstein-mayor/",
+      "source": "SABC News",
+      "published": "2026-11-18T11:50:06.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ActionSA-ANC wedding bells: Has the DA ‘missed the train’ in Gauteng coalition negotiations?",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/actionsa-anc-wedding-bells-has-the-da-missed-the-train-in-gauteng-coalition-negotiations/",
+      "source": "The Citizen",
+      "published": "2026-11-18T09:57:34.000Z",
+      "parties": [
+        "anc",
+        "da",
         "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "LOCAL ELECTIONS 2026: When the horse trading is over, what coalitions will merge and govern Gauteng?",
+      "link": "https://www.dailymaverick.co.za/article/2026-11-17-when-the-horse-trading-is-over-what-coalitions-will-merge-and-govern-gauteng/",
+      "source": "Daily Maverick",
+      "published": "2026-11-17T23:28:32.000Z",
+      "parties": [
+        "anc",
+        "da",
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "LOCAL ELECTIONS 2026: Mashaba wants Joburg mayorship from ANC as parties near coalition deal",
+      "link": "https://www.dailymaverick.co.za/article/2026-11-17-joburg-remains-the-sticking-point-as-anc-and-actionsa-close-in-on-gauteng-deal/",
+      "source": "Daily Maverick",
+      "published": "2026-11-17T23:10:42.000Z",
+      "parties": [
+        "anc",
+        "da",
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "TROUBLED WATERS: ‘Tatjana treated like an enemy of this country’ — McKenzie launches probe into SSA",
+      "link": "https://www.dailymaverick.co.za/article/2026-11-17-tatjana-treated-like-an-enemy-of-this-country-mckenzie-launches-probe-into-ssa/",
+      "source": "Daily Maverick",
+      "published": "2026-11-17T21:22:03.000Z",
+      "parties": [
+        "pa"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "Beyond the ballot box, South Africa’s deeper crisis demands more than ANC blame",
+      "link": "https://www.dailymaverick.co.za/opinionista/2026-11-17-beyond-the-ballot-box-south-africas-deeper-crisis-demands-more-than-anc-blame/",
+      "source": "Daily Maverick",
+      "published": "2026-11-17T19:03:52.000Z",
+      "parties": [
+        "anc"
       ],
       "accountability": false
     },
@@ -68,7 +154,29 @@
       "title": "ActionSA gets its first mayor in Western Cape with the help of the ANC and PA",
       "link": "https://www.news24.com/politics/actionsa-gets-its-first-mayor-in-western-cape-with-the-help-of-the-anc-and-pa-20261117-0742",
       "source": "News24",
-      "published": "2026-11-17T12:24:26.000Z",
+      "published": "2026-11-17T15:39:53.000Z",
+      "parties": [
+        "anc",
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Coalition crunch time: ANC-DA talks end inconclusively ahead of council votes",
+      "link": "https://www.news24.com/politics/coalition-crunch-time-anc-da-talks-end-inconclusively-ahead-of-council-votes-20261115-1147",
+      "source": "News24",
+      "published": "2026-11-17T13:33:13.000Z",
+      "parties": [
+        "anc",
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Leadership vacuum: Can the ANC field anyone for Joburg positions in coalition with ActionSA?",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/leadership-vacuum-can-the-anc-field-anyone-for-joburg-positions-in-coalition-with-actionsa/",
+      "source": "The Citizen",
+      "published": "2026-11-17T12:29:35.000Z",
       "parties": [
         "anc",
         "actionsa"
@@ -318,17 +426,6 @@
         "da"
       ],
       "accountability": true
-    },
-    {
-      "title": "Coalition crunch time: ANC-DA talks end inconclusively ahead of council votes",
-      "link": "https://www.news24.com/politics/coalition-crunch-time-anc-da-talks-end-inconclusively-ahead-of-council-votes-20261115-1147",
-      "source": "News24",
-      "published": "2026-11-16T05:13:20.000Z",
-      "parties": [
-        "anc",
-        "da"
-      ],
-      "accountability": false
     },
     {
       "title": "Ramaphosa faces defining moment as municipal power hangs in the balance",
@@ -680,16 +777,6 @@
       "accountability": false
     },
     {
-      "title": "SACP throws weight behind ANC in Eastern Cape’s hung municipalities",
-      "link": "https://www.news24.com/southafrica/news/sacp-throws-weight-behind-anc-in-eastern-capes-hung-municipalities-20261113-0975",
-      "source": "News24",
-      "published": "2026-11-13T16:15:57.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "ANC says DA is ‘party of last resort’, but still wants to engage over possible coalitions",
       "link": "https://www.news24.com/politics/push-anc-says-da-is-party-of-last-resort-but-still-wants-to-engage-over-possible-coalitions-20261113-0739",
       "source": "News24",
@@ -945,34 +1032,12 @@
       "accountability": false
     },
     {
-      "title": "City coalitions: Nelson Mandela Bay edges towards a deal as ANC NEC meets",
-      "link": "https://www.news24.com/politics/nelson-mandela-bay-edges-toward-a-coalition-deal-20261111-1244",
-      "source": "News24",
-      "published": "2026-11-12T05:30:29.000Z",
-      "parties": [
-        "anc",
-        "da"
-      ],
-      "accountability": false
-    },
-    {
       "title": "Money doesn’t go to SA’s athletes as Smith leaves",
       "link": "https://www.citizen.co.za/news/opinion/money-doesnt-go-to-sas-athletes-as-smith-leaves/",
       "source": "The Citizen",
       "published": "2026-11-12T05:00:00.000Z",
       "parties": [
         "pa"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "DA begins coalition talks with ANC and new party in Mpumalanga",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/da-begins-coalition-talks-with-anc-new-party-mpumalanga/",
-      "source": "The Citizen",
-      "published": "2026-11-12T04:20:00.000Z",
-      "parties": [
-        "anc",
-        "da"
       ],
       "accountability": false
     },
@@ -1408,16 +1473,6 @@
       "accountability": false
     },
     {
-      "title": "ActionSA says straight talk and no ‘gimmicks’ helped it surge from zero to 55 wards",
-      "link": "https://www.news24.com/politics/actionsa-says-straight-talk-and-no-gimmicks-helped-it-surge-from-zero-to-55-wards-20261107-1094",
-      "source": "News24",
-      "published": "2026-11-07T18:15:51.000Z",
-      "parties": [
-        "actionsa"
-      ],
-      "accountability": false
-    },
-    {
       "title": "LOCAL ELECTIONS 2026: ‘Our people are angry’ — MK party threatens to challenge election results",
       "link": "https://www.dailymaverick.co.za/article/2026-11-07-our-people-are-angry-mk-party-threatens-to-challenge-election-results/",
       "source": "Daily Maverick",
@@ -1564,18 +1619,6 @@
       "accountability": false
     },
     {
-      "title": "Joburg’s coalition puzzle: Three scenarios that could shape its future [AUDIO]",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/joburgs-coalition-puzzle-three-scenarios-that-could-shape-its-future-audio/",
-      "source": "The Citizen",
-      "published": "2026-11-07T07:35:54.000Z",
-      "parties": [
-        "anc",
-        "da",
-        "actionsa"
-      ],
-      "accountability": false
-    },
-    {
       "title": "The battle for eThekwini: MK party ‘won’t bother’ with party out to block them from power",
       "link": "https://www.citizen.co.za/news/south-africa/elections/the-battle-for-ethekwini-mk-party-wont-bother-with-party-out-to-block-them-from-power/",
       "source": "The Citizen",
@@ -1613,16 +1656,6 @@
       "parties": [
         "anc",
         "mkp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "ActionSA lands another surprise to become biggest party in Laingsburg",
-      "link": "https://www.news24.com/politics/actionsa-lands-another-surprise-to-become-biggest-party-in-laingsburg-20261106-1213",
-      "source": "News24",
-      "published": "2026-11-06T20:13:14.000Z",
-      "parties": [
-        "actionsa"
       ],
       "accountability": false
     },
@@ -1676,26 +1709,6 @@
       "published": "2026-11-06T10:10:13.000Z",
       "parties": [
         "anc",
-        "mkp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "MK Party wants answers over delayed election results in KwaZulu-Natal",
-      "link": "https://iol.co.za/lge2026/2026-11-06-mk-party-wants-answers-over-delayed-election-results-in-kwazulu-natal/",
-      "source": "IOL",
-      "published": "2026-11-06T10:07:17.000Z",
-      "parties": [
-        "mkp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "MK Party pleased with Jozini results",
-      "link": "https://www.sabcnews.com/sabcnews/mk-party-pleased-with-jozini-results/",
-      "source": "SABC News",
-      "published": "2026-11-06T10:00:37.000Z",
-      "parties": [
         "mkp"
       ],
       "accountability": false
@@ -2240,18 +2253,6 @@
       "published": "2026-10-19T15:02:36.000Z",
       "parties": [
         "pa"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "EFF open to joining GNU if DA and FF Plus exit: Malema",
-      "link": "https://www.sabcnews.com/sabcnews/eff-open-to-joining-gnu-if-da-and-ff-plus-exit-malema/",
-      "source": "SABC News",
-      "published": "2026-10-19T09:22:11.000Z",
-      "parties": [
-        "da",
-        "eff",
-        "ffplus"
       ],
       "accountability": false
     }
