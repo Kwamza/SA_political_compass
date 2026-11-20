@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T12:38:13.586Z",
+  "updated": "2026-11-20T12:37:31.834Z",
   "window_days": 30,
   "feeds": [
     {
@@ -41,8 +41,8 @@
       "source": "SABC News",
       "homepage": "https://www.sabcnews.com",
       "url": "https://www.sabcnews.com/sabcnews/feed/",
-      "ok": true,
-      "items": 10
+      "ok": false,
+      "error": "fetch failed"
     },
     {
       "source": "IOL",
@@ -54,6 +54,171 @@
   ],
   "items": [
     {
+      "title": "MK Party dismisses speculation over possible removal of Richmond mayor",
+      "link": "https://iol.co.za/dailynews/news/2026-11-20-mk-party-dismisses-speculation-over-possible-removal-of-richmond-mayor/",
+      "source": "IOL",
+      "published": "2026-11-20T12:00:00.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Battle to lead ANC in Joburg continues alongside coalition talks",
+      "link": "https://www.citizen.co.za/news/south-africa/politics/battle-to-lead-anc-in-joburg-continues-alongside-coalition-talks/",
+      "source": "The Citizen",
+      "published": "2026-11-20T11:03:17.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "MK party dismisses Richmond mayor removal rumours, backs Reggie Ngcobo",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/mk-party-dismisses-richmond-mayor-removal-rumours-backs-reggie-ngcobo/",
+      "source": "The Citizen",
+      "published": "2026-11-20T09:46:49.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Gauteng PR seat roundabout could harm ANC, warns insider",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/gauteng-pr-seat-roundabout-could-harm-anc-warns-insider/",
+      "source": "The Citizen",
+      "published": "2026-11-20T09:43:59.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "‘The ANC must swallow its empty pride’: Anger as Polokwane coalition talks continue after collapse",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/the-anc-must-swallow-its-empty-pride-anger-as-polokwane-coalition-talks-continue-after-collapse/",
+      "source": "The Citizen",
+      "published": "2026-11-20T08:59:30.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA Eastern Cape ‘very pleased’ as Nelson Mandela Bay coalition deal nears finish line",
+      "link": "https://www.news24.com/politics/da-eastern-cape-very-pleased-as-nelson-mandela-bay-coalition-deal-nears-finish-line-20261120-0484",
+      "source": "News24",
+      "published": "2026-11-20T08:04:21.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Joburg may have a SACP mayor as ANC relies on old ally",
+      "link": "https://www.citizen.co.za/news/opinion/joburg-may-have-a-sacp-mayor-as-anc-relies-on-old-ally/",
+      "source": "The Citizen",
+      "published": "2026-11-20T05:00:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "No free votes: SACP pushes back against ANC entitlement",
+      "link": "https://www.news24.com/politics/no-free-votes-sacp-pushes-back-against-anc-entitlement-20261119-1260",
+      "source": "News24",
+      "published": "2026-11-20T04:31:25.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "LOCAL ELECTIONS 2026: FF Plus fails to broker DA-ActionSA coalition after deadlocked Gauteng talks",
+      "link": "https://www.dailymaverick.co.za/article/2026-11-20-ff-plus-fails-to-broker-da-actionsa-coalition-as-gauteng-talks-stall/",
+      "source": "Daily Maverick",
+      "published": "2026-11-20T00:35:22.000Z",
+      "parties": [
+        "anc",
+        "da",
+        "actionsa",
+        "ffplus"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "LOCAL ELECTIONS 2026: DA holds upper hand in Nelson Mandela Bay coalition talks, analysts say",
+      "link": "https://www.dailymaverick.co.za/article/2026-11-19-da-holds-upper-hand-in-nelson-mandela-bay-coalition-talks-analysts-say/",
+      "source": "Daily Maverick",
+      "published": "2026-11-19T22:19:38.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "UNREAD | Tembisa Hospital graft bail, Rassie’s 3rd ban, coalitions, and ‘GTA VI’",
+      "link": "https://www.news24.com/multimedia/unread-tembisa-hospital-graft-bail-rassies-3rd-ban-coalitions-and-gta-vi-20261118-1078",
+      "source": "News24",
+      "published": "2026-11-19T19:40:04.000Z",
+      "parties": [
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "MKP decries ‘weaponised’ protocols after Zuma’s temple reunion with fugitive Ajay Gupta",
+      "link": "https://www.news24.com/politics/mkp-decries-weaponised-protocols-after-zumas-temple-reunion-with-fugitive-ajay-gupta-20261119-1061",
+      "source": "News24",
+      "published": "2026-11-19T17:42:44.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "UDM courts wider coalition bloc in Buffalo City, as ANC nears deal with EFF, SACP",
+      "link": "https://www.news24.com/politics/udm-courts-wider-coalition-bloc-in-buffalo-city-as-anc-nears-deal-with-eff-sacp-20261119-0998",
+      "source": "News24",
+      "published": "2026-11-19T16:39:28.000Z",
+      "parties": [
+        "anc",
+        "eff"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "UPDATE | Actually, we will not agree to an ANC mayoralty in Joburg, Mashaba says",
+      "link": "https://www.news24.com/politics/mashaba-blinks-actionsa-ready-to-hand-the-anc-the-keys-to-joburg-20261118-1283",
+      "source": "News24",
+      "published": "2026-11-19T13:47:51.000Z",
+      "parties": [
+        "anc",
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Kingmaker PA takes second Western Cape mayorship – this time in troubled Kannaland",
+      "link": "https://www.news24.com/politics/kingmaker-pa-takes-second-western-cape-mayorship-this-time-in-troubled-kannaland-20261119-0778",
+      "source": "News24",
+      "published": "2026-11-19T12:59:37.000Z",
+      "parties": [
+        "pa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Backdoor to power? SACP could help ANC get its ideal candidates into Gauteng councils",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/backdoor-to-power-sacp-could-help-anc-get-their-ideal-candidates-into-joburg-council/",
+      "source": "The Citizen",
+      "published": "2026-11-19T12:53:06.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
       "title": "After the Referendum: Who owns the promise of liberation and inclusive growth?",
       "link": "https://iol.co.za/pretoria-news/opinion/2026-11-19-after-the-referendum-who-owns-the-promise-of-liberation-and-inclusive-growth/",
       "source": "IOL",
@@ -61,17 +226,6 @@
       "parties": [
         "anc",
         "da",
-        "actionsa"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "UPDATE | Actually we will not agree to an ANC mayoralty in Joburg, Mashaba says",
-      "link": "https://www.news24.com/politics/mashaba-blinks-actionsa-ready-to-hand-the-anc-the-keys-to-joburg-20261118-1283",
-      "source": "News24",
-      "published": "2026-11-19T12:09:24.000Z",
-      "parties": [
-        "anc",
         "actionsa"
       ],
       "accountability": false
@@ -124,16 +278,6 @@
       "published": "2026-11-19T03:32:50.000Z",
       "parties": [
         "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "UNREAD | Tembisa Hospital graft bail, Rassie’s 3rd ban, coalitions, and ‘GTA VI’",
-      "link": "https://www.news24.com/multimedia/unread-tembisa-hospital-graft-bail-rassies-3rd-ban-coalitions-and-gta-vi-20261118-1078",
-      "source": "News24",
-      "published": "2026-11-19T03:21:41.000Z",
-      "parties": [
-        "actionsa"
       ],
       "accountability": false
     },
@@ -616,16 +760,6 @@
       "accountability": false
     },
     {
-      "title": "WATCH: Chris Hani broke down in tears after learning ANC decision on TV, widow reveals",
-      "link": "https://www.citizen.co.za/news/chris-hani-broke-down-tears-after-learning-anc-decision-tv-widow-reveals/",
-      "source": "The Citizen",
-      "published": "2026-11-16T04:45:38.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "Migration stance hurts EFF",
       "link": "https://www.citizen.co.za/news/south-africa/elections/migration-stance-hurts-eff/",
       "source": "The Citizen",
@@ -653,16 +787,6 @@
       "parties": [
         "anc",
         "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "A failed ideology — why SA must abandon the ANC’s economic model",
-      "link": "https://www.dailymaverick.co.za/opinionista/2026-11-15-a-failed-ideology-why-sa-must-abandon-the-ancs-economic-model/",
-      "source": "Daily Maverick",
-      "published": "2026-11-15T21:38:36.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": false
     },
@@ -699,16 +823,6 @@
       "accountability": false
     },
     {
-      "title": "The ANC's perilous path: Facing electoral decline without a plan",
-      "link": "https://iol.co.za/sundayindependent/dispatch/2026-11-15-the-ancs-perilous-path-facing-electoral-decline-without-a-plan/",
-      "source": "IOL",
-      "published": "2026-11-15T10:30:12.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "A look at Malema's history of insults as Zille refuses to retract controversial claims",
       "link": "https://iol.co.za/saturday-star/news/2026-11-15-a-look-at-malemas-history-of-insults-as-zille-refuses-to-retract-controversial-claims/",
       "source": "IOL",
@@ -726,16 +840,6 @@
       "parties": [
         "anc",
         "actionsa"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "ANCYL admits failure to win youth support as ANC reels from election losses",
-      "link": "https://iol.co.za/news/politics/2026-11-15-ancyl-admits-failure-to-win-youth-support-as-anc-reels-from-election-losses/",
-      "source": "IOL",
-      "published": "2026-11-15T10:00:00.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": false
     },
@@ -767,16 +871,6 @@
       "parties": [
         "da",
         "mkp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "The ANC’s political complacency is exhausting",
-      "link": "https://www.citizen.co.za/news/opinion/the-ancs-political-complacency-is-exhausting/",
-      "source": "The Citizen",
-      "published": "2026-11-15T05:01:00.000Z",
-      "parties": [
-        "anc"
       ],
       "accountability": false
     },
@@ -942,17 +1036,6 @@
       "accountability": false
     },
     {
-      "title": "ANC resolves DA should be last resort in municipal coalition talks",
-      "link": "https://iol.co.za/news/politics/2026-11-13-anc-resolves-da-should-be-last-resort-in-municipal-coalition-talks/",
-      "source": "IOL",
-      "published": "2026-11-13T10:01:46.000Z",
-      "parties": [
-        "anc",
-        "da"
-      ],
-      "accountability": false
-    },
-    {
       "title": "MK party urges ANC to ‘do the right thing’ to avoid death as PA talks collapse",
       "link": "https://www.citizen.co.za/news/south-africa/elections/mk-party-urges-anc-to-do-the-right-thing-to-avoid-death-as-pa-talks-collapse/",
       "source": "The Citizen",
@@ -982,17 +1065,6 @@
       "parties": [
         "anc",
         "actionsa"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "The truth set ANC voters free",
-      "link": "https://www.citizen.co.za/news/opinion/the-truth-set-anc-voters-free/",
-      "source": "The Citizen",
-      "published": "2026-11-13T03:00:00.000Z",
-      "parties": [
-        "anc",
-        "da"
       ],
       "accountability": false
     },
@@ -1660,17 +1732,6 @@
       "accountability": false
     },
     {
-      "title": "LOCAL ELECTIONS 2026: MK party takes four KZN municipalities from ANC as governance test looms",
-      "link": "https://www.dailymaverick.co.za/article/2026-11-06-mk-party-takes-four-kzn-municipalities-from-anc-as-governance-test-looms/",
-      "source": "Daily Maverick",
-      "published": "2026-11-06T21:27:43.000Z",
-      "parties": [
-        "anc",
-        "mkp"
-      ],
-      "accountability": false
-    },
-    {
       "title": "LOCAL ELECTIONS 2026: DA needs FF+, Knysna Civic Association to govern troubled coastal town",
       "link": "https://www.dailymaverick.co.za/article/2026-11-06-da-needs-ff-knysna-civic-association-to-govern-troubled-coastal-town/",
       "source": "Daily Maverick",
@@ -1678,26 +1739,6 @@
       "parties": [
         "da",
         "ffplus"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Duduzile Zuma-Sambudla on possible MK party return",
-      "link": "https://www.citizen.co.za/news/south-africa/politics/duduzile-zuma-sambudla-on-her-possible-return-to-the-mk-party/",
-      "source": "The Citizen",
-      "published": "2026-11-06T12:08:53.000Z",
-      "parties": [
-        "mkp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "LIVE | LGE 2026: MK Party demands answers over delayed KZN election results",
-      "link": "https://iol.co.za/lge2026/2026-11-04-live-or-lge-2026-mk-party-demands-answers-over-delayed-kzn-election-results/",
-      "source": "IOL",
-      "published": "2026-11-06T11:32:00.000Z",
-      "parties": [
-        "mkp"
       ],
       "accountability": false
     },
@@ -1998,16 +2039,6 @@
       "accountability": false
     },
     {
-      "title": "‘I know the names of people who infiltrated EFF’, Malema tells supporters after SSA claims",
-      "link": "https://www.news24.com/politics/i-know-the-names-of-people-who-infiltrated-eff-malema-tells-supporters-after-ssa-claims-20261031-1006",
-      "source": "News24",
-      "published": "2026-11-01T06:41:25.000Z",
-      "parties": [
-        "eff"
-      ],
-      "accountability": false
-    },
-    {
       "title": "Local Government Elections: Hlabisa issues warning as government prepares for possible threats",
       "link": "https://iol.co.za/news/south-africa/2026-10-31-local-government-elections-hlabisa-issues-warning-as-government-prepares-for-possible-threats/",
       "source": "IOL",
@@ -2186,38 +2217,6 @@
       "published": "2026-10-22T04:26:43.000Z",
       "parties": [
         "pa"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "FF+ calls for DA strategist’s head in ‘fight for votes’",
-      "link": "https://www.citizen.co.za/news/ff-calls-for-da-strategists-head-in-fight-for-votes/",
-      "source": "The Citizen",
-      "published": "2026-10-21T04:30:00.000Z",
-      "parties": [
-        "da",
-        "ffplus"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "DA welcomes defectors from FF+ and PA as it pushes for outright majority",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/da-welcomes-defectors-ff-pa-pushes-outright-majority/",
-      "source": "The Citizen",
-      "published": "2026-10-21T03:23:05.000Z",
-      "parties": [
-        "da",
-        "ffplus"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "‘We’re going to tackle it very aggressively’: Hlabisa ramps up IFP rhetoric on immigration",
-      "link": "https://www.news24.com/politics/were-going-to-tackle-it-very-aggressively-hlabisa-ramps-up-ifp-rhetoric-on-immigration-20261020-1025",
-      "source": "News24",
-      "published": "2026-10-20T17:05:48.000Z",
-      "parties": [
-        "ifp"
       ],
       "accountability": false
     }
