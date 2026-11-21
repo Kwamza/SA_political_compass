@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T12:37:31.834Z",
+  "updated": "2026-11-21T12:17:25.402Z",
   "window_days": 30,
   "feeds": [
     {
@@ -53,6 +53,36 @@
     }
   ],
   "items": [
+    {
+      "title": "SACP draws red line: No merger or shared caucus with ANC as coalition talks advance",
+      "link": "https://iol.co.za/news/politics/2026-11-21-sacp-draws-red-line-no-merger-or-shared-caucus-with-anc-as-coalition-talks-advance/",
+      "source": "IOL",
+      "published": "2026-11-21T11:30:50.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Fresh blow to Sindiso Magaqa murder trial as former municipal manager moves to oust prosecutors",
+      "link": "https://iol.co.za/news/crime-and-courts/2026-11-21-fresh-blow-to-sindiso-magaqa-murder-trial-as-former-municipal-manager-moves-to-oust-prosecutors/",
+      "source": "IOL",
+      "published": "2026-11-21T11:00:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
+    {
+      "title": "A luxurious Silicon Valley trip cannot fix what the South African government has broken at home",
+      "link": "https://www.dailymaverick.co.za/opinionista/2026-11-21-a-luxurious-silicon-valley-trip-cannot-fix-what-the-south-african-government-has-broken-at-home/",
+      "source": "Daily Maverick",
+      "published": "2026-11-21T07:00:00.000Z",
+      "parties": [
+        "anc"
+      ],
+      "accountability": true
+    },
     {
       "title": "MK Party dismisses speculation over possible removal of Richmond mayor",
       "link": "https://iol.co.za/dailynews/news/2026-11-20-mk-party-dismisses-speculation-over-possible-removal-of-richmond-mayor/",
@@ -153,16 +183,6 @@
       "published": "2026-11-19T22:19:38.000Z",
       "parties": [
         "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "UNREAD | Tembisa Hospital graft bail, Rassie’s 3rd ban, coalitions, and ‘GTA VI’",
-      "link": "https://www.news24.com/multimedia/unread-tembisa-hospital-graft-bail-rassies-3rd-ban-coalitions-and-gta-vi-20261118-1078",
-      "source": "News24",
-      "published": "2026-11-19T19:40:04.000Z",
-      "parties": [
-        "actionsa"
       ],
       "accountability": false
     },
@@ -278,6 +298,16 @@
       "published": "2026-11-19T03:32:50.000Z",
       "parties": [
         "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "UNREAD | Tembisa Hospital graft bail, Rassie’s 3rd ban, coalitions, and ‘GTA VI’",
+      "link": "https://www.news24.com/multimedia/unread-tembisa-hospital-graft-bail-rassies-3rd-ban-coalitions-and-gta-vi-20261118-1078",
+      "source": "News24",
+      "published": "2026-11-19T03:21:41.000Z",
+      "parties": [
+        "actionsa"
       ],
       "accountability": false
     },
@@ -708,16 +738,6 @@
       "accountability": false
     },
     {
-      "title": "ANC divided as calls grow for Ramaphosa and top seven to resign",
-      "link": "https://iol.co.za/sunday-tribune/news/2026-11-16-anc-divided-as-calls-grow-for-ramaphosa-and-top-seven-to-resign/",
-      "source": "IOL",
-      "published": "2026-11-16T11:00:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "Businesswoman seeks R1m from JP Smith and DA over alleged tender-related defamation",
       "link": "https://iol.co.za/capeargus/news/2026-11-16-businesswoman-seeks-r1m-from-jp-smith-and-da-over-alleged-tender-related-defamation/",
       "source": "IOL",
@@ -748,16 +768,6 @@
         "da"
       ],
       "accountability": true
-    },
-    {
-      "title": "Ramaphosa faces defining moment as municipal power hangs in the balance",
-      "link": "https://www.citizen.co.za/news/opinion/ramaphosa-faces-defining-moment-as-municipal-power-hangs-in-the-balance/",
-      "source": "The Citizen",
-      "published": "2026-11-16T04:57:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
     },
     {
       "title": "Migration stance hurts EFF",
@@ -2207,16 +2217,6 @@
       "published": "2026-10-24T04:50:32.000Z",
       "parties": [
         "ffplus"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "UNREAD | Fuel relief and other budget takeaways, Sibiya’s bail bid, and Tshwane’s water woes",
-      "link": "https://www.news24.com/multimedia/unread-fuel-relief-and-other-budget-takeaways-sibiyas-bail-bid-and-tshwanes-water-woes-20261021-1213",
-      "source": "News24",
-      "published": "2026-10-22T04:26:43.000Z",
-      "parties": [
-        "pa"
       ],
       "accountability": false
     }
