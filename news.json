@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T12:17:25.402Z",
+  "updated": "2026-11-22T12:21:46.540Z",
   "window_days": 30,
   "feeds": [
     {
@@ -54,6 +54,71 @@
   ],
   "items": [
     {
+      "title": "ActionSA’s power-sharing offer to the DA rejected as Gauteng coalition talks turn bitter",
+      "link": "https://iol.co.za/news/politics/2026-11-22-actionsas-power-sharing-offer-to-the-da-rejected-as-gauteng-coalition-talks-turn-bitter/",
+      "source": "IOL",
+      "published": "2026-11-22T10:58:39.000Z",
+      "parties": [
+        "da",
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Zuma warns MK Party councillors against divisions and infighting",
+      "link": "https://iol.co.za/news/politics/2026-11-22-zuma-warns-mk-party-councillors-against-divisions-and-infighting/",
+      "source": "IOL",
+      "published": "2026-11-22T09:44:53.000Z",
+      "parties": [
+        "mkp"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ActionSA accused of ‘extortion’ as coalition talks turn personal",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/actionsa-accused-of-extortion-as-coalition-talks-turn-personal/",
+      "source": "The Citizen",
+      "published": "2026-11-22T09:16:34.000Z",
+      "parties": [
+        "da",
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "ActionSA declines DA offer but deal with ANC not yet sealed – reports",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/actionsa-declines-da-offer-but-deal-with-anc-not-yet-sealed-reports/",
+      "source": "The Citizen",
+      "published": "2026-11-22T08:27:29.000Z",
+      "parties": [
+        "anc",
+        "da",
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "DA makes final bid to ActionSA to share Gauteng’s biggest metros",
+      "link": "https://www.citizen.co.za/news/south-africa/elections/da-makes-final-bid-actionsa-take-control-gautengs-biggest-metros/",
+      "source": "The Citizen",
+      "published": "2026-11-21T18:24:52.000Z",
+      "parties": [
+        "da",
+        "actionsa"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Rassie Erasmus ban: Gayton McKenzie accuses World Rugby of ‘punishing’ first",
+      "link": "https://www.citizen.co.za/sport/rugby/rassie-erasmus-ban-gayton-mckenzie-accuses-world-rugby-punishing-first/",
+      "source": "The Citizen",
+      "published": "2026-11-21T14:48:47.000Z",
+      "parties": [
+        "pa"
+      ],
+      "accountability": false
+    },
+    {
       "title": "SACP draws red line: No merger or shared caucus with ANC as coalition talks advance",
       "link": "https://iol.co.za/news/politics/2026-11-21-sacp-draws-red-line-no-merger-or-shared-caucus-with-anc-as-coalition-talks-advance/",
       "source": "IOL",
@@ -82,6 +147,29 @@
         "anc"
       ],
       "accountability": true
+    },
+    {
+      "title": "Race to seal anti-DA pact gains momentum in Gauteng metros",
+      "link": "https://www.news24.com/politics/race-to-seal-anti-da-pact-gains-momentum-in-gauteng-metros-20261120-1136",
+      "source": "News24",
+      "published": "2026-11-20T19:48:32.000Z",
+      "parties": [
+        "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "Inside the ANC’s KZN revolt against the MK Party deal",
+      "link": "https://www.news24.com/politics/inside-the-ancs-kzn-revolt-against-the-mk-party-deal-20261120-1140",
+      "source": "News24",
+      "published": "2026-11-20T19:02:15.000Z",
+      "parties": [
+        "anc",
+        "da",
+        "mkp",
+        "ifp"
+      ],
+      "accountability": false
     },
     {
       "title": "MK Party dismisses speculation over possible removal of Richmond mayor",
@@ -183,6 +271,16 @@
       "published": "2026-11-19T22:19:38.000Z",
       "parties": [
         "da"
+      ],
+      "accountability": false
+    },
+    {
+      "title": "UNREAD | Tembisa Hospital graft bail, Rassie’s 3rd ban, coalitions, and ‘GTA VI’",
+      "link": "https://www.news24.com/multimedia/unread-tembisa-hospital-graft-bail-rassies-3rd-ban-coalitions-and-gta-vi-20261118-1078",
+      "source": "News24",
+      "published": "2026-11-19T19:40:04.000Z",
+      "parties": [
+        "actionsa"
       ],
       "accountability": false
     },
@@ -298,16 +396,6 @@
       "published": "2026-11-19T03:32:50.000Z",
       "parties": [
         "da"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "UNREAD | Tembisa Hospital graft bail, Rassie’s 3rd ban, coalitions, and ‘GTA VI’",
-      "link": "https://www.news24.com/multimedia/unread-tembisa-hospital-graft-bail-rassies-3rd-ban-coalitions-and-gta-vi-20261118-1078",
-      "source": "News24",
-      "published": "2026-11-19T03:21:41.000Z",
-      "parties": [
-        "actionsa"
       ],
       "accountability": false
     },
@@ -718,26 +806,6 @@
       "accountability": false
     },
     {
-      "title": "ANC support plummets in the Northern Cape",
-      "link": "https://groundup.org.za/article/anc-support-plummets-in-the-northern-cape/",
-      "source": "GroundUp",
-      "published": "2026-11-16T11:14:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "Limpho Hani slams ANC over R6,000 pension, rejects claims party supports her family",
-      "link": "https://iol.co.za/news/politics/2026-11-16-limpho-hani-slams-anc-over-r6000-pension-rejects-claims-party-supports-her-family/",
-      "source": "IOL",
-      "published": "2026-11-16T11:06:00.000Z",
-      "parties": [
-        "anc"
-      ],
-      "accountability": false
-    },
-    {
       "title": "Businesswoman seeks R1m from JP Smith and DA over alleged tender-related defamation",
       "link": "https://iol.co.za/capeargus/news/2026-11-16-businesswoman-seeks-r1m-from-jp-smith-and-da-over-alleged-tender-related-defamation/",
       "source": "IOL",
@@ -959,17 +1027,6 @@
       "accountability": false
     },
     {
-      "title": "ANC says DA is ‘party of last resort’, but still wants to engage over possible coalitions",
-      "link": "https://www.news24.com/politics/push-anc-says-da-is-party-of-last-resort-but-still-wants-to-engage-over-possible-coalitions-20261113-0739",
-      "source": "News24",
-      "published": "2026-11-13T15:25:22.000Z",
-      "parties": [
-        "anc",
-        "da"
-      ],
-      "accountability": false
-    },
-    {
       "title": "EFF, ALPA lose court bid over withdrawal of Phala Phala evidence leader",
       "link": "https://www.citizen.co.za/news/south-africa/courts/eff-alpa-phala-phala-impeachment-evidence-leader/",
       "source": "The Citizen",
@@ -1001,17 +1058,6 @@
       "accountability": false
     },
     {
-      "title": "ANC NEC resolves that DA coalitions should be’last resort’",
-      "link": "https://www.sabcnews.com/sabcnews/anc-nec-resolves-that-da-coalitions-should-belast-resort/",
-      "source": "SABC News",
-      "published": "2026-11-13T11:19:31.000Z",
-      "parties": [
-        "anc",
-        "da"
-      ],
-      "accountability": false
-    },
-    {
       "title": "COGTA defends R300 million once-off payouts for ex-councillors",
       "link": "https://www.sabcnews.com/sabcnews/cogta-defends-r300-million-once-off-payouts-for-ex-councillors/",
       "source": "SABC News",
@@ -1031,17 +1077,6 @@
         "da",
         "actionsa",
         "ffplus"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "ANC reportedly wants DA to be ‘last resort’ in municipal coalition talks",
-      "link": "https://iol.co.za/mercury/news/2026-11-13-anc-reportedly-wants-da-to-be-last-resort-in-municipal-coalition-talks/",
-      "source": "IOL",
-      "published": "2026-11-13T10:36:10.000Z",
-      "parties": [
-        "anc",
-        "da"
       ],
       "accountability": false
     },
@@ -1358,56 +1393,12 @@
       "accountability": true
     },
     {
-      "title": "DA and ActionSA gains expose growing voter disillusionment with ANC",
-      "link": "https://www.citizen.co.za/news/south-africa/politics/da-actionsa-gains-growing-voter-disillusionment-anc/",
-      "source": "The Citizen",
-      "published": "2026-11-10T05:40:00.000Z",
-      "parties": [
-        "anc",
-        "da",
-        "actionsa"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "ActionSA’s balancing act in Gauteng coalition talks",
-      "link": "https://www.citizen.co.za/news/opinion/actionsas-balancing-act-in-gauteng-coalition-talks/",
-      "source": "The Citizen",
-      "published": "2026-11-10T03:20:00.000Z",
-      "parties": [
-        "da",
-        "actionsa"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "13-DAY COALITION COUNTDOWN: DA emerges as largest party in five Gauteng hubs, but ActionSA holds the key",
-      "link": "https://www.dailymaverick.co.za/article/2026-11-09-da-emerges-as-largest-party-in-five-gauteng-hubs-but-actionsa-holds-the-key/",
-      "source": "Daily Maverick",
-      "published": "2026-11-09T22:00:00.000Z",
-      "parties": [
-        "da",
-        "actionsa"
-      ],
-      "accountability": false
-    },
-    {
       "title": "13-DAY COALITION COUNTDOWN: Duduzane Zuma answers eight key questions as MK fights for a place in government",
       "link": "https://www.dailymaverick.co.za/article/2026-11-09-duduzane-zuma-answers-eight-key-questions-as-mk-fights-for-a-place-in-government/",
       "source": "Daily Maverick",
       "published": "2026-11-09T22:00:00.000Z",
       "parties": [
         "mkp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "‘We want leaders who act, not make excuses’: Tembisa residents put their trust in ActionSA",
-      "link": "https://www.news24.com/southafrica/news/we-want-leaders-who-act-not-make-excuses-tembisa-residents-put-their-trust-in-actionsa-20261109-1155",
-      "source": "News24",
-      "published": "2026-11-09T19:17:53.000Z",
-      "parties": [
-        "actionsa"
       ],
       "accountability": false
     },
@@ -1716,26 +1707,6 @@
       "link": "https://www.citizen.co.za/news/south-africa/elections/the-battle-for-ethekwini-mk-party-wont-bother-with-party-out-to-block-them-from-power/",
       "source": "The Citizen",
       "published": "2026-11-07T07:30:28.000Z",
-      "parties": [
-        "mkp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "MKP demands for eThekwini’s final results to be delayed",
-      "link": "https://www.sabcnews.com/sabcnews/mkp-demands-for-ethekwinis-final-results-to-be-delayed/",
-      "source": "SABC News",
-      "published": "2026-11-07T05:30:18.000Z",
-      "parties": [
-        "mkp"
-      ],
-      "accountability": false
-    },
-    {
-      "title": "MK party wants eThekwini votes quarantined over KZN IEC ‘system failures’",
-      "link": "https://www.citizen.co.za/news/south-africa/elections/mk-party-wants-ethekwini-votes-quarantined-over-kzn-iec-system-failures/",
-      "source": "The Citizen",
-      "published": "2026-11-07T05:11:41.000Z",
       "parties": [
         "mkp"
       ],
